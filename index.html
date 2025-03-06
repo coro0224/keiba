@@ -3,30 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2025年 GIレーススケジュール</title>
+  <title>競馬レース情報</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>2025年 GIレーススケジュール</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>日付</th>
-        <th>GI名</th>
-        <th>競馬場名</th>
-        <th>距離</th>
-      </tr>
-    </thead>
-    <tbody id="race-schedule">
-      <!-- レースデータが動的に挿入されます -->
-    </tbody>
-  </table>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#g1-races">G1レース</a></li>
+        <li><a href="#g2-races">G2レース</a></li>
+        <li><a href="#g3-races">G3レース</a></li>
+        <li><a href="#recap">レース回顧</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div id="race-info" class="hidden">
-    <h2 id="race-title"></h2>
-    <img id="race-image" src="" alt="競馬場の写真">
-    <p id="race-review"></p>
-  </div>
+  <section id="home">
+    <h1>今週の重賞レース</h1>
+    <div id="weekly-races">
+      <ul>
+        <li>G1: フェブラリーステークス</li>
+        <li>G2: 京都記念</li>
+        <li>G2: 中山記念</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="slider">
+    <h2>競馬場画像スライダー</h2>
+    <div id="image-slider">
+      <img src="image1.jpg" alt="競馬場1" class="slider-image">
+      <img src="image2.jpg" alt="競馬場2" class="slider-image">
+      <img src="image3.jpg" alt="競馬場3" class="slider-image">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 競馬情報サイト</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
