@@ -3,46 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>競馬レース情報</title>
+  <title>競馬ポジション表示</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#g1-races">G1レース</a></li>
-        <li><a href="#g2-races">G2レース</a></li>
-        <li><a href="#g3-races">G3レース</a></li>
-        <li><a href="#recap">レース回顧</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home">
-    <h1>今週の重賞レース</h1>
-    <div id="weekly-races">
-      <ul>
-        <li>G1: フェブラリーステークス</li>
-        <li>G2: 京都記念</li>
-        <li>G2: 中山記念</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="slider">
-    <h2>競馬場画像スライダー</h2>
-    <div id="image-slider">
-      <img src="image1.jpg" alt="競馬場1" class="slider-image">
-      <img src="image2.jpg" alt="競馬場2" class="slider-image">
-      <img src="image3.jpg" alt="競馬場3" class="slider-image">
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 競馬情報サイト</p>
-  </footer>
-
+  <h1>競馬ポジション情報</h1>
+  <div id="race-data">
+    <section>
+      <h2>1コーナーまで</h2>
+      <ul id="corner-1"></ul>
+    </section>
+    <section>
+      <h2>2から3コーナーまで</h2>
+      <ul id="corner-2"></ul>
+    </section>
+    <section>
+      <h2>最後の直線からゴールまで</h2>
+      <ul id="final-stretch"></ul>
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
