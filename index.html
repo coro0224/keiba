@@ -3,25 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>競馬ポジション表示</title>
+  <title>競馬位置アニメーション</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>競馬ポジション情報</h1>
-  <div id="race-data">
-    <section>
-      <h2>1コーナーまで</h2>
-      <ul id="corner-1"></ul>
-    </section>
-    <section>
-      <h2>2から3コーナーまで</h2>
-      <ul id="corner-2"></ul>
-    </section>
-    <section>
-      <h2>最後の直線からゴールまで</h2>
-      <ul id="final-stretch"></ul>
-    </section>
+  <h1>競馬の位置アニメーション</h1>
+  <div id="track">
+    <div id="horses">
+      <!-- 馬の位置アイコン -->
+      <div class="horse" id="horse1">1</div>
+      <div class="horse" id="horse2">2</div>
+      <div class="horse" id="horse3">3</div>
+      <div class="horse" id="horse4">4</div>
+      <div class="horse" id="horse5">5</div>
+    </div>
   </div>
+  <button id="start-animation">スタート</button>
+
   <script src="script.js"></script>
 </body>
 </html>
