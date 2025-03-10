@@ -1,32 +1,44 @@
 const horses = document.querySelectorAll(".horse");
 const startButton = document.getElementById("start-animation");
 
-// 馬の位置データ (1コーナー、2-3コーナー、ゴール位置)
-const positions = {
-  corner1: [10, 60, 110, 160, 210],
-  corner2: [150, 200, 250, 300, 350],
-  finalStretch: [300, 350, 400, 450, 500],
-};
+// 楕円のトラックの中心と半径を設定
+const centerX = 300; // トラックの中心X座標
+const centerY = 200; // トラックの中心Y座標
+const radiusX = 250; // 楕円のX半径
+const radiusY = 150; // 楕円のY半径
+
+// 馬の数と初期位置
+const horseCount = 18;
+const angleStep = (2 * Math.PI) / horseCount;
+
+// スタート時の馬の位置を設定
+horses.forEach((horse, index) => {
+  const angle = angleStep * index;
+  const x = centerX + radiusX * Math.cos(angle);
+  const y = centerY + radiusY * Math.sin(angle);
+  horse.style.left = `${x}px`;
+  horse.style.top = `${y}px`;
+});
 
 // アニメーション用関数
-function animatePositions(corner, duration) {
-  return new Promise((resolve) => {
-    horses.forEach((horse, index) => {
-      horse.style.transition = `transform ${duration}s linear`;
-      horse.style.transform = `translateX(${corner[index]}px)`;
-    });
-    setTimeout(resolve, duration * 1000);
-  });
-}
+function animateHorses() {
+  let angleOffset = 0;
 
-// アニメーションの順次実行
-async function startAnimation() {
-  startButton.disabled = true;
-  await animatePositions(positions.corner1, 3); // 1コーナーまで移動
-  await animatePositions(positions.corner2, 3); // 2-3コーナーまで移動
-  await animatePositions(positions.finalStretch, 3); // 最後の直線へ
-  startButton.disabled = false;
+  function updatePositions() {
+    horses.forEach((horse, index) => {
+      const angle = angleStep * index + angleOffset;
+      const x = centerX + radiusX * Math.cos(angle);
+      const y = centerY + radiusY * Math.sin(angle);
+      horse.style.left = `${x}px`;
+      horse.style.top = `${y}px`;
+    });
+
+    angleOffset -= 0.02; // 回転速度
+    requestAnimationFrame(updatePositions);
+  }
+
+  updatePositions();
 }
 
 // スタートボタンにイベントを設定
-startButton.addEventListener("click", startAnimation);
+startButton.addEventListener("click", animateHorses);
