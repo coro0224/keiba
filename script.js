@@ -1,35 +1,54 @@
 document.getElementById("load-data").addEventListener("click", loadPredictionData);
 
-async function loadPredictionData() {
+function loadPredictionData() {
   const raceName = document.getElementById("race-name").value.trim();
   const tableBody = document.querySelector("#prediction-table tbody");
   const errorMessage = document.getElementById("error-message");
 
-  // 入力がない場合はエラーを表示
-  if (!raceName) {
-    errorMessage.textContent = "レース名を入力してください。";
-    errorMessage.classList.remove("hidden");
-    return;
-  }
+  // スポーツ新聞の予想データ
+  const raceData = {
+    "フェブラリーステークス": [
+      {
+        newspaper: "スポニチ",
+        main: "エンペラーワケア",
+        rival: "ミッキーファイト",
+        underdog: "コスタノヴァ",
+        outsider: "サンライズジパング"
+      },
+      {
+        newspaper: "日刊スポーツ",
+        main: "ミッキーファイト",
+        rival: "エンペラーワケア",
+        underdog: "ペプチドナイル",
+        outsider: "コスタノヴァ"
+      },
+      {
+        newspaper: "スポーツ報知",
+        main: "コスタノヴァ",
+        rival: "サンライズジパング",
+        underdog: "エンペラーワケア",
+        outsider: "ミッキーファイト"
+      },
+      {
+        newspaper: "サンスポ",
+        main: "ペプチドナイル",
+        rival: "コスタノヴァ",
+        underdog: "ミッキーファイト",
+        outsider: "エンペラーワケア"
+      }
+    ],
+    // 他のレース名とそのデータを追加可能
+  };
 
-  // API呼び出しの例
-  const apiUrl = `https://example.com/api/predictions?race=${encodeURIComponent(raceName)}`;
+  // レース名に該当するデータを取得
+  const predictions = raceData[raceName];
 
-  try {
-    // データを取得
-    const response = await fetch(apiUrl);
-
-    if (!response.ok) {
-      throw new Error("データを取得できませんでした。");
-    }
-
-    const data = await response.json();
-
+  if (predictions) {
     // テーブルをクリア
     tableBody.innerHTML = "";
 
     // データをテーブルに挿入
-    data.forEach(row => {
+    predictions.forEach(row => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${row.newspaper}</td>
@@ -43,9 +62,9 @@ async function loadPredictionData() {
 
     // エラーを非表示
     errorMessage.classList.add("hidden");
-  } catch (error) {
-    console.error(error);
-    errorMessage.textContent = "データを取得できませんでした。再試行してください。";
+  } else {
+    // エラーメッセージを表示
+    tableBody.innerHTML = "";
     errorMessage.classList.remove("hidden");
   }
 }
