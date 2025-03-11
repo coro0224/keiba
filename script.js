@@ -1,44 +1,28 @@
-const horses = document.querySelectorAll(".horse");
-const startButton = document.getElementById("start-animation");
-
-// 楕円のトラックの中心と半径を設定
-const centerX = 300; // トラックの中心X座標
-const centerY = 200; // トラックの中心Y座標
-const radiusX = 250; // 楕円のX半径
-const radiusY = 150; // 楕円のY半径
-
-// 馬の数と初期位置
-const horseCount = 18;
-const angleStep = (2 * Math.PI) / horseCount;
-
-// スタート時の馬の位置を設定
-horses.forEach((horse, index) => {
-  const angle = angleStep * index;
-  const x = centerX + radiusX * Math.cos(angle);
-  const y = centerY + radiusY * Math.sin(angle);
-  horse.style.left = `${x}px`;
-  horse.style.top = `${y}px`;
-});
-
-// アニメーション用関数
-function animateHorses() {
-  let angleOffset = 0;
-
-  function updatePositions() {
-    horses.forEach((horse, index) => {
-      const angle = angleStep * index + angleOffset;
-      const x = centerX + radiusX * Math.cos(angle);
-      const y = centerY + radiusY * Math.sin(angle);
-      horse.style.left = `${x}px`;
-      horse.style.top = `${y}px`;
-    });
-
-    angleOffset -= 0.02; // 回転速度
-    requestAnimationFrame(updatePositions);
-  }
-
-  updatePositions();
-}
-
-// スタートボタンにイベントを設定
-startButton.addEventListener("click", animateHorses);
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>競馬予想一覧</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>競馬予想一覧</h1>
+  <button id="load-data">データ読み込み</button>
+  <table id="prediction-table">
+    <thead>
+      <tr>
+        <th>新聞社</th>
+        <th>本命 (◎)</th>
+        <th>対抗 (〇)</th>
+        <th>連下 (△)</th>
+        <th>単穴 (▲)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- データが動的に挿入されます -->
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
