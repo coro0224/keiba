@@ -17,23 +17,32 @@ h1 {
   margin: 20px auto;
   background-color: #e0e0e0;
   border: 2px solid #333;
-  border-radius: 50%;
+  border-radius: 50%; /* 楕円形トラック */
   overflow: hidden;
 }
 
 .horse {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
-  background-color: #ffcc00;
+  font-size: 12px;
   border-radius: 50%;
-  border: 2px solid #ff9900;
-  color: #333;
+  color: white;
   font-weight: bold;
-  transform: translate(-50%, -50%);
 }
+
+#horse1 { background-color: red; }
+#horse2 { background-color: blue; }
+#horse3 { background-color: green; }
+#horse4 { background-color: orange; }
+#horse5 { background-color: purple; }
+#horse6 { background-color: yellow; color: black; }
+#horse7 { background-color: pink; }
+#horse8 { background-color: cyan; }
+#horse9 { background-color: brown; }
+#horse10 { background-color: grey; }
 
 #commentary {
   margin-top: 20px;
