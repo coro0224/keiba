@@ -9,15 +9,19 @@ h1 {
   color: #333;
 }
 
+label, input, button {
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+}
+
 button {
   padding: 10px 20px;
-  font-size: 16px;
   background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 20px;
 }
 
 button:hover {
@@ -26,7 +30,7 @@ button:hover {
 
 table {
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   border-collapse: collapse;
 }
 
@@ -43,4 +47,13 @@ th {
 
 td {
   background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+#error-message {
+  color: red;
+  margin-top: 20px;
 }
