@@ -1,8 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 20px;
   background-color: #f9f9f9;
-  margin: 0;
-  padding: 20px;
   text-align: center;
 }
 
@@ -10,32 +9,7 @@ h1 {
   color: #333;
 }
 
-#track {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  margin: 20px auto;
-  background-color: #e0e0e0;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.horse {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  background-color: #ffcc00;
-  border: 2px solid #ff9900;
-  border-radius: 50%;
-  color: #333;
-  font-weight: bold;
-  transform: translate(-50%, -50%);
-}
-
-#start-animation {
+button {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;
@@ -43,8 +17,30 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
-#start-animation:hover {
+button:hover {
   background-color: #45a049;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4b41a;
+  color: white;
+}
+
+td {
+  background-color: #fff;
 }
