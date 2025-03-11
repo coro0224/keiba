@@ -1,28 +1,50 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>競馬予想一覧</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>競馬予想一覧</h1>
-  <button id="load-data">データ読み込み</button>
-  <table id="prediction-table">
-    <thead>
-      <tr>
-        <th>新聞社</th>
-        <th>本命 (◎)</th>
-        <th>対抗 (〇)</th>
-        <th>連下 (△)</th>
-        <th>単穴 (▲)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- データが動的に挿入されます -->
-    </tbody>
-  </table>
-  <script src="script.js"></script>
-</body>
-</html>
+document.getElementById("load-data").addEventListener("click", loadPredictionData);
+
+function loadPredictionData() {
+  // データのサンプル。実際はAPIやファイルから取得可能
+  const data = [
+    {
+      newspaper: "スポニチ",
+      main: "エンペラーワケア",
+      rival: "ミッキーファイト",
+      underdog: "コスタノヴァ",
+      outsider: "サンライズジパング"
+    },
+    {
+      newspaper: "日刊スポーツ",
+      main: "ミッキーファイト",
+      rival: "エンペラーワケア",
+      underdog: "ペプチドナイル",
+      outsider: "コスタノヴァ"
+    },
+    {
+      newspaper: "スポーツ報知",
+      main: "コスタノヴァ",
+      rival: "サンライズジパング",
+      underdog: "エンペラーワケア",
+      outsider: "ミッキーファイト"
+    },
+    {
+      newspaper: "サンスポ",
+      main: "ペプチドナイル",
+      rival: "コスタノヴァ",
+      underdog: "ミッキーファイト",
+      outsider: "エンペラーワケア"
+    }
+  ];
+
+  const tableBody = document.querySelector("#prediction-table tbody");
+  tableBody.innerHTML = ""; // テーブルをクリア
+
+  data.forEach(row => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${row.newspaper}</td>
+      <td>◎ ${row.main}</td>
+      <td>〇 ${row.rival}</td>
+      <td>△ ${row.underdog}</td>
+      <td>▲ ${row.outsider}</td>
+    `;
+    tableBody.appendChild(tr);
+  });
+}
