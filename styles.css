@@ -12,12 +12,12 @@ h1 {
 
 #race-track {
   position: relative;
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   margin: 20px auto;
   background-color: #e0e0e0;
   border: 2px solid #333;
-  border-radius: 50%; /* 楕円形トラック */
+  border-radius: 300px 300px 0 0; /* 半円形 */
   overflow: hidden;
 }
 
