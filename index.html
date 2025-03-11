@@ -3,29 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>競馬予想一覧</title>
+  <title>競馬アニメーション</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>競馬予想一覧</h1>
-  <label for="race-name">レース名を入力してください:</label>
-  <input type="text" id="race-name" placeholder="例: フェブラリーステークス">
-  <button id="load-data">データ読み込み</button>
-  <table id="prediction-table">
-    <thead>
-      <tr>
-        <th>新聞社</th>
-        <th>本命 (◎)</th>
-        <th>対抗 (〇)</th>
-        <th>連下 (△)</th>
-        <th>単穴 (▲)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- データが動的に挿入されます -->
-    </tbody>
-  </table>
-  <p id="error-message" class="hidden">レース名に該当するデータが見つかりませんでした。</p>
+  <h1>競馬トラックアニメーション</h1>
+  <div id="track">
+    <!-- 馬アイコンを18個作成 -->
+    <div class="horse" id="horse1">1</div>
+    <div class="horse" id="horse2">2</div>
+    <div class="horse" id="horse3">3</div>
+    <div class="horse" id="horse4">4</div>
+    <div class="horse" id="horse5">5</div>
+    <div class="horse" id="horse6">6</div>
+    <div class="horse" id="horse7">7</div>
+    <div class="horse" id="horse8">8</div>
+    <div class="horse" id="horse9">9</div>
+    <div class="horse" id="horse10">10</div>
+    <div class="horse" id="horse11">11</div>
+    <div class="horse" id="horse12">12</div>
+    <div class="horse" id="horse13">13</div>
+    <div class="horse" id="horse14">14</div>
+    <div class="horse" id="horse15">15</div>
+    <div class="horse" id="horse16">16</div>
+    <div class="horse" id="horse17">17</div>
+    <div class="horse" id="horse18">18</div>
+  </div>
+  <button id="start-animation">スタート</button>
   <script src="script.js"></script>
 </body>
 </html>
