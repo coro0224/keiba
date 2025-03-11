@@ -8,6 +8,8 @@
 </head>
 <body>
   <h1>競馬予想一覧</h1>
+  <label for="race-name">レース名を入力してください:</label>
+  <input type="text" id="race-name" placeholder="例: フェブラリーステークス">
   <button id="load-data">データ読み込み</button>
   <table id="prediction-table">
     <thead>
@@ -23,6 +25,7 @@
       <!-- データが動的に挿入されます -->
     </tbody>
   </table>
+  <p id="error-message" class="hidden">データを取得できませんでした。再試行してください。</p>
   <script src="script.js"></script>
 </body>
 </html>
