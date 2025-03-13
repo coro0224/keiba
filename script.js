@@ -14,3 +14,5 @@ setInterval(slideImages, 10000);
 document.querySelector('.menu-button').addEventListener('click', () => {
   alert('メニューボタンが押されました。ページ遷移機能は後ほど実装されます。');
 });
+
+
