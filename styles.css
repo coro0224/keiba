@@ -34,8 +34,8 @@ nav ul li a {
 }
 
 #image-slider {
-  width: 100%;
-  height: 400px;
+  width: 50%;
+  height: 200px;
   overflow: hidden;
   position: relative;
   margin: 20px auto;
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 #image-slider img {
-  width: 100%;
+  width: 60%;
   height: auto;
   flex-shrink: 0;
   display: block;
