@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 #image-slider img {
-  width: 60%;
+  width: 100%;
   height: auto;
   flex-shrink: 0;
   display: block;
