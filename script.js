@@ -22,5 +22,3 @@ document.querySelectorAll('.link').forEach(link => {
     alert('リンク先に遷移します（後で実装）。');
   });
 });
-
-
