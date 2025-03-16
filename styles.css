@@ -1,3 +1,4 @@
+/* 基本スタイル */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,8 +13,9 @@ header {
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
+h1 {
+  margin: 20px 0;
+  color: #333;
 }
 
 nav ul {
@@ -32,7 +34,58 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+/* 3D外枠 */
+#race-section table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
 
+#race-section td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+/* 色付け */
+.g1 {
+  color: gold;
+  font-weight: bold;
+  animation: rotate 5s linear infinite;
+}
+.g2 {
+  color: silver;
+  font-weight: bold;
+  animation: rotate 5s linear infinite;
+}
+.g3 {
+  color: #cd7f32; /* 銅色 */
+  font-weight: bold;
+  animation: rotate 5s linear infinite;
+}
+
+/* アニメーション (1回転) */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* リンクスタイル */
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.link:hover {
+  color: darkblue;
+}
+
+/* 画像スライダー */
 #image-slider {
   width: 50%;
   height: 200px;
@@ -53,7 +106,7 @@ nav ul li a {
   flex-shrink: 0;
   display: block;
 }
-
+/* メニューボタン */
 .menu-button {
   display: block;
   margin: 20px auto;
@@ -80,9 +133,5 @@ footer {
 
 
 
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
 
 
