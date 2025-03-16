@@ -13,27 +13,23 @@ header {
   text-align: center;
 }
 
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
-
 nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0 0;
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
 }
+
 /* 3D外枠 */
 #race-section table {
   width: 100%;
@@ -46,32 +42,36 @@ nav ul li a {
   padding: 10px;
   text-align: center;
   border: 1px solid #333;
+  font-size: 30px; /* フォントサイズを30に設定 */
 }
 
-/* 色付け */
+/* 色付けとアニメーション */
 .g1 {
   color: gold;
   font-weight: bold;
-  animation: rotate 5s linear infinite;
+  animation: rotate-door 3s linear infinite;
 }
 .g2 {
   color: silver;
   font-weight: bold;
-  animation: rotate 5s linear infinite;
+  animation: rotate-door 3s linear infinite;
 }
 .g3 {
   color: #cd7f32; /* 銅色 */
   font-weight: bold;
-  animation: rotate 5s linear infinite;
+  animation: rotate-door 3s linear infinite;
 }
 
-/* アニメーション (1回転) */
-@keyframes rotate {
+/* 回転扉のアニメーション */
+@keyframes rotate-door {
   0% {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
   }
   100% {
-    transform: rotate(-360deg);
+    transform: rotateY(360deg);
   }
 }
 
@@ -87,12 +87,8 @@ nav ul li a {
 
 /* 画像スライダー */
 #image-slider {
-  width: 50%;
-  height: 200px;
+  width: 100%;
   overflow: hidden;
-  position: relative;
-  margin: 20px auto;
-  background-color: #e0e0e0;
 }
 
 #image-slider .images {
@@ -103,9 +99,8 @@ nav ul li a {
 #image-slider img {
   width: 100%;
   height: auto;
-  flex-shrink: 0;
-  display: block;
 }
+
 /* メニューボタン */
 .menu-button {
   display: block;
@@ -130,8 +125,3 @@ footer {
   color: white;
   margin-top: 20px;
 }
-
-
-
-
-
