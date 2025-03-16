@@ -1,3 +1,4 @@
+/* 基本スタイル */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,20 +13,16 @@ header {
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
-}
-
 nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0 0;
 }
 
 nav ul li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -33,63 +30,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-#image-slider {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 20px auto;
-  background-color: #e0e0e0;
-}
-
-#image-slider .images {
-  display: flex;
-  transition: transform 1s ease-in-out;
-}
-
-#image-slider img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
-  display: block;
-}
-
-.menu-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.menu-button:hover {
-  background-color: #0056b3;
-}
-
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #4CAF50;
-  color: white;
-  margin-top: 20px;
-}
-
-
-
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
-
-/* 3D効果の外枠 */
+/* 3D外枠 */
 #race-section table {
   width: 100%;
   border-collapse: collapse;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
 }
 
 #race-section td {
@@ -129,9 +75,49 @@ h1 {
 .link {
   text-decoration: underline;
   color: blue;
-  cursor: pointer;
 }
 
 .link:hover {
   color: darkblue;
+}
+
+/* 画像スライダー */
+#image-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+#image-slider .images {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+#image-slider img {
+  width: 100%;
+  height: auto;
+}
+
+/* メニューボタン */
+.menu-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
 }
