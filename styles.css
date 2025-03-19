@@ -34,12 +34,24 @@ nav ul li a {
   text-decoration: none;
 }
 
+
+/* Center the race section horizontally and vertically */
+#race-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the section fill the full viewport height */
+  margin: 0 auto; /* Center horizontally */
+}
+
+
 /* 3D外枠 */
 #race-section table {
-  width: 100%;
+  width: auto; /* Adjust the table to auto width for centering */
+  text-align: center; /* Center text within table cells */
   border-collapse: collapse;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-  margin: 20px auto;
 }
 
 #race-section td {
