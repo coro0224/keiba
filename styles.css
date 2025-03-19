@@ -39,7 +39,6 @@ nav ul li a {
 #race-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh; /* Make the section fill the full viewport height */
   margin: 0 auto; /* Center horizontally */
