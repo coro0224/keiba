@@ -35,22 +35,20 @@ nav ul li a {
 }
 
 
-/* Center the race section horizontally and vertically */
+/* テーブルの配置 */
 #race-section {
+  margin-top: 10px; /* スペースを少しだけ確保 */
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 100vh; /* Make the section fill the full viewport height */
-  margin: 0 auto; /* Center horizontally */
 }
-
 
 /* 3D外枠 */
 #race-section table {
-  width: auto; /* Adjust the table to auto width for centering */
-  text-align: center; /* Center text within table cells */
+  width: auto; /* テーブルの幅を自動調整 */
+  text-align: center; /* テーブルの内容を中央揃え */
   border-collapse: collapse;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* 3D効果のボックスシャドウ */
 }
 
 #race-section td {
@@ -106,7 +104,7 @@ nav ul li a {
   height: 200px;
   overflow: hidden;
   position: relative;
-  margin: 20px auto;
+  margin: 20px auto; /* セクション中央揃え */
   background-color: #e0e0e0;
 }
 
