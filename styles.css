@@ -58,6 +58,28 @@ nav ul li a {
   font-size: 30px; /* フォントサイズを30に設定 */
 }
 
+/* テーブルの配置 */
+#race-sectionwin5 {
+  margin-top: 10px; /* スペースを少しだけ確保 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 3D外枠 */
+#race-sectionwin5 table {
+  width: 300; /* テーブルの幅を調整 */
+  text-align: center; /* テーブルの内容を中央揃え */
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* 3D効果のボックスシャドウ */
+}
+#race-sectionwin5 td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 14px; /* フォントサイズを30に設定 */
+}
+
 /* 色付けとアニメーション */
 .g1 {
   color: gold;
