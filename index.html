@@ -5,6 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>競馬のウェブページ</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* 騎手リーディング表のスタイル */
+    .jockey-leaderboard {
+      margin: 20px auto; /* 中央寄せ */
+      width: 80%; /* 表の幅を調整 */
+      border: 4px ridge #888; /* 3D罫線スタイル */
+      padding: 20px;
+      background-color: #f9f9f9; /* 背景色 */
+    }
+    .jockey-leaderboard h2 {
+      text-align: center; /* タイトルを中央寄せ */
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+    .jockey-leaderboard table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .jockey-leaderboard th, .jockey-leaderboard td {
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 10px;
+    }
+    .jockey-leaderboard th {
+      background-color: #e0e0e0; /* ヘッダーの背景色 */
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -56,7 +83,7 @@
       </table>
     </div>
     <!-- 騎手リーディング表 -->
-    <section>
+    <div class="jockey-leaderboard">
       <h2>2025年 JRA 騎手（関西）リーディング</h2>
       <table>
         <thead>
@@ -128,70 +155,14 @@
             <td>18.3%</td>
             <td>27.0%</td>
           </tr>
-          <tr>
-            <td>6</td>
-            <td>鮫島克駿</td>
-            <td>15</td>
-            <td>19</td>
-            <td>15</td>
-            <td>104</td>
-            <td>9.8%</td>
-            <td>22.2%</td>
-            <td>32.0%</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>藤岡佑介</td>
-            <td>15</td>
-            <td>9</td>
-            <td>9</td>
-            <td>58</td>
-            <td>16.5%</td>
-            <td>26.4%</td>
-            <td>36.3%</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>C.ルメール</td>
-            <td>12</td>
-            <td>9</td>
-            <td>12</td>
-            <td>28</td>
-            <td>19.7%</td>
-            <td>34.4%</td>
-            <td>54.1%</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>高杉吏麒</td>
-            <td>11</td>
-            <td>13</td>
-            <td>5</td>
-            <td>99</td>
-            <td>8.6%</td>
-            <td>18.8%</td>
-            <td>22.7%</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>北村友一</td>
-            <td>11</td>
-            <td>12</td>
-            <td>6</td>
-            <td>88</td>
-            <td>9.4%</td>
-            <td>19.7%</td>
-            <td>24.8%</td>
-          </tr>
         </tbody>
       </table>
-    </section>
+    </div>
     <!-- メニューボタン -->
     <button class="menu-button">メニューボタン</button>
   </main>
   <footer>
     <p>© 2025 競馬ウェブサイト</p>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
