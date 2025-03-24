@@ -1,15 +1,3 @@
-
-下記のソースコードを修正してください
-①レースセクションにタイトルを付けてください
-「今週の重賞」
-太字でフォントは16にしてください
-②テーブルの内容を変更してください
-中央競馬で今週末に開催される重賞レースをg1、g2,g3の順番で一覧表形式で
-記載するようにしてください
-G1レースがない場合はレース名、展開予想、レース回顧は「-」で表示してください
-
-
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -73,25 +61,36 @@ G1レースがない場合はレース名、展開予想、レース回顧は「
     </div>
     <!-- レースセクション -->
     <div id="race-section">
+      <div class="race-section-title">今週の重賞</div>
       <table>
-        <tr>
-          <td class="g1 gold">G1</td>
-          <td><a href="febraurystakes.html">フェブラリーステークス</a></td>
-          <td><a href="febraurystakes.html#forecast">展開予想</a></td>
-          <td><a href="febraurystakes.html#review">レース回顧</a></td>
-        </tr>
-        <tr>
-          <td class="g2 silver">G2</td>
-          <td><a href="#" class="link">金鯱賞</a></td>
-          <td><a href="#" class="link">展開予想</a></td>
-          <td><a href="#" class="link">レース回顧</a></td>
-        </tr>
-        <tr>
-          <td class="g3 bronze">G3</td>
-          <td><a href="#" class="link">チューリップ賞</a></td>
-          <td><a href="#" class="link">展開予想</a></td>
-          <td><a href="#" class="link">レース回顧</a></td>
-        </tr>
+        <thead>
+          <tr>
+            <th>グレード</th>
+            <th>レース名</th>
+            <th>展開予想</th>
+            <th>レース回顧</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="g1 gold">G1</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="g2 silver">G2</td>
+            <td><a href="aichihai.html">愛知杯</a></td>
+            <td><a href="aichihai.html#forecast">展開予想</a></td>
+            <td><a href="aichihai.html#review">レース回顧</a></td>
+          </tr>
+          <tr>
+            <td class="g3 bronze">G3</td>
+            <td><a href="chibas.html">千葉ステークス</a></td>
+            <td><a href="chibas.html#forecast">展開予想</a></td>
+            <td><a href="chibas.html#review">レース回顧</a></td>
+          </tr>
+        </tbody>
       </table>
     </div>
     <!-- 騎手リーディング表 -->
@@ -233,4 +232,3 @@ G1レースがない場合はレース名、展開予想、レース回顧は「
   </footer>
 </body>
 </html>
-
