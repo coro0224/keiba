@@ -10,11 +10,14 @@
     .container {
       display: flex;
     }
-    .left, .right {
+    .left {
       width: 25%;
     }
     .center {
       width: 50%;
+    }
+    .right {
+      width: 25%;
     }
     .jockey-leaderboard {
       margin: 20px auto; /* 中央寄せ */
@@ -55,6 +58,24 @@
       padding: 10px;
     }
     .schedule th {
+      background-color: #f0f0f0;
+    }
+    .race-section-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    #race-section table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    #race-section th, #race-section td {
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 10px;
+    }
+    #race-section th {
       background-color: #f0f0f0;
     }
   </style>
@@ -107,7 +128,42 @@
               <td>中山競馬場</td>
               <td>2000m</td>
             </tr>
-            <!-- 他のG1スケジュールを追加 -->
+            <tr>
+              <td>05/26</td>
+              <td>日本ダービー</td>
+              <td>東京競馬場</td>
+              <td>2400m</td>
+            </tr>
+            <tr>
+              <td>06/02</td>
+              <td>安田記念</td>
+              <td>東京競馬場</td>
+              <td>1600m</td>
+            </tr>
+            <tr>
+              <td>10/20</td>
+              <td>天皇賞（秋）</td>
+              <td>東京競馬場</td>
+              <td>2000m</td>
+            </tr>
+            <tr>
+              <td>11/24</td>
+              <td>ジャパンカップ</td>
+              <td>東京競馬場</td>
+              <td>2400m</td>
+            </tr>
+            <tr>
+              <td>12/01</td>
+              <td>阪神ジュベナイルフィリーズ</td>
+              <td>阪神競馬場</td>
+              <td>1600m</td>
+            </tr>
+            <tr>
+              <td>12/08</td>
+              <td>朝日杯フューチュリティステークス</td>
+              <td>中山競馬場</td>
+              <td>1600m</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -144,12 +200,17 @@
                 <td><a href="marchs.html#forecast">展開予想</a></td>
                 <td><a href="marchs.html#review">レース回顧</a></td>
               </tr>
+              <tr>
+                <td class="g3 bronze">G3</td>
+                <td><a href="mainichihai.html">毎日杯</a></td>
+                <td><a href="mainichihai.html#forecast">展開予想</a></td>
+                <td><a href="mainichihai.html#review">レース回顧</a></td>
+              </tr>
             </tbody>
           </table>
         </div>
-      </div>
-      <!-- 右側（騎手リーディング表） -->
-      <div class="right jockey-leaderboard">
+        <!-- 騎手リーディング表 -->
+        <div class="jockey-leaderboard">
         <h2>2025年3月23日 JRA 騎手（関西）リーディング</h2>
         <table>
           <thead>
@@ -229,7 +290,7 @@
     <button class="menu-button">メニューボタン</button>
   </main>
   <footer>
-    <p>© 2025 競馬ウェブサイト</p>
+    <p>c 2025 競馬ウェブサイト</p>
   </footer>
 </body>
 </html>
