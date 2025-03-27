@@ -5,80 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>競馬のウェブページ</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    /* 全体のレイアウトスタイル */
-    .container {
-      display: flex;
-    }
-    .left {
-      width: 25%;
-    }
-    .center {
-      width: 50%;
-    }
-    .right {
-      width: 25%;
-    }
-    .jockey-leaderboard {
-      margin: 20px auto; /* 中央寄せ */
-      width: 90%; /* 表の幅を調整 */
-      border: 4px ridge #888; /* 3D罫線スタイル */
-      padding: 20px;
-      background-color: #f9f9f9; /* 背景色 */
-    }
-    .jockey-leaderboard h2 {
-      text-align: center; /* タイトルを中央寄せ */
-      font-size: 1.5em;
-      margin-bottom: 15px;
-    }
-    .jockey-leaderboard table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .jockey-leaderboard th, .jockey-leaderboard td {
-      border: 1px solid #ccc;
-      text-align: center;
-      padding: 10px;
-    }
-    .jockey-leaderboard th {
-      background-color: #e0e0e0; /* ヘッダーの背景色 */
-    }
-    .schedule h1 {
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .schedule table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .schedule th, .schedule td {
-      border: 1px solid #ccc;
-      text-align: left;
-      padding: 10px;
-    }
-    .schedule th {
-      background-color: #f0f0f0;
-    }
-    .race-section-title {
-      font-weight: bold;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-    #race-section table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-    }
-    #race-section th, #race-section td {
-      border: 1px solid #ccc;
-      text-align: center;
-      padding: 10px;
-    }
-    #race-section th {
-      background-color: #f0f0f0;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -96,16 +22,6 @@
     </nav>
   </header>
   <main>
-    <!-- 画像スライダー -->
-    <div id="image-slider">
-      <div class="images">
-        <img src="images/a1.jpg" alt="画像1">
-        <img src="images/a2.jpg" alt="画像2">
-        <img src="images/a3.jpg" alt="画像3">
-        <img src="images/a4.jpg" alt="画像4">
-        <img src="images/a5.jpg" alt="画像5">
-      </div>
-    </div>
     <div class="container">
       <!-- 左側（G1スケジュール） -->
       <div class="left schedule">
@@ -221,86 +137,80 @@
         </div>
         <!-- 騎手リーディング表 -->
         <div class="jockey-leaderboard">
-        <h2>2025年3月23日 JRA 騎手（関西）リーディング</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>順位</th>
-              <th>騎手名</th>
-              <th>1着</th>
-              <th>2着</th>
-              <th>3着</th>
-              <th>騎乗数</th>
-              <th>勝率</th>
-              <th>連対率</th>
-              <th>複勝率</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>川田将雅</td>
-              <td>27</td>
-              <td>18</td>
-              <td>13</td>
-              <td>90</td>
-              <td>30.0%</td>
-              <td>50.0%</td>
-              <td>60.0%</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>坂井瑠星</td>
-              <td>26</td>
-              <td>15</td>
-              <td>17</td>
-              <td>100</td>
-              <td>26.0%</td>
-              <td>41.0%</td>
-              <td>58.0%</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>松山弘平</td>
-              <td>25</td>
-              <td>19</td>
-              <td>13</td>
-              <td>119</td>
-              <td>21.0%</td>
-              <td>37.0%</td>
-              <td>48.0%</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>西村淳也</td>
-              <td>21</td>
-              <td>17</td>
-              <td>21</td>
-              <td>114</td>
-              <td>18.4%</td>
-              <td>33.3%</td>
-              <td>51.7%</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>岩田望来</td>
-              <td>19</td>
-              <td>12</td>
-              <td>11</td>
-              <td>109</td>
-              <td>17.4%</td>
-              <td>28.4%</td>
-              <td>38.5%</td>
-            </tr>
-          </tbody>
-        </table>
+          <h2>2025年3月23日 JRA 騎手（関西）リーディング</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>順位</th>
+                <th>騎手名</th>
+                <th>1着</th>
+                <th>2着</th>
+                <th>3着</th>
+                <th>騎乗数</th>
+                <th>勝率</th>
+                <th>連対率</th>
+                <th>複勝率</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>川田将雅</td>
+                <td>27</td>
+                <td>18</td>
+                <td>13</td>
+                <td>90</td>
+                <td>30.0%</td>
+                <td>50.0%</td>
+                <td>60.0%</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>坂井瑠星</td>
+                <td>26</td>
+                <td>15</td>
+                <td>17</td>
+                <td>100</td>
+                <td>26.0%</td>
+                <td>41.0%</td>
+                <td>58.0%</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>松山弘平</td>
+                <td>25</td>
+                <td>19</td>
+                <td>13</td>
+                <td>119</td>
+                <td>21.0%</td>
+                <td>37.0%</td>
+                <td>48.0%</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>西村淳也</td>
+                <td>21</td>
+                <td>17</td>
+                <td>21</td>
+                <td>114</td>
+                <td>18.4%</td>
+                <td>33.3%</td>
+                <td>51.7%</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>岩田望来</td>
+                <td>19</td>
+                <td>12</td>
+                <td>11</td>
+                <td>109</td>
+                <td>17.4%</td>
+                <td>28.4%</td>
+                <td>38.5%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- メニューボタン -->
+        <button class="menu-button">メニューボタン</button>
       </div>
-    </div>
-    <!-- メニューボタン -->
-    <button class="menu-button">メニューボタン</button>
-  </main>
-  <footer>
-    <p>c 2025 競馬ウェブサイト</p>
-  </footer>
-</body>
-</html>
