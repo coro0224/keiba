@@ -34,6 +34,12 @@ nav ul li a {
   color: white;
   text-decoration: none;
 }
+/* 今週の重賞セクションのスタイル */
+.race-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
 /* テーブルの配置とスタイル */
 #race-section {
