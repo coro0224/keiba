@@ -40,7 +40,21 @@ nav ul li a {
   font-size: 16px;
   margin-bottom: 10px;
 }
+#race-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
 
+#race-section th, #race-section td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+#race-section th {
+  background-color: #f0f0f0;
+}
 /* テーブルの配置とスタイル */
 #race-section {
   margin-top: 10px;
