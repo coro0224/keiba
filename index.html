@@ -5,6 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>競馬のウェブページ</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* 騎手リーディング表のスタイル */
+    .jockey-leaderboard {
+      margin: 20px auto; /* 中央寄せ */
+      width: 80%; /* 表の幅を調整 */
+      border: 4px ridge #888; /* 3D罫線スタイル */
+      padding: 20px;
+      background-color: #f9f9f9; /* 背景色 */
+    }
+    .jockey-leaderboard h2 {
+      text-align: center; /* タイトルを中央寄せ */
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+    .jockey-leaderboard table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .jockey-leaderboard th, .jockey-leaderboard td {
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 10px;
+    }
+    .jockey-leaderboard th {
+      background-color: #e0e0e0; /* ヘッダーの背景色 */
+    }
+  </style>
 </head>
 <body>
   <header>
