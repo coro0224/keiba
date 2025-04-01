@@ -223,30 +223,33 @@ footer {
   text-align: justify;
   margin: 0;
 }
-/* 騎手リーディング表のスタイル */
-.jockey-leaderboard {
-  margin: 20px auto; /* 中央寄せ */
-  width: 80%; /* 表の幅を調整 */
-  border: 4px ridge #888; /* 3D罫線スタイル */
+/* G1スケジュールを3D罫線スタイルに変更 */
+.schedule {
+  margin: 20px auto;
+  width: 90%;
+  border: 4px ridge #888;
   padding: 20px;
-  background-color: #f9f9f9; /* 背景色 */
+  background-color: #f9f9f9;
 }
-.jockey-leaderboard h2 {
-  text-align: center; /* タイトルを中央寄せ */
+
+.schedule h1 {
+  text-align: center;
   font-size: 1.5em;
   margin-bottom: 15px;
 }
-.jockey-leaderboard table {
+
+.schedule table {
   width: 100%;
   border-collapse: collapse;
 }
-.jockey-leaderboard th, .jockey-leaderboard td {
+
+.schedule th, .schedule td {
   border: 1px solid #ccc;
   text-align: center;
   padding: 10px;
 }
-.jockey-leaderboard th {
-  background-color: #e0e0e0; /* ヘッダーの背景色 */
-}
 
+.schedule th {
+  background-color: #e0e0e0;
+}
 
