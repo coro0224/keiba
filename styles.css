@@ -256,10 +256,14 @@ footer {
   width: 50%;
 }
 
+.right {
+  width: 25%;
+}
+
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
-  margin: 20px auto;
-  width: 90%;
+  margin: 5px;
+  width: 25%;
   border: 4px ridge #888;
   padding: 20px;
   background-color: #f9f9f9;
@@ -515,7 +519,7 @@ footer {
 /* 騎手リーディング表のスタイル */
 .jockey-leaderboard {
   margin: 20px auto; /* 中央寄せ */
-  width: 80%; /* 表の幅を調整 */
+  width: 42%; /* 表の幅を調整 */
   border: 4px ridge #888; /* 3D罫線スタイル */
   padding: 20px;
   background-color: #f9f9f9; /* 背景色 */
