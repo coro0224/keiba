@@ -243,6 +243,19 @@ footer {
   text-align: justify;
   margin: 0;
 }
+/* コンテナ全体のスタイル */
+.container {
+  display: flex;
+}
+
+.left {
+  width: 25%;
+}
+
+.center {
+  width: 50%;
+}
+
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
   margin: 20px auto;
