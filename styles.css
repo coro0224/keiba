@@ -244,10 +244,6 @@ footer {
   margin: 0;
 }
 /* コンテナ全体のスタイル */
-.container {
-  display: flex;
-}
-
 .left {
   width: 25%;
 }
