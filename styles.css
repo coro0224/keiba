@@ -244,22 +244,26 @@ footer {
   margin: 0;
 }
 /* コンテナ全体のスタイル */
+.container {
+  display: flex;
+}
+
 .left {
-  width: 25%;
+  width: 40%;
 }
 
 .center {
-  width: 50%;
+  width: 40%;
 }
 
 .right {
-  width: 25%;
+  width: 20%;
 }
 
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
   margin: 5px;
-  width: 24%;
+  width: 25%;
   border: 4px ridge #888;
   padding: 20px;
   background-color: #f9f9f9;
