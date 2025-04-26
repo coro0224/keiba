@@ -524,7 +524,15 @@ footer {
   text-align: justify;
   margin: 0;
 }
+
 /* 騎手リーディング表のスタイル */
+.leaderboard {
+  width: 50%;
+  padding: 10px;
+  background-color: #eef;
+  margin-top: 20px;
+}
+
 .jockey-leaderboard {
   margin: 20px auto; /* 中央寄せ */
   width: 50%; /* 表の幅を調整 */
