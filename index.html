@@ -22,20 +22,10 @@
     </nav>
   </header>
   <main>
-    <!-- 画像スライダー -->
-    <div id="image-slider">
-      <div class="images">
-        <img src="images/a1.jpg" alt="画像1">
-        <img src="images/a2.jpg" alt="画像2">
-        <img src="images/a3.jpg" alt="画像3">
-        <img src="images/a4.jpg" alt="画像4">
-        <img src="images/a5.jpg" alt="画像5">
-      </div>
-    </div>
     <div class="container">
       <!-- 左側（G1スケジュール） -->
-      <div class="left schedule">
-        <h1>2025年 GIレーススケジュール</h1>
+      <aside class="left">
+        <h2>2025年 GIレーススケジュール</h2>
         <table>
           <thead>
             <tr>
@@ -46,99 +36,45 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>03/30</td>
-              <td>高松宮記念</td>
-              <td>中京競馬場</td>
-              <td>1200m</td>
-            </tr>
-            <tr>
-              <td>04/07</td>
-              <td>桜花賞</td>
-              <td>阪神競馬場</td>
-              <td>1600m</td>
-            </tr>
-            <tr>
-              <td>04/14</td>
-              <td>皐月賞</td>
-              <td>中山競馬場</td>
-              <td>2000m</td>
-            </tr>
+            <tr><td>03/30</td><td>高松宮記念</td><td>中京競馬場</td><td>1200m</td></tr>
+            <tr><td>04/07</td><td>桜花賞</td><td>阪神競馬場</td><td>1600m</td></tr>
+            <tr><td>04/14</td><td>皐月賞</td><td>中山競馬場</td><td>2000m</td></tr>
           </tbody>
         </table>
-      </div>
+      </aside>
+
       <!-- 中央（メインコンテンツ） -->
-      <div class="center">
-        <!-- レースセクション -->
-        <div id="race-section">
-          <div class="race-section-title"><strong>今週の重賞</strong></div>
-          <table>
-            <thead>
-              <tr>
-                <th>グレード</th>
-                <th>レース名</th>
-                <th>展開予想</th>
-                <th>レース回顧</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="g1 gold">G1</td>
-                <td><a href="satsukisyoo.html">大阪杯</a></td>
-                <td><a href="oosakahai.html#forecast">展開予想</a></td>
-                <td><a href="oosakahai.html#review">レース回顧</a></td>
-              </tr>
-              <tr>
-                <td class="g3 bronze">G3</td>
-                <td><a href="derbychallenge.html">ダービー卿チャレンジトロフィー</a></td>
-                <td><a href="derbychallenge.html#forecast">展開予想</a></td>
-                <td><a href="derbychallenge.html#review">レース回顧</a></td>
-              </tr>
-              <tr>
-                <td class="g3 bronze">G3</td>
-                <td><a href="churchilldowns.html">チャーチルダウンズカップ</a></td>
-                <td><a href="churchilldowns.html#forecast">展開予想</a></td>
-                <td><a href="churchilldowns.html#review">レース回顧</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>   
+      <section class="center">
+        <h2>今週の重賞</h2>
+        <table>
+          <thead>
+            <tr><th>グレード</th><th>レース名</th><th>展開予想</th><th>レース回顧</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="g1 gold">G1</td><td>大阪杯</td><td><a href="#">展開予想</a></td><td><a href="#">レース回顧</a></td></tr>
+            <tr><td class="g3 bronze">G3</td><td>ダービー卿チャレンジトロフィー</td><td><a href="#">展開予想</a></td><td><a href="#">レース回顧</a></td></tr>
+          </tbody>
+        </table>
+      </section>
+
       <!-- 騎手リーディング表 -->
-    <div class="center jockey-leaderboard">
-      <h2>2025年3月23日 JRA 騎手（関西）リーディング</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>順位</th>
-            <th>騎手名</th>
-            <th>1着</th>
-            <th>2着</th>
-            <th>3着</th>
-            <th>騎乗数</th>
-            <th>勝率</th>
-            <th>連対率</th>
-            <th>複勝率</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>川田将雅</td>
-            <td>27</td>
-            <td>18</td>
-            <td>13</td>
-            <td>90</td>
-            <td>30.0%</td>
-            <td>50.0%</td>
-            <td>60.0%</td>
-          </tr>
-        </tbody>
-      </table>
+      <section class="leaderboard">
+        <h2>2025年3月23日 JRA 騎手（関西）リーディング</h2>
+        <table>
+          <thead>
+            <tr><th>順位</th><th>騎手名</th><th>1着</th><th>2着</th><th>3着</th><th>騎乗数</th><th>勝率</th><th>連対率</th><th>複勝率</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>川田将雅</td><td>27</td><td>18</td><td>13</td><td>90</td><td>30.0%</td><td>50.0%</td><td>60.0%</td></tr>
+          </tbody>
+        </table>
+      </section>
     </div>
+
     <!-- メニューボタン -->
-    <button class="menu-button">メニューボタン</button>
-      </div>
+    <div class="menu-container">
+      <button class="menu-button">メニュー</button>
+    </div>
   </main>
   <footer>
     <p>© 2025 競馬ウェブサイト</p>
