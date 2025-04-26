@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 header {
@@ -246,10 +249,15 @@ footer {
 /* コンテナ全体のスタイル */
 .container {
   display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .left {
   width: 25%;
+  padding: 10px;
+  background-color: #f4f4f4;
 }
 
 .center {
@@ -519,7 +527,7 @@ footer {
 /* 騎手リーディング表のスタイル */
 .jockey-leaderboard {
   margin: 20px auto; /* 中央寄せ */
-  width: 42%; /* 表の幅を調整 */
+  width: 50%; /* 表の幅を調整 */
   border: 4px ridge #888; /* 3D罫線スタイル */
   padding: 20px;
   background-color: #f9f9f9; /* 背景色 */
