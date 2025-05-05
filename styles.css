@@ -1,184 +1,560 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>競馬のウェブページ</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>競馬のウェブページ</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="g1.html">G1レース</a></li>
-        <li><a href="#g2">G2レース</a></li>
-        <li><a href="#g3">G3レース</a></li>
-        <li><a href="#review">レース回顧</a></li>
-        <li><a href="2025win5.html">WIN5</a></li>
-        <li><a href="yosou.html">予想印</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- 画像スライダー -->
-    <div id="image-slider">
-      <div class="images">
-        <img src="images/a1.jpg" alt="画像1">
-        <img src="images/a2.jpg" alt="画像2">
-        <img src="images/a3.jpg" alt="画像3">
-        <img src="images/a4.jpg" alt="画像4">
-        <img src="images/a5.jpg" alt="画像5">
-      </div>
-    </div>
-    <div class="container">
-      <!-- 左側（G1スケジュール） -->
-      <div class="left schedule">
-        <h1>2025年 GIレーススケジュール</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>日付</th>
-              <th>G1名</th>
-              <th>競馬場名</th>
-              <th>距離</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>03/30</td>
-              <td>高松宮記念</td>
-              <td>中京競馬場</td>
-              <td>1200m</td>
-            </tr>
-            <tr>
-              <td>04/07</td>
-              <td>桜花賞</td>
-              <td>阪神競馬場</td>
-              <td>1600m</td>
-            </tr>
-            <tr>
-              <td>04/14</td>
-              <td>皐月賞</td>
-              <td>中山競馬場</td>
-              <td>2000m</td>
-            </tr>
-            <tr>
-              <td>03/30</td>
-              <td>高松宮記念</td>
-              <td>中京競馬場</td>
-              <td>1200m</td>
-            </tr>
-            <tr>
-              <td>04/07</td>
-              <td>桜花賞</td>
-              <td>阪神競馬場</td>
-              <td>1600m</td>
-            </tr>
-            <tr>
-              <td>04/14</td>
-              <td>皐月賞</td>
-              <td>中山競馬場</td>
-              <td>2000m</td>
-            </tr>
-            <tr>
-              <td>03/30</td>
-              <td>高松宮記念</td>
-              <td>中京競馬場</td>
-              <td>1200m</td>
-            </tr>
-            <tr>
-              <td>04/07</td>
-              <td>桜花賞</td>
-              <td>阪神競馬場</td>
-              <td>1600m</td>
-            </tr>
-            <tr>
-              <td>04/14</td>
-              <td>皐月賞</td>
-              <td>中山競馬場</td>
-              <td>2000m</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!-- 中央（メインコンテンツ） -->
-      <div class="center">
-        <!-- レースセクション -->
-        <div id="race-section h2">
-          <div class="race-section-title"><strong>今週の重賞</strong></div>
-          <table>
-            <thead>
-              <tr>
-                <th>グレード</th>
-                <th>レース名</th>
-                <th>展開予想</th>
-                <th>レース回顧</th>
-              </tr>
-            </thead>
-            <tbody>
-          <tr>
-            <td class="g1 gold">G1</td>
-            <td><a href="tennousyo.html">天皇賞（春）</a></td>
-            <td><a href="tennousyo.html#forecast">展開予想</a></td>
-            <td><a href="tennousyo.html#review">レース回顧</a></td>
-          </tr>
-          <tr>
-            <td class="g2 silver">G2</td>
-            <td>京王杯スプリングカップ</td>
-            <td><a href="#">展開予想</a></td>
-            <td><a href="#">レース回顧</a></td>
-          </tr>
-          <tr>
-            <td class="g3 bronze">G3</td>
-            <td>ユニコーンステークス</td>
-            <td><a href="#">展開予想</a></td>
-            <td><a href="#">レース回顧</a></td>
-          </tr>
-            </tbody>
-          </table>
-        </div>
-	      <!-- 騎手リーディング表 -->
-	      <section class="jockey-leaderboard">
-	      <h2>2025年 JRA 騎手リーディング</h2>
-	      <table>
-	        <thead>
-	          <tr>
-	            <th>順位</th>
-	            <th>騎手名</th>
-	            <th>1着</th>
-	            <th>2着</th>
-	            <th>3着</th>
-	            <th>騎乗数</th>
-	            <th>勝率</th>
-	            <th>連対率</th>
-	            <th>複勝率</th>
-	          </tr>
-	        </thead>
-	        <tbody>
-          <tr><td>1</td><td>戸崎圭太</td><td>44</td><td>33</td><td>25</td><td>150</td><td>17.5%</td><td>30.6%</td><td>40.5%</td></tr>
-          <tr><td>2</td><td>丹内祐次</td><td>41</td><td>31</td><td>35</td><td>219</td><td>12.6%</td><td>22.1%</td><td>32.8%</td></tr>
-          <tr><td>3</td><td>坂井瑠星</td><td>40</td><td>24</td><td>25</td><td>150</td><td>16.7%</td><td>26.8%</td><td>37.2%</td></tr>
-          <tr><td>4</td><td>松山弘平</td><td>36</td><td>30</td><td>18</td><td>186</td><td>13.3%</td><td>24.4%</td><td>31.1%</td></tr>
-          <tr><td>5</td><td>横山武史</td><td>36</td><td>24</td><td>29</td><td>159</td><td>14.5%</td><td>24.2%</td><td>35.9%</td></tr>
-          <tr><td>6</td><td>川田将雅</td><td>33</td><td>22</td><td>20</td><td>76</td><td>21.9%</td><td>36.4%</td><td>49.7%</td></tr>
-          <tr><td>7</td><td>佐々木大輔</td><td>31</td><td>25</td><td>22</td><td>228</td><td>10.1%</td><td>18.3%</td><td>25.5%</td></tr>
-          <tr><td>8</td><td>Ｃ．ルメール</td><td>30</td><td>20</td><td>22</td><td>60</td><td>22.7%</td><td>37.9%</td><td>54.5%</td></tr>
-          <tr><td>9</td><td>岩田望来</td><td>29</td><td>27</td><td>16</td><td>165</td><td>12.2%</td><td>23.6%</td><td>30.4%</td></tr>
-          <tr><td>10</td><td>横山和生</td><td>28</td><td>23</td><td>18</td><td>143</td><td>13.2%</td><td>24.1%</td><td>32.5%</td></tr>
-	        </tbody>
-	   </table>
-     </div>
-     <!-- 右側（EXCEl　NOTE） -->
-     <div class="right">
-	      <!-- メニューボタン -->
-	      <button class="menu-button">メニューボタン</button>
-     </div>
-  </div>
-  </main>
-  <footer>
-    <p>© 2025 競馬ウェブサイト</p>
-  </footer>
-</body>
-</html>
+/* 基本スタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* 今週の重賞セクションのスタイル */
+.race-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#race-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#race-section th, #race-section td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+#race-section th {
+  background-color: #f0f0f0;
+}
+/* 今週の重賞タイトルの位置調整 */
+#race-section h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px; /* 画像のすぐ下に配置 */
+}
+/* テーブルの配置とスタイル */
+#race-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#race-section table {
+  width: auto;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#race-section td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 30px;
+}
+
+#race-sectionwin5 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#race-sectionwin5 table {
+  width: 300px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#race-sectionwin5 td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+/* 色付けとY軸回転アニメーション */
+.g1 {
+  color: gold;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+.g2 {
+  color: silver;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+.g3 {
+  color: #cd7f32;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+@keyframes rotate-door {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* リンクスタイル */
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.link:hover {
+  color: darkblue;
+}
+
+/* 画像スライダー */
+#image-slider {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background-color: #e0e0e0;
+}
+
+#image-slider .images {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  animation: slide 10s linear infinite;
+}
+
+#image-slider img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* メニューボタン */
+.menu-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #0056b3;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
+
+/* フェブラリーステークスタイトル */
+.race-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/* 情報ボックス */
+.info-box {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  height: auto;
+  line-height: 1.6;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-box p {
+  text-align: justify;
+  margin: 0;
+}
+/* コンテナ全体のスタイル */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left {
+  width: 25%;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.center {
+  width: 50%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* G1スケジュールを3D罫線スタイルに変更 */
+.schedule {
+  margin: 5px;
+  width: 25%;
+  border: 4px ridge #888;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.schedule h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.schedule th {
+  background-color: #e0e0e0;
+}
+
+
+/* 基本スタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* テーブルの配置とスタイル */
+#race-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#race-section table {
+  width: auto;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#race-section td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 30px;
+}
+
+#race-sectionwin5 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#race-sectionwin5 table {
+  width: 300px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#race-sectionwin5 td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+/* 色付けとY軸回転アニメーション */
+.g1 {
+  color: gold;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+.g2 {
+  color: silver;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+.g3 {
+  color: #cd7f32;
+  font-weight: bold;
+  animation: rotate-door 5s linear infinite;
+}
+
+@keyframes rotate-door {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* リンクスタイル */
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.link:hover {
+  color: darkblue;
+}
+
+/* 画像スライダー */
+#image-slider {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background-color: #e0e0e0;
+}
+
+#image-slider .images {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  animation: slide 10s linear infinite;
+}
+
+#image-slider img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* メニューボタン */
+.menu-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #0056b3;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
+
+/* フェブラリーステークスタイトル */
+.race-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/* 情報ボックス */
+.info-box {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  height: auto;
+  line-height: 1.6;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-box p {
+  text-align: justify;
+  margin: 0;
+}
+
+/* 騎手リーディング表のスタイル */
+
+.jockey-leaderboard {
+  margin: 20px auto; /* 中央寄せ */
+  width: 50%; /* 表の幅を調整 */
+  border: 4px ridge #888; /* 3D罫線スタイル */
+  padding: 20px;
+  background-color: #f9f9f9; /* 背景色 */
+}
+.jockey-leaderboard h2 {
+  text-align: center; /* タイトルを中央寄せ */
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.jockey-leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.jockey-leaderboard th, .jockey-leaderboard td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+.jockey-leaderboard th {
+  background-color: #e0e0e0; /* ヘッダーの背景色 */
+}
