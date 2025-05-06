@@ -272,6 +272,15 @@ footer {
   width: 25%;
 }
 
+/* G1レース一覧
+.raceg1 {
+  margin: 5px;
+  width: 100%;
+  border: 4px ridge #888;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
   margin: 5px;
