@@ -305,33 +305,36 @@ footer {
 
 
 /* G1レース一覧
-.scheduleG1 {
-  margin: 5px;
-  width: 100%;
-  border: 4px ridge #888;
-  padding: 20px;
-  background-color: #f9f9f9;
+/* G1レース一覧専用のCSS */
+.g1-race-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.scheduleG1 h1 {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 15px;
+.g1-race-table th, .g1-race-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
-.scheduleG1 table {
-  width: 100%;
-  border-collapse: collapse;
+.g1-race-table th {
+    background-color: #f2f2f2;
+    text-align: left;
 }
 
-.scheduleG1 th, .scheduleG1 td {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 10px;
+.g1-race-table tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
-.scheduleG1 th {
-  background-color: #e0e0e0;
+.g1-race-table tr:hover {
+    background-color: #ddd;
+}
+
+.g1-race-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
 }
 
 /* 基本スタイル */
