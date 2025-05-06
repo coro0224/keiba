@@ -306,6 +306,11 @@ footer {
 
 /* G1レース一覧
 /* G1レース一覧専用のCSS */
+.g1-race-table-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
 .g1-race-table {
     width: 100%;
     border-collapse: collapse;
@@ -336,6 +341,7 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
+
 
 /* 基本スタイル */
 body {
