@@ -272,14 +272,6 @@ footer {
   width: 25%;
 }
 
-/* G1レース一覧
-.schedule G1 {
-  margin: 5px;
-  width: 100%;
-  border: 4px ridge #888;
-  padding: 20px;
-  background-color: #f9f9f9;
-}
 
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
@@ -311,6 +303,36 @@ footer {
   background-color: #e0e0e0;
 }
 
+
+/* G1レース一覧
+.scheduleG1 {
+  margin: 5px;
+  width: 100%;
+  border: 4px ridge #888;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.scheduleG1 h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.scheduleG1 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scheduleG1 th, .scheduleG1 td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.scheduleG1 th {
+  background-color: #e0e0e0;
+}
 
 /* 基本スタイル */
 body {
