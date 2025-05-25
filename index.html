@@ -1,19 +1,265 @@
-<!-- noteリンク -->
-<section class="note-links">
-    <h2>おすすめのnote</h2>
-    <div class="note-thumbnail">
-        <a href="https://note.com/coro_pepa" target="_blank">
-            <img src="note_header.jpg" alt="noteのヘッダー画像">
-        </a>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>競馬の図書館</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>競馬の図書館</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="g1.html">G1レース</a></li>
+        <li><a href="#g2">G2レース</a></li>
+        <li><a href="#g3">G3レース</a></li>
+        <li><a href="#review">レース回顧</a></li>
+        <li><a href="2025win5.html">WIN5</a></li>
+        <li><a href="yosou.html">予想印</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- 画像スライダー -->
+    <div id="image-slider">
+      <div class="images">
+        <img src="images/a1.jpg" alt="画像1">
+        <img src="images/a2.jpg" alt="画像2">
+        <img src="images/a3.jpg" alt="画像3">
+        <img src="images/a4.jpg" alt="画像4">
+        <img src="images/a5.jpg" alt="画像5">
+      </div>
     </div>
-</section>
+    <div class="container">
+      <!-- 左側（G1スケジュール） -->
+      <div class="left schedule">
+        <h1>2025年 GIレーススケジュール</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>日付</th>
+              <th>G1名</th>
+              <th>競馬場名</th>
+              <th>距離</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr><td>02/23</td><td><a href="febraurystakes.html">フェブラリーステークス</a></td><td>東京競馬場</td><td>ダート1600m</td></tr>
+          <tr><td>03/30</td><td><a href="takamatsunomiya.html">高松宮記念</a></td><td>中京競馬場</td><td>芝1200m</td></tr>
+          <tr><td>04/06</td><td><a href="oosakahai.html">大阪杯</a></td><td>阪神競馬場</td><td>芝2000m</td></tr>
+          <tr><td>04/13</td><td><a href="ookasyo.html">桜花賞</a></td><td>阪神競馬場</td><td>芝1600m</td></tr>
+          <tr><td>04/20</td><td><a href="satsukisyoo.html">皐月賞</a></td><td>中山競馬場</td><td>芝2000m</td></tr>
+          <tr><td>05/04</td><td><a href="tennousyo.html">天皇賞（春）</a></td><td>京都競馬場</td><td>芝3200m</td></tr>
+          <tr><td>05/11</td><td><a href="nhkmile.html">NHKマイルカップ</a></td><td>東京競馬場</td><td>芝1600m</td></tr>
+          <tr><td>05/18</td><td><a href="victoriamile.html">ヴィクトリアマイル</a></td><td>東京競馬場</td><td>芝1600m</td></tr>
+          <tr><td>05/25</td><td><a href="oaks.html">優駿牝馬（オークス）</a></td><td>東京競馬場</td><td>芝2400m</td></tr>
+          <tr><td>06/01</td><td><a href="derby.html">東京優駿（日本ダービー）</a></td><td>東京競馬場</td><td>芝2400m</td></tr>
+          <tr><td>06/08</td><td><a href="yasuda.html">安田記念</a></td><td>東京競馬場</td><td>芝1600m</td></tr>
+          <tr><td>06/15</td><td><a href="takarazuka.html">宝塚記念</a></td><td>阪神競馬場</td><td>芝2200m</td></tr>
+          <tr><td>09/28</td><td><a href="sprinters.html">スプリンターズステークス</a></td><td>中山競馬場</td><td>芝1200m</td></tr>
+          <tr><td>10/19</td><td><a href="shuka.html">秋華賞</a></td><td>京都競馬場</td><td>芝2000m</td></tr>
+          <tr><td>10/26</td><td><a href="kikka.html">菊花賞</a></td><td>京都競馬場</td><td>芝3000m</td></tr>
+          <tr><td>11/02</td><td><a href="tennousyo_autumn.html">天皇賞（秋）</a></td><td>東京競馬場</td><td>芝2000m</td></tr>
+          <tr><td>11/16</td><td><a href="elizabeth.html">エリザベス女王杯</a></td><td>京都競馬場</td><td>芝2200m</td></tr>
+          <tr><td>11/23</td><td><a href="milechampionship.html">マイルチャンピオンシップ</a></td><td>京都競馬場</td><td>芝1600m</td></tr>
+          <tr><td>11/30</td><td><a href="japan_cup.html">ジャパンカップ</a></td><td>東京競馬場</td><td>芝2400m</td></tr>
+          <tr><td>12/07</td><td><a href="championscup.html">チャンピオンズカップ</a></td><td>中京競馬場</td><td>ダート1800m</td></tr>
+          <tr><td>12/14</td><td><a href="hanshinjf.html">阪神ジュベナイルフィリーズ</a></td><td>阪神競馬場</td><td>芝1600m</td></tr>
+          <tr><td>12/21</td><td><a href="asahihai.html">朝日杯フューチュリティステークス</a></td><td>阪神競馬場</td><td>芝1600m</td></tr>
+          <tr><td>12/27</td><td><a href="hopeful.html">ホープフルステークス</a></td><td>中山競馬場</td><td>芝2000m</td></tr>
+          <tr><td>12/28</td><td><a href="arima.html">有馬記念</a></td><td>中山競馬場</td><td>芝2500m</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- 中央（メインコンテンツ） -->
+      <div class="center">
+        <!-- レースセクション -->
+        <div class="race-section-title center"></div>
+        <h2><strong>　　　　　　　　★☆★☆＜＜今週の重賞＞＞★☆★☆</strong></h2>
+        <div id="race-section">
+          <table>
+            <thead>
+              <tr>
+                <th>グレード</th>
+                <th>レース名</th>
+                <th>展開予想</th>
+                <th>レース回顧</th>
+              </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td class="g1 gold">GI</td>
+                        <td><a href="oaks.html">優駿牝馬（オークス）</a></td>
+                        <td><a href="oaks_preview.html">展開予想</a></td>
+                        <td><a href="oaks_review.html">レース回顧</a></td>
+                    </tr>
+                    <tr>
+                        <td class="g3 bronze">GIII</td>
+                        <td><a href="heian_stakes.html">平安ステークス</a></td>
+                        <td><a href="heian_stakes_preview.html">展開予想</a></td>
+                        <td><a href="heian_stakes_review.html">レース回顧</a></td>
+                    </tr>
+             </tbody>
+          </table>
+        </div>
+	      <!-- 騎手リーディング表 -->
+	      <section class="jockey-leaderboard">
+	      <h2>2025年 JRA 騎手リーディング</h2>
+	      <table>
+	        <thead>
+	          <tr>
+	            <th>順位</th>
+	            <th>騎手名</th>
+	            <th>1着</th>
+	            <th>2着</th>
+	            <th>3着</th>
+	            <th>騎乗数</th>
+	            <th>勝率</th>
+	            <th>連対率</th>
+	            <th>複勝率</th>
+	          </tr>
+	        </thead>
+	        <tbody>
+            <tr>
+                <td>1</td>
+                <td>戸崎 圭太</td>
+                <td>54</td>
+                <td>39</td>
+                <td>30</td>
+                <td>173</td>
+                <td>18.2%</td>
+                <td>31.4%</td>
+                <td>41.6%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>丹内 祐次</td>
+                <td>47</td>
+                <td>38</td>
+                <td>41</td>
+                <td>249</td>
+                <td>12.5%</td>
+                <td>22.7%</td>
+                <td>33.6%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>坂井 瑠星</td>
+                <td>46</td>
+                <td>35</td>
+                <td>28</td>
+                <td>179</td>
+                <td>16.0%</td>
+                <td>28.1%</td>
+                <td>37.8%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>横山 武史</td>
+                <td>44</td>
+                <td>27</td>
+                <td>33</td>
+                <td>193</td>
+                <td>14.8%</td>
+                <td>23.9%</td>
+                <td>35.0%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>松山 弘平</td>
+                <td>41</td>
+                <td>37</td>
+                <td>22</td>
+                <td>217</td>
+                <td>12.9%</td>
+                <td>24.6%</td>
+                <td>31.5%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>岩田 望来</td>
+                <td>41</td>
+                <td>28</td>
+                <td>17</td>
+                <td>186</td>
+                <td>15.1%</td>
+                <td>25.4%</td>
+                <td>31.6%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>C.ルメール</td>
+                <td>39</td>
+                <td>28</td>
+                <td>24</td>
+                <td>71</td>
+                <td>24.1%</td>
+                <td>41.4%</td>
+                <td>56.2%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>川田 将雅</td>
+                <td>38</td>
+                <td>30</td>
+                <td>23</td>
+                <td>88</td>
+                <td>21.2%</td>
+                <td>38.0%</td>
+                <td>50.8%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>佐々木 大輔</td>
+                <td>35</td>
+                <td>31</td>
+                <td>22</td>
+                <td>262</td>
+                <td>10.0%</td>
+                <td>18.9%</td>
+                <td>25.1%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>横山 和生</td>
+                <td>32</td>
+                <td>24</td>
+                <td>24</td>
+                <td>170</td>
+                <td>12.8%</td>
+                <td>22.4%</td>
+                <td>32.0%</td>
+            </tr>	        </tbody>
+	   </table>
+     </div>
+     <!-- 右側（EXCEl　NOTE） -->
+     <div class="right">
+		<!-- noteリンク -->
+		<section class="note-links">
+		    <h2>おすすめのnote</h2>
+		    <div class="note-thumbnail">
+		        <a href="https://note.com/coro_pepa" target="_blank">
+		            <img src="note_header.jpg" alt="noteのヘッダー画像">
+		        </a>
+		    </div>
+		</section>
 
-<!-- 右側のnoteリンク枠 -->
-<aside class="note-sidebar">
-    <h3>関連noteリンク</h3>
-    <ul>
-        <li><a href="#">noteリンク1</a></li>
-        <li><a href="#">noteリンク2</a></li>
-        <li><a href="#">noteリンク3</a></li>
-    </ul>
-</aside>
+		<!-- 右側のnoteリンク枠 -->
+		<aside class="note-sidebar">
+		    <h3>関連noteリンク</h3>
+		    <ul>
+		        <li><a href="#">noteリンク1</a></li>
+		        <li><a href="#">noteリンク2</a></li>
+		        <li><a href="#">noteリンク3</a></li>
+		    </ul>
+		</aside>
+     </div>
+  </div>
+  </main>
+  <footer>
+    <p>© 2025 競馬図書館</p>
+  </footer>
+</body>
+</html>
