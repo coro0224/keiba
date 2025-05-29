@@ -109,19 +109,19 @@ nav ul li a {
 .g1 {
   color: gold;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 .g2 {
   color: silver;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 .g3 {
   color: #cd7f32;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 @keyframes rotate-door {
@@ -427,19 +427,19 @@ nav ul li a {
 .g1 {
   color: gold;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 .g2 {
   color: silver;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 .g3 {
   color: #cd7f32;
   font-weight: bold;
-  animation: rotate-door 5s linear infinite;
+  animation: rotate-door 15s linear infinite;
 }
 
 @keyframes rotate-door {
