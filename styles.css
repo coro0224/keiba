@@ -109,19 +109,19 @@ nav ul li a {
 .g1 {
   color: gold;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 .g2 {
   color: silver;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 .g3 {
   color: #cd7f32;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 @keyframes rotate-door {
@@ -427,19 +427,19 @@ nav ul li a {
 .g1 {
   color: gold;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 .g2 {
   color: silver;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 .g3 {
   color: #cd7f32;
   font-weight: bold;
-  animation: rotate-door 15s linear infinite;
+  animation: rotate-door 5s linear infinite;
 }
 
 @keyframes rotate-door {
@@ -595,3 +595,17 @@ footer {
 .jockey-leaderboard th {
   background-color: #e0e0e0; /* ヘッダーの背景色 */
 }
+.note-thumbnail {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.note-image {
+    width: 100%; /* 親要素の幅に合わせて調整 */
+    max-width: 300px; /* 最大サイズを指定 */
+    height: auto; /* 縦横比を維持 */
+    border-radius: 8px; /* 角丸を適用 */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* 軽い影を追加 */
+}
+
+
