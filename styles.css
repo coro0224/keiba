@@ -480,30 +480,7 @@ nav ul li a {
   animation: slide 10s linear infinite;
 }
 
-#image-slider img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
-  display: block;
-}
 
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-  25% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(-200%);
-  }
-  75% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 
 /* メニューボタン */
 .menu-button {
@@ -608,4 +585,38 @@ footer {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* 軽い影を追加 */
 }
 
+#image-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slider-track {
+    display: flex;
+    gap: 10px;
+    transition: transform 1s linear;
+}
+
+.slider-track img {
+    width: 300px; /* 画像サイズを統一 */
+    height: auto;
+    object-fit: cover;
+}
+
+/* アニメーション */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-300px); }
+}
+
+.slider-track {
+    animation: slide 5s infinite linear;
+}
 
