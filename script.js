@@ -28,3 +28,25 @@ document.querySelectorAll('.link').forEach(link => {
 document.querySelectorAll('.g1, .g2, .g3').forEach(item => {
   item.style.animation = 'rotateY 5s linear infinite'; // Y軸回転アニメーションを適用
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector(".slider-track");
+    const images = document.querySelectorAll(".slider-track img");
+
+    let index = 0;
+    const totalImages = images.length;
+    const slideWidth = images[0].offsetWidth;
+
+    function slide() {
+        index++;
+        if (index > totalImages - 3) {
+            index = 0;
+        }
+        track.style.transform = `translateX(-${index * slideWidth}px)`;
+    }
+
+    setInterval(slide, 3000);
+});
+
+
