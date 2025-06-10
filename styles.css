@@ -588,6 +588,7 @@ footer {
 #image-slider {
     overflow: hidden;
     width: 100%;
+    height: 500px; /* 適切な高さに調整 */
     position: relative;
 }
 
@@ -596,6 +597,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 .slider-track {
@@ -605,15 +607,15 @@ footer {
 }
 
 .slider-track img {
-    width: 300px; /* 画像サイズを統一 */
-    height: auto;
-    object-fit: cover;
+    width: 1024px; /* 画像サイズを統一 */
+    height: 1536px; /* 画像サイズを統一 */
+    object-fit: contain;
 }
 
 /* アニメーション */
 @keyframes slide {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-300px); }
+    100% { transform: translateX(-1024px); }
 }
 
 .slider-track {
