@@ -40,13 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function slide() {
         index++;
-        if (index > totalImages - 3) {
-            index = 0;
+        if (index >= totalImages) {
+            index = 0; // ループの動作を改善
         }
         track.style.transform = `translateX(-${index * slideWidth}px)`;
     }
 
-    setInterval(slide, 3000);
+    setInterval(slide, 3000); // 3秒ごとにスライド
 });
-
 
