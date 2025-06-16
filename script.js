@@ -36,27 +36,33 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll(".note-image");
     const imageCount = images.length;
 
-    // クローンを作って末尾に追加
+    // 最初の2枚を複製して末尾に追加（ループ用）
     for (let i = 0; i < 2; i++) {
         const clone = images[i].cloneNode(true);
         track.appendChild(clone);
     }
 
     let index = 0;
+    let slideWidth = images[0].offsetWidth + 10; // 画像幅＋マージン
+
     const moveNext = () => {
         index++;
-        const imgWidth = images[0].offsetWidth + 10; // margin-right考慮
         track.style.transition = "transform 0.5s linear";
-        track.style.transform = `translateX(-${imgWidth * index}px)`;
+        track.style.transform = `translateX(-${slideWidth * index}px)`;
 
-        if (index >= imageCount) {
+        // 複製を含めた末尾に達した直後に戻す
+        if (index === imageCount) {
             setTimeout(() => {
                 track.style.transition = "none";
-                track.style.transform = `translateX(0px)`;
+                track.style.transform = "translateX(0)";
                 index = 0;
-            }, 500); // transition時間に一致させる
+            }, 500); // transitionと同じ時間
         }
     };
 
-    setInterval(moveNext, 3000); // 3秒ごとに切り替え
+    // 初回の画像ロードが終わったら幅を再取得（安全対策）
+    window.addEventListener("load", () => {
+        slideWidth = images[0].offsetWidth + 10;
+        setInterval(moveNext, 3000);
+    });
 });
