@@ -602,8 +602,8 @@ footer {
 
 .slider-track {
     display: flex;
-    gap: 10px;
-    transition: transform 1s linear;
+    transition: transform 0.5s linear;
+    will-change: transform;
 }
 
 .slider-track img {
