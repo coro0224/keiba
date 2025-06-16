@@ -30,22 +30,33 @@ document.querySelectorAll('.g1, .g2, .g3').forEach(item => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const track = document.querySelector(".slider-track");
-    const images = document.querySelectorAll(".slider-track img");
 
-    let index = 0;
-    const totalImages = images.length;
-    const slideWidth = images[0].offsetWidth;
+document.addEventListener("DOMContentLoaded", () => {
+    const track = document.getElementById("sliderTrack");
+    const images = document.querySelectorAll(".note-image");
+    const imageCount = images.length;
 
-    function slide() {
-        index++;
-        if (index >= totalImages) {
-            index = 0; // ループの動作を改善
-        }
-        track.style.transform = `translateX(-${index * slideWidth}px)`;
+    // クローンを作って末尾に追加
+    for (let i = 0; i < 2; i++) {
+        const clone = images[i].cloneNode(true);
+        track.appendChild(clone);
     }
 
-    setInterval(slide, 3000); // 3秒ごとにスライド
-});
+    let index = 0;
+    const moveNext = () => {
+        index++;
+        const imgWidth = images[0].offsetWidth + 10; // margin-right考慮
+        track.style.transition = "transform 0.5s linear";
+        track.style.transform = `translateX(-${imgWidth * index}px)`;
 
+        if (index >= imageCount) {
+            setTimeout(() => {
+                track.style.transition = "none";
+                track.style.transform = `translateX(0px)`;
+                index = 0;
+            }, 500); // transition時間に一致させる
+        }
+    };
+
+    setInterval(moveNext, 3000); // 3秒ごとに切り替え
+});
