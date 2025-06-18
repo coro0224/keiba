@@ -1,45 +1,13 @@
 /* 基本スタイル */
 body {
-    margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  flex-direction: column;
+  align-items: center;
 
-.highlighted-h2 {
-    border: 3px solid #3399cc;
-    background-color: #ccf0ff;
-    padding: 20px;
-    margin: 0;
 }
-
-.highlighted-h2 h2 {
-    margin: 0;
-    font-size: 1.2rem;
-    white-space: pre-line;
-}
-
-.race-content {
-    background-color: #fff1e0;
-    padding: 20px;
-}
-
-.section-box {
-    border: 2px solid #aaa;
-    background-color: #ffffff;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-}
-
-.section-box h3 {
-    border-bottom: 3px solid #ffcc99;
-    background-color: #ffece0;
-    padding: 10px;
-    margin-top: 0;
-    font-size: 1.1rem;
-}
-
 
 header {
   background-color: #4CAF50;
@@ -375,6 +343,13 @@ footer {
 }
 
 
+/* 基本スタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
 
 header {
   background-color: #4CAF50;
