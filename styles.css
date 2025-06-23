@@ -57,9 +57,14 @@ nav ul li a {
     width: 100%;
 }
 
-#race-section table th,
-#race-section table td {
+#race-section table th {
     border: 1px solid #ccc;
+    text-align: center;
+}
+#race-section table td {
+    white-space: nowrap;       /* 改行を防止 */
+    font-size: 0.9rem;         /* フォントサイズをやや小さめに */
+    padding: 6px 10px;
     text-align: center;
 }
 #race-section th {
