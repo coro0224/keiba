@@ -63,7 +63,7 @@ nav ul li a {
 }
 #race-section table td {
     white-space: nowrap;       /* 改行を防止 */
-    font-size: 0.9rem;         /* フォントサイズをやや小さめに */
+    font-size: 0.7rem;         /* フォントサイズをやや小さめに */
     padding: 6px 10px;
     text-align: center;
 }
@@ -411,7 +411,7 @@ nav ul li a {
   padding: 10px;
   text-align: center;
   border: 1px solid #333;
-  font-size: 30px;
+  font-size: 19px;
 }
 
 #race-sectionwin5 {
@@ -689,7 +689,7 @@ footer {
     box-shadow: 0 6px 18px rgba(0, 100, 0, 0.25); /* 少し深めの立体感 */
     padding: 20px;
     margin: 30px auto;
-    width: 95%;
+    width: 100%;
     max-width: 960px;
     box-sizing: border-box;
 }
