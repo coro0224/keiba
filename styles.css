@@ -38,23 +38,29 @@ nav ul li a {
   text-decoration: none;
 }
 /* 今週の重賞セクションのスタイル */
+/* テーブルヘッダー全体にフォントサイズ調整 */
+#race-section table thead th {
+    font-size: 0.9rem;         /* フォントを少し小さめに */
+    white-space: nowrap;       /* 強制的に折り返さない */
+    padding: 8px 12px;
+}
+
 .race-section-title {
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 10px;
 }
+/* テーブルセル（見栄え用） */
 #race-section table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-#race-section th, #race-section td {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 10px;
+#race-section table th,
+#race-section table td {
+    border: 1px solid #ccc;
+    text-align: center;
 }
-
 #race-section th {
   background-color: #f0f0f0;
 }
