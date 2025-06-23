@@ -659,4 +659,15 @@ footer {
     font-size: 1.1rem;
     color: #4e4e4e;
 }
+.slider-box {
+    background-color: #ffffff;
+    border: 4px solid #81c784; /* 明るめ緑色の太い罫線 */
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 100, 0, 0.25); /* やや深めの浮き上がり感 */
+    padding: 25px;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
 
