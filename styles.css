@@ -272,6 +272,23 @@ footer {
   margin: 0;
 }
 /* コンテナ全体のスタイル */
+
+.layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    flex: 1 1 68%;
+    min-width: 0;
+}
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -290,9 +307,16 @@ footer {
 }
 
 .right {
-  width: 25%;
+    flex: 1 1 28%;
+    min-width: 280px;
+    max-width: 350px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 3px solid #81c784;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 100, 0, 0.15);
+    padding: 16px;
 }
-
 
 /* G1スケジュールを3D罫線スタイルに変更 */
 .schedule {
