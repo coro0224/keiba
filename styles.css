@@ -587,7 +587,7 @@ footer {
 
 #image-slider {
     overflow: hidden;
-    width: 55%;
+    width: 90%;
     height: 50vh; /* 画像の高さを7割に縮小 */
     position: relative;
 }
