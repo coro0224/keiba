@@ -134,21 +134,24 @@ nav ul li a {
   position: relative;
   margin: 0 auto;
 }
+
 .slider-container {
-  width: 100%;
   overflow: hidden;
+  width: 100%;
+  height: 200px; /* 画像の高さを固定 */
 }
 
 .slider-track {
   display: flex;
-  width: calc(200%); /* 画像列を2倍にする */
-  animation: slide 60s linear infinite;
+  width: max-content;
+  animation: slide 120s linear infinite;
 }
 
 .slider-track img {
-  flex: 0 0 20%; /* 5枚同時表示 = 100% / 5 = 20% */
-  height: auto;
+  flex: 0 0 20%; /* 一度に5枚表示 */
+  height: 100%;
   object-fit: contain;
+  padding: 0 5px; /* 馬名が見切れないよう左右に余白 */
 }
 
 /* ========== タイトルボックス（h1/h2） ========== */
@@ -259,4 +262,5 @@ footer {
     transform: translateX(-50%);
   }
 }
+
 
