@@ -138,7 +138,7 @@ nav ul li a {
 .slider-container {
   overflow: hidden;
   width: 100%;
-  height: 200px; /* 画像の高さを固定 */
+  height: 260px; /* 🟢 馬名がしっかり見える高さに拡大 */
 }
 
 .slider-track {
@@ -148,11 +148,12 @@ nav ul li a {
 }
 
 .slider-track img {
-  flex: 0 0 20%; /* 一度に5枚表示 */
+  flex: 0 0 20%;
   height: 100%;
-  object-fit: contain;
-  padding: 0 5px; /* 馬名が見切れないよう左右に余白 */
+  padding: 0 8px;
+  object-fit: contain; /* 🔄 馬名含めて全体が収まるように */
 }
+
 
 /* ========== タイトルボックス（h1/h2） ========== */
 .hero-box {
