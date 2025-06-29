@@ -135,17 +135,19 @@ nav ul li a {
   margin: 0 auto;
 }
 .slider-container {
-  display: flex;
-  align-items: center;
   width: 100%;
+  overflow: hidden;
 }
+
 .slider-track {
   display: flex;
-  transition: transform 0.5s linear;
-  animation: slide 60s infinite linear;
+  width: calc(200%); /* 画像列を2倍にする */
+  animation: slide 60s linear infinite;
 }
+
 .slider-track img {
-  height: 70%;
+  flex: 0 0 20%; /* 5枚同時表示 = 100% / 5 = 20% */
+  height: auto;
   object-fit: contain;
 }
 
@@ -247,3 +249,14 @@ footer {
 }
 .info-box h3 { color: #333; margin-bottom: 10px; }
 .info-box p { margin: 0; text-align: justify; }
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
