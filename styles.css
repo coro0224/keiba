@@ -1,533 +1,213 @@
-/* 基本スタイル */
+/* ========== 基本設定 ========== */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  flex-direction: column;
-  align-items: center;
-
+  font-family: "Hiragino Kaku Gothic ProN", Arial, sans-serif;
+  background-color: #e8f5e9;
 }
 
+/* ========== ヘッダーとナビ ========== */
 header {
   background-color: #4CAF50;
   color: white;
   padding: 10px 0;
   text-align: center;
 }
-
 h1 {
   margin: 20px 0;
   color: #333;
 }
-
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
 }
-
 nav ul li {
-  margin: 0 15px;
+  margin: 5px 10px;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
 }
-/* 今週の重賞セクションのスタイル */
+
+/* ========== レイアウト対応 ========== */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+.left, .center, .right {
+  flex: 1 1 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .left {
+    flex: 1 1 25%;
+  }
+  .center {
+    flex: 1 1 50%;
+  }
+  .right {
+    flex: 1 1 25%;
+  }
+}
+
+/* ========== 今週の重賞セクション ========== */
 #race-section {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 15px;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
-/* テーブルヘッダー全体にフォントサイズ調整 */
-#race-section table thead th {
-    font-size: 0.85rem;        /* フォントをやや小さく */
-    white-space: nowrap;       /* 自動改行を禁止 */
-    padding: 6px 8px;          /* コンパクトに余白も調整 */
-    text-align: center;
+#race-section h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 15px;
 }
-
-.race-section-title {
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 10px;
+.race-box, .ranking-box {
+  background-color: #ffffff;
+  border: 4px solid #66bb6a;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 100, 0, 0.25);
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 960px;
+  overflow-x: auto;
 }
-/* テーブルセル（見栄え用） */
-#race-section table {
-    table-layout: fixed;
-    width: 100%;
+#race-section table, .ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
 }
-
-#race-section table {
-    width: 100%;                  /* テーブル幅を外枠いっぱいに */
-    border-collapse: collapse;
-    table-layout: auto;           /* 必要に応じて固定幅を解除 */
-    font-size: 1rem;              /* 読みやすいフォントサイズ */
-}
-
-#race-section table th,
-#race-section table td {
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 10px 12px;
-    white-space: nowrap;          /* 1行に収める */
+#race-section th, #race-section td, .ranking-table th, .ranking-table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 8px 10px;
+  white-space: nowrap;
 }
 #race-section th {
   background-color: #f0f0f0;
 }
-/* 今週の重賞タイトルの位置調整 */
-/* テーブルの配置とスタイル */
-#race-section h2{
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#race-section table {
-  width: auto;
-  text-align: center;
-  border-collapse: collapse;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-#race-section td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #333;
-  font-size: 30px;
-}
-
-#race-sectionwin5 {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#race-sectionwin5 table {
-  width: 300px;
-  text-align: center;
-  border-collapse: collapse;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-#race-sectionwin5 td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #333;
-  font-size: 14px;
-}
-
-/* 色付けとY軸回転アニメーション */
-.g1 {
-  color: gold;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
-
-.g2 {
-  color: silver;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
-
-.g3 {
-  color: #cd7f32;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
-
-@keyframes rotate-door {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-
-/* リンクスタイル */
-.link {
-  text-decoration: underline;
-  color: blue;
-}
-
-.link:hover {
-  color: darkblue;
-}
-
-/* 画像スライダー */
-#image-slider {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 20px auto;
-  background-color: #e0e0e0;
-}
-
-#image-slider .images {
-  display: flex;
-  transition: transform 1s ease-in-out;
-  animation: slide 10s linear infinite;
-}
-
-#image-slider img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
-  display: block;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-  25% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(-200%);
-  }
-  75% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-/* メニューボタン */
-.menu-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.menu-button:hover {
-  background-color: #0056b3;
-}
-
-/* フッター */
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #4CAF50;
-  color: white;
-  margin-top: 20px;
-}
-
-/* フェブラリーステークスタイトル */
-.race-title {
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
-  background-color: pink;
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ccc;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 5px;
-}
-
-/* 情報ボックス */
-.info-box {
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 20px auto;
-  width: 80%;
-  height: auto;
-  line-height: 1.6;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.info-box h3 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.info-box p {
-  text-align: justify;
-  margin: 0;
-}
-/* コンテナ全体のスタイル */
-
-.layout-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.main-content {
-    flex: 1 1 68%;
-    min-width: 0;
-}
-
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.left {
-  width: 25%;
-  padding: 10px;
-  background-color: #f4f4f4;
-}
-
-.center {
-  width: 50%;
-}
-
-.right {
-    flex: 1 1 28%;
-    min-width: 280px;
-    max-width: 350px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    border: 3px solid #81c784;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 100, 0, 0.15);
-    padding: 16px;
-}
-
-/* G1スケジュールを3D罫線スタイルに変更 */
+/* ========== G1スケジュール表 ========== */
 .schedule {
-  margin: 5px;
-  width: 25%;
   border: 4px ridge #888;
-  padding: 20px;
   background-color: #f9f9f9;
+  padding: 20px;
 }
-
 .schedule h1 {
   text-align: center;
   font-size: 1.5em;
-  margin-bottom: 15px;
 }
-
 .schedule table {
   width: 100%;
   border-collapse: collapse;
 }
-
 .schedule th, .schedule td {
   border: 1px solid #ccc;
   text-align: center;
   padding: 10px;
 }
-
 .schedule th {
   background-color: #e0e0e0;
 }
 
-
-/* G1レース一覧
-/* G1レース一覧専用のCSS */
-.g1-race-table-container {
-    width: 100%;
-    margin-top: 20px;
+/* ========== スライダー ========== */
+.slider-box {
+  background-color: #ffffff;
+  border: 4px solid #81c784;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 100, 0, 0.25);
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 1300px;
 }
-
-.g1-race-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+#image-slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
 }
-
-.g1-race-table th, .g1-race-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-.g1-race-table th {
-    background-color: #f2f2f2;
-    text-align: left;
-}
-
-.g1-race-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.g1-race-table tr:hover {
-    background-color: #ddd;
-}
-
-.g1-race-table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #4CAF50;
-    color: white;
-}
-
-
-/* 基本スタイル */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
-
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.slider-container {
   display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-/* テーブルの配置とスタイル */
-#race-section {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  width: 100%;
 }
-
-#race-section table {
-  width: auto;
-  text-align: center;
-  border-collapse: collapse;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-#race-section td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #333;
-  font-size: 19px;
-}
-
-#race-sectionwin5 {
-  margin-top: 10px;
+.slider-track {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: transform 0.5s linear;
+  animation: slide 60s infinite linear;
+}
+.slider-track img {
+  height: 70%;
+  object-fit: contain;
 }
 
-#race-sectionwin5 table {
-  width: 300px;
+/* ========== タイトルボックス（h1/h2） ========== */
+.hero-box {
+  background-color: #ffffff;
+  border: 2px solid #a5d6a7;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 80, 0, 0.2);
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 960px;
+}
+.hero-box h1 {
+  font-size: 1.6rem;
+  color: #2e7d32;
+}
+.hero-box h2 {
+  font-size: 1.1rem;
+  color: #4e4e4e;
+  white-space: pre-line;
+}
+
+/* ========== NOTEサムネイル ========== */
+.note-thumbnail {
   text-align: center;
-  border-collapse: collapse;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+.note-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
-#race-sectionwin5 td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #333;
-  font-size: 14px;
-}
-
-/* 色付けとY軸回転アニメーション */
-.g1 {
-  color: gold;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
-
-.g2 {
-  color: silver;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
-
-.g3 {
-  color: #cd7f32;
-  font-weight: bold;
-  animation: rotate-door 5s linear infinite;
-}
+/* ========== 色分けとアニメーション ========== */
+.g1 { color: gold; font-weight: bold; animation: rotate-door 5s linear infinite; }
+.g2 { color: silver; font-weight: bold; animation: rotate-door 5s linear infinite; }
+.g3 { color: #cd7f32; font-weight: bold; animation: rotate-door 5s linear infinite; }
 
 @keyframes rotate-door {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  100% { transform: rotateY(360deg); }
 }
 
-/* リンクスタイル */
+/* ========== その他要素 ========== */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
 .link {
   text-decoration: underline;
   color: blue;
 }
-
 .link:hover {
   color: darkblue;
 }
-
-/* 画像スライダー */
-#image-slider {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 20px auto;
-  background-color: #e0e0e0;
-}
-
-#image-slider .images {
-  display: flex;
-  transition: transform 1s ease-in-out;
-  animation: slide 10s linear infinite;
-}
-
-
-
-/* メニューボタン */
 .menu-button {
   display: block;
   margin: 20px auto;
@@ -539,23 +219,11 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .menu-button:hover {
   background-color: #0056b3;
 }
-
-/* フッター */
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #4CAF50;
-  color: white;
-  margin-top: 20px;
-}
-
-/* フェブラリーステークスタイトル */
 .race-title {
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
   background-color: pink;
@@ -566,8 +234,6 @@ footer {
   width: 80%;
   border-radius: 5px;
 }
-
-/* 情報ボックス */
 .info-box {
   font-size: 16px;
   font-weight: bold;
@@ -576,183 +242,8 @@ footer {
   padding: 15px;
   margin: 20px auto;
   width: 80%;
-  height: auto;
   line-height: 1.6;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.info-box h3 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.info-box p {
-  text-align: justify;
-  margin: 0;
-}
-
-/* 騎手リーディング表のスタイル */
-
-.jockey-leaderboard {
-  margin: 20px auto; /* 中央寄せ */
-  width: 50%; /* 表の幅を調整 */
-  border: 4px ridge #888; /* 3D罫線スタイル */
-  padding: 20px;
-  background-color: #f9f9f9; /* 背景色 */
-}
-.jockey-leaderboard h2 {
-  text-align: center; /* タイトルを中央寄せ */
-  font-size: 1.5em;
-  margin-bottom: 15px;
-}
-.jockey-leaderboard table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.jockey-leaderboard th, .jockey-leaderboard td {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 10px;
-}
-.jockey-leaderboard th {
-  background-color: #e0e0e0; /* ヘッダーの背景色 */
-}
-.note-thumbnail {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.note-image {
-    width: 100%; /* 親要素の幅に合わせて調整 */
-    max-width: 300px; /* 最大サイズを指定 */
-    height: auto; /* 縦横比を維持 */
-    border-radius: 8px; /* 角丸を適用 */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* 軽い影を追加 */
-}
-
-#image-slider {
-    overflow: hidden;
-    width: 90%;
-    height: 50vh; /* 画像の高さを7割に縮小 */
-    position: relative;
-}
-
-.slider-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70%;
-}
-
-.slider-track {
-    display: flex;
-    transition: transform 0.5s linear;
-    will-change: transform;
-}
-
-.slider-track img {
-    width: auto;
-    height: 70%; /* 画像の高さを7割に縮小 */
-    object-fit: contain;
-}
-
-/* アニメーション */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-1024px); }
-}
-
-.slider-track {
-    animation: slide 60s infinite linear;
-}
-/* 全体の背景色：明るいグリーン系 */
-.green-background {
-    background-color: #e8f5e9; /* 薄い緑色（パステルグリーン系） */
-    margin: 0;
-    padding: 0;
-    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-}
-
-/* h1+h2を囲むボックス */
-.hero-box {
-    background-color: #ffffff;
-    border: 2px solid #a5d6a7; /* 淡い緑の枠線 */
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 80, 0, 0.2); /* 浮き上がるような影 */
-    padding: 30px;
-    margin: 30px auto;
-    width: 90%;
-    max-width: 960px;
-    box-sizing: border-box;
-}
-
-/* h1, h2の整形 */
-.hero-box h1, .hero-box h2 {
-    margin: 0 0 20px 0;
-    font-weight: 600;
-    line-height: 1.6;
-    white-space: pre-line; /* スペースと改行を維持 */
-}
-
-.hero-box h1 {
-    font-size: 1.6rem;
-    color: #2e7d32;
-}
-
-.hero-box h2 {
-    font-size: 1.1rem;
-    color: #4e4e4e;
-}
-.slider-box {
-    background-color: #ffffff;
-    border: 4px solid #81c784; /* 明るめ緑色の太い罫線 */
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0, 100, 0, 0.25); /* やや深めの浮き上がり感 */
-    padding: 25px;
-    margin: 30px auto;
-    width: 100%;
-    max-width: 1300px;
-    box-sizing: border-box;
-}
-.race-box {
-    background-color: #ffffff;
-    border: 4px solid #66bb6a; /* 緑系の太めの枠線 */
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0, 100, 0, 0.25); /* 少し深めの立体感 */
-    padding: 20px;
-    margin: 30px auto;
-    width: 100%;
-    max-width: 960px;
-    box-sizing: border-box;
-}
-.ranking-box {
-    background-color: #ffffff;
-    border: 4px solid #66bb6a;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0, 100, 0, 0.25);
-    padding: 20px;
-    margin: 30px auto;
-    width: 95%;
-    max-width: 960px;
-    box-sizing: border-box;
-    overflow-x: auto; /* 横スクロール対策 */
-}
-
-.ranking-table {
-    width: 100%;
-    table-layout: fixed;           /* 等幅列指定ではみ出し防止 */
-    border-collapse: collapse;
-    font-size: 0.95rem;
-}
-
-.ranking-table th,
-.ranking-table td {
-    border: 1px solid #ccc;
-    padding: 8px 10px;
-    text-align: center;
-    white-space: nowrap;          /* 折り返し防止で1行に */
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
+.info-box h3 { color: #333; margin-bottom: 10px; }
+.info-box p { margin: 0; text-align: justify; }
