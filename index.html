@@ -1,266 +1,163 @@
-/* ========== 基本設定 ========== */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Hiragino Kaku Gothic ProN", Arial, sans-serif;
-  background-color: #e8f5e9;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>競馬の図書館</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="green-background">
+  <header>
+    <h1>競馬の図書館</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="g1.html">G1レース</a></li>
+        <li><a href="#g2">G2レース</a></li>
+        <li><a href="#g3">G3レース</a></li>
+        <li><a href="#review">レース回顧</a></li>
+        <li><a href="2025win5.html">WIN5</a></li>
+        <li><a href="yosou.html">予想印</a></li>
+      </ul>
+    </nav>
+  </header>
 
-/* ========== ヘッダーとナビ ========== */
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
-nav ul li {
-  margin: 5px 10px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
+  <main>
+    <!-- ヒーローセクション -->
+    <section class="hero-box">
+      <h1>　　競馬の図書館へようこそ</h1>
+      <h2>
+        2025年の毎週の重賞レース毎に「見どころ」「展開予想」「レース回顧」をお届けしています。<br/>
+        G1については払い戻し等の成績を掲載しています。<br/>
+        また、2025年の実際のデータを基に「3連単の黄金パターン」を解説した動画や<br/>
+        黄金パターンが判るファイルをnoteにて販売しています。ぜひご覧ください。
+      </h2>
+    </section>
 
-/* ========== レイアウト対応 ========== */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 20px;
-}
-.left, .center, .right {
-  flex: 1 1 100%;
-  box-sizing: border-box;
-}
-@media (min-width: 768px) {
-  .left {
-    flex: 1 1 25%;
-  }
-  .center {
-    flex: 1 1 50%;
-  }
-  .right {
-    flex: 1 1 25%;
-  }
-}
+    <!-- スライダー -->
+    <section class="slider-box">
+      <div id="image-slider">
+        <div class="slider-container">
+			<div class="slider-track" id="sliderTrack">
+			  <!-- 元の画像 -->
+			  <img src="images/a2.png" alt="画像2" class="note-image" />
+			  <img src="images/a3.png" alt="画像3" class="note-image" />
+			  <img src="images/a4.png" alt="画像4" class="note-image" />
+			  <img src="images/a5.png" alt="画像5" class="note-image" />
+			  <img src="images/a6.png" alt="画像6" class="note-image" />
+			  <img src="images/a7.png" alt="画像7" class="note-image" />
+			  <img src="images/a8.png" alt="画像8" class="note-image" />
+			  <img src="images/a9.png" alt="画像9" class="note-image" />
+			  <img src="images/a10.png" alt="画像10" class="note-image" />
+			  <img src="images/a11.png" alt="画像11" class="note-image" />
+			  
+			  <!-- ★ 複製画像 -->
+			  <img src="images/a2.png" alt="画像2" class="note-image" />
+			  <img src="images/a3.png" alt="画像3" class="note-image" />
+			  <img src="images/a4.png" alt="画像4" class="note-image" />
+			  <img src="images/a5.png" alt="画像5" class="note-image" />
+			  <img src="images/a6.png" alt="画像6" class="note-image" />
+			  <img src="images/a7.png" alt="画像7" class="note-image" />
+			  <img src="images/a8.png" alt="画像8" class="note-image" />
+			  <img src="images/a9.png" alt="画像9" class="note-image" />
+			  <img src="images/a10.png" alt="画像10" class="note-image" />
+			  <img src="images/a11.png" alt="画像11" class="note-image" />
+			</div>
+        </div>
+      </div>
+    </section>
 
-/* ========== 今週の重賞セクション ========== */
-#race-section {
-  width: 100%;
-  margin: 20px 0;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-#race-section h2 {
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 15px;
-}
-.race-box, .ranking-box {
-  background-color: #ffffff;
-  border: 4px solid #66bb6a;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 100, 0, 0.25);
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 960px;
-  overflow-x: auto;
-}
-#race-section table, .ranking-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.95rem;
-}
-#race-section th, #race-section td, .ranking-table th, .ranking-table td {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 8px 10px;
-  white-space: nowrap;
-}
-#race-section th {
-  background-color: #f0f0f0;
-}
+    <!-- コンテンツ本体 -->
+    <div class="container">
 
-/* ========== G1スケジュール表 ========== */
-.schedule {
-  border: 4px ridge #888;
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-.schedule h1 {
-  text-align: center;
-  font-size: 1.5em;
-}
-.schedule table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.schedule th, .schedule td {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 10px;
-}
-.schedule th {
-  background-color: #e0e0e0;
-}
+      <!-- スケジュールセクション -->
+      <section class="schedule-section">
+        <h1>2025年 GIレーススケジュール</h1>
+        <table>
+          <thead>
+            <tr><th>日付</th><th>G1名</th><th>競馬場名</th><th>距離</th></tr>
+          </thead>
+          <tbody>
+            <!-- 略：G1レース一覧（そのまま） -->
+            <!-- お好みに応じて include 対応も可能です -->
+            <!-- ... -->
+          </tbody>
+        </table>
+      </section>
 
-/* ========== スライダー ========== */
-.slider-box {
-  background-color: #ffffff;
-  border: 4px solid #81c784;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 100, 0, 0.25);
-  padding: 25px;
-  margin: 30px auto;
-  max-width: 1300px;
-}
-#image-slider {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
+      <!-- レース情報とランキング -->
+      <section class="race-section">
+        <h2><strong>★☆★☆＜＜今週の重賞＞＞★☆★☆</strong></h2>
+        <div id="race-section" class="race-box">
+          <table>
+            <thead>
+              <tr><th>グレード</th><th>レース名</th><th>展開予想</th><th>レース回顧</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="g1">G1</td>
+                <td><a href="takarazuka.html">宝塚記念</a></td>
+                <td><a href="takarazuka.html#preview">展開予想</a></td>
+                <td><a href="takarazuka.html#review">レース回顧</a></td>
+              </tr>
+              <tr>
+                <td class="g3">G3</td>
+                <td><a href="hakodate_sprint.html">函館スプリントステークス</a></td>
+                <td><a href="hakodate_sprint_preview.html">展開予想</a></td>
+                <td><a href="hakodate_sprint_review.html">レース回顧</a></td>
+              </tr>
+              <tr>
+                <td class="g3">G3</td>
+                <td><a href="tokyo_jump.html">東京ジャンプステークス</a></td>
+                <td><a href="tokyo_jump_preview.html">展開予想</a></td>
+                <td><a href="tokyo_jump_review.html">レース回顧</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-.slider-container {
-  overflow: hidden;
-  width: 100%;
-  height: 200px; /* 画像の高さを固定 */
-}
+        <div class="ranking-box" id="jockey-ranking">
+          <h2>2025年 JRA 騎手リーディング（2025/06/09時点）</h2>
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th>順位</th><th>騎手名</th><th>1着</th><th>2着</th><th>3着</th><th>騎乗数</th><th>勝率</th><th>連対率</th><th>複勝率</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 略：ランキングデータ -->
+              <!-- ... -->
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-.slider-track {
-  display: flex;
-  width: max-content;
-  animation: slide 120s linear infinite;
-}
+      <!-- NOTE関連 -->
+      <aside class="note-section">
+        <section class="note-links">
+          <h2>NOTEで販売しているファイルはこちら↓</h2>
+          <h2>3連単の黄金パターンはこちら</h2>
+          <div class="note-thumbnail">
+            <a href="https://note.com/coro_pepa/n/nb8ae07628eed" target="_blank">
+              <img src="images/note.png" alt="noteのヘッダー画像" class="note-image" />
+            </a>
+          </div>
+        </section>
+        <aside class="note-sidebar">
+          <h3>関連noteリンク</h3>
+          <ul>
+            <li><a href="#">noteリンク1</a></li>
+            <li><a href="#">noteリンク2</a></li>
+            <li><a href="#">noteリンク3</a></li>
+          </ul>
+        </aside>
+      </aside>
 
-.slider-track img {
-  flex: 0 0 20%; /* 一度に5枚表示 */
-  height: 100%;
-  object-fit: contain;
-  padding: 0 5px; /* 馬名が見切れないよう左右に余白 */
-}
+    </div>
+  </main>
 
-/* ========== タイトルボックス（h1/h2） ========== */
-.hero-box {
-  background-color: #ffffff;
-  border: 2px solid #a5d6a7;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 80, 0, 0.2);
-  padding: 30px;
-  margin: 30px auto;
-  max-width: 960px;
-}
-.hero-box h1 {
-  font-size: 1.6rem;
-  color: #2e7d32;
-}
-.hero-box h2 {
-  font-size: 1.1rem;
-  color: #4e4e4e;
-  white-space: pre-line;
-}
-
-/* ========== NOTEサムネイル ========== */
-.note-thumbnail {
-  text-align: center;
-  margin-top: 10px;
-}
-.note-image {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
-
-/* ========== 色分けとアニメーション ========== */
-.g1 { color: gold; font-weight: bold; animation: rotate-door 5s linear infinite; }
-.g2 { color: silver; font-weight: bold; animation: rotate-door 5s linear infinite; }
-.g3 { color: #cd7f32; font-weight: bold; animation: rotate-door 5s linear infinite; }
-
-@keyframes rotate-door {
-  0% { transform: rotateY(0deg); }
-  50% { transform: rotateY(180deg); }
-  100% { transform: rotateY(360deg); }
-}
-
-/* ========== その他要素 ========== */
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #4CAF50;
-  color: white;
-  margin-top: 20px;
-}
-.link {
-  text-decoration: underline;
-  color: blue;
-}
-.link:hover {
-  color: darkblue;
-}
-.menu-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.menu-button:hover {
-  background-color: #0056b3;
-}
-.race-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-style: italic;
-  background-color: pink;
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ccc;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 5px;
-}
-.info-box {
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 20px auto;
-  width: 80%;
-  line-height: 1.6;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.info-box h3 { color: #333; margin-bottom: 10px; }
-.info-box p { margin: 0; text-align: justify; }
-
-
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-
+  <footer>
+    <p>© 2025 競馬図書館</p>
+  </footer>
+</body>
+</html>
