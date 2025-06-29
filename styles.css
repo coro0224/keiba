@@ -93,6 +93,25 @@
 	#race-section th {
 	  background-color: #f0f0f0;
 	}
+	.race-table-large {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.8rem;       /*  文字サイズ約2倍 */
+  line-height: 1.6;
+  table-layout: fixed;
+}
+
+.race-table-large th,
+.race-table-large td {
+  border: 2px solid #444;  /*  枠線太く */
+  padding: 20px 24px;      /*  内側余白も拡大 */
+  text-align: center;
+  white-space: nowrap;     /*  折り返し防止 */
+}
+
+.race-table-large th {
+  background-color: #f0f0f0;
+}
 
 	/* ========== G1スケジュール表 ========== */
 	.schedule {
