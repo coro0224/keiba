@@ -135,11 +135,6 @@ nav ul li a {
   margin: 0 auto;
 }
 
-.slider-container {
-  overflow: hidden;
-  width: 100%;
-  height: 260px; /* 🟢 馬名がしっかり見える高さに拡大 */
-}
 
 .slider-track {
   display: flex;
@@ -147,13 +142,25 @@ nav ul li a {
   animation: slide 120s linear infinite;
 }
 
-.slider-track img {
-  flex: 0 0 20%;
-  height: 100%;
-  padding: 0 8px;
-  object-fit: contain; /* 🔄 馬名含めて全体が収まるように */
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  height: 300px; /* 🟢 馬名含めて画像全体が見える高さに */
 }
 
+.slider-track {
+  display: flex;
+  animation: slide 120s linear infinite;
+  width: max-content;
+}
+
+.slider-track img {
+  flex: 0 0 20%;  /* 5枚表示 */
+  height: 100%;
+  object-fit: contain;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
 
 /* ========== タイトルボックス（h1/h2） ========== */
 .hero-box {
