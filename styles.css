@@ -249,19 +249,9 @@
 	}
 
 	/* ========== 色分けとアニメーション ========== */
-	.g1 { color: gold; font-weight: bold; animation: rotate-door 5s linear infinite; }
-	.g2 { color: silver; font-weight: bold; animation: rotate-door 5s linear infinite; }
-	.g3 { color: #cd7f32; font-weight: bold; animation: rotate-door 5s linear infinite; }
-	.race-table-large td.g1,
-	.race-table-large td.g2,
-	.race-table-large td.g3 {
-	  font-size: 2.4rem;        /* ?? 枠に収まる最大サイズに調整 */
-	  vertical-align: middle;
-	  padding: 12px;
-	  white-space: nowrap;
-	  overflow: hidden;
-	  text-overflow: ellipsis;
-	}
+	.g1 { color: gold; font-weight: bold; animation: rotate-door 5s linear infinite; font-size: 2.4rem; }
+	.g2 { color: silver; font-weight: bold; animation: rotate-door 5s linear infinite; font-size: 2.4rem; }
+	.g3 { color: #cd7f32; font-weight: bold; animation: rotate-door 5s linear infinite; font-size: 2.4rem; }
 	
 	@keyframes rotate-door {
 	  0% { transform: rotateY(0deg); }
