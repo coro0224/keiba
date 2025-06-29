@@ -129,7 +129,7 @@ nav ul li a {
 }
 #image-slider {
   width: 100%;
-  height: 200px;
+  height: 430px;
   overflow: hidden;
   position: relative;
   margin: 0 auto;
@@ -145,7 +145,7 @@ nav ul li a {
 .slider-container {
   overflow: hidden;
   width: 100%;
-  height: 300px; /* 🟢 馬名含めて画像全体が見える高さに */
+  height: 450px; /* ?? 馬名含めて画像全体が見える高さに */
 }
 
 .slider-track {
