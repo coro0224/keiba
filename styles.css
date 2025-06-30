@@ -334,16 +334,16 @@
 
 .race-block {
   margin-bottom: 16px;
-  border: 2px solid #388e3c;          /* より深い緑で枠線を強調 */
+  border: 2px solid #2e7d32;           /* 濃い緑の枠線でタグ感UP */
   border-radius: 8px;
-  background-color: #c8e6c9;          /* 明るめでしっかり緑を感じる */
+  background-color: #c5e1a5;           /* 明るくくっきりした緑背景 */
   overflow: hidden;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .race-block[open] {
   box-shadow: 0 4px 12px rgba(0, 80, 0, 0.15);
-  background-color: #a5d6a7;          /* 展開時に少し濃くして動きも演出 */
+  background-color: #aed581;           /* 展開時にさらに濃い緑へ切り替え */
 }
 
 .race-block summary {
@@ -357,7 +357,7 @@
 }
 
 .race-block summary::-webkit-details-marker {
-  display: none; /* マーカー非表示（Chrome系） */
+  display: none;
 }
 
 .race-block p {
@@ -365,5 +365,4 @@
   margin: 0;
   font-size: 1.2rem;
 }
-
 
