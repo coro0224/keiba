@@ -31,38 +31,26 @@ document.querySelectorAll('.g1, .g2, .g3').forEach(item => {
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const track = document.getElementById("sliderTrack");
-    const images = document.querySelectorAll(".note-image");
-    const imageCount = images.length;
+  document.addEventListener("DOMContentLoaded", () => {
+    const headers = document.querySelectorAll(".accordion-header");
 
-    // 最初の2枚を複製して末尾に追加（ループ用）
-    for (let i = 0; i < 2; i++) {
-        const clone = images[i].cloneNode(true);
-        track.appendChild(clone);
-    }
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        const content = header.nextElementSibling;
+        const isOpen = content.classList.contains("open");
 
-    let index = 0;
-    let slideWidth = images[0].offsetWidth + 10; // 画像幅＋マージン
+        // すべて閉じる
+        document.querySelectorAll(".accordion-content").forEach(c => {
+          c.classList.remove("open");
+          c.style.maxHeight = null;
+        });
 
-    const moveNext = () => {
-        index++;
-        track.style.transition = "transform 0.5s linear";
-        track.style.transform = `translateX(-${slideWidth * index}px)`;
-
-        // 複製を含めた末尾に達した直後に戻す
-        if (index === imageCount) {
-            setTimeout(() => {
-                track.style.transition = "none";
-                track.style.transform = "translateX(0)";
-                index = 0;
-            }, 500); // transitionと同じ時間
+        // 対象を展開
+        if (!isOpen) {
+          content.classList.add("open");
+          content.style.maxHeight = content.scrollHeight + "px";
         }
-    };
-
-    // 初回の画像ロードが終わったら幅を再取得（安全対策）
-    window.addEventListener("load", () => {
-        slideWidth = images[0].offsetWidth + 10;
-        setInterval(moveNext, 3000);
+      });
     });
-});
+  });
+
