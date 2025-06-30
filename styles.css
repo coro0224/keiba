@@ -324,4 +324,41 @@
 	  }
 	}
 
+.race-accordion {
+  max-width: 960px;
+  margin: 30px auto;
+}
+
+.accordion-header {
+  background-color: #66bb6a;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 16px 20px;
+  text-align: left;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+.accordion-header:hover {
+  background-color: #4caf50;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  padding: 0 20px;
+  border-left: 4px solid #a5d6a7;
+  border-radius: 0 0 6px 6px;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.accordion-content.open {
+  padding: 16px 20px;
+}
 
