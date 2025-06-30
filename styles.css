@@ -329,41 +329,41 @@
 .race-summary {
   max-width: 960px;
   margin: 30px auto;
-}
-
-.race-summary {
-  max-width: 960px;
-  margin: 30px auto;
   padding: 0 16px;
 }
 
 .race-block {
   margin-bottom: 16px;
-  border: 2px solid #a5d6a7; /* 薄緑の枠線 */
+  border: 2px solid #388e3c;          /* より深い緑で枠線を強調 */
   border-radius: 8px;
-  background-color: #e8f5e9; /* 薄緑の背景 */
-  transition: box-shadow 0.3s ease;
+  background-color: #c8e6c9;          /* 明るめでしっかり緑を感じる */
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .race-block[open] {
-  box-shadow: 0 4px 12px rgba(0, 100, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 80, 0, 0.15);
+  background-color: #a5d6a7;          /* 展開時に少し濃くして動きも演出 */
 }
 
 .race-block summary {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  padding: 16px;
   cursor: pointer;
   list-style: none;
-  outline: none;
+  padding: 16px 20px;
+  color: #1b5e20;
+  user-select: none;
 }
 
-.race-block summary::marker {
-  display: none; /* マーカー非表示（互換性に注意） */
+.race-block summary::-webkit-details-marker {
+  display: none; /* マーカー非表示（Chrome系） */
 }
 
 .race-block p {
-  padding: 0 16px 12px 16px;
+  padding: 4px 24px 12px 24px;
   margin: 0;
+  font-size: 1.2rem;
 }
+
 
