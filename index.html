@@ -203,5 +203,31 @@
   <footer>
     <p>© 2025 競馬図書館</p>
   </footer>
+  <!-- アコーディオン本体（省略） -->
+
+<!-- 🔻 JavaScriptをbody末に配置することで確実に動く -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        const content = header.nextElementSibling;
+        const isOpen = content.classList.contains("open");
+
+        document.querySelectorAll(".accordion-content").forEach(c => {
+          c.classList.remove("open");
+          c.style.maxHeight = null;
+        });
+
+        if (!isOpen) {
+          content.classList.add("open");
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
