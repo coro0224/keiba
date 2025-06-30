@@ -31,6 +31,7 @@ document.querySelectorAll('.g1, .g2, .g3').forEach(item => {
 
 
 
+<script>
   document.addEventListener("DOMContentLoaded", () => {
     const headers = document.querySelectorAll(".accordion-header");
 
@@ -53,4 +54,5 @@ document.querySelectorAll('.g1, .g2, .g3').forEach(item => {
       });
     });
   });
+</script>
 
