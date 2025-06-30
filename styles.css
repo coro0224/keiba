@@ -361,4 +361,28 @@
 .accordion-content.open {
   padding: 16px 20px;
 }
+.race-summary {
+  max-width: 960px;
+  margin: 30px auto;
+}
+
+.race-block {
+  margin-bottom: 16px;
+  border: 2px solid #a5d6a7;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #f9f9f9;
+}
+
+.race-block summary {
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  padding: 8px 0;
+}
+
+.race-block[open] {
+  box-shadow: 0 4px 12px rgba(0, 100, 0, 0.1);
+}
 
