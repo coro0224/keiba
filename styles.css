@@ -235,42 +235,46 @@
 }
 
 
-	/* ========== NOTEサムネイル ========== */
-	.note-thumbnail {
-	  text-align: center;
-	  margin-top: 10px;
-	}
-	.note-image {
-	  width: 100%;
-	  max-width: 300px;
-	  height: auto;
-	  border-radius: 8px;
-	  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-	}
+/* ========== NOTEサムネイル ========== */
+.note-thumbnail {
+  text-align: center;
+  margin-top: 10px;
+}
+.note-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
 
-	/* ========== 色分けとアニメーション ========== */
-	@keyframes rotate-door {
-	  0% { transform: rotateY(0deg); }
-	  50% { transform: rotateY(180deg); }
-	  100% { transform: rotateY(360deg); }
-	}
-	.g1, .g2, .g3 {
-	  display: inline-block;
-	  font-weight: bold;
-	  animation: rotateY 5s linear infinite;
-	  transform-style: preserve-3d;
-	  backface-visibility: hidden;
-	}
+/* ========== 色分けとアニメーション ========== */
+@keyframes rotate-door {
+  0% { transform: rotateY(0deg); }
+  50% { transform: rotateY(180deg); }
+  100% { transform: rotateY(360deg); }
+}
 
-	.g1 { color: gold; }
-	.g2 { color: silver; }
-	.g3 { color: #cd7f32; }
+/* グレード表示の共通回転スタイル */
+.g1, .g2, .g3 {
+  display: inline-block;
+  font-weight: bold;
+  animation: rotateY 4s linear infinite; /* 🔄 回転速度を 8秒に変更（ゆっくり） */
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.g1 { color: gold; }
+.g2 { color: silver; }
+.g3 { color: #cd7f32; }
 
-	@keyframes rotateY {
-	  0%   { transform: rotateY(0deg); }
-	  100% { transform: rotateY(360deg); }
-	}
+@keyframes rotateY {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
 
+.g1:hover, .g2:hover, .g3:hover {
+  animation-play-state: paused;
+}
 
 	/* ========== その他要素 ========== */
 	footer {
