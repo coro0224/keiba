@@ -340,7 +340,7 @@
   transform-style: preserve-3d;
   backface-visibility: hidden;
 }
-.g1 { color: gold; }
+.g1 { color: red; }
 .g2 { color: silver; }
 .g3 { color: #cd7f32; }
 
