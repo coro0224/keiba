@@ -334,28 +334,41 @@
 
 .race-block {
   margin-bottom: 16px;
-  border: 2px solid #2e7d32;           /* 濃い緑の枠線でタグ感UP */
+  border: 2px solid #2e7d32;
   border-radius: 8px;
-  background-color: #c5e1a5;           /* 明るくくっきりした緑背景 */
-  overflow: hidden;
+  background-color: #c5e1a5;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+
 .race-block[open] {
-  box-shadow: 0 4px 12px rgba(0, 80, 0, 0.15);
-  background-color: #aed581;           /* 展開時にさらに濃い緑へ切り替え */
+  background-color: #aed581;
 }
 
 .race-block summary {
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-  list-style: none;
   padding: 16px 20px;
   color: #1b5e20;
   user-select: none;
-  position: relative;
-  padding-left: 2.2em; /* アイコンのスペースを確保 */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.arrow-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid #1b5e20;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  transition: transform 0.3s ease;
+}
+
+.race-block[open] .arrow-icon {
+  transform: rotate(90deg); /* ▶→▼ に回転 */
 }
 
 
