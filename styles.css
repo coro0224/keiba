@@ -354,7 +354,10 @@
   padding: 16px 20px;
   color: #1b5e20;
   user-select: none;
+  position: relative;
+  padding-left: 2.2em; /* アイコンのスペースを確保 */
 }
+
 
 .race-block summary::-webkit-details-marker {
   display: none;
@@ -364,5 +367,20 @@
   padding: 4px 24px 12px 24px;
   margin: 0;
   font-size: 1.2rem;
+}
+
+.race-block summary::before {
+  content: "＋";
+  position: absolute;
+  left: 0.8em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  color: #2e7d32;
+  transition: content 0.3s ease;
+}
+
+.race-block[open] summary::before {
+  content: "−";
 }
 
