@@ -292,7 +292,7 @@
   gap: 10px;
 }
 
-/* 展開アイコン ▶→▼ */
+/* 展開アイコン ?→▼ */
 .arrow-icon {
   width: 0;
   height: 0;
@@ -333,16 +333,33 @@
 }
 
 /* グレード表示の共通回転スタイル */
-.g1, .g2, .g3 {
+.g2, .g3 {
   display: inline-block;
   font-weight: bold;
-  animation: rotateY 4s linear infinite; /* 🔄 回転速度を 8秒に変更（ゆっくり） */
+  animation: rotateY 4s linear infinite; /* ? 回転速度を 8秒に変更（ゆっくり） */
   transform-style: preserve-3d;
-  backface-visibility: hidden;
+  backface-visibility: visible;
 }
-.g1 { color: red; }
 .g2 { color: silver; }
 .g3 { color: #cd7f32; }
+
+.g1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: linear-gradient(135deg, #ff4c4c, #b71c1c); /* 🔴 濃淡の赤グラデーション */
+  color: white;
+  padding: 2px 8px;
+  border-radius: 6px;
+  animation: rotateY 8s linear infinite;
+  transform-style: preserve-3d;
+  backface-visibility: visible; /* 裏面も表示 */
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+.g1:hover {
+  animation-play-state: paused;
+}
 
 @keyframes rotateY {
   0%   { transform: rotateY(0deg); }
@@ -462,7 +479,7 @@
 }
 
 .race-block[open] .arrow-icon {
-  transform: rotate(90deg); /* ▶→▼ に回転 */
+  transform: rotate(90deg); /* ?→▼ に回転 */
 }
 
 
@@ -488,6 +505,6 @@
 }
 
 .race-block[open] summary::before {
-  content: "−";
+  content: "?";
 }
 
