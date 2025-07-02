@@ -584,4 +584,26 @@
   border: 1px solid #ccc;
   text-align: center;
 }
+/* 1位に金色ボーダー */
+.ranking-table tbody tr:first-child {
+  border: 2px solid gold;
+  background: linear-gradient(90deg, #fff8e1, #fffde7);
+  font-weight: bold;
+}
+
+/* 2位にシルバーグラデ */
+.ranking-table tbody tr:nth-child(2) {
+  background: linear-gradient(90deg, #eceff1, #ffffff);
+  font-weight: bold;
+  border-left: 3px solid #b0bec5;
+  border-right: 3px solid #b0bec5;
+}
+
+/* 3位にブロンズグラデ */
+.ranking-table tbody tr:nth-child(3) {
+  background: linear-gradient(90deg, #fbe9e7, #ffccbc);
+  font-weight: bold;
+  border-left: 3px solid #bf360c;
+  border-right: 3px solid #bf360c;
+}
 
