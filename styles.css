@@ -511,9 +511,11 @@
 /* セクション見出し */
 .g1-label {
   display: inline-block;
+  animation: rotateY 8s linear infinite;
   font-weight: bold;
   font-size: 2rem;
   color: red;
+  transform-style: preserve-3d;
   backface-visibility: visible;
 }
 
@@ -613,6 +615,8 @@
 
 .g1-label {
   display: inline-block;
+  animation: rotateY 8s linear infinite;
+  transform-style: preserve-3d;
   backface-visibility: visible;
   font-weight: bold;
   font-size: 2rem;
