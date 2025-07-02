@@ -607,3 +607,61 @@
   border-right: 3px solid #bf360c;
 }
 
+.note-summary {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.g1-label {
+  display: inline-block;
+  backface-visibility: visible;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+.note-block {
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+  background-color: #c5e1a5;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.note-block[open] {
+  background-color: #aed581;
+  box-shadow: 0 4px 12px rgba(0, 80, 0, 0.15);
+}
+
+.note-block summary {
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 16px 20px;
+  color: #1b5e20;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow-icon {
+  width: 0;
+  height: 0;
+  border-left: 10px solid #1b5e20;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  transition: transform 0.3s ease;
+}
+
+.note-block[open] .arrow-icon {
+  transform: rotate(90deg);
+}
+
+.note-block p {
+  padding: 4px 24px 12px 24px;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
