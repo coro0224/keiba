@@ -508,3 +508,80 @@
   content: "?";
 }
 
+/* セクション見出し */
+.g1-label {
+  display: inline-block;
+  animation: rotateY 8s linear infinite;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+}
+
+/* 展開アコーディオン枠 */
+.ranking-block {
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+  background-color: #c5e1a5;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.ranking-block[open] {
+  background-color: #aed581;
+  box-shadow: 0 4px 10px rgba(0, 80, 0, 0.15);
+}
+
+/* summary部分 */
+.ranking-block summary {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 16px 20px;
+  color: #1b5e20;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 展開アイコン */
+.arrow-icon {
+  width: 0;
+  height: 0;
+  border-left: 10px solid #1b5e20;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  transition: transform 0.3s ease;
+}
+.ranking-block[open] .arrow-icon {
+  transform: rotate(90deg);
+}
+
+/* 表レイアウト */
+.ranking-table-container {
+  padding: 10px 20px 20px;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.ranking-table th {
+  background-color: #81c784;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #666;
+  font-weight: bold;
+}
+
+.ranking-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
