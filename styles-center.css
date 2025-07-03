@@ -1,0 +1,169 @@
+/* セクション共通 */
+.schedule-summary,
+.race-summary,
+.note-summary,
+.ranking-summary {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+/* G1見出し（回転あり） */
+.g1-label {
+  display: inline-block;
+  animation: rotateY 8s linear infinite;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+/* グレード装飾：.g1, .g2, .g3 */
+.g1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(135deg, #ff4c4c, #b71c1c);
+  color: white;
+  padding: 1px 4px;
+  border-radius: 4px;
+  animation: rotateY 8s linear infinite;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.3);
+  line-height: 1;
+}
+
+.g2, .g3 {
+  display: inline-block;
+  font-weight: bold;
+  animation: rotateY 4s linear infinite;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+}
+
+.g2 { color: silver; }
+.g3 { color: #cd7f32; }
+
+.g1:hover,
+.g2:hover,
+.g3:hover {
+  animation-play-state: paused;
+}
+
+/* ?→▼ 展開アイコン */
+.arrow-icon {
+  width: 0;
+  height: 0;
+  border-left: 10px solid #1b5e20;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  margin-right: 8px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+details[open] .arrow-icon {
+  transform: rotate(90deg);
+}
+
+/* summary 本体 */
+details summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.4;
+  flex-wrap: wrap;
+  white-space: normal;
+  word-break: break-word;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #1b5e20;
+  padding: 16px 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* details ブロック背景 */
+.schedule-block,
+.race-block,
+.ranking-block,
+.note-block {
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+  background-color: #c5e1a5;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-block[open],
+.race-block[open],
+.ranking-block[open],
+.note-block[open] {
+  background-color: #aed581;
+  box-shadow: 0 4px 10px rgba(0, 80, 0, 0.15);
+}
+
+.schedule-block p,
+.race-block p,
+.note-block p {
+  padding: 4px 24px 12px 24px;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* 騎手表：テーブル構成 */
+.ranking-table-container {
+  padding: 10px 20px 20px;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.ranking-table th {
+  background-color: #81c784;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #666;
+  font-weight: bold;
+}
+
+.ranking-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* リーディング上位装飾 */
+.ranking-table tbody tr:first-child {
+  border: 2px solid gold;
+  background: linear-gradient(90deg, #fff8e1, #fffde7);
+  font-weight: bold;
+}
+
+.ranking-table tbody tr:nth-child(2) {
+  background: linear-gradient(90deg, #eceff1, #ffffff);
+  font-weight: bold;
+  border-left: 3px solid #b0bec5;
+  border-right: 3px solid #b0bec5;
+}
+
+.ranking-table tbody tr:nth-child(3) {
+  background: linear-gradient(90deg, #fbe9e7, #ffccbc);
+  font-weight: bold;
+  border-left: 3px solid #bf360c;
+  border-right: 3px solid #bf360c;
+}
+
+/* 回転キー */
+@keyframes rotateY {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
