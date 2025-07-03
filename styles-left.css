@@ -36,8 +36,11 @@ nav ul li a {
 }
 
 .container {
-  display: block;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -48,3 +51,21 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
+.left-column {
+  flex: 1 1 20%;
+  min-width: 200px;
+  max-width: 260px;
+}
+
+.center-column {
+  flex: 1 1 55%;
+  min-width: 360px;
+}
+
+.right-column {
+  flex: 1 1 20%;
+  min-width: 200px;
+  max-width: 260px;
+}
+
