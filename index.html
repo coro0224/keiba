@@ -1,71 +1,202 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Hiragino Kaku Gothic ProN", Arial, sans-serif;
-  background-color: #e8f5e9;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>競馬の図書館</title>
+  <link rel="stylesheet" href="styles-left.css" />
+  <link rel="stylesheet" href="styles-center.css" />
+  <link rel="stylesheet" href="styles-right.css" />
 
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
+</head>
+<body class="green-background">
+  <header>
+    <h1>競馬の図書館</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="g1.html">G1レース</a></li>
+        <li><a href="#g2">G2レース</a></li>
+        <li><a href="#g3">G3レース</a></li>
+        <li><a href="#review">レース回顧</a></li>
+        <li><a href="2025win5.html">WIN5</a></li>
+        <li><a href="yosou.html">予想印</a></li>
+      </ul>
+    </nav>
+  </header>
 
-h1 {
-  margin: 20px 0;
-  color: #333;
-}
+  <main>
+    <!-- ヒーローセクション -->
+    <section class="hero-box">
+      <h1>　　競馬の図書館へようこそ</h1>
+      <h2>
+        2025年の毎週の重賞レース毎に「見どころ」「展開予想」「レース回顧」をお届けしています。<br/>
+        G1については払い戻し等の成績を掲載しています。<br/>
+        また、2025年の実際のデータを基に「3連単の黄金パターン」を解説した動画や<br/>
+        黄金パターンが判るファイルをnoteにて販売しています。ぜひご覧ください。
+      </h2>
+    </section>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
+    <!-- スライダー -->
+    <section class="slider-box">
+      <div id="image-slider">
+        <div class="slider-container">
+			<div class="slider-track" id="sliderTrack">
+			  <!-- 元の画像 -->
+			  <img src="images/a2.png" alt="画像2" class="note-image" />
+			  <img src="images/a3.png" alt="画像3" class="note-image" />
+			  <img src="images/a4.png" alt="画像4" class="note-image" />
+			  <img src="images/a5.png" alt="画像5" class="note-image" />
+			  <img src="images/a6.png" alt="画像6" class="note-image" />
+			  <img src="images/a7.png" alt="画像7" class="note-image" />
+			  <img src="images/a8.png" alt="画像8" class="note-image" />
+			  <img src="images/a9.png" alt="画像9" class="note-image" />
+			  <img src="images/a10.png" alt="画像10" class="note-image" />
+			  <img src="images/a11.png" alt="画像11" class="note-image" />
+			  
+			  <!-- ★ 複製画像 -->
+			  <img src="images/a2.png" alt="画像2" class="note-image" />
+			  <img src="images/a3.png" alt="画像3" class="note-image" />
+			  <img src="images/a4.png" alt="画像4" class="note-image" />
+			  <img src="images/a5.png" alt="画像5" class="note-image" />
+			  <img src="images/a6.png" alt="画像6" class="note-image" />
+			  <img src="images/a7.png" alt="画像7" class="note-image" />
+			  <img src="images/a8.png" alt="画像8" class="note-image" />
+			  <img src="images/a9.png" alt="画像9" class="note-image" />
+			  <img src="images/a10.png" alt="画像10" class="note-image" />
+			  <img src="images/a11.png" alt="画像11" class="note-image" />
+			</div>
+        </div>
+      </div>
+    </section>
 
-nav ul li {
-  margin: 5px 10px;
-}
+  <div class="container">
+   <div class="left-column">
+    <!-- コンテンツ本体 -->
+		<section class="schedule-summary">
+		  <h2>🏇 <span class="g1">【ＧⅠ】</span>レーススケジュール</h2>
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
+		  <details class="schedule-block">
+		    <summary>
+		      <span class="arrow-icon"></span>
+		      2/23　フェブラリーステークス　(東京・ダ1600m)
+		    </summary>
+		    <p><a href="febraurystakes.html">▶ レース詳細ページへ</a></p>
+		  </details>
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  box-sizing: border-box;
-}
+		  <details class="schedule-block">
+		    <summary>
+		      <span class="arrow-icon"></span>
+		      3/30　高松宮記念　(中京・芝1200m)
+		    </summary>
+		    <p><a href="takamatsunomiya.html">▶ レース詳細ページへ</a></p>
+		  </details>
+		</section>
+  </div>
+  <div class="center-column">
+      <!-- レース情報とランキング -->
+      <section class="race-section">
+		<section class="race-summary">
+		  <h2>★☆★☆＜＜今週の重賞＞＞★☆★☆</h2>
+			<details class="race-block">
+			  <summary>
+			    <span class="arrow-icon"></span>
+			    【<span class="g1">G1</span>】宝塚記念
+			  </summary>
+			  <p><a href="takarazuka.html#preview">▶ 展開予想を見る</a></p>
+			  <p><a href="takarazuka.html#review">▶ レース回顧を見る</a></p>
+			</details>
+		  <details class="race-block">
+			  <summary>
+			    <span class="arrow-icon"></span>
+			    【<span class="g3">GⅢ</span>】東京ジャンプステークス
+			  </summary>
+			    <p><a href="tokyo_jump_preview.html">▶ 展開予想を見る</a></p>
+			    <p><a href="tokyo_jump_review.html">▶ レース回顧を見る</a></p>
+		  </details>
+		  <details class="race-block">
+			  <summary>
+			    <span class="arrow-icon"></span>
+			    【<span class="g3">GⅢ</span>】函館スプリントステークス
+			  </summary>
+			    <p><a href="hakodate_sprint_preview.html">▶ 展開予想を見る</a></p>
+			    <p><a href="hakodate_sprint_review.html">▶ レース回顧を見る</a></p>
+		  </details>
+		</section>
 
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #4CAF50;
-  color: white;
-  margin-top: 20px;
-}
+		<section class="ranking-summary">
+		  <h2>🏇 <span class="g1-label">騎手リーディング（2025年・上位15名）</span></h2>
 
-.left-column {
-  flex: 1 1 28%;
-  min-width: 200px;
-  max-width: 260px;
-}
+		  <details class="ranking-block">
+		    <summary>
+		      <span class="arrow-icon"></span>
+		      ▶ 2025年 JRA リーディング順位一覧
+		    </summary>
 
-.center-column {
-  flex: 1 1 44%;
-  min-width: 360px;
-}
+		    <div class="ranking-table-container">
+		      <table class="ranking-table">
+		        <thead>
+		          <tr>
+		            <th>順位</th><th>騎手名</th><th>1着</th><th>2着</th><th>3着</th>
+		            <th>騎乗数</th><th>勝率</th><th>連対率</th><th>複勝率</th>
+		          </tr>
+		        </thead>
+		        <tbody>
+		          <tr><td>1</td><td>戸崎 圭太</td><td>59</td><td>50</td><td>37</td><td>368</td><td>16.0%</td><td>29.6%</td><td>39.7%</td></tr>
+		          <tr><td>2</td><td>坂井 瑠星</td><td>58</td><td>40</td><td>37</td><td>354</td><td>16.4%</td><td>27.7%</td><td>38.1%</td></tr>
+		          <tr><td>3</td><td>C.ルメール</td><td>57</td><td>40</td><td>30</td><td>227</td><td>25.1%</td><td>42.7%</td><td>55.9%</td></tr>
+		          <tr><td>4</td><td>松山 弘平</td><td>53</td><td>46</td><td>28</td><td>394</td><td>13.5%</td><td>25.1%</td><td>32.2%</td></tr>
+		          <tr><td>5</td><td>岩田 望来</td><td>53</td><td>34</td><td>27</td><td>350</td><td>15.1%</td><td>24.9%</td><td>32.6%</td></tr>
+		          <tr><td>6</td><td>丹内 祐次</td><td>52</td><td>45</td><td>56</td><td>470</td><td>11.1%</td><td>20.6%</td><td>32.6%</td></tr>
+		          <tr><td>7</td><td>横山 武史</td><td>52</td><td>34</td><td>41</td><td>365</td><td>14.2%</td><td>23.6%</td><td>34.8%</td></tr>
+		          <tr><td>8</td><td>川田 将雅</td><td>49</td><td>35</td><td>32</td><td>231</td><td>21.2%</td><td>36.4%</td><td>50.2%</td></tr>
+		          <tr><td>9</td><td>佐々木 大輔</td><td>41</td><td>38</td><td>26</td><td>435</td><td>9.4%</td><td>18.2%</td><td>24.1%</td></tr>
+		          <tr><td>10</td><td>鮫島 克駿</td><td>36</td><td>39</td><td>42</td><td>401</td><td>9.0%</td><td>18.7%</td><td>29.2%</td></tr>
+		          <tr><td>11</td><td>横山 和生</td><td>36</td><td>35</td><td>28</td><td>309</td><td>11.7%</td><td>23.0%</td><td>32.0%</td></tr>
+		          <tr><td>12</td><td>藤岡 佑介</td><td>35</td><td>19</td><td>19</td><td>210</td><td>16.7%</td><td>25.7%</td><td>34.8%</td></tr>
+		          <tr><td>13</td><td>北村 友一</td><td>34</td><td>34</td><td>21</td><td>310</td><td>11.0%</td><td>21.9%</td><td>28.7%</td></tr>
+		          <tr><td>14</td><td>幸 英明</td><td>33</td><td>23</td><td>27</td><td>447</td><td>7.4%</td><td>12.5%</td><td>18.6%</td></tr>
+		          <tr><td>15</td><td>武 豊</td><td>33</td><td>32</td><td>25</td><td>246</td><td>13.4%</td><td>26.4%</td><td>36.6%</td></tr>
+		        </tbody>
+		      </table>
+		    </div>
+		  </details>
+		</section>
+      </section>
+  </div>
+   <div class="right-column">
+        <!-- NOTE関連 -->
+	<section class="note-summary">
+	  <h2>📝 <span class="g1-label">最新NOTE一覧（2025年）</span></h2>
 
-.right-column {
-  flex: 1 1 28%;
-  min-width: 200px;
-  max-width: 260px;
-}
+	  <!-- NOTE 1 -->
+	  <details class="note-block">
+	    <summary>
+	      <span class="arrow-icon"></span>
+	      6/30 宝塚記念 レース回顧＆評価メモ
+	    </summary>
+	    <p><a href="note_takarazuka2025.html">▶ NOTEページを読む</a></p>
+	  </details>
 
+	  <!-- NOTE 2 -->
+	  <details class="note-block">
+	    <summary>
+	      <span class="arrow-icon"></span>
+	      6/23 東京ジャンプS 展開回顧＋有力馬の考察
+	    </summary>
+	    <p><a href="note_tokyojump2025.html">▶ NOTEページを読む</a></p>
+	  </details>
+	</section>
+   </div>
+      
+  </div>
+  </main>
+
+  <footer>
+    <p>© 2025 競馬図書館</p>
+  </footer>
+
+
+
+</body>
+</html>
