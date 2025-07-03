@@ -70,8 +70,9 @@
       </div>
     </section>
 
+  <div class="container">
+   <div class="left-column">
     <!-- コンテンツ本体 -->
-    <div class="container">
 		<section class="schedule-summary">
 		  <h2>🏇 <span class="g1">【ＧⅠ】</span>レーススケジュール</h2>
 
@@ -91,8 +92,8 @@
 		    <p><a href="takamatsunomiya.html">▶ レース詳細ページへ</a></p>
 		  </details>
 		</section>
-
-
+  </div>
+  <div class="center-column">
       <!-- レース情報とランキング -->
       <section class="race-section">
 		<section class="race-summary">
@@ -161,11 +162,10 @@
 		    </div>
 		  </details>
 		</section>
-
-
       </section>
-
-      <!-- NOTE関連 -->
+  </div>
+   <div class="right-column">
+        <!-- NOTE関連 -->
 	<section class="note-summary">
 	  <h2>📝 <span class="g1-label">最新NOTE一覧（2025年）</span></h2>
 
@@ -187,38 +187,16 @@
 	    <p><a href="note_tokyojump2025.html">▶ NOTEページを読む</a></p>
 	  </details>
 	</section>
+   </div>
       
-    </div>
+  </div>
   </main>
 
   <footer>
     <p>© 2025 競馬図書館</p>
   </footer>
-  <!-- アコーディオン本体（省略） -->
 
-<!-- 🔻 JavaScriptをbody末に配置することで確実に動く -->
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const headers = document.querySelectorAll(".accordion-header");
 
-    headers.forEach(header => {
-      header.addEventListener("click", () => {
-        const content = header.nextElementSibling;
-        const isOpen = content.classList.contains("open");
-
-        document.querySelectorAll(".accordion-content").forEach(c => {
-          c.classList.remove("open");
-          c.style.maxHeight = null;
-        });
-
-        if (!isOpen) {
-          content.classList.add("open");
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-      });
-    });
-  });
-</script>
 
 </body>
 </html>
