@@ -54,18 +54,13 @@ footer {
 
 .left-column {
   flex: 1 1 28%;
-  min-width: 200px;
-  max-width: 260px;
 }
 
 .center-column {
-  flex: 1 1 44%;
-  min-width: 360px;
+  flex: 1 1 10%;
 }
 
 .right-column {
   flex: 1 1 28%;
-  min-width: 200px;
-  max-width: 260px;
 }
 
