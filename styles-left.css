@@ -53,14 +53,14 @@ footer {
 }
 
 .left-column {
-  flex: 1 1 10%;
+  width: 25%;
 }
 
 .center-column {
-  flex: 1 1 44%;
+  width: 50%;
 }
 
 .right-column {
-  flex: 1 1 10%;
+  width: 25%;
 }
 
