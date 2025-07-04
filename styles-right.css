@@ -40,7 +40,6 @@
 .slider-track {
   display: flex;
   width: max-content;
-  animation: slide 120s linear infinite;
 }
 
 .slider-track img {
