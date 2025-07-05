@@ -1,0 +1,12 @@
+{
+  "name": "race-page-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
