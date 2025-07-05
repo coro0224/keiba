@@ -6,9 +6,32 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(data => {
       const container = document.getElementById("race-block-container");
-      container.innerHTML = "";
+      container.innerHTML = ""; // 既存クリア
 
-      data.races.forEach(race => {
+      const today = new Date();
+
+      // 今週の月曜～日曜を定義
+      const firstDay = new Date(today);
+      firstDay.setDate(today.getDate() - today.getDay() + 1); // 月曜
+      firstDay.setHours(0, 0, 0, 0);
+
+      const lastDay = new Date(firstDay);
+      lastDay.setDate(firstDay.getDate() + 6); // 日曜
+      lastDay.setHours(23, 59, 59, 999);
+
+      // 今週のレースのみ抽出
+      const thisWeekRaces = data.races.filter(race => {
+        const raceDate = new Date(race.date);
+        return raceDate >= firstDay && raceDate <= lastDay;
+      });
+
+      if (thisWeekRaces.length === 0) {
+        container.innerHTML = `<p>今週の重賞レースは登録されていません。</p>`;
+        return;
+      }
+
+      // 表示構築
+      thisWeekRaces.forEach(race => {
         const details = document.createElement("details");
         details.classList.add("race-block");
 
@@ -32,8 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => {
       console.error("重賞データ取得エラー:", err);
-      document.getElementById("race-block-container").innerHTML = `
-        <p style="color: red;">今週の重賞レース情報を読み込めませんでした。</p>
-      `;
+      const fallback = document.getElementById("race-block-container");
+      if (fallback) {
+        fallback.innerHTML = `<p style="color: red;">今週の重賞レース情報を読み込めませんでした。</p>`;
+      }
     });
 });
