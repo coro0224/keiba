@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="styles-left.css" />
   <link rel="stylesheet" href="styles-center.css" />
   <link rel="stylesheet" href="styles-right.css" />
+	<!-- ✅ 今週の重賞表示用 -->
+	<script src="scripts/weekly-races.js?v=20250706"></script>
+
+	<!-- ✨ 過去の重賞アーカイブ表示用（今回のスクリプト） -->
+	<script src="scripts/past-races.js?v=20250706"></script>
 
 </head>
 <body class="green-background">
@@ -102,7 +107,12 @@
 		    <!-- JSがここに自動でdetailsブロックを追加します -->
 		  </div>
 		</section>
-
+		<section class="past-race-archive">
+		  <h2>📚 過去の重賞レース</h2>
+		  <div id="past-race-container">
+		    <!-- JSがここに月別→週別→レース情報を差し込みます -->
+		  </div>
+		</section>
 		<section class="ranking-summary">
 		  <h2>🏇 <span class="g1-label">騎手リーディング（2025年・上位15名）</span></h2>
 
@@ -186,49 +196,5 @@
   <footer>
     <p>© 2025 競馬図書館</p>
   </footer>
-	<script>
-	document.addEventListener("DOMContentLoaded", () => {
-	  fetch("data/race_schedule_2025.json?v=20250706") // 日付はキャッシュ更新用
-	    .then(response => {
-	      if (!response.ok) throw new Error("JSON読み込み失敗");
-	      return response.json();
-	    })
-	    .then(data => {
-	      const container = document.getElementById("race-block-container");
-	      container.innerHTML = ""; // 既存クリア
-
-	      data.races.forEach(race => {
-	        const details = document.createElement("details");
-	        details.classList.add("race-block");
-
-	        const summary = document.createElement("summary");
-	        summary.innerHTML = `
-	          <span class="arrow-icon"></span>
-	          【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】${race.name}（${race.venue}）
-	        `;
-	        details.appendChild(summary);
-
-	        const preview = document.createElement("p");
-	        preview.innerHTML = `<a href="${race.preview}">? 展開予想を見る</a>`;
-	        details.appendChild(preview);
-
-	        const review = document.createElement("p");
-	        review.innerHTML = `<a href="${race.review}">? レース回顧を見る</a>`;
-	        details.appendChild(review);
-
-	        container.appendChild(details);
-	      });
-	    })
-	    .catch(err => {
-	      console.error("重賞データ取得エラー:", err);
-	      document.getElementById("race-block-container").innerHTML = `
-	        <p style="color: red;">今週の重賞レース情報を読み込めませんでした。</p>
-	      `;
-	    });
-	});
-	</script>
-
-
-
 </body>
 </html>
