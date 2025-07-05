@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", () => {
   fetch("data/race_schedule_2025.json?v=20250706")
     .then(res => res.json())
@@ -41,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             raceItem.innerHTML = `
               【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】
               ${race.name}（${race.venue}）<br>
-              <a href="${race.review}">? レース回顧を見る</a>
+              <a href="${race.review}">▶ レース回顧を見る</a>
             `;
             weekDetails.appendChild(raceItem);
           });
@@ -54,7 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => {
       console.error("過去重賞データ取得エラー:", err);
-      document.getElementById("past-race-container").innerHTML = `<p style="color:red;">過去レース情報を読み込めませんでした。</p>`;
+      const fallback = document.getElementById("past-race-container");
+      if (fallback) {
+        fallback.innerHTML = `<p style="color:red;">過去レース情報を読み込めませんでした。</p>`;
+      }
     });
 });
-</script>
