@@ -5,31 +5,31 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("past-race-container");
       container.innerHTML = "";
 
-      // 🇯🇵 JSTで今日00:00を取得
+      // 🇯🇵 JSTの今日（00:00）を定義
       const now = new Date();
       const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-      // 📅 今週の月曜〜日曜を定義
-      const dow = today.getDay();
+      // 📅 今週（月曜〜日曜）を定義
+      const dow = today.getDay(); // 0:日〜6:土
       const monday = new Date(today);
       monday.setDate(today.getDate() - ((dow + 6) % 7));
       const sunday = new Date(monday);
       sunday.setDate(monday.getDate() + 6);
 
-      // 🔎 文字列日付 → JST基準Dateに変換
+      // 🔎 日付パース（Z付きにも対応）
       const parseDate = (str) => {
         const clean = str.includes("T") ? str.split("T")[0] : str;
         const [yyyy, mm, dd] = clean.split("-").map(Number);
         return new Date(yyyy, mm - 1, dd);
       };
 
-      // 🐴 今週より前のレースのみを抽出
+      // 🐴 今週よりも前のレースだけ抽出
       const pastRaces = data.races.filter(race => {
         const raceDate = parseDate(race.date);
         return raceDate < monday;
       });
 
-      // 📅 月 → 日付 → レース の3階層構造にまとめる
+      // 🗂️ 月 → 日 → レースの3階層構造に分類
       const months = {};
       pastRaces.forEach(race => {
         const dateObj = parseDate(race.date);
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         months[key][weekKey].push(race);
       });
 
-      // 🧩 HTML構築：月 → 週 → レース
+      // 🖼️ HTML生成
       Object.keys(months).sort().forEach(month => {
         const monthDetails = document.createElement("details");
         monthDetails.classList.add("note-block");
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
             raceItem.innerHTML = `
               【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】
               ${race.name}（${race.venue}）<br>
-              <a href="${race.review}">▶ レース回顧を見る</a>
+              <a href="output/${race.review}">▶ レース回顧を見る</a>
             `;
             weekDetails.appendChild(raceItem);
           });
@@ -76,10 +76,8 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(monthDetails);
       });
 
-      // ✅ デバッグログ
-      console.log("today(JST):", today.toLocaleDateString("ja-JP"));
-      console.log("monday:", monday.toLocaleDateString("ja-JP"));
-      console.log("sunday:", sunday.toLocaleDateString("ja-JP"));
+      // ✅ 開発用ログ
+      console.log("past-races loaded:", pastRaces.length, "件");
     })
     .catch(err => {
       console.error("過去重賞データ取得エラー:", err);

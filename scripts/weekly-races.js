@@ -53,13 +53,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // 🔁 月〜木：見どころ、金〜日：展開予想
         if (dow >= 1 && dow <= 4) {
-          contentHTML += `<p><a href="${race.preview}">▶ レースの見どころを見る</a></p>`;
+          contentHTML += `<p><a href="output/${race.preview}">▶ レースの見どころを見る</a></p>`;
         } else {
-          contentHTML += `<p><a href="${race.preview}">▶ 展開予想（馬番号付き）を見る</a></p>`;
+          contentHTML += `<p><a href="output/${race.preview}">▶ 展開予想（馬番号付き）を見る</a></p>`;
         }
 
         // ✅ 常時レース回顧リンク
-        contentHTML += `<p><a href="${race.review}">▶ レース回顧を見る</a></p>`;
+        contentHTML += `<p><a href="output/${race.review}">▶ レース回顧を見る</a></p>`;
 
         details.innerHTML += contentHTML;
         container.appendChild(details);
