@@ -8,20 +8,28 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("race-block-container");
       container.innerHTML = "";
 
-      const today = new Date();
-      const dow = today.getDay(); // 0=日, 1=月...6=土
+      // 🇯🇵 JSTで今日00:00を取得
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-      const firstDay = new Date(today);
-      firstDay.setDate(today.getDate() - dow + 1); // 月曜
-      firstDay.setHours(0, 0, 0, 0);
+      // 📅 今週の月曜〜日曜を計算（JST）
+      const dow = today.getDay(); // 0(日)〜6(土)
+      const monday = new Date(today);
+      monday.setDate(today.getDate() - ((dow + 6) % 7)); // 月曜
+      const sunday = new Date(monday);
+      sunday.setDate(monday.getDate() + 6); // 日曜
 
-      const lastDay = new Date(firstDay);
-      lastDay.setDate(firstDay.getDate() + 6); // 日曜
-      lastDay.setHours(23, 59, 59, 999);
+      // 🔎 'YYYY-MM-DD[T...]' を JSTの Date に変換
+      const parseDate = (str) => {
+        const datePart = str.includes("T") ? str.split("T")[0] : str;
+        const [yyyy, mm, dd] = datePart.split("-").map(Number);
+        return new Date(yyyy, mm - 1, dd);
+      };
 
+      // 🎯 今週のレース抽出
       const thisWeekRaces = data.races.filter(race => {
-        const raceDate = new Date(race.date);
-        return raceDate >= firstDay && raceDate <= lastDay;
+        const raceDate = parseDate(race.date);
+        return raceDate >= monday && raceDate <= sunday;
       });
 
       if (thisWeekRaces.length === 0) {
@@ -41,23 +49,26 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         details.appendChild(summary);
 
-        // 🔁 曜日による表示切替
         let contentHTML = "";
 
+        // 🔁 月〜木：見どころ、金〜日：展開予想
         if (dow >= 1 && dow <= 4) {
-          // 月〜木：見どころ
           contentHTML += `<p><a href="${race.preview}">▶ レースの見どころを見る</a></p>`;
         } else {
-          // 金・土・日：展開予想（馬番入り）
           contentHTML += `<p><a href="${race.preview}">▶ 展開予想（馬番号付き）を見る</a></p>`;
         }
 
-        // ✅ レース回顧は常時表示
+        // ✅ 常時レース回顧リンク
         contentHTML += `<p><a href="${race.review}">▶ レース回顧を見る</a></p>`;
 
         details.innerHTML += contentHTML;
         container.appendChild(details);
       });
+
+      // 🧭 デバッグログ（JST）
+      console.log("today(JST):", today.toLocaleDateString("ja-JP"));
+      console.log("monday:", monday.toLocaleDateString("ja-JP"));
+      console.log("sunday:", sunday.toLocaleDateString("ja-JP"));
     })
     .catch(err => {
       console.error("重賞データ取得エラー:", err);
@@ -67,3 +78,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 });
+
