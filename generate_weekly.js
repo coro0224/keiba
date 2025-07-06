@@ -28,9 +28,10 @@ const isWithinThisWeek = (date) => {
   return d >= monday && d <= sunday;
 };
 
+
 const thisWeekRaces = json.races.filter(race => {
-  const raceDate = parseLocalDate(race.date);
-  return isWithinThisWeek(raceDate) && isWithinThisWeek(today);
+  const raceDate = parseLocalDate(race.date); // ← UTCズレ回避
+  return isWithinThisWeek(raceDate); // ✅ today を使わず安定化
 });
 
 // 📁 出力フォルダを準備
