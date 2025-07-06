@@ -22,10 +22,15 @@ sunday.setDate(monday.getDate() + 6);
 sunday.setHours(23, 59, 59, 999);
 
 // 🐎 今週のレースだけ抽出
+// 今週の日付範囲内かを判定する関数（追加）
+const isWithinThisWeek = (date) => date >= monday && date <= sunday;
+
+// 今週のレースのみ抽出（差し替え）
 const thisWeekRaces = json.races.filter(race => {
   const raceDate = new Date(race.date);
-  return raceDate >= monday && raceDate <= sunday;
+  return isWithinThisWeek(raceDate) && isWithinThisWeek(today);
 });
+
 
 // 📁 出力フォルダを準備
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
