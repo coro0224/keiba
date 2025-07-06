@@ -21,8 +21,8 @@
       "grade": "G3",
       "name": "小倉記念",
       "venue": "小倉・芝2000m",
-      "preview": "kokura_kinen.html#preview",
-      "review": "kokura_kinen.html#review"
+      "preview": "output/kokura_kinen.html#preview",
+      "review": "output/kokura_kinen.html#review"
     },
     {
       "date": "2025-07-20",
