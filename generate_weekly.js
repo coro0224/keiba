@@ -11,15 +11,14 @@ const template = fs.readFileSync(templatePath, "utf-8");
 const json = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
 // 📆 今週の月曜〜日曜を計算
-const today = new Date();
-const dow = today.getDay(); // 0=日, 1=月...
+const stripTime = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+
+const today = stripTime(new Date());
+const dow = today.getDay();
 const monday = new Date(today);
 monday.setDate(today.getDate() - ((dow + 6) % 7));
-monday.setHours(0, 0, 0, 0);
-
 const sunday = new Date(monday);
 sunday.setDate(monday.getDate() + 6);
-sunday.setHours(23, 59, 59, 999);
 
 // 🐎 今週のレースだけ抽出
 // 今週の日付範囲内かを判定する関数（追加）
