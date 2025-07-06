@@ -30,6 +30,11 @@ const safeParseDate = (dateStr) => {
   const [yyyy, mm, dd] = parts.map(Number);
   return new Date(yyyy, mm - 1, dd);
 };
+const isWithinThisWeek = (date) => {
+  const d = stripTime(date);
+  return d >= monday && d <= sunday;
+};
+
 const thisWeekRaces = json.races.filter(race => {
   const raceDate = safeParseDate(race.date);
   return raceDate && isWithinThisWeek(raceDate);
