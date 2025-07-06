@@ -10,8 +10,11 @@ const outputDir = path.join(__dirname, "output");
 const template = fs.readFileSync(templatePath, "utf-8");
 const json = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
-// 📆 今週の月曜〜日曜を計算
 const stripTime = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+const parseLocalDate = (dateStr) => {
+  const [yyyy, mm, dd] = dateStr.split('-').map(Number);
+  return new Date(yyyy, mm - 1, dd);
+};
 
 const today = stripTime(new Date());
 const dow = today.getDay();
@@ -20,14 +23,13 @@ monday.setDate(today.getDate() - ((dow + 6) % 7));
 const sunday = new Date(monday);
 sunday.setDate(monday.getDate() + 6);
 
-// 🐎 今週のレースだけ抽出
 const isWithinThisWeek = (date) => {
   const d = stripTime(date);
   return d >= monday && d <= sunday;
 };
 
 const thisWeekRaces = json.races.filter(race => {
-  const raceDate = new Date(race.date);
+  const raceDate = parseLocalDate(race.date);
   return isWithinThisWeek(raceDate) && isWithinThisWeek(today);
 });
 
