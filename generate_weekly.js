@@ -2,21 +2,16 @@ const fs = require("fs");
 const path = require("path");
 
 // 🕒 JSTの「今日」00:00を安全に生成
+// 🇯🇵 JSTで「今日」の00:00を生成（補正なしでOK）
 const getTodayJST = () => {
-  const now = new Date();
-  const offsetMinutes = now.getTimezoneOffset(); // JSTなら -540
-  const offsetMillis = offsetMinutes * 60 * 1000;
-  const nowJST = new Date(now.getTime() - offsetMillis);
-
-  return new Date(
-    nowJST.getFullYear(),
-    nowJST.getMonth(),
-    nowJST.getDate()
-  );
+  const now = new Date(); // これはOSのローカルタイム（＝JST環境ならそのままでOK）
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate());
 };
 
-// 📅 週範囲（JST基準）
 const today = getTodayJST();
+
+
+// 📅 週範囲（JST基準）
 const dow = today.getDay(); // 0:日〜6:土
 const monday = new Date(today);
 monday.setDate(today.getDate() - ((dow + 6) % 7));
@@ -70,7 +65,7 @@ thisWeekRaces.forEach(race => {
 
 
 // 🧭 デバッグログ
-console.log("today:", today.toISOString());
-console.log("monday:", monday.toISOString());
-console.log("sunday:", sunday.toISOString());
+console.log('today:', today.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }));
+console.log('monday:', monday.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }));
+console.log('sunday:', sunday.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }));
 
