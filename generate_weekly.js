@@ -1,3 +1,5 @@
+process.env.TZ = 'Asia/Tokyo'; 
+
 const fs = require("fs");
 const path = require("path");
 
@@ -10,39 +12,46 @@ const outputDir = path.join(__dirname, "output");
 const template = fs.readFileSync(templatePath, "utf-8");
 const json = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
-const stripTime = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+// 🛡 JST で 0時に丸める
+const stripTime = (d) => {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+};
+
+// 🗓 今日を JSTの午前0時として扱う
+const now = new Date();
+const today = stripTime(new Date(
+  now.getFullYear(),
+  now.getMonth(),
+  now.getDate()
+));
+
+const dow = today.getDay(); // 曜日（0:日曜〜6:土曜）
+const monday = new Date(today);
+monday.setDate(today.getDate() - ((dow + 6) % 7)); // 月曜
+const sunday = new Date(monday);
+sunday.setDate(monday.getDate() + 6); // 日曜
+
 const parseLocalDate = (dateStr) => {
   const [yyyy, mm, dd] = dateStr.split('-').map(Number);
-  return new Date(yyyy, mm - 1, dd);
+  return new Date(yyyy, mm - 1, dd); // JST 0時起点
 };
 
-const today = stripTime(new Date());
-const dow = today.getDay();
-const monday = new Date(today);
-monday.setDate(today.getDate() - ((dow + 6) % 7));
-const sunday = new Date(monday);
-sunday.setDate(monday.getDate() + 6);
-
-const safeParseDate = (dateStr) => {
-  if (!dateStr) return null;
-  const parts = dateStr.includes('-') ? dateStr.split('-') : dateStr.split('/');
-  if (parts.length !== 3) return null;
-  const [yyyy, mm, dd] = parts.map(Number);
-  return new Date(yyyy, mm - 1, dd);
-};
 const isWithinThisWeek = (date) => {
   const d = stripTime(date);
   return d >= monday && d <= sunday;
 };
 
 const thisWeekRaces = json.races.filter(race => {
-  const raceDate = safeParseDate(race.date);
-  return raceDate && isWithinThisWeek(raceDate);
+  const raceDate = parseLocalDate(race.date);
+  return isWithinThisWeek(raceDate);
 });
 
-console.log('today:', today);
-console.log('monday:', monday);
-console.log('sunday:', sunday);
+
+
+console.log('today:', today.toISOString());
+console.log('monday:', monday.toISOString());
+console.log('sunday:', sunday.toISOString());
+
 
 // 📁 出力フォルダを準備
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
