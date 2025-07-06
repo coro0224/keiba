@@ -5,16 +5,16 @@
       "grade": "G3",
       "name": "北九州記念",
       "venue": "小倉・芝1200m",
-      "preview": "output/kitakyushu.html#preview",
-      "review": "output/kitakyushu.html#review"
+      "preview": "kitakyushu.html#preview",
+      "review": "kitakyushu.html#review"
     },
     {
       "date": "2025-07-13",
       "grade": "G3",
       "name": "七夕賞",
       "venue": "福島・芝2000m",
-      "preview": "output/tanabata.html#preview",
-      "review": "output/tanabata.html#review"
+      "preview": "tanabata.html#preview",
+      "review": "tanabata.html#review"
     },
     {
       "date": "2025-07-20",
