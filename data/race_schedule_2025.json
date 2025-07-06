@@ -5,8 +5,8 @@
       "grade": "G3",
       "name": "北九州記念",
       "venue": "小倉・芝1200m",
-      "preview": "kitakyushu.html#preview",
-      "review": "kitakyushu.html#review"
+      "preview": "output/kitakyushu.html#preview",
+      "review": "output/kitakyushu.html#review"
     },
     {
       "date": "2025-07-13",
