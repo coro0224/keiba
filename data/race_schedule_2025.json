@@ -13,8 +13,8 @@
       "grade": "G3",
       "name": "七夕賞",
       "venue": "福島・芝2000m",
-      "preview": "tanabata.html#preview",
-      "review": "tanabata.html#review"
+      "preview": "output/tanabata.html#preview",
+      "review": "output/tanabata.html#review"
     },
     {
       "date": "2025-07-20",
