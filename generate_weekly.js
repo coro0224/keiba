@@ -23,16 +23,21 @@ monday.setDate(today.getDate() - ((dow + 6) % 7));
 const sunday = new Date(monday);
 sunday.setDate(monday.getDate() + 6);
 
-const isWithinThisWeek = (date) => {
-  const d = stripTime(date);
-  return d >= monday && d <= sunday;
+const safeParseDate = (dateStr) => {
+  if (!dateStr) return null;
+  const parts = dateStr.includes('-') ? dateStr.split('-') : dateStr.split('/');
+  if (parts.length !== 3) return null;
+  const [yyyy, mm, dd] = parts.map(Number);
+  return new Date(yyyy, mm - 1, dd);
 };
-
-
 const thisWeekRaces = json.races.filter(race => {
-  const raceDate = parseLocalDate(race.date); // ← UTCズレ回避
-  return isWithinThisWeek(raceDate); // ✅ today を使わず安定化
+  const raceDate = safeParseDate(race.date);
+  return raceDate && isWithinThisWeek(raceDate);
 });
+
+console.log('today:', today);
+console.log('monday:', monday);
+console.log('sunday:', sunday);
 
 // 📁 出力フォルダを準備
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
