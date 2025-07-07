@@ -37,33 +37,37 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      thisWeekRaces.forEach(race => {
-        const details = document.createElement("details");
-        details.classList.add("race-block");
+		thisWeekRaces.forEach(race => {
+		  const details = document.createElement("details");
+		  details.classList.add("race-block");
 
-        const summary = document.createElement("summary");
-        summary.innerHTML = `
-          <span class="arrow-icon"></span>
-          【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】
-          ${race.name}（${race.venue}）
-        `;
-        details.appendChild(summary);
+		  const summary = document.createElement("summary");
+		  summary.innerHTML = `
+		    <span class="arrow-icon"></span>
+		    【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】
+		    ${race.name}（${race.venue}）
+		  `;
+		  details.appendChild(summary);
 
-        let contentHTML = "";
+		  // 🔁 常に3リンクを出力（見どころ・展開予想・回顧）
+		  let contentHTML = "";
 
-        // 🔁 月〜木：見どころ、金〜日：展開予想
-        if (dow >= 1 && dow <= 4) {
-          contentHTML += `<p><a href="output/${race.preview}">▶ レースの見どころを見る</a></p>`;
-        } else {
-          contentHTML += `<p><a href="output/${race.preview}">▶ 展開予想（馬番号付き）を見る</a></p>`;
-        }
+		  const createLink = (label, url) => {
+		    if (url && typeof url === "string" && !url.includes("undefined")) {
+		      return `<p><a href="output/${url}">▶ ${label}</a></p>`;
+		    } else {
+		      return `<p>▶ ${label}：<span style="color:#888;">後日記載予定</span></p>`;
+		    }
+		  };
 
-        // ✅ 常時レース回顧リンク
-        contentHTML += `<p><a href="output/${race.review}">▶ レース回顧を見る</a></p>`;
+		  contentHTML += createLink("見どころを見る", race.highlight_page);
+		  contentHTML += createLink("展開予想（馬番号付き）を見る", race.preview);
+		  contentHTML += createLink("レース回顧を見る", race.review);
 
-        details.innerHTML += contentHTML;
-        container.appendChild(details);
-      });
+		  details.innerHTML += contentHTML;
+		  container.appendChild(details);
+		});
+
 
       // 🧭 デバッグログ（JST）
       console.log("today(JST):", today.toLocaleDateString("ja-JP"));
