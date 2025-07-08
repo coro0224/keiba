@@ -62,6 +62,25 @@ thisWeekRaces.forEach(race => {
   fs.writeFileSync(outputPath, html, "utf-8");
   console.log(`✅ ${fileBase}.html を生成しました`);
 });
+.replace(/{{title}}/g,
+  `${race.name}（<span class="grade-label ${race.grade.toLowerCase()}">${race.grade}</span>）`
+)
+.replace(/{{image_name}}/g,
+  race.image_name || "default_race_image.png"
+)
+.replace(/{{date}}/g, race.date)
+.replace(/{{venue}}/g, race.venue)
+.replace(/{{highlight}}/g, race.highlight || "見どころは後日掲載予定です。")
+.replace(/{{development}}/g, race.development || "展開予想は準備中です。")
+.replace(/{{review}}/g, race.review_text || "<p>レース回顧はレース終了後に追記予定です。</p>")
+.replace(/{{note_link}}/g,
+  race.note_url
+    ? `<a href="${race.note_url}" target="_blank">
+         <img src="images/note_button.png" alt="NOTE考察はこちら" />
+         <span>▶ NOTEで展開全文を見る</span>
+       </a>`
+    : "▶ NOTE考察：<span style='color:#888;'>後日掲載予定</span>"
+)
 
 // 🧭 デバッグ表示（日本時間で確認）
 console.log("today:  ", today.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }));

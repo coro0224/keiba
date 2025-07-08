@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{title}}</title>
-  <link rel="stylesheet" href="styles-race.css">
+  <link rel="stylesheet" href="styles-race.css" />
 </head>
 <body>
-  <h1>{{title}}</h1>
-  <h2>{{date}}｜{{venue}}</h2>
+  <article class="race-detail">
 
-  <section id="highlight">
-    <h3>▶ 見どころ</h3>
-    <p>{{highlight}}</p>
-  </section>
+    <!-- 🏇 レース画像＆ヘッダー -->
+    <div class="race-header">
+      <img src="images/{{image_name}}" alt="{{title}}" class="race-mainvisual" />
+      <div class="race-meta">
+        <h1 class="race-title">{{title}}</h1>
+        <h2 class="race-sub">{{date}}｜{{venue}}</h2>
+      </div>
+    </div>
 
-  <section id="preview">
-    <h3>▶ 展開予想</h3>
-	<p>{{development}}</p>
-  </section>
+    <!-- 🔶 見どころ -->
+    <section class="race-section highlight">
+      <h3>▶ 見どころ</h3>
+      <p>{{highlight}}</p>
+    </section>
 
-  <section id="review">
-    <h3>▶ レース回顧</h3>
-    <p>{{review}}</p>
-  </section>
+    <!-- 📊 展開予想 -->
+    <section class="race-section preview">
+      <h3>▶ 展開予想</h3>
+      <p>{{development}}</p>
 
-  <footer>
-    <p><a href="index.html">🏠 トップページへ戻る</a></p>
-  </footer>
+      <!-- 📘 NOTEリンク（存在しない場合は代替表示） -->
+      <div class="note-cta">
+        {{note_link}}
+      </div>
+    </section>
+
+    <!-- 📷 レース回顧 -->
+    <section class="race-section review">
+      <h3>▶ レース回顧</h3>
+      <p>{{review}}</p>
+    </section>
+
+    <footer style="text-align:center; margin-top:40px;">
+      <a href="index.html">🏠 トップページへ戻る</a>
+    </footer>
+  </article>
 </body>
 </html>
