@@ -115,3 +115,68 @@ footer a {
   color: #00695c;
   font-weight: bold;
 }
+/* ========================================
+   レスポンシブ対応：スマホ向け (〜600px)
+   ======================================== */
+@media (max-width: 600px) {
+  /* 全体の余白を縮小 */
+  .race-detail {
+    margin: 20px auto;
+    padding: 16px;
+  }
+
+  /* ヘッダー：縦並びに */
+  .race-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  /* 画像は100%幅 or 上限300px */
+  .race-mainvisual {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  /* タイトル・サブの文字サイズ調整 */
+  .race-title {
+    font-size: 1.4rem;
+  }
+  .race-sub {
+    font-size: 1rem;
+  }
+
+  /* 各セクションの内側余白を縮小 */
+  .race-section {
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  /* 見出しの余白＆アイコンサイズを縮小 */
+  .race-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.6em;
+  }
+
+  /* NOTE誘導ブロックを縦並びに */
+  .note-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .note-cta img {
+    height: 20px;
+  }
+
+  .note-cta span {
+    font-size: 0.9rem;
+  }
+
+  /* フッターリンクの余白調整 */
+  footer {
+    margin-top: 30px;
+  }
+}
