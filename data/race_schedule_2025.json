@@ -7,7 +7,7 @@
       "venue": "小倉・芝1200m",
       "preview": "kitakyushu.html#preview",
       "review": "kitakyushu.html#review",
-      "highlight_page": "kitakyushu.html#highlight"
+      "highlight_page": "kitakyushu.html#highlight",
       "development": "<p>【前半】<br>\nスタート直後、5番モズメイメイが好ダッシュを決めて先頭へ。<br>\n14番アブキールベイが外から並びかけ、18番ヨシノイースターは好位の外目をキープ。<br>\n内からは1番ヤマニンアンフィル、3番レッドヒルシューズが先団に取りつく。<br>\n15番ロードフォアエースは中団のインで脚を溜め、11番ドロップオブライトは後方からじっくり構える展開。</p>\n\n<p>【中盤】<br>\n3コーナーにかけて、5番モズメイメイがペースを引き上げ、14番アブキールベイがぴったりマーク。<br>\n18番ヨシノイースターは外から徐々に進出を開始。<br>\n7番クラスペディア、9番ヤマニンアルリフラも中団から押し上げる。<br>\n15番ロードフォアエースは内でじっと我慢、11番ドロップオブライトは馬群の後方で進路を探る。</p>\n\n<p>【終盤】<br>\n直線に向いても5番モズメイメイが粘るが、14番アブキールベイが外から並びかける。<br>\n18番ヨシノイースターが大外から豪脚を繰り出し、先頭争いに加わる。<br>\n内からは15番ロードフォアエースが馬群を割って伸び、11番ドロップオブライトも大外から追い込む。<br>\n最後は14番アブキールベイと18番ヨシノイースターの叩き合いに、15番ロードフォアエースが迫る白熱のゴール前。</p>",
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>"
     },
@@ -17,7 +17,7 @@
       "name": "七夕賞",
       "venue": "福島・芝2000m",
       "preview": "tanabata.html#preview",
-      "review": "tanabata.html#review"
+      "review": "tanabata.html#review",
       "highlight_page": "tanabata.html#highlight"
     },
     {
@@ -26,7 +26,7 @@
       "name": "小倉記念",
       "venue": "小倉・芝2000m",
       "preview": "kokura_kinen.html#preview",
-      "review": "kokura_kinen.html#review"
+      "review": "kokura_kinen.html#review",
       "highlight_page": "kokura_kinen.html#highlight"
     },
     {
@@ -35,7 +35,7 @@
       "name": "函館2歳ステークス",
       "venue": "函館・芝1200m",
       "preview": "hakodate_2sai.html#preview",
-      "review": "hakodate_2sai.html#review"
+      "review": "hakodate_2sai.html#review",
       "highlight_page": "hakodate_2sai.html#highlight"
     },
     {
@@ -44,7 +44,7 @@
       "name": "関屋記念",
       "venue": "新潟・芝1600m",
       "preview": "sekiya.html#preview",
-      "review": "sekiya.html#review"
+      "review": "sekiya.html#review",
       "highlight_page": "sekiya.html#highlight"
     },
     {
@@ -53,7 +53,7 @@
       "name": "東海ステークス",
       "venue": "中京・ダ1400m",
       "preview": "tokai.html#preview",
-      "review": "tokai.html#review"
+      "review": "tokai.html#review",
       "highlight_page": "tokai.html#highlight"
     },
     {
@@ -62,7 +62,7 @@
       "name": "アイビスサマーダッシュ",
       "venue": "新潟・芝1000m",
       "preview": "ibis_summer.html#preview",
-      "review": "ibis_summer.html#review"
+      "review": "ibis_summer.html#review",
       "highlight_page": "ibis_summer.html#highlight"
     },
     {
@@ -71,7 +71,7 @@
       "name": "クイーンステークス",
       "venue": "札幌・芝1800m",
       "preview": "queen_sapporo.html#preview",
-      "review": "queen_sapporo.html#review"
+      "review": "queen_sapporo.html#review",
        "highlight_page": "queen_sapporo.html#highlight"
    },
     {
@@ -80,7 +80,7 @@
       "name": "エルムステークス",
       "venue": "札幌・ダ1700m",
       "preview": "elm.html#preview",
-      "review": "elm.html#review"
+      "review": "elm.html#review",
       "highlight_page": "elm.html#highlight"
     },
     {
@@ -89,7 +89,7 @@
       "name": "レパードステークス",
       "venue": "新潟・ダ1800m",
       "preview": "leopard.html#preview",
-      "review": "leopard.html#review"
+      "review": "leopard.html#review",
       "highlight_page": "leopard.html#highlight"
     },
     {
@@ -98,7 +98,7 @@
       "name": "CBC賞",
       "venue": "中京・芝1200m",
       "preview": "cbc.html#preview",
-      "review": "cbc.html#review"
+      "review": "cbc.html#review",
       "highlight_page": "cbc.html#highlight"
     },
     {
@@ -107,7 +107,7 @@
       "name": "新潟ジャンプステークス",
       "venue": "新潟・障害3250m",
       "preview": "niigata_jump.html#preview",
-      "review": "niigata_jump.html#review"
+      "review": "niigata_jump.html#review",
       "highlight_page": "niigata_jump.html#highlight"
     },
     {
@@ -116,7 +116,7 @@
       "name": "中京記念",
       "venue": "中京・芝1600m",
       "preview": "chukyo_kinen.html#preview",
-      "review": "chukyo_kinen.html#review"
+      "review": "chukyo_kinen.html#review",
       "highlight_page": "chukyo_kinen.html#highlight"
     },
     {
@@ -125,7 +125,7 @@
       "name": "札幌記念",
       "venue": "札幌・芝2000m",
       "preview": "sapporo_kinen.html#preview",
-      "review": "sapporo_kinen.html#review"
+      "review": "sapporo_kinen.html#review",
       "highlight_page": "sapporo_kinen.html#highlight"
     },
     {
@@ -134,7 +134,7 @@
       "name": "新潟2歳ステークス",
       "venue": "新潟・芝1600m",
       "preview": "niigata_2sai.html#preview",
-      "review": "niigata_2sai.html#review"
+      "review": "niigata_2sai.html#review",
       "highlight_page": "niigata_2sai.html#highlight"
     },
     {
@@ -143,7 +143,7 @@
       "name": "キーンランドカップ",
       "venue": "札幌・芝1200m",
       "preview": "keeneland.html#preview",
-      "review": "keeneland.html#review"
+      "review": "keeneland.html#review",
       "highlight_page": "keeneland.html#highlight"
     },
     {
@@ -152,7 +152,7 @@
       "name": "新潟記念",
       "venue": "新潟・芝2000m",
       "preview": "niigata_kinen.html#preview",
-      "review": "niigata_kinen.html#review"
+      "review": "niigata_kinen.html#review",
       "highlight_page": "niigata_kinen.html#highlight"
     },
     {
@@ -161,7 +161,7 @@
       "name": "中京2歳ステークス",
       "venue": "中京・芝1400m",
       "preview": "chukyo_2sai.html#preview",
-      "review": "chukyo_2sai.html#review"
+      "review": "chukyo_2sai.html#review",
       "highlight_page": "chukyo_2sai.html#highlight"
     },
     {
@@ -170,7 +170,7 @@
       "name": "京成杯オータムハンデキャップ",
       "venue": "中山・芝1600m",
       "preview": "keisei_ah.html#preview",
-      "review": "keisei_ah.html#review"
+      "review": "keisei_ah.html#review",
       "highlight_page": "keisei_ah.html#highlight"
     },
     {
@@ -179,7 +179,7 @@
       "name": "札幌2歳ステークス",
       "venue": "札幌・芝1800m",
       "preview": "sapporo_2sai.html#preview",
-      "review": "sapporo_2sai.html#review"
+      "review": "sapporo_2sai.html#review",
       "highlight_page": "sapporo_2sai.html#highlight"
     },
     {
@@ -188,7 +188,7 @@
       "name": "紫苑ステークス",
       "venue": "中山・芝2000m",
       "preview": "shion.html#preview",
-      "review": "shion.html#review"
+      "review": "shion.html#review",
       "highlight_page": "shion.html#highlight"
     },
     {
@@ -197,7 +197,7 @@
       "name": "セントウルステークス",
       "venue": "阪神・芝1200m",
       "preview": "centaur.html#preview",
-      "review": "centaur.html#review"
+      "review": "centaur.html#review",
       "highlight_page": "centaur.html#highlight"
     },
     {
@@ -206,7 +206,7 @@
       "name": "チャレンジカップ",
       "venue": "阪神・芝2000m",
       "preview": "challenge_cup.html#preview",
-      "review": "challenge_cup.html#review"
+      "review": "challenge_cup.html#review",
       "highlight_page": "challenge_cup.html#highlight"
     },
     {
@@ -215,7 +215,7 @@
       "name": "ローズステークス",
       "venue": "阪神・芝1800m",
       "preview": "rose.html#preview",
-      "review": "rose.html#review"
+      "review": "rose.html#review",
       "highlight_page": "rose.html#highlight"
     },
     {
@@ -224,7 +224,7 @@
       "name": "セントライト記念",
       "venue": "中山・芝2200m",
       "preview": "st_lite.html#preview",
-      "review": "st_lite.html#review"
+      "review": "st_lite.html#review",
       "highlight_page": "st_lite.html#highlight"
     },
     {
@@ -233,7 +233,7 @@
       "name": "阪神ジャンプステークス",
       "venue": "阪神・障害3140m",
       "preview": "hanshin_jump.html#preview",
-      "review": "hanshin_jump.html#review"
+      "review": "hanshin_jump.html#review",
       "highlight_page": "hanshin_jump.html#highlight"
     },
     {
@@ -242,7 +242,7 @@
       "name": "オールカマー",
       "venue": "中山・芝2200m",
       "preview": "allcomer.html#preview",
-      "review": "allcomer.html#review"
+      "review": "allcomer.html#review",
       "highlight_page": "allcomer.html#highlight"
     },
     {
@@ -251,7 +251,7 @@
       "name": "神戸新聞杯",
       "venue": "阪神・芝2400m",
       "preview": "kobe.html#preview",
-      "review": "kobe.html#review"
+      "review": "kobe.html#review",
       "highlight_page": "kobe.html#highlight"
     },
     {
@@ -260,7 +260,7 @@
       "name": "シリウスステークス",
       "venue": "阪神・ダ2000m",
       "preview": "sirius.html#preview",
-      "review": "sirius.html#review"
+      "review": "sirius.html#review",
       "highlight_page": "sirius.html#highlight"
     },
     {
@@ -269,7 +269,7 @@
       "name": "スプリンターズステークス",
       "venue": "中山・芝1200m",
       "preview": "sprinters.html#preview",
-      "review": "sprinters.html#review"
+      "review": "sprinters.html#review",
       "highlight_page": "sprinters.html#highlight"
     },
     {
@@ -278,7 +278,7 @@
       "name": "毎日王冠",
       "venue": "東京・芝1800m",
       "preview": "mainichi_okan.html#preview",
-      "review": "mainichi_okan.html#review"
+      "review": "mainichi_okan.html#review",
       "highlight_page": "mainichi_okan.html#highlight"
     },
     {
@@ -287,7 +287,7 @@
       "name": "京都大賞典",
       "venue": "京都・芝2400m",
       "preview": "kyoto_daishoten.html#preview",
-      "review": "kyoto_daishoten.html#review"
+      "review": "kyoto_daishoten.html#review",
       "highlight_page": "kyoto_daishoten.html#highlight"
     },
     {
@@ -296,7 +296,7 @@
       "name": "サウジアラビアロイヤルカップ",
       "venue": "東京・芝1600m",
       "preview": "saudi_royal.html#preview",
-      "review": "saudi_royal.html#review"
+      "review": "saudi_royal.html#review",
       "highlight_page": "saudi_royal.html#highlight"
     },
     {
@@ -305,7 +305,7 @@
       "name": "アイルランドトロフィー府中牝馬ステークス",
       "venue": "東京・芝1800m",
       "preview": "ireland_fuchu.html#preview",
-      "review": "ireland_fuchu.html#review"
+      "review": "ireland_fuchu.html#review",
       "highlight_page": "ireland_fuchu.html#highlight"
     },
     {
@@ -314,7 +314,7 @@
       "name": "スワンステークス",
       "venue": "京都・芝1400m",
       "preview": "swan.html#preview",
-      "review": "swan.html#review"
+      "review": "swan.html#review",
       "highlight_page": "swan.html#highlight"
     },
     {
@@ -323,7 +323,7 @@
       "name": "富士ステークス",
       "venue": "東京・芝1600m",
       "preview": "fuji.html#preview",
-      "review": "fuji.html#review"
+      "review": "fuji.html#review",
       "highlight_page": "fuji.html#highlight"
     },
     {
@@ -332,7 +332,7 @@
       "name": "東京ハイジャンプ",
       "venue": "東京・障害3110m",
       "preview": "tokyo_highjump.html#preview",
-      "review": "tokyo_highjump.html#review"
+      "review": "tokyo_highjump.html#review",
       "highlight_page": "tokyo_highjump.html#highlight"
     },
     {
@@ -341,7 +341,7 @@
       "name": "秋華賞",
       "venue": "京都・芝2000m",
       "preview": "shuka.html#preview",
-      "review": "shuka.html#review"
+      "review": "shuka.html#review",
       "highlight_page": "shuka.html#highlight"
     },
     {
@@ -350,7 +350,7 @@
       "name": "アルテミスステークス",
       "venue": "東京・芝1600m",
       "preview": "artemis.html#preview",
-      "review": "artemis.html#review"
+      "review": "artemis.html#review",
       "highlight_page": "artemis.html#highlight"
     },
     {
@@ -359,7 +359,7 @@
       "name": "菊花賞",
       "venue": "京都・芝3000m",
       "preview": "kikka.html#preview",
-      "review": "kikka.html#review"
+      "review": "kikka.html#review",
       "highlight_page": "kikka.html#highlight"
     },
     {
@@ -368,7 +368,7 @@
       "name": "ファンタジーステークス",
       "venue": "京都・芝1400m",
       "preview": "fantasy.html#preview",
-      "review": "fantasy.html#review"
+      "review": "fantasy.html#review",
       "highlight_page": "fantasy.html#highlight"
     },
     {
@@ -377,7 +377,7 @@
       "name": "天皇賞（秋）",
       "venue": "東京・芝2000m",
       "preview": "tenno_autumn.html#preview",
-      "review": "tenno_autumn.html#review"
+      "review": "tenno_autumn.html#review",
       "highlight_page": "tenno_autumn.html#highlight"
     },
     {
@@ -386,7 +386,7 @@
       "name": "京王杯2歳ステークス",
       "venue": "東京・芝1400m",
       "preview": "keio_2sai.html#preview",
-      "review": "keio_2sai.html#review"
+      "review": "keio_2sai.html#review",
       "highlight_page": "keio_2sai.html#highlight"
     },
     {
@@ -395,7 +395,7 @@
       "name": "京都ジャンプステークス",
       "venue": "京都・障害3170m",
       "preview": "kyoto_jump.html#preview",
-      "review": "kyoto_jump.html#review"
+      "review": "kyoto_jump.html#review",
       "highlight_page": "kyoto_jump.html#highlight"
     },
     {
@@ -404,7 +404,7 @@
       "name": "アルゼンチン共和国杯",
       "venue": "東京・芝2500m",
       "preview": "argentina.html#preview",
-      "review": "argentina.html#review"
+      "review": "argentina.html#review",
       "highlight_page": "argentina.html#highlight"
     },
     {
@@ -413,7 +413,7 @@
       "name": "みやこステークス",
       "venue": "京都・ダ1800m",
       "preview": "miyako.html#preview",
-      "review": "miyako.html#review"
+      "review": "miyako.html#review",
       "highlight_page": "miyako.html#highlight"
     },
     {
@@ -422,7 +422,7 @@
       "name": "武蔵野ステークス",
       "venue": "東京・ダ1600m",
       "preview": "musashino.html#preview",
-      "review": "musashino.html#review"
+      "review": "musashino.html#review",
       "highlight_page": "musashino.html#highlight"
     },
     {
@@ -431,7 +431,7 @@
       "name": "デイリー杯2歳ステークス",
       "venue": "京都・芝1600m",
       "preview": "daily_2sai.html#preview",
-      "review": "daily_2sai.html#review"
+      "review": "daily_2sai.html#review",
       "highlight_page": "daily_2sai.html#highlight"
     },
     {
@@ -440,7 +440,7 @@
       "name": "エリザベス女王杯",
       "venue": "京都・芝2200m",
       "preview": "queen.html#preview",
-      "review": "queen.html#review"
+      "review": "queen.html#review",
       "highlight_page": "queen.html#highlight"
     },
     {
@@ -449,7 +449,7 @@
       "name": "福島記念",
       "venue": "福島・芝2000m",
       "preview": "fukushima_kinen.html#preview",
-      "review": "fukushima_kinen.html#review"
+      "review": "fukushima_kinen.html#review",
       "highlight_page": "fukushima_kinen.html#highlight"
     },
     {
@@ -458,7 +458,7 @@
       "name": "マイルチャンピオンシップ",
       "venue": "京都・芝1600m",
       "preview": "milecs.html#preview",
-      "review": "milecs.html#review"
+      "review": "milecs.html#review",
       "highlight_page": "milecs.html#highlight"
     },
     {
@@ -467,7 +467,7 @@
       "name": "東京スポーツ杯2歳ステークス",
       "venue": "東京・芝1800m",
       "preview": "tokyo_sports_2sai.html#preview",
-      "review": "tokyo_sports_2sai.html#review"
+      "review": "tokyo_sports_2sai.html#review",
       "highlight_page": "tokyo_sports_2sai.html#highlight"
     },
     {
@@ -476,7 +476,7 @@
       "name": "京都2歳ステークス",
       "venue": "京都・芝2000m",
       "preview": "kyoto_2sai.html#preview",
-      "review": "kyoto_2sai.html#review"
+      "review": "kyoto_2sai.html#review",
       "highlight_page": "kyoto_2sai.html#highlight"
     },
     {
@@ -485,7 +485,7 @@
       "name": "ジャパンカップ",
       "venue": "東京・芝2400m",
       "preview": "japan_cup.html#preview",
-      "review": "japan_cup.html#review"
+      "review": "japan_cup.html#review",
       "highlight_page": "japan_cup.html#highlight"
     },
     {
@@ -494,7 +494,7 @@
       "name": "京阪杯",
       "venue": "京都・芝1200m",
       "preview": "keihan.html#preview",
-      "review": "keihan.html#review"
+      "review": "keihan.html#review",
       "highlight_page": "keihan.html#highlight"
     },
     {
@@ -503,7 +503,7 @@
       "name": "ステイヤーズステークス",
       "venue": "中山・芝3600m",
       "preview": "stayers.html#preview",
-      "review": "stayers.html#review"
+      "review": "stayers.html#review",
       "highlight_page": "stayers.html#highlight"
     },
     {
@@ -512,7 +512,7 @@
       "name": "鳴尾記念",
       "venue": "阪神・芝1800m",
       "preview": "naruo.html#preview",
-      "review": "naruo.html#review"
+      "review": "naruo.html#review",
       "highlight_page": "naruo.html#highlight"
     },
     {
@@ -521,7 +521,7 @@
       "name": "チャンピオンズカップ",
       "venue": "中京・ダ1800m",
       "preview": "champions.html#preview",
-      "review": "champions.html#review"
+      "review": "champions.html#review",
       "highlight_page": "champions.html#highlight"
     },
     {
@@ -530,7 +530,7 @@
       "name": "中日新聞杯",
       "venue": "中京・芝2000m",
       "preview": "chunichi.html#preview",
-      "review": "chunichi.html#review"
+      "review": "chunichi.html#review",
       "highlight_page": "chunichi.html#highlight"
     },
     {
@@ -539,7 +539,7 @@
       "name": "カペラステークス",
       "venue": "中山・ダ1200m",
       "preview": "capella.html#preview",
-      "review": "capella.html#review"
+      "review": "capella.html#review",
       "highlight_page": "capella.html#highlight"
     },
     {
@@ -548,7 +548,7 @@
       "name": "阪神ジュベナイルフィリーズ",
       "venue": "阪神・芝1600m",
       "preview": "juvenile_fillies.html#preview",
-      "review": "juvenile_fillies.html#review"
+      "review": "juvenile_fillies.html#review",
       "highlight_page": "juvenile_fillies.html#highlight"
     },
     {
@@ -557,7 +557,7 @@
       "name": "ターコイズステークス",
       "venue": "中山・芝1600m",
       "preview": "turquoise.html#preview",
-      "review": "turquoise.html#review"
+      "review": "turquoise.html#review",
       "highlight_page": "turquoise.html#highlight"
     },
     {
@@ -566,7 +566,7 @@
       "name": "朝日杯フューチュリティステークス",
       "venue": "阪神・芝1600m",
       "preview": "asahi.html#preview",
-      "review": "asahi.html#review"
+      "review": "asahi.html#review",
       "highlight_page": "asahi.html#highlight"
     },
     {
@@ -575,7 +575,7 @@
       "name": "中山大障害",
       "venue": "中山・障害4100m",
       "preview": "nakayama_daishogai.html#preview",
-      "review": "nakayama_daishogai.html#review"
+      "review": "nakayama_daishogai.html#review",
       "highlight_page": "nakayama_daishogai.html#highlight"
     },
     {
@@ -584,7 +584,7 @@
       "name": "ホープフルステークス",
       "venue": "中山・芝2000m",
       "preview": "hopeful.html#preview",
-      "review": "hopeful.html#review"
+      "review": "hopeful.html#review",
       "highlight_page": "hopeful.html#highlight"
     },
     {
@@ -593,7 +593,7 @@
       "name": "阪神カップ",
       "venue": "阪神・芝1400m",
       "preview": "hanshin_cup.html#preview",
-      "review": "hanshin_cup.html#review"
+      "review": "hanshin_cup.html#review",
       "highlight_page": "hanshin_cup.html#highlight"
     },
     {
@@ -602,7 +602,7 @@
       "name": "有馬記念",
       "venue": "中山・芝2500m",
       "preview": "arima.html#preview",
-      "review": "arima.html#review"
+      "review": "arima.html#review",
        "highlight_page": "arima.html#highlight"
    }
   ]
