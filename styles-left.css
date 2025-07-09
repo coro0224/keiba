@@ -123,3 +123,26 @@ footer {
     transform: translateX(-50%);
   }
 }
+/* ========================================
+   スマホ向け：3カラムを縦並びに
+   ======================================== */
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .left-column,
+  .center-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .center-column .race-section,
+  .left-column .schedule-summary,
+  .right-column .note-summary {
+    padding: 1em;
+  }
+}
+
