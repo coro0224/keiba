@@ -124,6 +124,32 @@ footer {
   }
 }
 
+/* ========================================
+   通常表示（PC）向け
+   ======================================== */
+.ranking-table-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 8px;
+  white-space: nowrap;
+}
+
+/* スクロールヒントはPCでは非表示 */
+@media (min-width: 601px) {
+  .ranking-table-scroll-hint {
+    display: none;
+  }
+}
 
 /* ========================================
    レスポンシブ対応：スマホ向け (?600px)
