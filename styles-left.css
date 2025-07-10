@@ -129,19 +129,24 @@ footer {
    ======================================== */
 .ranking-table-container {
   width: 100%;
+  max-width: 960px;       /* ← 任意で微調整。1280pxなどでもOK */
   margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .ranking-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
+  table-layout: auto;     /* fixedにすると列幅が均一化されます */
 }
 
 .ranking-table th,
 .ranking-table td {
-  padding: 8px;
+  padding: 10px;
   white-space: nowrap;
+  border-bottom: 1px solid #ccc;
 }
 
 /* スクロールヒントはPCでは非表示 */
