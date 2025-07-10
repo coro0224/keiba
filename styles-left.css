@@ -133,6 +133,12 @@ footer {
     gap: 24px;
   }
 
+  /* ランキング表のスクロール対応 */
+  .ranking-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .left-column,
   .center-column,
   .right-column {
@@ -143,6 +149,32 @@ footer {
   .left-column .schedule-summary,
   .right-column .note-summary {
     padding: 1em;
+  }
+}
+	.ranking-table-scroll-hint {
+	  font-size: 0.8rem;
+	  color: #666;
+	  margin-bottom: 4px;
+	  text-align: center;
+	}
+
+  .ranking-table {
+    min-width: 700px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+	.ranking-table-scroll-hint {
+	  font-size: 0.8rem;
+	  color: #666;
+	  text-align: center;
+	  margin: 4px 0;
+	}
+
+  .ranking-table th,
+  .ranking-table td {
+    padding: 8px;
+    font-size: 0.9rem;
+    white-space: nowrap;
   }
 }
 
