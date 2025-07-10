@@ -145,10 +145,8 @@ footer {
 }
 
 /* スクロールヒントはPCでは非表示 */
-@media (min-width: 601px) {
-  .ranking-table-scroll-hint {
-    display: none;
-  }
+.ranking-table-scroll-hint {
+  display: none;
 }
 
 /* ========================================
@@ -161,7 +159,13 @@ footer {
     flex-direction: column;
     gap: 24px;
   }
-
+  .ranking-table-scroll-hint {
+    display: block;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+    margin: 4px 0;
+  }
   .left-column,
   .center-column,
   .right-column {
@@ -193,14 +197,7 @@ footer {
     white-space: nowrap;
   }
 
-  /* ?? スクロールヒント表示（スマホのみ） */
-  .ranking-table-scroll-hint {
-    display: block;
-    font-size: 0.75rem;
-    color: #666;
-    text-align: center;
-    margin: 4px 0;
-  }
+
 }
 
 
