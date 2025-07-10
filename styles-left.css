@@ -124,19 +124,13 @@ footer {
   }
 }
 /* ========================================
-   スマホ向け：3カラムを縦並びに
+   レスポンシブ対応：スマホ向け (?600px)
    ======================================== */
 @media (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
     gap: 24px;
-  }
-
-  /* ランキング表のスクロール対応 */
-  .ranking-table-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   .left-column,
@@ -150,31 +144,58 @@ footer {
   .right-column .note-summary {
     padding: 1em;
   }
-}
-	.ranking-table-scroll-hint {
-	  font-size: 0.8rem;
-	  color: #666;
-	  margin-bottom: 4px;
-	  text-align: center;
-	}
+
+  /* ? ランキング表スクロール対応（スマホのみ） */
+  .ranking-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
 
   .ranking-table {
     min-width: 700px;
-    width: 100%;
     border-collapse: collapse;
+    font-size: 0.85rem; /* ← スマホ時のみ少し縮小 */
   }
-	.ranking-table-scroll-hint {
-	  font-size: 0.8rem;
-	  color: #666;
-	  text-align: center;
-	  margin: 4px 0;
-	}
 
   .ranking-table th,
   .ranking-table td {
-    padding: 8px;
-    font-size: 0.9rem;
+    padding: 6px;
     white-space: nowrap;
   }
+
+  /* ?? スクロールヒント表示（スマホのみ） */
+  .ranking-table-scroll-hint {
+    display: block;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+    margin: 4px 0;
+  }
 }
+/* ========================================
+   通常表示（PC）向け
+   ======================================== */
+.ranking-table-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 8px;
+  white-space: nowrap;
+}
+
+/* スクロールヒントはPCでは非表示 */
+.ranking-table-scroll-hint {
+  display: none;
+}
+
 
