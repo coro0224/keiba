@@ -186,14 +186,14 @@ footer {
   }
 
   .ranking-table {
-    min-width: 700px;
+    min-width: 660px;
     border-collapse: collapse;
-    font-size: 0.85rem; /* スマホ時のみ少し縮小 */
+    font-size: 0.82rem; /* スマホ時のみ少し縮小 */
   }
 
   .ranking-table th,
   .ranking-table td {
-    padding: 6px;
+    padding: 5px;
     white-space: nowrap;
   }
 
