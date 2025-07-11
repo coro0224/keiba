@@ -112,32 +112,7 @@ details summary {
   font-size: 1.2rem;
 }
 
-/* 騎手表：テーブル構成 */
-.ranking-table-container {
-  padding: 10px 20px 20px;
-}
 
-.ranking-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1.2rem;
-  background: #fff;
-  border: 1px solid #999;
-}
-
-.ranking-table th {
-  background-color: #81c784;
-  color: #fff;
-  padding: 10px;
-  border: 1px solid #666;
-  font-weight: bold;
-}
-
-.ranking-table td {
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
 
 /* リーディング上位装飾 */
 .ranking-table tbody tr:first-child {
