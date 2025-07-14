@@ -52,17 +52,18 @@ document.addEventListener("DOMContentLoaded", () => {
 		  // 🔁 常に3リンクを出力（見どころ・展開予想・回顧）
 		  let contentHTML = "";
 
-		  const createLink = (label, url) => {
-		    if (url && typeof url === "string" && !url.includes("undefined")) {
-		      return `<p><a href="output/${url}">▶ ${label}</a></p>`;
-		    } else {
-		      return `<p>▶ ${label}：<span style="color:#888;">後日記載予定</span></p>`;
-		    }
-		  };
+			const createLink = (label, url) => {
+			  if (url && typeof url === "string" && !url.includes("undefined")) {
+			    return `<p><a href="${url}">▶ ${label}</a></p>`;
+			  } else {
+			    return `<p>▶ ${label}：<span style="color:#888;">後日記載予定</span></p>`;
+			  }
+			};
 
-		  contentHTML += createLink("見どころを見る", race.sections.highlight);
-		  contentHTML += createLink("展開予想（馬番号付き）を見る", race.sections.preview);
-		  contentHTML += createLink("レース回顧を見る", race.sections.review);
+			contentHTML += createLink("見どころを見る", race.sections?.highlight);
+			contentHTML += createLink("展開予想（馬番号付き）を見る", race.sections?.preview);
+			contentHTML += createLink("レース回顧を見る", race.sections?.review);
+
 
 		  details.innerHTML += contentHTML;
 		  container.appendChild(details);
