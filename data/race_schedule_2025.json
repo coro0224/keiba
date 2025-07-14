@@ -11,7 +11,7 @@
         "コスモフリーゲン",
         "シルトホルン"
       ],
-      "highlight": "夏の福島を舞台に繰り広げられる技巧派の一戦。道悪も視野に入る七夕賞では、自在性と持久力を備えたドゥラドーレスが軸。逃げに徹するコスモフリーゲンの展開が鍵を握り、差し脚鋭いシルトホルンが直線でどこまで詰め寄れるか?波乱含みの舞台装置が整った。",
+      "highlight": "夏の福島を舞台に繰り広げられる技巧派の一戦。道悪も視野に入る七夕賞では、自在性と持久力を備えたドゥラドーレスが軸。逃げに徹するコスモフリーゲンの展開が鍵を握り、差し脚鋭いシルトホルンが直線でどこまで詰め寄れるか—波乱含みの舞台装置が整った。",
       "sections": {
         "preview": "tanabata.html#preview",
         "review": "tanabata.html#review",
@@ -29,6 +29,42 @@
         "author": "ぺぱころ"
       },
       "note_url": "https://note.com/coro_pepa/n/nab910c9ca4c4"
+    },
+    {
+      "id": "20250720_kokura_kinen",
+      "date": "2025-07-20",
+      "name": "小倉記念",
+      "grade": "G3",
+      "venue": "小倉・芝2000m",
+      "sections": {
+        "preview": "kokura_kinen.html#preview",
+        "review": "kokura_kinen.html#review",
+        "highlight": "kokura_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250720_G3.png",
+        "alt": "小倉記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 小倉記念。展開の鍵を握るのは 。"
+    },
+    {
+      "id": "20250720_hakodate_2sai",
+      "date": "2025-07-20",
+      "name": "函館2歳ステークス",
+      "grade": "G3",
+      "venue": "函館・芝1200m",
+      "sections": {
+        "preview": "hakodate_2sai.html#preview",
+        "review": "hakodate_2sai.html#review",
+        "highlight": "hakodate_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250720_G3.png",
+        "alt": "函館2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 函館2歳ステークス。展開の鍵を握るのは 。"
     }
   ]
 }
