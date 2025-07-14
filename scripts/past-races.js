@@ -5,31 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("past-race-container");
       container.innerHTML = "";
 
-      // 🇯🇵 JSTの今日（00:00）を定義
       const now = new Date();
       const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-      // 📅 今週（月曜〜日曜）を定義
-      const dow = today.getDay(); // 0:日〜6:土
+      const dow = today.getDay();
       const monday = new Date(today);
       monday.setDate(today.getDate() - ((dow + 6) % 7));
       const sunday = new Date(monday);
       sunday.setDate(monday.getDate() + 6);
 
-      // 🔎 日付パース（Z付きにも対応）
       const parseDate = (str) => {
         const clean = str.includes("T") ? str.split("T")[0] : str;
         const [yyyy, mm, dd] = clean.split("-").map(Number);
         return new Date(yyyy, mm - 1, dd);
       };
 
-      // 🐴 今週よりも前のレースだけ抽出
       const pastRaces = data.races.filter(race => {
         const raceDate = parseDate(race.date);
         return raceDate < monday;
       });
 
-      // 🗂️ 月 → 日 → レースの3階層構造に分類
       const months = {};
       pastRaces.forEach(race => {
         const dateObj = parseDate(race.date);
@@ -43,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         months[key][weekKey].push(race);
       });
 
-      // 🖼️ HTML生成
       Object.keys(months).sort().forEach(month => {
         const monthDetails = document.createElement("details");
         monthDetails.classList.add("note-block");
@@ -61,11 +55,31 @@ document.addEventListener("DOMContentLoaded", () => {
           weekDetails.appendChild(weekSummary);
 
           months[month][week].forEach(race => {
+            const links = [];
+
+            if (race.sections?.highlight) {
+              links.push(`<a href="output/${race.sections.highlight}">▶ 見どころを見る</a>`);
+            } else {
+              links.push(`▶ 見どころ：<span style="color:#888;">後日記載予定</span>`);
+            }
+
+            if (race.sections?.preview) {
+              links.push(`<a href="output/${race.sections.preview}">▶ 展開予想を見る</a>`);
+            } else {
+              links.push(`▶ 展開予想：<span style="color:#888;">後日記載予定</span>`);
+            }
+
+            if (race.sections?.review) {
+              links.push(`<a href="output/${race.sections.review}">▶ レース回顧を見る</a>`);
+            } else {
+              links.push(`▶ レース回顧：<span style="color:#888;">後日記載予定</span>`);
+            }
+
             const raceItem = document.createElement("p");
             raceItem.innerHTML = `
               【<span class="${race.grade.toLowerCase()}">${race.grade}</span>】
               ${race.name}（${race.venue}）<br>
-              <a href="output/${race.review}">▶ レース回顧を見る</a>
+              ${links.join("<br>")}
             `;
             weekDetails.appendChild(raceItem);
           });
@@ -76,7 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(monthDetails);
       });
 
-      // ✅ 開発用ログ
       console.log("past-races loaded:", pastRaces.length, "件");
     })
     .catch(err => {
