@@ -6,7 +6,7 @@ require("dotenv").config();
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const racePath = path.join(__dirname, "../data/race_schedule_2025.json");
 
-// Copilot補助の見どころ生成
+// Copilot補助の見どころ生成（応答なし → にの補完）
 async function generateHighlight(title, venue, date, horses = []) {
   const systemPrompt =
     "あなたは競馬ファン向けの解説に長けた専門ライターです。レースの“見どころ”を1～2文で、語感・臨場感・競馬らしさを込めて簡潔にまとめてください。";
@@ -32,7 +32,16 @@ async function generateHighlight(title, venue, date, horses = []) {
   });
 
   const json = await response.json();
-  return json?.choices?.[0]?.message?.content?.trim() || "（見どころ未生成）";
+  const content = json?.choices?.[0]?.message?.content?.trim();
+
+  // 🔰 にの補完ブロック（API応答がない場合）
+  if (!content) {
+    console.warn("⚠️ Copilot応答なし → にの補完文で対応します");
+    const fallbackText = `注目馬が激突する ${title}。展開の鍵を握るのは ${horses.join("、")}。`;
+    return fallbackText;
+  }
+
+  return content;
 }
 
 // 今週の判定（月曜〜日曜）
