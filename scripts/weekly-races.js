@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		    }
 		  };
 
-		  contentHTML += createLink("見どころを見る", race.highlight_page);
-		  contentHTML += createLink("展開予想（馬番号付き）を見る", race.preview);
-		  contentHTML += createLink("レース回顧を見る", race.review);
+		  contentHTML += createLink("見どころを見る", race.sections.highlight);
+		  contentHTML += createLink("展開予想（馬番号付き）を見る", race.sections.preview);
+		  contentHTML += createLink("レース回顧を見る", race.sections.review);
 
 		  details.innerHTML += contentHTML;
 		  container.appendChild(details);
