@@ -1,7 +1,7 @@
 /* ========== 全体 ========== */
 body {
   font-family: "Noto Sans JP", "游ゴシック体", "Hiragino Kaku Gothic ProN", sans-serif;
-  background: linear-gradient(#f0f4f8, #e8f0ff); /* 薄水色グラデーション */
+  background: linear-gradient(#f0f4f8, #e8f0ff); /* 薄水色グラデーション：夏感＋図書館的な落ち着き */
   margin: 0;
   padding: 0 16px;
   color: #222;
@@ -13,7 +13,7 @@ body {
   max-width: 900px;
   margin: 40px auto;
   padding: 24px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.96); /* 少し透過で背景と調和 */
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
 }
@@ -48,7 +48,6 @@ body {
   display: inline-block;
 }
 
-
 .race-sub {
   font-size: 1.1rem;
   color: #555;
@@ -57,7 +56,7 @@ body {
 /* ========== グレードラベル ========== */
 .grade-label {
   padding: 2px 6px;
-  margin-left: 4px;
+  margin-left: 6px;
   font-size: 0.9rem;
   font-weight: bold;
   font-style: italic;
@@ -71,12 +70,28 @@ body {
 
 /* ========== 各セクション ========== */
 .race-section {
-  border-left: 6px solid #81c784;
-  background: #fcfcfc;
   padding: 1.2em 1.5em;
   margin-bottom: 2em;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* 🎯 見どころ → 暖色系で期待感 */
+.highlight {
+  border-left: 6px solid #f6b26b;
+  background: #fff9ec;
+}
+
+/* 📘 展開予想 → 初夏の空気感あるブルー系 */
+.preview {
+  border-left: 6px solid #64b5f6;
+  background: #f0f8ff;
+}
+
+/* 🐎 レース回顧 → 落ち着いたピンク系で余韻・回想感 */
+.review {
+  border-left: 6px solid #c27ba0;
+  background: #fbeaf3;
 }
 
 .race-section h3 {
@@ -84,10 +99,6 @@ body {
   margin-bottom: 0.8em;
   color: #0055aa;
 }
-
-.highlight { border-left-color: #f6b26b; }
-.preview   { border-left-color: #64b5f6; }
-.review    { border-left-color: #c27ba0; }
 
 .race-section p {
   font-size: 1rem;
@@ -164,7 +175,7 @@ footer a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
-  .race-title {
+  .race-title-main {
     font-size: 1.4rem;
   }
 
