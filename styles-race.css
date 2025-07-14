@@ -37,7 +37,7 @@ body {
   flex-direction: column;
 }
 
-.race-title {
+.race-title-main {
   font-size: 1.8rem;
   margin: 0;
   color: #222;
