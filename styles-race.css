@@ -1,7 +1,7 @@
 /* ========== 全体 ========== */
 body {
   font-family: "Noto Sans JP", "游ゴシック体", "Hiragino Kaku Gothic ProN", sans-serif;
-  background: linear-gradient(#fdfdfd, #f0f8ff);
+  background: linear-gradient(#f0f4f8, #e8f0ff); /* 薄水色グラデーション */
   margin: 0;
   padding: 0 16px;
   color: #222;
@@ -41,7 +41,13 @@ body {
   font-size: 1.8rem;
   margin: 0;
   color: #222;
+  border: 2px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #ffffffdd;
+  display: inline-block;
 }
+
 
 .race-sub {
   font-size: 1.1rem;
