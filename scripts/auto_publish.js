@@ -3,6 +3,8 @@
 const { execSync } = require("child_process");
 const path = require("path");
 const chalk = require("chalk"); // 色付きログ表示（optional）
+const { log, divider } = require("./logger");
+
 
 function run(scriptName) {
   const scriptPath = path.join(__dirname, scriptName);
@@ -16,17 +18,36 @@ function run(scriptName) {
   }
 }
 
+log("🚀 Copilot連携・一括更新フロー開始");
+divider();
+
 // 🧩 自動実行するスクリプト一覧（順番が重要）
-const tasks = [
-  "generate_highlights.js",     // 見どころ文を自動生成（Copilot組込み）
-  "inject_highlights.js",       // highlight文をHTMLに挿入
-  "inject_note_links.js",       // NOTEリンクをHTMLに追加
-  "inject_image_names.js",      // 画像ファイル名を挿入（任意）
-  "generate_weekly.js"          // レースHTMLをテンプレートから出力
+const scripts = [
+  "generate_note_template.js",
+  "update_note_links.js",
+  "generate_highlights.js",
+  "inject_highlights.js",
+  "inject_note_links.js",
+  "generate_weekly.js"
 ];
+
+
+for (const script of scripts) {
+  try {
+    log(`🟢 実行中: ${script}`);
+    execSync(`node ${path.join(__dirname, script)}`, { stdio: "inherit" });
+    log(`✅ 完了: ${script}`);
+    divider();
+  } catch (error) {
+    log(`❌ エラー: ${script}`);
+    log(error.message);
+    divider();
+  }
+}
+
+log("✅ Copilot一括更新フロー終了");
 
 console.log(chalk.bold("\n📦 Copilot連携・一括更新フロー開始\n"));
 
-tasks.forEach(run);
 
 console.log(chalk.bold("\n🎉 一連の更新作業が正常に完了しました\n"));

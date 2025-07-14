@@ -40,8 +40,22 @@ const thisWeekRaces = json.races.filter(r => {
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
 // 各レース HTML を生成
+
 thisWeekRaces.forEach(race => {
-  const fileBase = race.preview.replace(/\.html.*/i, "");
+	const preview = race.preview || race.sections?.preview || "";
+
+	if (!preview) {
+	  console.warn(`⚠️ preview 未定義 → ${race.name}`);
+	  return; // もしくは continue;
+	}
+
+	const fileBase = preview.replace(/\.html.*/i, "");
+	if (race.preview && typeof race.preview === "string") {
+	  // 続きの処理...
+	} else {
+	  console.warn(`⚠️ previewが未定義: ${race.name || "未設定レース"}`);
+	  return;
+	}
   
   // ─── 修正ポイント ───
   // template 文字列から始まるチェーンで .replace() をつなぎます
