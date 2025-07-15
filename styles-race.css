@@ -174,6 +174,21 @@ footer a {
     margin-bottom: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
+	.race-subgroup {
+	  margin-top: 8px;
+	  font-size: 1rem;
+	  color: #444;
+	  display: flex;
+	  flex-direction: column;
+	  gap: 4px;
+	}
+	.race-date::before {
+	  content: "📅 ";
+	}
+
+	.race-location::before {
+	  content: "📍 ";
+	}
 
   .race-title-main {
     font-size: 1.4rem;
