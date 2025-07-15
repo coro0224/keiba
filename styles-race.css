@@ -1,7 +1,7 @@
 /* ========== 全体 ========== */
 body {
   font-family: "Noto Sans JP", "游ゴシック体", "Hiragino Kaku Gothic ProN", sans-serif;
-  background: linear-gradient(#f0f4f8, #e8f0ff); /* 薄水色グラデーション：夏感＋図書館的な落ち着き */
+  background: linear-gradient(#f0f4f8, #e8f0ff);
   margin: 0;
   padding: 0 16px;
   color: #222;
@@ -13,7 +13,7 @@ body {
   max-width: 900px;
   margin: 40px auto;
   padding: 24px;
-  background: rgba(255, 255, 255, 0.96); /* 少し透過で背景と調和 */
+  background: rgba(255, 255, 255, 0.96);
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
 }
@@ -28,8 +28,9 @@ body {
 
 .race-mainvisual {
   width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .race-meta {
@@ -41,16 +42,34 @@ body {
   font-size: 1.8rem;
   margin: 0;
   color: #222;
-  border: 2px solid #ccc;
+  border: 2px solid #aaa;
   padding: 8px 12px;
   border-radius: 6px;
   background-color: #ffffffdd;
   display: inline-block;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .race-sub {
   font-size: 1.1rem;
   color: #555;
+}
+
+.race-subgroup {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.race-date::before {
+  content: "📅 ";
+}
+
+.race-location::before {
+  content: "📍 ";
 }
 
 /* ========== グレードラベル ========== */
@@ -76,19 +95,16 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* 🎯 見どころ → 暖色系で期待感 */
 .highlight {
   border-left: 6px solid #f6b26b;
   background: #fff9ec;
 }
 
-/* 📘 展開予想 → 初夏の空気感あるブルー系 */
 .preview {
   border-left: 6px solid #64b5f6;
   background: #f0f8ff;
 }
 
-/* 🐎 レース回顧 → 落ち着いたピンク系で余韻・回想感 */
 .review {
   border-left: 6px solid #c27ba0;
   background: #fbeaf3;
@@ -146,9 +162,7 @@ footer a {
   font-weight: bold;
 }
 
-/* ========================================
-   レスポンシブ対応：スマホ向け (〜600px)
-   ======================================== */
+/* ========== レスポンシブ対応：スマホ向け ========== */
 @media (max-width: 600px) {
   .race-detail {
     margin: 20px auto;
@@ -174,21 +188,6 @@ footer a {
     margin-bottom: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
-	.race-subgroup {
-	  margin-top: 8px;
-	  font-size: 1rem;
-	  color: #444;
-	  display: flex;
-	  flex-direction: column;
-	  gap: 4px;
-	}
-	.race-date::before {
-	  content: "📅 ";
-	}
-
-	.race-location::before {
-	  content: "📍 ";
-	}
 
   .race-title-main {
     font-size: 1.4rem;
@@ -196,6 +195,11 @@ footer a {
 
   .race-sub {
     font-size: 1rem;
+  }
+
+  .race-subgroup {
+    font-size: 0.95rem;
+    gap: 3px;
   }
 
   .race-section {
