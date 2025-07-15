@@ -8,7 +8,7 @@ body {
   line-height: 1.7;
 }
 
-/* ========== レース全体構造 ========== */ 
+/* ========== レース全体構造 ========== */
 .race-detail {
   max-width: 900px;
   margin: 40px auto;
@@ -40,16 +40,24 @@ body {
 
 .race-title-main {
   font-size: 1.8rem;
-  margin: 0;
-  color: #222;
   border: 2px solid #aaa;
-  padding: 8px 12px;
-  border-radius: 6px;
-  background-color: #ffffffdd;
-  display: inline-block;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: linear-gradient(#ffffff, #f2f2f2);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.race-subgroup p {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
+.grade-label.g3 {
+  background: #555;
+  padding: 3px 8px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
 .race-sub {
   font-size: 1.1rem;
   color: #555;
