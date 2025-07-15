@@ -19,13 +19,17 @@ body {
 }
 
 /* ========== ヘッダー構成 ========== */
+
 .race-header {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 32px;
+  padding: 24px;
+  background: linear-gradient(to right, #e3f2fd, #e8f0ff); /* 爽やかなブルー系グラデーション */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 .race-mainvisual {
   width: 200px;
   border-radius: 10px;
