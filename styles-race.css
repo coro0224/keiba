@@ -26,7 +26,7 @@ body {
   gap: 20px;
   margin-bottom: 32px;
   padding: 24px;
-  background: linear-gradient(to right, #d1c4e9, #f3e5f5); !important; /* 爽やかなブルー系グラデーション */
+  background: linear-gradient(to right, #d1c4e9, #f3e5f5) !important; /* 爽やかなブルー系グラデーション */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
