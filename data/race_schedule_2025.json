@@ -7,9 +7,9 @@
       "grade": "G3",
       "venue": "福島・芝2000m",
       "sections": {
-        "preview": "output/tanabata.html#preview",
-        "review": "output/tanabata.html#review",
-        "highlight": "output/tanabata.html#highlight"
+        "preview": "tanabata.html#preview",
+        "review": "tanabata.html#review",
+        "highlight": "tanabata.html#highlight"
       },
       "image": {
         "file": "_20250713_G3.png",
