@@ -1,70 +1,1201 @@
 {
   "races": [
     {
-      "id": "20250713_tanabata",
-      "date": "2025-07-13",
-      "name": "七夕賞",
+      "id": "20250727_sekiya",
+      "date": "2025-07-27",
+      "name": "関屋記念",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "sekiya.html#preview",
+        "review": "sekiya.html#review",
+        "highlight": "sekiya.html#highlight"
+      },
+      "image": {
+        "file": "_20250727_G3.png",
+        "alt": "関屋記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250727_tokai",
+      "date": "2025-07-27",
+      "name": "東海ステークス",
+      "grade": "G3",
+      "venue": "中京・ダ1400m",
+      "sections": {
+        "preview": "tokai.html#preview",
+        "review": "tokai.html#review",
+        "highlight": "tokai.html#highlight"
+      },
+      "image": {
+        "file": "_20250727_G3.png",
+        "alt": "東海ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250803_ibis_summer",
+      "date": "2025-08-03",
+      "name": "アイビスサマーダッシュ",
+      "grade": "G3",
+      "venue": "新潟・芝1000m",
+      "sections": {
+        "preview": "ibis_summer.html#preview",
+        "review": "ibis_summer.html#review",
+        "highlight": "ibis_summer.html#highlight"
+      },
+      "image": {
+        "file": "アイビスサマ_ダッシュ_20250803_G3.png",
+        "alt": "アイビスサマーダッシュ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250803_queen_sapporo",
+      "date": "2025-08-03",
+      "name": "クイーンステークス",
+      "grade": "G3",
+      "venue": "札幌・芝1800m",
+      "sections": {
+        "preview": "queen_sapporo.html#preview",
+        "review": "queen_sapporo.html#review",
+        "highlight": "queen_sapporo.html#highlight"
+      },
+      "image": {
+        "file": "クイ_ン_20250803_G3.png",
+        "alt": "クイーンステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250809_elm",
+      "date": "2025-08-09",
+      "name": "エルムステークス",
+      "grade": "G3",
+      "venue": "札幌・ダ1700m",
+      "sections": {
+        "preview": "elm.html#preview",
+        "review": "elm.html#review",
+        "highlight": "elm.html#highlight"
+      },
+      "image": {
+        "file": "エルム_20250809_G3.png",
+        "alt": "エルムステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250810_leopard",
+      "date": "2025-08-10",
+      "name": "レパードステークス",
+      "grade": "G3",
+      "venue": "新潟・ダ1800m",
+      "sections": {
+        "preview": "leopard.html#preview",
+        "review": "leopard.html#review",
+        "highlight": "leopard.html#highlight"
+      },
+      "image": {
+        "file": "レパ_ド_20250810_G3.png",
+        "alt": "レパードステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250810_cbc",
+      "date": "2025-08-10",
+      "name": "CBC賞",
+      "grade": "G3",
+      "venue": "中京・芝1200m",
+      "sections": {
+        "preview": "cbc.html#preview",
+        "review": "cbc.html#review",
+        "highlight": "cbc.html#highlight"
+      },
+      "image": {
+        "file": "cbc_20250810_G3.png",
+        "alt": "CBC賞・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250816_niigata_jump",
+      "date": "2025-08-16",
+      "name": "新潟ジャンプステークス",
+      "grade": "G3",
+      "venue": "新潟・障害3250m",
+      "sections": {
+        "preview": "niigata_jump.html#preview",
+        "review": "niigata_jump.html#review",
+        "highlight": "niigata_jump.html#highlight"
+      },
+      "image": {
+        "file": "_20250816_G3.png",
+        "alt": "新潟ジャンプステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250817_chukyo_kinen",
+      "date": "2025-08-17",
+      "name": "中京記念",
+      "grade": "G3",
+      "venue": "中京・芝1600m",
+      "sections": {
+        "preview": "chukyo_kinen.html#preview",
+        "review": "chukyo_kinen.html#review",
+        "highlight": "chukyo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250817_G3.png",
+        "alt": "中京記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250817_sapporo_kinen",
+      "date": "2025-08-17",
+      "name": "札幌記念",
+      "grade": "G2",
+      "venue": "札幌・芝2000m",
+      "sections": {
+        "preview": "sapporo_kinen.html#preview",
+        "review": "sapporo_kinen.html#review",
+        "highlight": "sapporo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250817_G2.png",
+        "alt": "札幌記念・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250824_niigata_2sai",
+      "date": "2025-08-24",
+      "name": "新潟2歳ステークス",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "niigata_2sai.html#preview",
+        "review": "niigata_2sai.html#review",
+        "highlight": "niigata_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250824_G3.png",
+        "alt": "新潟2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250824_keeneland",
+      "date": "2025-08-24",
+      "name": "キーンランドカップ",
+      "grade": "G3",
+      "venue": "札幌・芝1200m",
+      "sections": {
+        "preview": "keeneland.html#preview",
+        "review": "keeneland.html#review",
+        "highlight": "keeneland.html#highlight"
+      },
+      "image": {
+        "file": "キ_ンランド_20250824_G3.png",
+        "alt": "キーンランドカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250831_niigata_kinen",
+      "date": "2025-08-31",
+      "name": "新潟記念",
+      "grade": "G3",
+      "venue": "新潟・芝2000m",
+      "sections": {
+        "preview": "niigata_kinen.html#preview",
+        "review": "niigata_kinen.html#review",
+        "highlight": "niigata_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250831_G3.png",
+        "alt": "新潟記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250831_chukyo_2sai",
+      "date": "2025-08-31",
+      "name": "中京2歳ステークス",
+      "grade": "G3",
+      "venue": "中京・芝1400m",
+      "sections": {
+        "preview": "chukyo_2sai.html#preview",
+        "review": "chukyo_2sai.html#review",
+        "highlight": "chukyo_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250831_G3.png",
+        "alt": "中京2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250906_keisei_ah",
+      "date": "2025-09-06",
+      "name": "京成杯オータムハンデキャップ",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "keisei_ah.html#preview",
+        "review": "keisei_ah.html#review",
+        "highlight": "keisei_ah.html#highlight"
+      },
+      "image": {
+        "file": "オ_タムハンデキャップ_20250906_G3.png",
+        "alt": "京成杯オータムハンデキャップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250906_sapporo_2sai",
+      "date": "2025-09-06",
+      "name": "札幌2歳ステークス",
+      "grade": "G3",
+      "venue": "札幌・芝1800m",
+      "sections": {
+        "preview": "sapporo_2sai.html#preview",
+        "review": "sapporo_2sai.html#review",
+        "highlight": "sapporo_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250906_G3.png",
+        "alt": "札幌2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250907_shion",
+      "date": "2025-09-07",
+      "name": "紫苑ステークス",
+      "grade": "G2",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "shion.html#preview",
+        "review": "shion.html#review",
+        "highlight": "shion.html#highlight"
+      },
+      "image": {
+        "file": "_20250907_G2.png",
+        "alt": "紫苑ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250907_centaur",
+      "date": "2025-09-07",
+      "name": "セントウルステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1200m",
+      "sections": {
+        "preview": "centaur.html#preview",
+        "review": "centaur.html#review",
+        "highlight": "centaur.html#highlight"
+      },
+      "image": {
+        "file": "セントウル_20250907_G2.png",
+        "alt": "セントウルステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250913_challenge_cup",
+      "date": "2025-09-13",
+      "name": "チャレンジカップ",
+      "grade": "G3",
+      "venue": "阪神・芝2000m",
+      "sections": {
+        "preview": "challenge_cup.html#preview",
+        "review": "challenge_cup.html#review",
+        "highlight": "challenge_cup.html#highlight"
+      },
+      "image": {
+        "file": "チャレンジ_20250913_G3.png",
+        "alt": "チャレンジカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250914_rose",
+      "date": "2025-09-14",
+      "name": "ローズステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1800m",
+      "sections": {
+        "preview": "rose.html#preview",
+        "review": "rose.html#review",
+        "highlight": "rose.html#highlight"
+      },
+      "image": {
+        "file": "ロ_ズ_20250914_G2.png",
+        "alt": "ローズステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250915_st_lite",
+      "date": "2025-09-15",
+      "name": "セントライト記念",
+      "grade": "G2",
+      "venue": "中山・芝2200m",
+      "sections": {
+        "preview": "st_lite.html#preview",
+        "review": "st_lite.html#review",
+        "highlight": "st_lite.html#highlight"
+      },
+      "image": {
+        "file": "セントライト_20250915_G2.png",
+        "alt": "セントライト記念・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250920_hanshin_jump",
+      "date": "2025-09-20",
+      "name": "阪神ジャンプステークス",
+      "grade": "G3",
+      "venue": "阪神・障害3140m",
+      "sections": {
+        "preview": "hanshin_jump.html#preview",
+        "review": "hanshin_jump.html#review",
+        "highlight": "hanshin_jump.html#highlight"
+      },
+      "image": {
+        "file": "_20250920_G3.png",
+        "alt": "阪神ジャンプステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250921_allcomer",
+      "date": "2025-09-21",
+      "name": "オールカマー",
+      "grade": "G2",
+      "venue": "中山・芝2200m",
+      "sections": {
+        "preview": "allcomer.html#preview",
+        "review": "allcomer.html#review",
+        "highlight": "allcomer.html#highlight"
+      },
+      "image": {
+        "file": "オ_ルカマ_20250921_G2.png",
+        "alt": "オールカマー・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250921_kobe",
+      "date": "2025-09-21",
+      "name": "神戸新聞杯",
+      "grade": "G2",
+      "venue": "阪神・芝2400m",
+      "sections": {
+        "preview": "kobe.html#preview",
+        "review": "kobe.html#review",
+        "highlight": "kobe.html#highlight"
+      },
+      "image": {
+        "file": "_20250921_G2.png",
+        "alt": "神戸新聞杯・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250927_sirius",
+      "date": "2025-09-27",
+      "name": "シリウスステークス",
+      "grade": "G3",
+      "venue": "阪神・ダ2000m",
+      "sections": {
+        "preview": "sirius.html#preview",
+        "review": "sirius.html#review",
+        "highlight": "sirius.html#highlight"
+      },
+      "image": {
+        "file": "シリウス_20250927_G3.png",
+        "alt": "シリウスステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250928_sprinters",
+      "date": "2025-09-28",
+      "name": "スプリンターズステークス",
+      "grade": "G1",
+      "venue": "中山・芝1200m",
+      "sections": {
+        "preview": "sprinters.html#preview",
+        "review": "sprinters.html#review",
+        "highlight": "sprinters.html#highlight"
+      },
+      "image": {
+        "file": "スプリンタ_ズ_20250928_G1.png",
+        "alt": "スプリンターズステークス・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251005_nakayama_daishoten",
+      "date": "2025-10-05",
+      "name": "毎日王冠",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "mainichi_oukan.html#preview",
+        "review": "mainichi_oukan.html#review",
+        "highlight": "mainichi_oukan.html#highlight"
+      },
+      "image": {
+        "file": "_20251005_G2.png",
+        "alt": "毎日王冠・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251005_kyoto_daishoten",
+      "date": "2025-10-05",
+      "name": "京都大賞典",
+      "grade": "G2",
+      "venue": "京都・芝2400m",
+      "sections": {
+        "preview": "kyoto_daishoten.html#preview",
+        "review": "kyoto_daishoten.html#review",
+        "highlight": "kyoto_daishoten.html#highlight"
+      },
+      "image": {
+        "file": "_20251005_G2.png",
+        "alt": "京都大賞典・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251011_saudi_royal",
+      "date": "2025-10-11",
+      "name": "サウジアラビアロイヤルカップ",
+      "grade": "G3",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "saudi_royal.html#preview",
+        "review": "saudi_royal.html#review",
+        "highlight": "saudi_royal.html#highlight"
+      },
+      "image": {
+        "file": "サウジアラビアロイヤル_20251011_G3.png",
+        "alt": "サウジアラビアロイヤルカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251012_ireland_fuchu",
+      "date": "2025-10-12",
+      "name": "アイルランドトロフィー府中牝馬ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "ireland_fuchu.html#preview",
+        "review": "ireland_fuchu.html#review",
+        "highlight": "ireland_fuchu.html#highlight"
+      },
+      "image": {
+        "file": "アイルランドトロフィ_20251012_G2.png",
+        "alt": "アイルランドトロフィー府中牝馬ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251013_swan",
+      "date": "2025-10-13",
+      "name": "スワンステークス",
+      "grade": "G2",
+      "venue": "京都・芝1400m",
+      "sections": {
+        "preview": "swan.html#preview",
+        "review": "swan.html#review",
+        "highlight": "swan.html#highlight"
+      },
+      "image": {
+        "file": "スワン_20251013_G2.png",
+        "alt": "スワンステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251018_fuji",
+      "date": "2025-10-18",
+      "name": "富士ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "fuji.html#preview",
+        "review": "fuji.html#review",
+        "highlight": "fuji.html#highlight"
+      },
+      "image": {
+        "file": "_20251018_G2.png",
+        "alt": "富士ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251019_tokyo_highjump",
+      "date": "2025-10-19",
+      "name": "東京ハイジャンプ",
+      "grade": "J-G2",
+      "venue": "東京・障害3110m",
+      "sections": {
+        "preview": "tokyo_highjump.html#preview",
+        "review": "tokyo_highjump.html#review",
+        "highlight": "tokyo_highjump.html#highlight"
+      },
+      "image": {
+        "file": "ハイ_20251019_G2.png",
+        "alt": "東京ハイジャンプ・2025年J-G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251020_shuka",
+      "date": "2025-10-20",
+      "name": "秋華賞",
+      "grade": "G1",
+      "venue": "京都・芝2000m",
+      "sections": {
+        "preview": "shuka.html#preview",
+        "review": "shuka.html#review",
+        "highlight": "shuka.html#highlight"
+      },
+      "image": {
+        "file": "_20251020_G1.png",
+        "alt": "秋華賞・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251025_artemis",
+      "date": "2025-10-25",
+      "name": "アルテミスステークス",
+      "grade": "G3",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "artemis.html#preview",
+        "review": "artemis.html#review",
+        "highlight": "artemis.html#highlight"
+      },
+      "image": {
+        "file": "アルテミス_20251025_G3.png",
+        "alt": "アルテミスステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251026_kikka",
+      "date": "2025-10-26",
+      "name": "菊花賞",
+      "grade": "G1",
+      "venue": "京都・芝3000m",
+      "sections": {
+        "preview": "kikka.html#preview",
+        "review": "kikka.html#review",
+        "highlight": "kikka.html#highlight"
+      },
+      "image": {
+        "file": "_20251026_G1.png",
+        "alt": "菊花賞・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251101_fantasy",
+      "date": "2025-11-01",
+      "name": "ファンタジーステークス",
+      "grade": "G3",
+      "venue": "京都・芝1400m",
+      "sections": {
+        "preview": "fantasy.html#preview",
+        "review": "fantasy.html#review",
+        "highlight": "fantasy.html#highlight"
+      },
+      "image": {
+        "file": "ファンタジ_20251101_G3.png",
+        "alt": "ファンタジーステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251102_tenno_autumn",
+      "date": "2025-11-02",
+      "name": "天皇賞（秋）",
+      "grade": "G1",
+      "venue": "東京・芝2000m",
+      "sections": {
+        "preview": "tenno_autumn.html#preview",
+        "review": "tenno_autumn.html#review",
+        "highlight": "tenno_autumn.html#highlight"
+      },
+      "image": {
+        "file": "_20251102_G1.png",
+        "alt": "天皇賞（秋）・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251108_keio_2sai",
+      "date": "2025-11-08",
+      "name": "京王杯2歳ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1400m",
+      "sections": {
+        "preview": "keio_2sai.html#preview",
+        "review": "keio_2sai.html#review",
+        "highlight": "keio_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20251108_G2.png",
+        "alt": "京王杯2歳ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251108_kyoto_jump",
+      "date": "2025-11-08",
+      "name": "京都ジャンプステークス",
+      "grade": "J-G3",
+      "venue": "京都・障害3170m",
+      "sections": {
+        "preview": "kyoto_jump.html#preview",
+        "review": "kyoto_jump.html#review",
+        "highlight": "kyoto_jump.html#highlight"
+      },
+      "image": {
+        "file": "_20251108_G3.png",
+        "alt": "京都ジャンプステークス・2025年J-G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251109_argentina",
+      "date": "2025-11-09",
+      "name": "アルゼンチン共和国杯",
+      "grade": "G2",
+      "venue": "東京・芝2500m",
+      "sections": {
+        "preview": "argentina.html#preview",
+        "review": "argentina.html#review",
+        "highlight": "argentina.html#highlight"
+      },
+      "image": {
+        "file": "アルゼンチン_20251109_G2.png",
+        "alt": "アルゼンチン共和国杯・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251109_miyako",
+      "date": "2025-11-09",
+      "name": "みやこステークス",
+      "grade": "G3",
+      "venue": "京都・ダ1800m",
+      "sections": {
+        "preview": "miyako.html#preview",
+        "review": "miyako.html#review",
+        "highlight": "miyako.html#highlight"
+      },
+      "image": {
+        "file": "みやこ_20251109_G3.png",
+        "alt": "みやこステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251115_musashino",
+      "date": "2025-11-15",
+      "name": "武蔵野ステークス",
+      "grade": "G3",
+      "venue": "東京・ダ1600m",
+      "sections": {
+        "preview": "musashino.html#preview",
+        "review": "musashino.html#review",
+        "highlight": "musashino.html#highlight"
+      },
+      "image": {
+        "file": "_20251115_G3.png",
+        "alt": "武蔵野ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251115_daily_2sai",
+      "date": "2025-11-15",
+      "name": "デイリー杯2歳ステークス",
+      "grade": "G2",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "daily_2sai.html#preview",
+        "review": "daily_2sai.html#review",
+        "highlight": "daily_2sai.html#highlight"
+      },
+      "image": {
+        "file": "デイリ_2_20251115_G2.png",
+        "alt": "デイリー杯2歳ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251116_elizabeth",
+      "date": "2025-11-16",
+      "name": "エリザベス女王杯",
+      "grade": "G1",
+      "venue": "京都・芝2200m",
+      "sections": {
+        "preview": "elizabeth.html#preview",
+        "review": "elizabeth.html#review",
+        "highlight": "elizabeth.html#highlight"
+      },
+      "image": {
+        "file": "エリザベス_20251116_G1.png",
+        "alt": "エリザベス女王杯・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251122_fukushima_kinen",
+      "date": "2025-11-22",
+      "name": "福島記念",
       "grade": "G3",
       "venue": "福島・芝2000m",
-      "main_horses": [
-        "ドゥラドーレス",
-        "コスモフリーゲン",
-        "シルトホルン"
-      ],
-      "highlight": "夏の福島を舞台に繰り広げられる技巧派の一戦。道悪も視野に入る七夕賞では、自在性と持久力を備えたドゥラドーレスが軸。逃げに徹するコスモフリーゲンの展開が鍵を握り、差し脚鋭いシルトホルンが直線でどこまで詰め寄れるか—波乱含みの舞台装置が整った。",
       "sections": {
-        "preview": "tanabata.html#preview",
-        "review": "tanabata.html#review",
-        "highlight": "tanabata.html#highlight"
+        "preview": "fukushima_kinen.html#preview",
+        "review": "fukushima_kinen.html#review",
+        "highlight": "fukushima_kinen.html#highlight"
       },
-      "development": "<p>...</p>",
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
       "image": {
-        "file": "_20250713_G3.png",
-        "alt": "七夕賞・2025年G3"
+        "file": "_20251122_G3.png",
+        "alt": "福島記念・2025年G3"
       },
-      "note": {
-        "url": "https://note.com/coro_pepa/n/n6b5d9f2daf3a",
-        "title": "七夕賞・展望2025",
-        "author": "ぺぱころ"
-      },
-      "note_url": "https://note.com/coro_pepa/n/nab910c9ca4c4"
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
     },
     {
-      "id": "20250720_kokura_kinen",
-      "date": "2025-07-20",
-      "name": "小倉記念",
-      "grade": "G3",
-      "venue": "小倉・芝2000m",
+      "id": "20251123_milecs",
+      "date": "2025-11-23",
+      "name": "マイルチャンピオンシップ",
+      "grade": "G1",
+      "venue": "京都・芝1600m",
       "sections": {
-        "preview": "kokura_kinen.html#preview",
-        "review": "kokura_kinen.html#review",
-        "highlight": "kokura_kinen.html#highlight"
+        "preview": "milecs.html#preview",
+        "review": "milecs.html#review",
+        "highlight": "milecs.html#highlight"
       },
       "image": {
-        "file": "_20250720_G3.png",
-        "alt": "小倉記念・2025年G3"
+        "file": "マイルチャンピオンシップ_20251123_G1.png",
+        "alt": "マイルチャンピオンシップ・2025年G1"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "注目馬が激突する 小倉記念。展開の鍵を握るのは 。"
+      "highlight": "",
+      "note_url": ""
     },
     {
-      "id": "20250720_hakodate_2sai",
-      "date": "2025-07-20",
-      "name": "函館2歳ステークス",
-      "grade": "G3",
-      "venue": "函館・芝1200m",
+      "id": "20251124_tokyo_sports_2sai",
+      "date": "2025-11-24",
+      "name": "東京スポーツ杯2歳ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
       "sections": {
-        "preview": "hakodate_2sai.html#preview",
-        "review": "hakodate_2sai.html#review",
-        "highlight": "hakodate_2sai.html#highlight"
+        "preview": "tokyo_sports_2sai.html#preview",
+        "review": "tokyo_sports_2sai.html#review",
+        "highlight": "tokyo_sports_2sai.html#highlight"
       },
       "image": {
-        "file": "2_20250720_G3.png",
-        "alt": "函館2歳ステークス・2025年G3"
+        "file": "スポ_ツ_2_20251124_G2.png",
+        "alt": "東京スポーツ杯2歳ステークス・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "注目馬が激突する 函館2歳ステークス。展開の鍵を握るのは 。"
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251129_kyoto_2sai",
+      "date": "2025-11-29",
+      "name": "京都2歳ステークス",
+      "grade": "G3",
+      "venue": "京都・芝2000m",
+      "sections": {
+        "preview": "kyoto_2sai.html#preview",
+        "review": "kyoto_2sai.html#review",
+        "highlight": "kyoto_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20251129_G3.png",
+        "alt": "京都2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251130_japan_cup",
+      "date": "2025-11-30",
+      "name": "ジャパンカップ",
+      "grade": "G1",
+      "venue": "東京・芝2400m",
+      "sections": {
+        "preview": "japan_cup.html#preview",
+        "review": "japan_cup.html#review",
+        "highlight": "japan_cup.html#highlight"
+      },
+      "image": {
+        "file": "ジャパン_20251130_G1.png",
+        "alt": "ジャパンカップ・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251130_keihan",
+      "date": "2025-11-30",
+      "name": "京阪杯",
+      "grade": "G3",
+      "venue": "京都・芝1200m",
+      "sections": {
+        "preview": "keihan.html#preview",
+        "review": "keihan.html#review",
+        "highlight": "keihan.html#highlight"
+      },
+      "image": {
+        "file": "_20251130_G3.png",
+        "alt": "京阪杯・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251206_stayers",
+      "date": "2025-12-06",
+      "name": "ステイヤーズステークス",
+      "grade": "G2",
+      "venue": "中山・芝3600m",
+      "sections": {
+        "preview": "stayers.html#preview",
+        "review": "stayers.html#review",
+        "highlight": "stayers.html#highlight"
+      },
+      "image": {
+        "file": "ステイヤ_ズ_20251206_G2.png",
+        "alt": "ステイヤーズステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251206_naruo",
+      "date": "2025-12-06",
+      "name": "鳴尾記念",
+      "grade": "G3",
+      "venue": "阪神・芝1800m",
+      "sections": {
+        "preview": "naruo.html#preview",
+        "review": "naruo.html#review",
+        "highlight": "naruo.html#highlight"
+      },
+      "image": {
+        "file": "_20251206_G3.png",
+        "alt": "鳴尾記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251207_champions",
+      "date": "2025-12-07",
+      "name": "チャンピオンズカップ",
+      "grade": "G1",
+      "venue": "中京・ダ1800m",
+      "sections": {
+        "preview": "champions.html#preview",
+        "review": "champions.html#review",
+        "highlight": "champions.html#highlight"
+      },
+      "image": {
+        "file": "チャンピオンズ_20251207_G1.png",
+        "alt": "チャンピオンズカップ・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251213_chunichi",
+      "date": "2025-12-13",
+      "name": "中日新聞杯",
+      "grade": "G3",
+      "venue": "中京・芝2000m",
+      "sections": {
+        "preview": "chunichi.html#preview",
+        "review": "chunichi.html#review",
+        "highlight": "chunichi.html#highlight"
+      },
+      "image": {
+        "file": "_20251213_G3.png",
+        "alt": "中日新聞杯・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251214_capella",
+      "date": "2025-12-14",
+      "name": "カペラステークス",
+      "grade": "G3",
+      "venue": "中山・ダ1200m",
+      "sections": {
+        "preview": "capella.html#preview",
+        "review": "capella.html#review",
+        "highlight": "capella.html#highlight"
+      },
+      "image": {
+        "file": "カペラ_20251214_G3.png",
+        "alt": "カペラステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251214_juvenile_fillies",
+      "date": "2025-12-14",
+      "name": "阪神ジュベナイルフィリーズ",
+      "grade": "G1",
+      "venue": "阪神・芝1600m",
+      "sections": {
+        "preview": "juvenile_fillies.html#preview",
+        "review": "juvenile_fillies.html#review",
+        "highlight": "juvenile_fillies.html#highlight"
+      },
+      "image": {
+        "file": "ジュベナイルフィリ_ズ_20251214_G1.png",
+        "alt": "阪神ジュベナイルフィリーズ・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251220_turquoise",
+      "date": "2025-12-20",
+      "name": "ターコイズステークス",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "turquoise.html#preview",
+        "review": "turquoise.html#review",
+        "highlight": "turquoise.html#highlight"
+      },
+      "image": {
+        "file": "_20251220_G3.png",
+        "alt": "ターコイズステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251221_asahi_hai",
+      "date": "2025-12-21",
+      "name": "朝日杯フューチュリティステークス",
+      "grade": "G1",
+      "venue": "阪神・芝1600m",
+      "sections": {
+        "preview": "asahi_hai.html#preview",
+        "review": "asahi_hai.html#review",
+        "highlight": "asahi_hai.html#highlight"
+      },
+      "image": {
+        "file": "朝日杯_20251221_G1.png",
+        "alt": "朝日杯フューチュリティステークス・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251227_nakayama_daishogai",
+      "date": "2025-12-27",
+      "name": "中山大障害",
+      "grade": "J-G1",
+      "venue": "中山・障害4100m",
+      "sections": {
+        "preview": "nakayama_daishogai.html#preview",
+        "review": "nakayama_daishogai.html#review",
+        "highlight": "nakayama_daishogai.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_JG1.png",
+        "alt": "中山大障害・2025年J-G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251227_hopeful",
+      "date": "2025-12-27",
+      "name": "ホープフルステークス",
+      "grade": "G1",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "hopeful.html#preview",
+        "review": "hopeful.html#review",
+        "highlight": "hopeful.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_G1.png",
+        "alt": "ホープフルステークス・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251227_hanshin_cup",
+      "date": "2025-12-27",
+      "name": "阪神カップ",
+      "grade": "G2",
+      "venue": "阪神・芝1400m",
+      "sections": {
+        "preview": "hanshin_cup.html#preview",
+        "review": "hanshin_cup.html#review",
+        "highlight": "hanshin_cup.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_G2.png",
+        "alt": "阪神カップ・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251228_arima",
+      "date": "2025-12-28",
+      "name": "有馬記念",
+      "grade": "G1",
+      "venue": "中山・芝2500m",
+      "sections": {
+        "preview": "arima.html#preview",
+        "review": "arima.html#review",
+        "highlight": "arima.html#highlight"
+      },
+      "image": {
+        "file": "_20251228_G1.png",
+        "alt": "有馬記念・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
     }
   ]
 }
