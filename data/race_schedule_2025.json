@@ -1,15 +1,15 @@
 {
   "races": [
-      {
+    {
       "id": "20250713_tanabata",
       "date": "2025-07-13",
       "name": "七夕賞",
       "grade": "G3",
       "venue": "福島・芝2000m",
       "sections": {
-        "preview": "tanabata.html#preview",
-        "review": "tanabata.html#review",
-        "highlight": "tanabata.html#highlight"
+        "preview": "output/tanabata.html#preview",
+        "review": "output/tanabata.html#review",
+        "highlight": "output/tanabata.html#highlight"
       },
       "image": {
         "file": "_20250713_G3.png",
@@ -26,9 +26,9 @@
       "grade": "G3",
       "venue": "小倉・芝2000m",
       "sections": {
-        "preview": "kokura_kinen.html#preview",
-        "review": "kokura_kinen.html#review",
-        "highlight": "kokura_kinen.html#highlight"
+        "preview": "output/kokura_kinen.html#preview",
+        "review": "output/kokura_kinen.html#review",
+        "highlight": "output/kokura_kinen.html#highlight"
       },
       "image": {
         "file": "_20250720_G3.png",
@@ -45,9 +45,9 @@
       "grade": "G3",
       "venue": "函館・芝1200m",
       "sections": {
-        "preview": "hakodate_2sai.html#preview",
-        "review": "hakodate_2sai.html#review",
-        "highlight": "hakodate_2sai.html#highlight"
+        "preview": "output/hakodate_2sai.html#preview",
+        "review": "output/hakodate_2sai.html#review",
+        "highlight": "output/hakodate_2sai.html#highlight"
       },
       "image": {
         "file": "2_20250720_G3.png",
@@ -64,9 +64,9 @@
       "grade": "G3",
       "venue": "新潟・芝1600m",
       "sections": {
-        "preview": "sekiya.html#preview",
-        "review": "sekiya.html#review",
-        "highlight": "sekiya.html#highlight"
+        "preview": "output/sekiya.html#preview",
+        "review": "output/sekiya.html#review",
+        "highlight": "output/sekiya.html#highlight"
       },
       "image": {
         "file": "_20250727_G3.png",
@@ -83,9 +83,9 @@
       "grade": "G3",
       "venue": "中京・ダ1400m",
       "sections": {
-        "preview": "tokai.html#preview",
-        "review": "tokai.html#review",
-        "highlight": "tokai.html#highlight"
+        "preview": "output/tokai.html#preview",
+        "review": "output/tokai.html#review",
+        "highlight": "output/tokai.html#highlight"
       },
       "image": {
         "file": "_20250727_G3.png",
@@ -102,9 +102,9 @@
       "grade": "G3",
       "venue": "新潟・芝1000m",
       "sections": {
-        "preview": "ibis_summer.html#preview",
-        "review": "ibis_summer.html#review",
-        "highlight": "ibis_summer.html#highlight"
+        "preview": "output/ibis_summer.html#preview",
+        "review": "output/ibis_summer.html#review",
+        "highlight": "output/ibis_summer.html#highlight"
       },
       "image": {
         "file": "アイビスサマ_ダッシュ_20250803_G3.png",
@@ -121,9 +121,9 @@
       "grade": "G3",
       "venue": "札幌・芝1800m",
       "sections": {
-        "preview": "queen_sapporo.html#preview",
-        "review": "queen_sapporo.html#review",
-        "highlight": "queen_sapporo.html#highlight"
+        "preview": "output/queen_sapporo.html#preview",
+        "review": "output/queen_sapporo.html#review",
+        "highlight": "output/queen_sapporo.html#highlight"
       },
       "image": {
         "file": "クイ_ン_20250803_G3.png",
@@ -140,9 +140,9 @@
       "grade": "G3",
       "venue": "札幌・ダ1700m",
       "sections": {
-        "preview": "elm.html#preview",
-        "review": "elm.html#review",
-        "highlight": "elm.html#highlight"
+        "preview": "output/elm.html#preview",
+        "review": "output/elm.html#review",
+        "highlight": "output/elm.html#highlight"
       },
       "image": {
         "file": "エルム_20250809_G3.png",
@@ -159,9 +159,9 @@
       "grade": "G3",
       "venue": "新潟・ダ1800m",
       "sections": {
-        "preview": "leopard.html#preview",
-        "review": "leopard.html#review",
-        "highlight": "leopard.html#highlight"
+        "preview": "output/leopard.html#preview",
+        "review": "output/leopard.html#review",
+        "highlight": "output/leopard.html#highlight"
       },
       "image": {
         "file": "レパ_ド_20250810_G3.png",
@@ -178,9 +178,9 @@
       "grade": "G3",
       "venue": "中京・芝1200m",
       "sections": {
-        "preview": "cbc.html#preview",
-        "review": "cbc.html#review",
-        "highlight": "cbc.html#highlight"
+        "preview": "output/cbc.html#preview",
+        "review": "output/cbc.html#review",
+        "highlight": "output/cbc.html#highlight"
       },
       "image": {
         "file": "cbc_20250810_G3.png",
@@ -197,9 +197,9 @@
       "grade": "G3",
       "venue": "新潟・障害3250m",
       "sections": {
-        "preview": "niigata_jump.html#preview",
-        "review": "niigata_jump.html#review",
-        "highlight": "niigata_jump.html#highlight"
+        "preview": "output/niigata_jump.html#preview",
+        "review": "output/niigata_jump.html#review",
+        "highlight": "output/niigata_jump.html#highlight"
       },
       "image": {
         "file": "_20250816_G3.png",
@@ -216,9 +216,9 @@
       "grade": "G3",
       "venue": "中京・芝1600m",
       "sections": {
-        "preview": "chukyo_kinen.html#preview",
-        "review": "chukyo_kinen.html#review",
-        "highlight": "chukyo_kinen.html#highlight"
+        "preview": "output/chukyo_kinen.html#preview",
+        "review": "output/chukyo_kinen.html#review",
+        "highlight": "output/chukyo_kinen.html#highlight"
       },
       "image": {
         "file": "_20250817_G3.png",
@@ -235,9 +235,9 @@
       "grade": "G2",
       "venue": "札幌・芝2000m",
       "sections": {
-        "preview": "sapporo_kinen.html#preview",
-        "review": "sapporo_kinen.html#review",
-        "highlight": "sapporo_kinen.html#highlight"
+        "preview": "output/sapporo_kinen.html#preview",
+        "review": "output/sapporo_kinen.html#review",
+        "highlight": "output/sapporo_kinen.html#highlight"
       },
       "image": {
         "file": "_20250817_G2.png",
@@ -254,9 +254,9 @@
       "grade": "G3",
       "venue": "新潟・芝1600m",
       "sections": {
-        "preview": "niigata_2sai.html#preview",
-        "review": "niigata_2sai.html#review",
-        "highlight": "niigata_2sai.html#highlight"
+        "preview": "output/niigata_2sai.html#preview",
+        "review": "output/niigata_2sai.html#review",
+        "highlight": "output/niigata_2sai.html#highlight"
       },
       "image": {
         "file": "2_20250824_G3.png",
@@ -273,9 +273,9 @@
       "grade": "G3",
       "venue": "札幌・芝1200m",
       "sections": {
-        "preview": "keeneland.html#preview",
-        "review": "keeneland.html#review",
-        "highlight": "keeneland.html#highlight"
+        "preview": "output/keeneland.html#preview",
+        "review": "output/keeneland.html#review",
+        "highlight": "output/keeneland.html#highlight"
       },
       "image": {
         "file": "キ_ンランド_20250824_G3.png",
@@ -292,9 +292,9 @@
       "grade": "G3",
       "venue": "新潟・芝2000m",
       "sections": {
-        "preview": "niigata_kinen.html#preview",
-        "review": "niigata_kinen.html#review",
-        "highlight": "niigata_kinen.html#highlight"
+        "preview": "output/niigata_kinen.html#preview",
+        "review": "output/niigata_kinen.html#review",
+        "highlight": "output/niigata_kinen.html#highlight"
       },
       "image": {
         "file": "_20250831_G3.png",
@@ -311,9 +311,9 @@
       "grade": "G3",
       "venue": "中京・芝1400m",
       "sections": {
-        "preview": "chukyo_2sai.html#preview",
-        "review": "chukyo_2sai.html#review",
-        "highlight": "chukyo_2sai.html#highlight"
+        "preview": "output/chukyo_2sai.html#preview",
+        "review": "output/chukyo_2sai.html#review",
+        "highlight": "output/chukyo_2sai.html#highlight"
       },
       "image": {
         "file": "2_20250831_G3.png",
@@ -330,9 +330,9 @@
       "grade": "G3",
       "venue": "中山・芝1600m",
       "sections": {
-        "preview": "keisei_ah.html#preview",
-        "review": "keisei_ah.html#review",
-        "highlight": "keisei_ah.html#highlight"
+        "preview": "output/keisei_ah.html#preview",
+        "review": "output/keisei_ah.html#review",
+        "highlight": "output/keisei_ah.html#highlight"
       },
       "image": {
         "file": "オ_タムハンデキャップ_20250906_G3.png",
@@ -349,9 +349,9 @@
       "grade": "G3",
       "venue": "札幌・芝1800m",
       "sections": {
-        "preview": "sapporo_2sai.html#preview",
-        "review": "sapporo_2sai.html#review",
-        "highlight": "sapporo_2sai.html#highlight"
+        "preview": "output/sapporo_2sai.html#preview",
+        "review": "output/sapporo_2sai.html#review",
+        "highlight": "output/sapporo_2sai.html#highlight"
       },
       "image": {
         "file": "2_20250906_G3.png",
@@ -368,9 +368,9 @@
       "grade": "G2",
       "venue": "中山・芝2000m",
       "sections": {
-        "preview": "shion.html#preview",
-        "review": "shion.html#review",
-        "highlight": "shion.html#highlight"
+        "preview": "output/shion.html#preview",
+        "review": "output/shion.html#review",
+        "highlight": "output/shion.html#highlight"
       },
       "image": {
         "file": "_20250907_G2.png",
@@ -387,9 +387,9 @@
       "grade": "G2",
       "venue": "阪神・芝1200m",
       "sections": {
-        "preview": "centaur.html#preview",
-        "review": "centaur.html#review",
-        "highlight": "centaur.html#highlight"
+        "preview": "output/centaur.html#preview",
+        "review": "output/centaur.html#review",
+        "highlight": "output/centaur.html#highlight"
       },
       "image": {
         "file": "セントウル_20250907_G2.png",
@@ -406,9 +406,9 @@
       "grade": "G3",
       "venue": "阪神・芝2000m",
       "sections": {
-        "preview": "challenge_cup.html#preview",
-        "review": "challenge_cup.html#review",
-        "highlight": "challenge_cup.html#highlight"
+        "preview": "output/challenge_cup.html#preview",
+        "review": "output/challenge_cup.html#review",
+        "highlight": "output/challenge_cup.html#highlight"
       },
       "image": {
         "file": "チャレンジ_20250913_G3.png",
@@ -425,9 +425,9 @@
       "grade": "G2",
       "venue": "阪神・芝1800m",
       "sections": {
-        "preview": "rose.html#preview",
-        "review": "rose.html#review",
-        "highlight": "rose.html#highlight"
+        "preview": "output/rose.html#preview",
+        "review": "output/rose.html#review",
+        "highlight": "output/rose.html#highlight"
       },
       "image": {
         "file": "ロ_ズ_20250914_G2.png",
@@ -444,9 +444,9 @@
       "grade": "G2",
       "venue": "中山・芝2200m",
       "sections": {
-        "preview": "st_lite.html#preview",
-        "review": "st_lite.html#review",
-        "highlight": "st_lite.html#highlight"
+        "preview": "output/st_lite.html#preview",
+        "review": "output/st_lite.html#review",
+        "highlight": "output/st_lite.html#highlight"
       },
       "image": {
         "file": "セントライト_20250915_G2.png",
@@ -463,9 +463,9 @@
       "grade": "G3",
       "venue": "阪神・障害3140m",
       "sections": {
-        "preview": "hanshin_jump.html#preview",
-        "review": "hanshin_jump.html#review",
-        "highlight": "hanshin_jump.html#highlight"
+        "preview": "output/hanshin_jump.html#preview",
+        "review": "output/hanshin_jump.html#review",
+        "highlight": "output/hanshin_jump.html#highlight"
       },
       "image": {
         "file": "_20250920_G3.png",
@@ -482,9 +482,9 @@
       "grade": "G2",
       "venue": "中山・芝2200m",
       "sections": {
-        "preview": "allcomer.html#preview",
-        "review": "allcomer.html#review",
-        "highlight": "allcomer.html#highlight"
+        "preview": "output/allcomer.html#preview",
+        "review": "output/allcomer.html#review",
+        "highlight": "output/allcomer.html#highlight"
       },
       "image": {
         "file": "オ_ルカマ_20250921_G2.png",
@@ -501,9 +501,9 @@
       "grade": "G2",
       "venue": "阪神・芝2400m",
       "sections": {
-        "preview": "kobe.html#preview",
-        "review": "kobe.html#review",
-        "highlight": "kobe.html#highlight"
+        "preview": "output/kobe.html#preview",
+        "review": "output/kobe.html#review",
+        "highlight": "output/kobe.html#highlight"
       },
       "image": {
         "file": "_20250921_G2.png",
@@ -520,9 +520,9 @@
       "grade": "G3",
       "venue": "阪神・ダ2000m",
       "sections": {
-        "preview": "sirius.html#preview",
-        "review": "sirius.html#review",
-        "highlight": "sirius.html#highlight"
+        "preview": "output/sirius.html#preview",
+        "review": "output/sirius.html#review",
+        "highlight": "output/sirius.html#highlight"
       },
       "image": {
         "file": "シリウス_20250927_G3.png",
@@ -539,9 +539,9 @@
       "grade": "G1",
       "venue": "中山・芝1200m",
       "sections": {
-        "preview": "sprinters.html#preview",
-        "review": "sprinters.html#review",
-        "highlight": "sprinters.html#highlight"
+        "preview": "output/sprinters.html#preview",
+        "review": "output/sprinters.html#review",
+        "highlight": "output/sprinters.html#highlight"
       },
       "image": {
         "file": "スプリンタ_ズ_20250928_G1.png",
@@ -558,9 +558,9 @@
       "grade": "G2",
       "venue": "東京・芝1800m",
       "sections": {
-        "preview": "mainichi_oukan.html#preview",
-        "review": "mainichi_oukan.html#review",
-        "highlight": "mainichi_oukan.html#highlight"
+        "preview": "output/mainichi_oukan.html#preview",
+        "review": "output/mainichi_oukan.html#review",
+        "highlight": "output/mainichi_oukan.html#highlight"
       },
       "image": {
         "file": "_20251005_G2.png",
@@ -577,9 +577,9 @@
       "grade": "G2",
       "venue": "京都・芝2400m",
       "sections": {
-        "preview": "kyoto_daishoten.html#preview",
-        "review": "kyoto_daishoten.html#review",
-        "highlight": "kyoto_daishoten.html#highlight"
+        "preview": "output/kyoto_daishoten.html#preview",
+        "review": "output/kyoto_daishoten.html#review",
+        "highlight": "output/kyoto_daishoten.html#highlight"
       },
       "image": {
         "file": "_20251005_G2.png",
@@ -596,9 +596,9 @@
       "grade": "G3",
       "venue": "東京・芝1600m",
       "sections": {
-        "preview": "saudi_royal.html#preview",
-        "review": "saudi_royal.html#review",
-        "highlight": "saudi_royal.html#highlight"
+        "preview": "output/saudi_royal.html#preview",
+        "review": "output/saudi_royal.html#review",
+        "highlight": "output/saudi_royal.html#highlight"
       },
       "image": {
         "file": "サウジアラビアロイヤル_20251011_G3.png",
@@ -615,9 +615,9 @@
       "grade": "G2",
       "venue": "東京・芝1800m",
       "sections": {
-        "preview": "ireland_fuchu.html#preview",
-        "review": "ireland_fuchu.html#review",
-        "highlight": "ireland_fuchu.html#highlight"
+        "preview": "output/ireland_fuchu.html#preview",
+        "review": "output/ireland_fuchu.html#review",
+        "highlight": "output/ireland_fuchu.html#highlight"
       },
       "image": {
         "file": "アイルランドトロフィ_20251012_G2.png",
@@ -634,9 +634,9 @@
       "grade": "G2",
       "venue": "京都・芝1400m",
       "sections": {
-        "preview": "swan.html#preview",
-        "review": "swan.html#review",
-        "highlight": "swan.html#highlight"
+        "preview": "output/swan.html#preview",
+        "review": "output/swan.html#review",
+        "highlight": "output/swan.html#highlight"
       },
       "image": {
         "file": "スワン_20251013_G2.png",
@@ -653,9 +653,9 @@
       "grade": "G2",
       "venue": "東京・芝1600m",
       "sections": {
-        "preview": "fuji.html#preview",
-        "review": "fuji.html#review",
-        "highlight": "fuji.html#highlight"
+        "preview": "output/fuji.html#preview",
+        "review": "output/fuji.html#review",
+        "highlight": "output/fuji.html#highlight"
       },
       "image": {
         "file": "_20251018_G2.png",
@@ -672,9 +672,9 @@
       "grade": "J-G2",
       "venue": "東京・障害3110m",
       "sections": {
-        "preview": "tokyo_highjump.html#preview",
-        "review": "tokyo_highjump.html#review",
-        "highlight": "tokyo_highjump.html#highlight"
+        "preview": "output/tokyo_highjump.html#preview",
+        "review": "output/tokyo_highjump.html#review",
+        "highlight": "output/tokyo_highjump.html#highlight"
       },
       "image": {
         "file": "ハイ_20251019_G2.png",
@@ -691,9 +691,9 @@
       "grade": "G1",
       "venue": "京都・芝2000m",
       "sections": {
-        "preview": "shuka.html#preview",
-        "review": "shuka.html#review",
-        "highlight": "shuka.html#highlight"
+        "preview": "output/shuka.html#preview",
+        "review": "output/shuka.html#review",
+        "highlight": "output/shuka.html#highlight"
       },
       "image": {
         "file": "_20251020_G1.png",
@@ -710,9 +710,9 @@
       "grade": "G3",
       "venue": "東京・芝1600m",
       "sections": {
-        "preview": "artemis.html#preview",
-        "review": "artemis.html#review",
-        "highlight": "artemis.html#highlight"
+        "preview": "output/artemis.html#preview",
+        "review": "output/artemis.html#review",
+        "highlight": "output/artemis.html#highlight"
       },
       "image": {
         "file": "アルテミス_20251025_G3.png",
@@ -729,9 +729,9 @@
       "grade": "G1",
       "venue": "京都・芝3000m",
       "sections": {
-        "preview": "kikka.html#preview",
-        "review": "kikka.html#review",
-        "highlight": "kikka.html#highlight"
+        "preview": "output/kikka.html#preview",
+        "review": "output/kikka.html#review",
+        "highlight": "output/kikka.html#highlight"
       },
       "image": {
         "file": "_20251026_G1.png",
@@ -748,9 +748,9 @@
       "grade": "G3",
       "venue": "京都・芝1400m",
       "sections": {
-        "preview": "fantasy.html#preview",
-        "review": "fantasy.html#review",
-        "highlight": "fantasy.html#highlight"
+        "preview": "output/fantasy.html#preview",
+        "review": "output/fantasy.html#review",
+        "highlight": "output/fantasy.html#highlight"
       },
       "image": {
         "file": "ファンタジ_20251101_G3.png",
@@ -767,9 +767,9 @@
       "grade": "G1",
       "venue": "東京・芝2000m",
       "sections": {
-        "preview": "tenno_autumn.html#preview",
-        "review": "tenno_autumn.html#review",
-        "highlight": "tenno_autumn.html#highlight"
+        "preview": "output/tenno_autumn.html#preview",
+        "review": "output/tenno_autumn.html#review",
+        "highlight": "output/tenno_autumn.html#highlight"
       },
       "image": {
         "file": "_20251102_G1.png",
@@ -786,9 +786,9 @@
       "grade": "G2",
       "venue": "東京・芝1400m",
       "sections": {
-        "preview": "keio_2sai.html#preview",
-        "review": "keio_2sai.html#review",
-        "highlight": "keio_2sai.html#highlight"
+        "preview": "output/keio_2sai.html#preview",
+        "review": "output/keio_2sai.html#review",
+        "highlight": "output/keio_2sai.html#highlight"
       },
       "image": {
         "file": "2_20251108_G2.png",
@@ -805,9 +805,9 @@
       "grade": "J-G3",
       "venue": "京都・障害3170m",
       "sections": {
-        "preview": "kyoto_jump.html#preview",
-        "review": "kyoto_jump.html#review",
-        "highlight": "kyoto_jump.html#highlight"
+        "preview": "output/kyoto_jump.html#preview",
+        "review": "output/kyoto_jump.html#review",
+        "highlight": "output/kyoto_jump.html#highlight"
       },
       "image": {
         "file": "_20251108_G3.png",
@@ -824,9 +824,9 @@
       "grade": "G2",
       "venue": "東京・芝2500m",
       "sections": {
-        "preview": "argentina.html#preview",
-        "review": "argentina.html#review",
-        "highlight": "argentina.html#highlight"
+        "preview": "output/argentina.html#preview",
+        "review": "output/argentina.html#review",
+        "highlight": "output/argentina.html#highlight"
       },
       "image": {
         "file": "アルゼンチン_20251109_G2.png",
@@ -843,9 +843,9 @@
       "grade": "G3",
       "venue": "京都・ダ1800m",
       "sections": {
-        "preview": "miyako.html#preview",
-        "review": "miyako.html#review",
-        "highlight": "miyako.html#highlight"
+        "preview": "output/miyako.html#preview",
+        "review": "output/miyako.html#review",
+        "highlight": "output/miyako.html#highlight"
       },
       "image": {
         "file": "みやこ_20251109_G3.png",
@@ -862,9 +862,9 @@
       "grade": "G3",
       "venue": "東京・ダ1600m",
       "sections": {
-        "preview": "musashino.html#preview",
-        "review": "musashino.html#review",
-        "highlight": "musashino.html#highlight"
+        "preview": "output/musashino.html#preview",
+        "review": "output/musashino.html#review",
+        "highlight": "output/musashino.html#highlight"
       },
       "image": {
         "file": "_20251115_G3.png",
@@ -881,9 +881,9 @@
       "grade": "G2",
       "venue": "京都・芝1600m",
       "sections": {
-        "preview": "daily_2sai.html#preview",
-        "review": "daily_2sai.html#review",
-        "highlight": "daily_2sai.html#highlight"
+        "preview": "output/daily_2sai.html#preview",
+        "review": "output/daily_2sai.html#review",
+        "highlight": "output/daily_2sai.html#highlight"
       },
       "image": {
         "file": "デイリ_2_20251115_G2.png",
@@ -900,9 +900,9 @@
       "grade": "G1",
       "venue": "京都・芝2200m",
       "sections": {
-        "preview": "elizabeth.html#preview",
-        "review": "elizabeth.html#review",
-        "highlight": "elizabeth.html#highlight"
+        "preview": "output/elizabeth.html#preview",
+        "review": "output/elizabeth.html#review",
+        "highlight": "output/elizabeth.html#highlight"
       },
       "image": {
         "file": "エリザベス_20251116_G1.png",
@@ -919,9 +919,9 @@
       "grade": "G3",
       "venue": "福島・芝2000m",
       "sections": {
-        "preview": "fukushima_kinen.html#preview",
-        "review": "fukushima_kinen.html#review",
-        "highlight": "fukushima_kinen.html#highlight"
+        "preview": "output/fukushima_kinen.html#preview",
+        "review": "output/fukushima_kinen.html#review",
+        "highlight": "output/fukushima_kinen.html#highlight"
       },
       "image": {
         "file": "_20251122_G3.png",
@@ -938,9 +938,9 @@
       "grade": "G1",
       "venue": "京都・芝1600m",
       "sections": {
-        "preview": "milecs.html#preview",
-        "review": "milecs.html#review",
-        "highlight": "milecs.html#highlight"
+        "preview": "output/milecs.html#preview",
+        "review": "output/milecs.html#review",
+        "highlight": "output/milecs.html#highlight"
       },
       "image": {
         "file": "マイルチャンピオンシップ_20251123_G1.png",
@@ -957,9 +957,9 @@
       "grade": "G2",
       "venue": "東京・芝1800m",
       "sections": {
-        "preview": "tokyo_sports_2sai.html#preview",
-        "review": "tokyo_sports_2sai.html#review",
-        "highlight": "tokyo_sports_2sai.html#highlight"
+        "preview": "output/tokyo_sports_2sai.html#preview",
+        "review": "output/tokyo_sports_2sai.html#review",
+        "highlight": "output/tokyo_sports_2sai.html#highlight"
       },
       "image": {
         "file": "スポ_ツ_2_20251124_G2.png",
@@ -976,9 +976,9 @@
       "grade": "G3",
       "venue": "京都・芝2000m",
       "sections": {
-        "preview": "kyoto_2sai.html#preview",
-        "review": "kyoto_2sai.html#review",
-        "highlight": "kyoto_2sai.html#highlight"
+        "preview": "output/kyoto_2sai.html#preview",
+        "review": "output/kyoto_2sai.html#review",
+        "highlight": "output/kyoto_2sai.html#highlight"
       },
       "image": {
         "file": "2_20251129_G3.png",
@@ -995,9 +995,9 @@
       "grade": "G1",
       "venue": "東京・芝2400m",
       "sections": {
-        "preview": "japan_cup.html#preview",
-        "review": "japan_cup.html#review",
-        "highlight": "japan_cup.html#highlight"
+        "preview": "output/japan_cup.html#preview",
+        "review": "output/japan_cup.html#review",
+        "highlight": "output/japan_cup.html#highlight"
       },
       "image": {
         "file": "ジャパン_20251130_G1.png",
@@ -1014,9 +1014,9 @@
       "grade": "G3",
       "venue": "京都・芝1200m",
       "sections": {
-        "preview": "keihan.html#preview",
-        "review": "keihan.html#review",
-        "highlight": "keihan.html#highlight"
+        "preview": "output/keihan.html#preview",
+        "review": "output/keihan.html#review",
+        "highlight": "output/keihan.html#highlight"
       },
       "image": {
         "file": "_20251130_G3.png",
@@ -1033,9 +1033,9 @@
       "grade": "G2",
       "venue": "中山・芝3600m",
       "sections": {
-        "preview": "stayers.html#preview",
-        "review": "stayers.html#review",
-        "highlight": "stayers.html#highlight"
+        "preview": "output/stayers.html#preview",
+        "review": "output/stayers.html#review",
+        "highlight": "output/stayers.html#highlight"
       },
       "image": {
         "file": "ステイヤ_ズ_20251206_G2.png",
@@ -1052,9 +1052,9 @@
       "grade": "G3",
       "venue": "阪神・芝1800m",
       "sections": {
-        "preview": "naruo.html#preview",
-        "review": "naruo.html#review",
-        "highlight": "naruo.html#highlight"
+        "preview": "output/naruo.html#preview",
+        "review": "output/naruo.html#review",
+        "highlight": "output/naruo.html#highlight"
       },
       "image": {
         "file": "_20251206_G3.png",
@@ -1071,9 +1071,9 @@
       "grade": "G1",
       "venue": "中京・ダ1800m",
       "sections": {
-        "preview": "champions.html#preview",
-        "review": "champions.html#review",
-        "highlight": "champions.html#highlight"
+        "preview": "output/champions.html#preview",
+        "review": "output/champions.html#review",
+        "highlight": "output/champions.html#highlight"
       },
       "image": {
         "file": "チャンピオンズ_20251207_G1.png",
@@ -1090,9 +1090,9 @@
       "grade": "G3",
       "venue": "中京・芝2000m",
       "sections": {
-        "preview": "chunichi.html#preview",
-        "review": "chunichi.html#review",
-        "highlight": "chunichi.html#highlight"
+        "preview": "output/chunichi.html#preview",
+        "review": "output/chunichi.html#review",
+        "highlight": "output/chunichi.html#highlight"
       },
       "image": {
         "file": "_20251213_G3.png",
@@ -1109,9 +1109,9 @@
       "grade": "G3",
       "venue": "中山・ダ1200m",
       "sections": {
-        "preview": "capella.html#preview",
-        "review": "capella.html#review",
-        "highlight": "capella.html#highlight"
+        "preview": "output/capella.html#preview",
+        "review": "output/capella.html#review",
+        "highlight": "output/capella.html#highlight"
       },
       "image": {
         "file": "カペラ_20251214_G3.png",
@@ -1128,9 +1128,9 @@
       "grade": "G1",
       "venue": "阪神・芝1600m",
       "sections": {
-        "preview": "juvenile_fillies.html#preview",
-        "review": "juvenile_fillies.html#review",
-        "highlight": "juvenile_fillies.html#highlight"
+        "preview": "output/juvenile_fillies.html#preview",
+        "review": "output/juvenile_fillies.html#review",
+        "highlight": "output/juvenile_fillies.html#highlight"
       },
       "image": {
         "file": "ジュベナイルフィリ_ズ_20251214_G1.png",
@@ -1147,9 +1147,9 @@
       "grade": "G3",
       "venue": "中山・芝1600m",
       "sections": {
-        "preview": "turquoise.html#preview",
-        "review": "turquoise.html#review",
-        "highlight": "turquoise.html#highlight"
+        "preview": "output/turquoise.html#preview",
+        "review": "output/turquoise.html#review",
+        "highlight": "output/turquoise.html#highlight"
       },
       "image": {
         "file": "_20251220_G3.png",
@@ -1166,9 +1166,9 @@
       "grade": "G1",
       "venue": "阪神・芝1600m",
       "sections": {
-        "preview": "asahi_hai.html#preview",
-        "review": "asahi_hai.html#review",
-        "highlight": "asahi_hai.html#highlight"
+        "preview": "output/asahi_hai.html#preview",
+        "review": "output/asahi_hai.html#review",
+        "highlight": "output/asahi_hai.html#highlight"
       },
       "image": {
         "file": "朝日杯_20251221_G1.png",
@@ -1185,9 +1185,9 @@
       "grade": "J-G1",
       "venue": "中山・障害4100m",
       "sections": {
-        "preview": "nakayama_daishogai.html#preview",
-        "review": "nakayama_daishogai.html#review",
-        "highlight": "nakayama_daishogai.html#highlight"
+        "preview": "output/nakayama_daishogai.html#preview",
+        "review": "output/nakayama_daishogai.html#review",
+        "highlight": "output/nakayama_daishogai.html#highlight"
       },
       "image": {
         "file": "_20251227_JG1.png",
@@ -1204,9 +1204,9 @@
       "grade": "G1",
       "venue": "中山・芝2000m",
       "sections": {
-        "preview": "hopeful.html#preview",
-        "review": "hopeful.html#review",
-        "highlight": "hopeful.html#highlight"
+        "preview": "output/hopeful.html#preview",
+        "review": "output/hopeful.html#review",
+        "highlight": "output/hopeful.html#highlight"
       },
       "image": {
         "file": "_20251227_G1.png",
@@ -1223,9 +1223,9 @@
       "grade": "G2",
       "venue": "阪神・芝1400m",
       "sections": {
-        "preview": "hanshin_cup.html#preview",
-        "review": "hanshin_cup.html#review",
-        "highlight": "hanshin_cup.html#highlight"
+        "preview": "output/hanshin_cup.html#preview",
+        "review": "output/hanshin_cup.html#review",
+        "highlight": "output/hanshin_cup.html#highlight"
       },
       "image": {
         "file": "_20251227_G2.png",
@@ -1242,9 +1242,9 @@
       "grade": "G1",
       "venue": "中山・芝2500m",
       "sections": {
-        "preview": "arima.html#preview",
-        "review": "arima.html#review",
-        "highlight": "arima.html#highlight"
+        "preview": "output/arima.html#preview",
+        "review": "output/arima.html#review",
+        "highlight": "output/arima.html#highlight"
       },
       "image": {
         "file": "_20251228_G1.png",
