@@ -1,5 +1,43 @@
 {
   "races": [
+      {
+      "id": "20250720_kokura_kinen",
+      "date": "2025-07-20",
+      "name": "小倉記念",
+      "grade": "G3",
+      "venue": "小倉・芝2000m",
+      "sections": {
+        "preview": "kokura_kinen.html#preview",
+        "review": "kokura_kinen.html#review",
+        "highlight": "kokura_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250720_G3.png",
+        "alt": "小倉記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20250720_hakodate_2sai",
+      "date": "2025-07-20",
+      "name": "函館2歳ステークス",
+      "grade": "G3",
+      "venue": "函館・芝1200m",
+      "sections": {
+        "preview": "hakodate_2sai.html#preview",
+        "review": "hakodate_2sai.html#review",
+        "highlight": "hakodate_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250720_G3.png",
+        "alt": "函館2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
     {
       "id": "20250727_sekiya",
       "date": "2025-07-27",
