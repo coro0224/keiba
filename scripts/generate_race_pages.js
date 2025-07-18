@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 
 // ファイルパス定義
-const dataPath = path.join(__dirname, "race_schedule_2025.json");
-const templatePath = path.join(__dirname, "templates", "race_template.html");
+const dataPath = path.join(__dirname, "..", "data", "race_schedule_2025.json");
+const templatePath = path.join(__dirname,"..", "templates", "race_template.html");
 const outputDir = path.join(__dirname, "output");
 
 // データとテンプレート読み込み
