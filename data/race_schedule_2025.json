@@ -1,5 +1,24 @@
 {
   "races": [
+      {
+      "id": "20250713_tanabata",
+      "date": "2025-07-13",
+      "name": "七夕賞",
+      "grade": "G3",
+      "venue": "福島・芝2000m",
+      "sections": {
+        "preview": "tanabata.html#preview",
+        "review": "tanabata.html#review",
+        "highlight": "tanabata.html#highlight"
+      },
+      "image": {
+        "file": "_20250713_G3.png",
+        "alt": "七夕賞・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>夏の福島を舞台に繰り広げられる技巧派の一戦。道悪も視野に入る七夕賞では、自在性と持久力を備えたドゥラドーレスが軸。逃げに徹するコスモフリーゲンの展開が鍵を握り、差し脚鋭いシルトホルンが直線でどこまで詰め寄れるか—波乱含みの舞台装置が整った。</p>",
+      "note_url": ""
+    },
     {
       "id": "20250720_kokura_kinen",
       "date": "2025-07-20",
