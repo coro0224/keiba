@@ -3,7 +3,7 @@ const path = require("path");
 
 // ファイルパス定義
 const dataPath = path.join(__dirname, "..", "data", "race_schedule_2025.json");
-const templatePath = path.join(__dirname,"..", "templates", "race_template.html");
+const templatePath = path.join(__dirname, "..", "templates", "race_template.html");
 const outputDir = path.join(__dirname, "output");
 
 // データとテンプレート読み込み
@@ -27,7 +27,9 @@ raceData.races.forEach((race) => {
   const weekday = getWeekday(race.date);
   const gradeNumber = race.grade.replace(/[^0-9]/g, "") || race.grade;
   const distance = race.venue.match(/\d+m/)?.[0] || "";
-  const surface = race.venue.includes("芝") ? "芝" : race.venue.includes("ダ") ? "ダート" : race.venue.includes("障害") ? "障害" : "";
+  const surface = race.venue.includes("芝") ? "芝" :
+                  race.venue.includes("ダ") ? "ダート" :
+                  race.venue.includes("障害") ? "障害" : "";
 
   const html = template
     .replace(/{{title}}/g, race.name)
@@ -38,14 +40,15 @@ raceData.races.forEach((race) => {
     .replace(/{{surface}}/g, surface)
     .replace(/{{distance}}/g, distance)
     .replace(/{{highlight}}/g, race.highlight || "")
-    .replace(/{{development}}/g, race.development || "")
+    .replace(/{{preview}}/g, race.preview_text || "")
     .replace(/{{review}}/g, race.review_text || "")
     .replace(/{{image_name}}/g, race.image?.file || "")
     .replace(/{{note_link}}/g, race.note_url
       ? `<a href="${race.note_url}" target="_blank" rel="noopener">📘 NOTEで読む</a>`
       : `<span style="color:#999;">NOTEリンクは準備中です</span>`);
 
-  const outputFileName = `${race.sections.preview.split(".")[0]}.html`;
+  // ファイル名のみ抽出（output/ を除去）
+  const outputFileName = path.basename(race.sections.preview.split("#")[0]);
   const outputPath = path.join(outputDir, outputFileName);
 
   fs.writeFileSync(outputPath, html);
