@@ -27,8 +27,7 @@ raceJson.races.forEach(race => {
   <h2>見どころ</h2>
   ${race.highlight}
 </section>`.trim();
-    html.replace(/<section[^>]+id=["']highlight["'][^>]*>[\s\S]*?<\/section>/, newSection);
-
+    html = html.replace(/<section id="highlight">[\s\S]*?<\/section>/, highlightHtml);
     console.log(`✅ ${race.name} に highlight を注入しました`);
     updated = true;
   }
@@ -40,7 +39,7 @@ raceJson.races.forEach(race => {
   <h2>展開予想</h2>
   ${race.preview_text}
 </section>`.trim();
-    html.replace(/<section[^>]+id=["']preview["'][^>]*>[\s\S]*?<\/section>/, newSection);
+    html = html.replace(/<section id="preview">[\s\S]*?<\/section>/, previewHtml);
     console.log(`✅ ${race.name} に preview を注入しました`);
     updated = true;
   }
@@ -52,7 +51,7 @@ raceJson.races.forEach(race => {
   <h2>レース回顧</h2>
   ${race.review_text}
 </section>`.trim();
-    html.replace(/<section[^>]+id=["']review["'][^>]*>[\s\S]*?<\/section>/, newSection);
+    html = html.replace(/<section id="review">[\s\S]*?<\/section>/, reviewHtml);
     console.log(`✅ ${race.name} に review を注入しました`);
     updated = true;
   }
