@@ -76,7 +76,7 @@ header {
 /* タイトル：Y軸回転（3秒サイクル） */
 .note-title-rotate {
   display: inline-block;
-  animation: titleSpin 3s linear infinite;
+  animation: titleSpin 6s linear infinite;
   transform-origin: center center;
 }
 
