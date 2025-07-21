@@ -1,4 +1,4 @@
-/* 安定させるテスト追加 */
+/* ========== 安定補助 ========== */
 header {
   position: relative;
   z-index: 10;
@@ -12,68 +12,9 @@ header {
 .right-column {
   overflow: hidden;
 }
-/* ========== NOTE右カラム：一覧ボックス ========== */
-.noteRight-box {
-  background-color: #ffffff;
-  border: 2px solid #81c784;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 100, 0, 0.1);
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 320px;
-}
 
-/* タイトル */
-.noteRight-box h2 {
-  font-size: 1.1rem;
-  color: #2e7d32;
-  margin-bottom: 12px;
-  text-align: center;
-}
 
-/* 一覧リスト */
-.noteRight-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  max-height: 220px;
-  overflow: hidden;
-  position: relative;
-}
-
-.noteRight-list li {
-  padding: 10px 14px;
-  border-bottom: 1px solid #e0e0e0;
-  background-color: #fdfdfd;
-  animation: noteRight-scroll 14s linear infinite;
-  white-space: nowrap;
-}
-
-.noteRight-list li:last-child {
-  border-bottom: none;
-}
-
-/* NOTEリンク */
-.noteRight-link {
-  text-decoration: none;
-  color: #00796b;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.noteRight-link:hover {
-  color: #004d40;
-}
-
-/* アニメーション（G1一覧と同型） */
-@keyframes noteRight-scroll {
-  0%   { transform: translateY(100%); opacity: 0; }
-  10%  { transform: translateY(0); opacity: 1; }
-  90%  { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(-100%); opacity: 0; }
-}
-
-/* タイトル：Y軸回転（3秒サイクル） */
+/* ========== NOTEタイトル回転 ========== */
 .note-title-rotate {
   display: inline-block;
   animation: titleSpin 6s linear infinite;
@@ -85,24 +26,24 @@ header {
   50%  { transform: rotateY(180deg); }
   100% { transform: rotateY(360deg); }
 }
-/* ✅ 白ベースに戻す：NOTEボックス */
+
+
+/* ========== NOTE右カラム・詳細展開ブロック ========== */
 .rightnote-block {
   border: 1px solid #ccc;
   border-radius: 6px;
-  background-color: #fafafa; /* ← 白っぽい柔らかさに */
+  background-color: #fafafa;
   margin-bottom: 12px;
   padding: 6px 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.08);
   transition: background-color 0.3s ease;
 }
 
-/* ✅ 開いた状態は少し濃く */
 .rightnote-block[open] {
-  background-color: #f0f0f0; /* ← 薄めのグレーで強調 */
+  background-color: #f0f0f0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* ✅ タイトル部分の整形 */
 .rightnote-block summary {
   font-size: 1.2rem;
   font-weight: 600;
@@ -116,7 +57,6 @@ header {
   gap: 10px;
 }
 
-/* ✅ アイコン色もニュートラルに */
 .rightnote-block .arrow-icon {
   display: inline-block;
   margin-right: 6px;
@@ -127,6 +67,8 @@ header {
   transform: rotate(45deg);
 }
 
+
+/* ========== NOTE右カラム：階層リスト型 ========== */
 .note-summary ul {
   list-style: none;
   padding-left: 0;
@@ -139,7 +81,7 @@ header {
 }
 
 .note-summary ul > li ul {
-  padding-left: 1.4em; /* ← 階層のインデント */
+  padding-left: 1.5em;
   margin-top: 4px;
 }
 
@@ -147,7 +89,15 @@ header {
   font-weight: normal;
   color: #333;
   margin-bottom: 4px;
-  list-style-type: disc; /* 階層マーカー */
+  list-style-type: disc;
 }
 
+/* リンク補足 */
+.note-summary a {
+  color: #0066cc;
+  text-decoration: none;
+}
 
+.note-summary a:hover {
+  color: #004499;
+}
