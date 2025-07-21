@@ -126,4 +126,26 @@ header {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+.note-summary ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.note-summary ul > li {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.note-summary ul > li ul {
+  padding-left: 1.2em; /* ← 階層のインデント */
+  margin-top: 4px;
+}
+
+.note-summary ul > li ul li {
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 4px;
+  list-style: disc;
+}
 
