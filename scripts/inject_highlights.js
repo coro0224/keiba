@@ -8,28 +8,58 @@ const raceJson = JSON.parse(fs.readFileSync(racePath, "utf8"));
 let injected = 0;
 
 raceJson.races.forEach(race => {
-  const highlight = race.highlight?.trim();
   const htmlFile = race.sections?.highlight?.split("#")[0];
-  if (!highlight || !htmlFile) return;
+  if (!htmlFile) return;
 
   const filePath = path.join(outputDir, htmlFile);
   if (!fs.existsSync(filePath)) {
-    console.warn(`⚠️ highlight 未注入 → ${race.name}（${htmlFile} が未作成）`);
+    console.warn(`⚠️ 注入未実行 → ${race.name}（${htmlFile} が未作成）`);
     return;
   }
 
-  const html = fs.readFileSync(filePath, "utf8");
-  const newSection = `
+  let html = fs.readFileSync(filePath, "utf8");
+  let updated = false;
+
+  // 🎯 highlight セクション注入
+  if (race.highlight?.trim()) {
+    const highlightHtml = `
 <section id="highlight">
   <h2>見どころ</h2>
-  <p>${highlight}</p>
-</section>
-  `.trim();
+  ${race.highlight}
+</section>`.trim();
+    html = html.replace(/<section id="highlight">[\s\S]*?<\/section>/, highlightHtml);
+    console.log(`✅ ${race.name} に highlight を注入しました`);
+    updated = true;
+  }
 
-  const updatedHtml = html.replace(/<section id="highlight">[\s\S]*?<\/section>/, newSection);
-  fs.writeFileSync(filePath, updatedHtml, "utf8");
-  injected++;
-  console.log(`✅ ${race.name} に highlight を注入しました`);
+  // 📊 preview セクション注入
+  if (race.preview_text?.trim()) {
+    const previewHtml = `
+<section id="preview">
+  <h2>展開予想</h2>
+  ${race.preview_text}
+</section>`.trim();
+    html = html.replace(/<section id="preview">[\s\S]*?<\/section>/, previewHtml);
+    console.log(`✅ ${race.name} に preview を注入しました`);
+    updated = true;
+  }
+
+  // 🐎 review セクション注入
+  if (race.review_text?.trim()) {
+    const reviewHtml = `
+<section id="review">
+  <h2>レース回顧</h2>
+  ${race.review_text}
+</section>`.trim();
+    html = html.replace(/<section id="review">[\s\S]*?<\/section>/, reviewHtml);
+    console.log(`✅ ${race.name} に review を注入しました`);
+    updated = true;
+  }
+
+  if (updated) {
+    fs.writeFileSync(filePath, html, "utf8");
+    injected++;
+  }
 });
 
-console.log(`✅ highlight を注入したレース数: ${injected}`);
+console.log(`✅ 注入を実施したレース数: ${injected}`);
