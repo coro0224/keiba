@@ -87,7 +87,7 @@ header {
 }
 
 /* NOTEブロックスタイル（中央と同じ） */
-.note-block {
+.rightnote-block {
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -106,7 +106,7 @@ header {
   align-items: center;
 }
 
-.note-block .arrow-icon {
+.rightnote-block .arrow-icon {
   display: inline-block;
   margin-right: 6px;
   width: 10px;
