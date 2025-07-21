@@ -72,3 +72,47 @@ header {
   90%  { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(-100%); opacity: 0; }
 }
+
+/* タイトル：Y軸回転（3秒サイクル） */
+.note-title-rotate {
+  display: inline-block;
+  animation: titleSpin 3s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes titleSpin {
+  0%   { transform: rotateY(0deg); }
+  50%  { transform: rotateY(180deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+/* NOTEブロックスタイル（中央と同じ） */
+.note-block {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.note-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 10px;
+  background-color: #e0f2f1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.note-block .arrow-icon {
+  display: inline-block;
+  margin-right: 6px;
+  width: 10px;
+  height: 10px;
+  border: solid #00796b;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
