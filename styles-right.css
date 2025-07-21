@@ -126,6 +126,7 @@ header {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+
 .note-summary ul {
   list-style: none;
   padding-left: 0;
@@ -133,12 +134,12 @@ header {
 }
 
 .note-summary ul > li {
-  font-weight: 600;
-  margin-bottom: 6px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .note-summary ul > li ul {
-  padding-left: 1.2em; /* 子リストのインデント */
+  padding-left: 1.4em; /* ← 階層のインデント */
   margin-top: 4px;
 }
 
@@ -146,7 +147,7 @@ header {
   font-weight: normal;
   color: #333;
   margin-bottom: 4px;
-  list-style: disc; /* 階層マーカー表示 */
+  list-style-type: disc; /* 階層マーカー */
 }
 
 
