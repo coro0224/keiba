@@ -58,19 +58,19 @@ document.addEventListener("DOMContentLoaded", () => {
             const links = [];
 
             if (race.sections?.highlight) {
-              links.push(`<a href="output/${race.sections.highlight}">▶ 見どころを見る</a>`);
+              links.push(`<a href="${race.sections.highlight}">▶ 見どころを見る</a>`);
             } else {
               links.push(`▶ 見どころ：<span style="color:#888;">後日記載予定</span>`);
             }
 
             if (race.sections?.preview) {
-              links.push(`<a href="output/${race.sections.preview}">▶ 展開予想を見る</a>`);
+              links.push(`<a href="${race.sections.preview}">▶ 展開予想を見る</a>`);
             } else {
               links.push(`▶ 展開予想：<span style="color:#888;">後日記載予定</span>`);
             }
 
             if (race.sections?.review) {
-              links.push(`<a href="output/${race.sections.review}">▶ レース回顧を見る</a>`);
+              links.push(`<a href="${race.sections.review}">▶ レース回顧を見る</a>`);
             } else {
               links.push(`▶ レース回顧：<span style="color:#888;">後日記載予定</span>`);
             }
