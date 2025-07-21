@@ -85,39 +85,44 @@ header {
   50%  { transform: rotateY(180deg); }
   100% { transform: rotateY(360deg); }
 }
-
+/* ✅ 白ベースに戻す：NOTEボックス */
 .rightnote-block {
-  border: 2px solid #2e7d32;
-  border-radius: 8px;
-  background-color: #c5e1a5;
-  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafafa; /* ← 白っぽい柔らかさに */
+  margin-bottom: 12px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
   transition: background-color 0.3s ease;
-  padding: 4px;
 }
 
+/* ✅ 開いた状態は少し濃く */
 .rightnote-block[open] {
-  background-color: #aed581;
-  box-shadow: 0 4px 12px rgba(0, 80, 0, 0.15);
+  background-color: #f0f0f0; /* ← 薄めのグレーで強調 */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* ✅ タイトル部分の整形 */
 .rightnote-block summary {
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 600;
   cursor: pointer;
-  padding: 16px 20px;
-  color: #1b5e20;
-  user-select: none;
+  color: #333;
+  padding: 10px 14px;
+  background-color: #eaeaea;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+/* ✅ アイコン色もニュートラルに */
 .rightnote-block .arrow-icon {
   display: inline-block;
   margin-right: 6px;
   width: 10px;
   height: 10px;
-  border: solid #1b5e20;
+  border: solid #666;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
