@@ -1,140 +1,60 @@
-/* ========== NOTEサムネイル ========== */
-.note-thumbnail {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.note-image {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
-
-/* ========== スライダー ========== */
-.slider-box {
+/* ========== NOTE右カラム：一覧ボックス ========== */
+.noteRight-box {
   background-color: #ffffff;
-  border: 4px solid #81c784;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 100, 0, 0.25);
-  padding: 25px;
+  border: 2px solid #81c784;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 100, 0, 0.1);
+  padding: 20px;
   margin: 30px auto;
-  max-width: 1300px;
+  max-width: 320px;
 }
 
-#image-slider {
-  width: 100%;
-  height: 430px;
+/* タイトル */
+.noteRight-box h2 {
+  font-size: 1.1rem;
+  color: #2e7d32;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* 一覧リスト */
+.noteRight-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  max-height: 220px;
   overflow: hidden;
   position: relative;
-  margin: 0 auto;
 }
 
-.slider-container {
-  overflow: hidden;
-  width: 100%;
-  height: 450px;
+.noteRight-list li {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fdfdfd;
+  animation: noteRight-scroll 14s linear infinite;
+  white-space: nowrap;
 }
 
-.slider-track {
-  display: flex;
-  width: max-content;
+.noteRight-list li:last-child {
+  border-bottom: none;
 }
 
-.slider-track img {
-  flex: 0 0 20%;
-  height: 100%;
-  object-fit: contain;
-  padding: 0 6px;
-  box-sizing: border-box;
+/* NOTEリンク */
+.noteRight-link {
+  text-decoration: none;
+  color: #00796b;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-@keyframes slide {
-  0%   { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+.noteRight-link:hover {
+  color: #004d40;
 }
 
-/* ========== ヒーローセクション ========== */
-.hero-box {
-  background-color: #ffffff;
-  border: 2px solid #a5d6a7;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 80, 0, 0.2);
-  padding: 30px;
-  margin: 30px auto;
-  max-width: 960px;
-}
-
-.hero-box h1 {
-  font-size: 1.6rem;
-  color: #2e7d32;
-}
-
-.hero-box h2 {
-  font-size: 1.1rem;
-  color: #4e4e4e;
-  white-space: pre-line;
-}
-
-/* ========== タイトルと情報ボックス ========== */
-.race-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-style: italic;
-  background-color: pink;
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ccc;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 5px;
-}
-
-.info-box {
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 20px auto;
-  width: 80%;
-  line-height: 1.6;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.info-box h3 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.info-box p {
-  margin: 0;
-  text-align: justify;
-}
-
-/* ========== 汎用ボタンスタイル ========== */
-.menu-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.menu-button:hover {
-  background-color: #0056b3;
-}
-
-.link {
-  text-decoration: underline;
-  color: blue;
-}
-
-.link:hover {
-  color: darkblue;
+/* アニメーション（G1一覧と同型） */
+@keyframes noteRight-scroll {
+  0%   { transform: translateY(100%); opacity: 0; }
+  10%  { transform: translateY(0); opacity: 1; }
+  90%  { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-100%); opacity: 0; }
 }
