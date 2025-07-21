@@ -1,3 +1,17 @@
+/* 安定させるテスト追加 */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+.noteRight-list {
+  position: relative;
+  z-index: 1;
+}
+
+.right-column {
+  overflow: hidden;
+}
 /* ========== NOTE右カラム：一覧ボックス ========== */
 .noteRight-box {
   background-color: #ffffff;
