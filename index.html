@@ -188,36 +188,18 @@
 	  <section class="note-summary">
 	    <h2 class="note-title-rotate">📝 <span class="g1-label">最新NOTE一覧（2025年）</span></h2>
 
-	    <!-- 今週のデータ予想＋買い目 -->
-	    <details class="rightnote-block" open>
+	    <!-- 今週のデータ予想＋買い目（JSが差し込む） -->
+	    <details id="note-weekly" class="rightnote-block" open>
 	      <summary><span class="arrow-icon"></span>【今週のデータ予想＋買い目】</summary>
-	      <ul>
-	        <li><a href="note_sekiya2025.html" target="_blank">▶ 関屋記念の買い目</a></li>
-	        <li><a href="note_tokai2025.html" target="_blank">▶ 東海ステークスの買い目</a></li>
-	      </ul>
+	      <!-- JSが <ul><li><a>▶ ●●記念の買い目</a>... をここに差し込む -->
 	    </details>
 
-	    <!-- 過去のデータ予想＋買い目 -->
+	    <!-- 過去のデータ予想＋買い目（月別→週別→レース） -->
 	    <details class="rightnote-block">
 	      <summary><span class="arrow-icon"></span>【過去のデータ予想＋買い目】</summary>
-
-	      <details class="rightnote-sub">
-	        <summary><span class="arrow-icon"></span>７月</summary>
-
-	        <details class="rightnote-sub">
-	          <summary><span class="arrow-icon"></span>7/20</summary>
-	          <ul>
-	            <li><a href="note_kokura2025.html" target="_blank">▶ 小倉記念の買い目</a></li>
-	          </ul>
-	        </details>
-
-	        <details class="rightnote-sub">
-	          <summary><span class="arrow-icon"></span>7/13</summary>
-	          <ul>
-	            <li><a href="note_tanabata2025.html" target="_blank">▶ 七夕賞の買い目</a></li>
-	          </ul>
-	        </details>
-	      </details>
+	      <div id="note-monthly-root">
+	        <!-- JSが 7月 → 7/20 → レース名（買い目リンク） を階層で差し込む -->
+	      </div>
 	    </details>
 
 	    <!-- ３連単の黄金パターン -->
