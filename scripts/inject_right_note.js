@@ -9,8 +9,7 @@ function injectNoteLinks(raceList) {
     const raceDate = new Date(race.date);
     const isThisWeek =
       raceDate >= today &&
-      raceDate - today < 7 * 86400000 &&
-      raceDate.getDay() !== 0; // ✅ 日曜を含む週に限定（用途によって調整可能）
+      raceDate - today < 7 * 86400000; // ✅ 日曜を含む週に限定（用途によって調整可能）
 
     const noteLink = document.createElement("li");
     noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
