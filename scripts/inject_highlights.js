@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const racePath = path.join(__dirname, "../data/race_schedule_2025.json");
-const outputDir = path.join(__dirname, "../output");
+const outputDir = path.join(__dirname, "../");
 
 const raceJson = JSON.parse(fs.readFileSync(racePath, "utf8"));
 let injected = 0;
@@ -23,11 +23,11 @@ raceJson.races.forEach(race => {
   // 🎯 highlight セクション注入
   if (race.highlight?.trim()) {
     const highlightHtml = `
-<section id="highlight">
-  <h2>見どころ</h2>
+<section class="race-section highlight">
+  <h3>🎯 見どころ</h3>
   ${race.highlight}
 </section>`.trim();
-    html = html.replace(/<section id="highlight">[\s\S]*?<\/section>/, highlightHtml);
+    html = html.replace(/<section[^>]*class=["']race-section highlight["'][^>]*>[\s\S]*?<\/section>/, highlightHtml);
     console.log(`✅ ${race.name} に highlight を注入しました`);
     updated = true;
   }
@@ -35,11 +35,12 @@ raceJson.races.forEach(race => {
   // 📊 preview セクション注入
   if (race.preview_text?.trim()) {
     const previewHtml = `
-<section id="preview">
-  <h2>展開予想</h2>
+<section class="race-section preview">
+  <h3>📊 展開予想</h3>
   ${race.preview_text}
+  <div class="note-cta"><a href="${race.note_url}" target="_blank" rel="noopener">📘 NOTEで読む</a></div>
 </section>`.trim();
-    html = html.replace(/<section id="preview">[\s\S]*?<\/section>/, previewHtml);
+    html = html.replace(/<section[^>]*class=["']race-section preview["'][^>]*>[\s\S]*?<\/section>/, previewHtml);
     console.log(`✅ ${race.name} に preview を注入しました`);
     updated = true;
   }
@@ -47,11 +48,11 @@ raceJson.races.forEach(race => {
   // 🐎 review セクション注入
   if (race.review_text?.trim()) {
     const reviewHtml = `
-<section id="review">
-  <h2>レース回顧</h2>
+<section class="race-section review">
+  <h3>🐎 レース回顧</h3>
   ${race.review_text}
 </section>`.trim();
-    html = html.replace(/<section id="review">[\s\S]*?<\/section>/, reviewHtml);
+    html = html.replace(/<section[^>]*class=["']race-section review["'][^>]*>[\s\S]*?<\/section>/, reviewHtml);
     console.log(`✅ ${race.name} に review を注入しました`);
     updated = true;
   }

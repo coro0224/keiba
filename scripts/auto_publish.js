@@ -28,6 +28,7 @@ const scripts = [
   "generate_highlights.js",
   "inject_highlights.js",
   "inject_note_links.js",
+  "inject_right_note.js",
   "generate_weekly.js"
 ];
 
