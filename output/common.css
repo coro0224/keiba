@@ -1,0 +1,41 @@
+/* 🔗 noteバナー共通スタイル */
+.note-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(90deg, #fffce3 0%, #ffefc3 100%);
+  padding: 12px 16px;
+  border: 2px solid #f7cf5e;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(247, 207, 94, 0.4);
+  animation: fadeInBanner 1s ease-out forwards;
+}
+
+.note-banner img {
+  width: 80px;
+  height: auto;
+  animation: floatIcon 3s infinite ease-in-out;
+}
+
+.note-callout {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  animation: pulseText 2.5s infinite ease-in-out;
+}
+
+/* 🎞️ アニメーション定義 */
+@keyframes fadeInBanner {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatIcon {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulseText {
+  0%, 100% { color: #333; transform: scale(1); }
+  50% { color: #d35400; transform: scale(1.05); }
+}
