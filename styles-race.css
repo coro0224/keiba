@@ -243,4 +243,59 @@ footer a {
   footer {
     margin-top: 30px;
   }
+.note-preview {
+  background-color: #f9f9fc;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-family: 'Yu Gothic', sans-serif;
+  line-height: 1.7;
+  animation: fadeInPreview 0.6s ease-in-out;
 }
+
+.note-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 12px;
+  background: linear-gradient(to right, #e0f4ff, #fef6f9);
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(160,200,255,0.2);
+  animation: slideInBanner 0.7s ease;
+}
+
+.note-banner img {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.note-callout {
+  font-size: 16px;
+  font-weight: bold;
+  color: #004080;
+  background-color: #fff8dc;
+  padding: 8px 12px;
+  border-radius: 6px;
+  animation: pulseCallout 1.5s infinite;
+  box-shadow: inset 0 0 4px rgba(255,200,100,0.3);
+}
+
+@keyframes fadeInPreview {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInBanner {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulseCallout {
+  0% { background-color: #fff8dc; }
+  50% { background-color: #fff0b0; }
+  100% { background-color: #fff8dc; }
+}
+
