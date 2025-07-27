@@ -12,7 +12,7 @@
 }
 
 .note-banner img {
-  width: 80px;
+  width: 500px;
   height: auto;
   animation: floatIcon 3s infinite ease-in-out;
 }
@@ -60,7 +60,7 @@
 }
 
 .note-banner-img {
-  max-width: 120px;
+  max-width: 400px;
   height: auto;
   display: inline-block;
 }
