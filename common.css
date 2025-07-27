@@ -54,4 +54,23 @@
   margin-top: 0.5rem;
   animation: pulseText 2.5s infinite ease-in-out;
 }
+.note-banner {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.note-banner-img {
+  max-width: 120px;
+  height: auto;
+  display: inline-block;
+}
+
+.note-callout {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #e67e22;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  animation: fadeInText 1.8s ease-in-out;
+}
 
