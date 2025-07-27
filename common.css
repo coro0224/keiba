@@ -39,3 +39,19 @@
   0%, 100% { color: #333; transform: scale(1); }
   50% { color: #d35400; transform: scale(1.05); }
 }
+.note-banner-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+  height: auto;
+}
+
+.note-banner-callout {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #d35400;
+  margin-top: 0.5rem;
+  animation: pulseText 2.5s infinite ease-in-out;
+}
+
