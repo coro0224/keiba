@@ -86,27 +86,7 @@
   margin: 1.2rem 0;
 }
 
-.text-banner {
-  background: radial-gradient(circle at center, #fffcb2 0%, #ffdb6e 40%, #ffcb49 100%);
-  border: 3px solid #f5b500;
-  border-radius: 12px;
-  padding: 14px 24px;
-  box-shadow: 0 0 12px rgba(255, 180, 20, 0.5);
-  text-align: center;
-  overflow: hidden;
-  transform: scale(1);
-  transition: transform 0.3s ease;
-}
 
-.text-banner-line {
-  font-size: 1.25rem;
-  font-weight: 900;
-  color: #113366;
-  margin: 6px 0;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  animation: slideText 6s linear infinite;
-}
 
 @keyframes slideText {
   0%   { transform: translateX(-20px); opacity: 0.6; }
@@ -115,4 +95,38 @@
   100% { transform: translateX(0px); opacity: 0.6; }
 }
 
+.text-banner {
+  background: linear-gradient(to bottom, #e0f7fa 0%, #a8e6cf 100%);
+  border: 3px solid #3fa34d;
+  border-radius: 12px;
+  padding: 16px 28px;
+  box-shadow: 0 0 24px rgba(63,163,77,0.4);
+  position: relative;
+  isolation: isolate;
+}
+
+.text-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top center, rgba(255,255,255,0.2), rgba(255,230,150,0.1) 60%);
+  z-index: 0;
+}
+
+.text-banner-line {
+  position: relative;
+  z-index: 1;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #145b3a;
+  text-shadow: 1px 1px 2px #fff;
+  letter-spacing: 1px;
+  animation: flashSpeed 4s ease-in-out infinite;
+}
+
+@keyframes flashSpeed {
+  0%   { transform: scale(1) rotate(0deg); opacity: 1; }
+  50%  { transform: scale(1.05) rotate(1deg); opacity: 0.9; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
 
