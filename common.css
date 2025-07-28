@@ -73,40 +73,46 @@
   margin-top: 0.5rem;
   animation: fadeInText 1.8s ease-in-out;
 }
-.text-banner {
-  background: linear-gradient(90deg, #fff6cc, #ffe49a);
-  border: 2px solid #f0c23e;
-  border-radius: 8px;
-  padding: 12px 20px;
-  margin: 16px 0;
-  box-shadow: 0 0 8px rgba(240, 194, 62, 0.3);
-  text-align: center;
-  overflow: hidden;
-}
 
-.text-banner-line {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #333;
-  white-space: nowrap;
-  animation: slideText 6s linear infinite;
-}
-
-@keyframes slideText {
-  0%   { transform: translateX(-20px); opacity: 0; }
-  20%  { opacity: 1; }
-  80%  { transform: translateX(20px); opacity: 1; }
-  100% { transform: translateX(0); opacity: 0.5; }
-}
-.text-banner-link {
-  text-decoration: none;
-  display: block;
-}
 
 .text-banner-link:hover .text-banner {
   box-shadow: 0 0 12px rgba(240, 194, 62, 0.5);
   transform: scale(1.02);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.text-banner-link {
+  text-decoration: none;
+  display: block;
+  margin: 1.2rem 0;
+}
+
+.text-banner {
+  background: radial-gradient(circle at center, #fffcb2 0%, #ffdb6e 40%, #ffcb49 100%);
+  border: 3px solid #f5b500;
+  border-radius: 12px;
+  padding: 14px 24px;
+  box-shadow: 0 0 12px rgba(255, 180, 20, 0.5);
+  text-align: center;
+  overflow: hidden;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.text-banner-line {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #113366;
+  margin: 6px 0;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  animation: slideText 6s linear infinite;
+}
+
+@keyframes slideText {
+  0%   { transform: translateX(-20px); opacity: 0.6; }
+  25%  { opacity: 1; }
+  75%  { transform: translateX(20px); opacity: 1; }
+  100% { transform: translateX(0px); opacity: 0.6; }
+}
+
 
