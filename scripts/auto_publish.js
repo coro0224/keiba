@@ -35,7 +35,7 @@ for (const script of scripts) {
 try {
   log("📄 race_template.html に HTML生成中");
 
-  const schedulePath = path.join(__dirname, "../input/race_schedule_2025.json");
+  const schedulePath = path.join(__dirname, "../data/race_schedule_2025.json");
   const templatePath = path.join(__dirname, "../templates/race_template.html");
   const outputDir = path.join(__dirname, "../output");
 
