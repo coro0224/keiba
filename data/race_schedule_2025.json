@@ -110,12 +110,12 @@
       "grade": "G3",
       "venue": "新潟・芝1000m",
       "sections": {
-        "preview": "output/ibis_summer.html#preview",
-        "review": "output/ibis_summer.html#review",
-        "highlight": "output/ibis_summer.html#highlight"
+        "preview": "output/20250803_ibis_summer.html#preview",
+        "review": "output/20250803_ibis_summer.html#review",
+        "highlight": "output/20250803_ibis_summer.html#highlight"
       },
       "image": {
-        "file": "アイビスサマ_ダッシュ_20250803_G3.png",
+        "file": "20250803_ibis_summer.png",
         "alt": "アイビスサマーダッシュ・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
@@ -124,8 +124,8 @@
       "preview_text": "<div class='note-preview'><p>アイビスサマーダッシュは枠順とスピードがすべてを決める電撃の千直重賞。<strong>新潟芝1000mは外枠絶対有利で、外ラチ沿いの馬場を使える馬が圧倒的に有利</strong>です。</p><p><strong>逃げ候補は⑰テイエムスパーダと⑱モズメイメイ</strong>。ともに外枠を引き、スタートから押し切る構え。⑮ピューロマジックも先行策で一発を狙う。</p><p>中団には⑯クムシラコや⑭コラソンビートが控え、千直巧者の⑪カフジテトラゴンは展開を見ながら差し脚を伸ばす構え。</p><p><strong>外枠先行勢の押し切りか、差し馬の一撃か</strong>が焦点。馬場状態と風向き、そして斤量差が勝敗を左右する。</p><p>直線のみのスプリント戦で、<strong>一瞬の加速力と持続力</strong>が試される真夏のスピード決戦です。</p></div>",
       "text_banner1": "夏の新潟、電撃の直線勝負！",
       "text_banner2": "アイビスサマーダッシュのデータ予想＋買い目はこちら",
-      "horse_image_path": "../images/アイビスサマ_ダッシュ_20250803_G3.png",
-      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>"
+      "horse_image_path": "../images/20250803_ibis_summer.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250803_ibis_summer.png' alt='アイビスサマーダッシュバナー' /></div></a>"
     },
     {
       "id": "20250803_queen_sapporo",
@@ -134,17 +134,22 @@
       "grade": "G3",
       "venue": "札幌・芝1800m",
       "sections": {
-        "preview": "output/queen_sapporo.html#preview",
-        "review": "output/queen_sapporo.html#review",
-        "highlight": "output/queen_sapporo.html#highlight"
+        "preview": "output/20250803_queen_sapporo.html#preview",
+        "review": "output/20250803_queen_sapporo.html#review",
+        "highlight": "output/20250803_queen_sapporo.html#highlight"
       },
       "image": {
-        "file": "クイ_ン_20250803_G3.png",
+        "file": "20250803_queen_sapporo.png",
         "alt": "クイーンステークス・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
       "highlight": "<p>札幌芝1800mで行われる牝馬限定の夏の伝統重賞「クイーンステークス」。秋のGI戦線へ向けた重要なステップレースであり、近年は3歳馬の台頭も目立つ一戦です。今年も秋華賞やエリザベス女王杯を見据える実力馬が集結し、見どころ満載のメンバー構成となりました。注目は<strong>アルジーヌ</strong>。昨年のターコイズS勝ち馬で、今年も阪神牝馬S2着、ヴィクトリアマイル4着とGI級の実力を証明済。札幌芝1800mは昨年3着の舞台で、<strong>川田騎手とのコンビで重賞2勝目を狙います</strong>。対抗は<strong>フェアエールング</strong>。福島牝馬S2着、小倉牝馬S1着と近走充実。札幌芝は【5戦3勝2着1回】と洋芝適性も抜群で、<strong>今が旬の一頭</strong>です。先行力が魅力の<strong>クリスマスパレード</strong>や<strong>レーゼドラマ</strong>も侮れません。前者は紫苑S勝ち馬で、札幌の小回りも合いそう。後者はフラワーC快勝歴があり、距離短縮で巻き返しを狙います。また、GI好走歴のある<strong>ライラック</strong>や、逃げて持ち味を発揮する<strong>アリスヴェリテ</strong>、洋芝巧者の<strong>フィールシンパシー</strong>など、<strong>展開次第で台頭可能な伏兵陣</strong>も揃いました。過去10年の傾向では、<strong>1～2枠の内枠が好成績</strong>で、<strong>差し馬の台頭も目立つ</strong>札幌芝1800m。<strong>ヴィクトリアマイル組や福島牝馬S組の好走率も高く</strong>、臨戦過程にも注目です。2025年8月3日（日）15:25発走予定──秋へ向けた牝馬たちの熱戦。札幌の夏を彩るクイーンステークス、今年も見逃せません。</p>",
-      "note_url": ""
+      "note_url": "",
+      "preview_text": "<div class='note-preview'><p>クイーンステークスは札幌芝1800m、洋芝＋小回り＋直線短めの舞台。展開の鍵を握るのは⑤アリスヴェリテの逃げ。①クリスマスパレード、②フィールシンパシーが内枠から好位を確保し、④アルジーヌが外から差しに構える。⑫ビヨンドザヴァレーは中団から器用に立ち回り、⑬ライラックが後方から一発を狙う。ペースは平均?やや速めで、前残りと差しの綱引き。馬券の軸は②フィールシンパシー。ヒモに④⑤⑫、穴で⑬を押さえたい。</p></div>",
+      "text_banner1": "夏の女王決定戦！札幌芝1800mで牝馬たちが激突S",
+      "text_banner2": "クイーンステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250803_queen_sapporo.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250803_queen_sapporo.png' alt='クイーンステークスバナー' /></div></a>"
     },
     {
       "id": "20250809_elm",
