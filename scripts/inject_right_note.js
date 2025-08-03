@@ -1,5 +1,13 @@
 function injectNoteLinks(raceList) {
   const today = new Date();
+  today.setHours(0, 0, 0, 0); // 時刻を揃える
+
+  // 土曜〜金曜の週を定義
+  const saturday = new Date(today);
+  saturday.setDate(today.getDate() - ((today.getDay() + 1) % 7));
+  const friday = new Date(saturday);
+  friday.setDate(saturday.getDate() + 6);
+
   const weeklyContainer = document.getElementById("note-weekly");
   const monthlyRoot = document.getElementById("note-monthly-root");
 
@@ -7,9 +15,9 @@ function injectNoteLinks(raceList) {
     if (!race.note_url || race.note_url.trim() === "") return;
 
     const raceDate = new Date(race.date);
-    const isThisWeek =
-      raceDate >= today &&
-      raceDate - today < 7 * 86400000; // ✅ 日曜を含む週に限定（用途によって調整可能）
+    raceDate.setHours(0, 0, 0, 0); // 時刻を揃える
+
+    const isThisWeek = raceDate >= saturday && raceDate <= friday;
 
     const noteLink = document.createElement("li");
     noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
