@@ -1,5 +1,12 @@
 function injectNoteLinks(raceList) {
   const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const monday = new Date(today);
+  monday.setDate(today.getDate() - today.getDay() + 1);
+  const sunday = new Date(monday);
+  sunday.setDate(monday.getDate() + 6);
+
   const weeklyContainer = document.getElementById("note-weekly");
   const monthlyRoot = document.getElementById("note-monthly-root");
 
@@ -7,19 +14,18 @@ function injectNoteLinks(raceList) {
     if (!race.note_url || race.note_url.trim() === "") return;
 
     const raceDate = new Date(race.date);
-    const isThisWeek = raceDate >= today && raceDate - today < 7 * 86400000;
+    raceDate.setHours(0, 0, 0, 0);
 
-    // 買い目リンクの生成（ラベルは固定＋レース名変動）
+    const isThisWeek = raceDate >= monday && raceDate <= sunday;
+
     const noteLink = document.createElement("li");
     noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
 
     if (isThisWeek) {
-      // 今週表示欄への注入
       const ul = weeklyContainer.querySelector("ul") || document.createElement("ul");
       ul.appendChild(noteLink);
       if (!weeklyContainer.querySelector("ul")) weeklyContainer.appendChild(ul);
     } else {
-      // 過去レース → 月別 → 日付別 → 買い目リンクの階層表示
       const month = raceDate.getMonth() + 1;
       const day = raceDate.getDate();
       const monthId = `note-month-${month}`;
