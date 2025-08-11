@@ -230,9 +230,9 @@
       "grade": "G3",
       "venue": "中京・芝1600m",
       "sections": {
-        "preview": "output/chukyo_kinen.html#preview",
-        "review": "output/chukyo_kinen.html#review",
-        "highlight": "output/chukyo_kinen.html#highlight"
+        "preview": "output/20250817_chukyo_kinen.html#preview",
+        "review": "output/20250817_chukyo_kinen.html#review",
+        "highlight": "output/20250817_chukyo_kinen.html#highlight"
       },
       "image": {
         "file": "_20250817_G3.png",
@@ -254,9 +254,9 @@
       "grade": "G2",
       "venue": "札幌・芝2000m",
       "sections": {
-        "preview": "output/sapporo_kinen.html#preview",
-        "review": "output/sapporo_kinen.html#review",
-        "highlight": "output/sapporo_kinen.html#highlight"
+        "preview": "output/20250817_sapporo_kinen.html#preview",
+        "review": "output/20250817_sapporo_kinen.html#review",
+        "highlight": "output/20250817_sapporo_kinen.html#highlight"
       },
       "image": {
         "file": "20250817_sapporo_kinen.png",
