@@ -3,8 +3,10 @@ function injectNoteLinks(raceList) {
   today.setHours(0, 0, 0, 0); // 時刻を揃える
 
   // 月曜〜日曜の週を定義（generate_weekly.jsと同じ）
-  const monday = new Date(today);
-  monday.setDate(today.getDate() - today.getDay() + 1);
+
+	const dayOfWeek = today.getDay(); // 0:日曜, 1:月曜, ..., 6:土曜
+	const monday = new Date(today);
+	monday.setDate(today.getDate() - (dayOfWeek === 0 ? 6 : dayOfWeek - 1));
   const sunday = new Date(monday);
   sunday.setDate(monday.getDate() + 6);
 
