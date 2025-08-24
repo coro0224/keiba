@@ -11,8 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const dow = today.getDay();
       const monday = new Date(today);
       monday.setDate(today.getDate() - ((dow + 6) % 7));
+      monday.setHours(0, 0, 0, 0);
+
       const sunday = new Date(monday);
       sunday.setDate(monday.getDate() + 6);
+      sunday.setHours(23, 59, 59, 999); // ✅ 日曜の終わりまで含める
 
       const parseDate = (str) => {
         const clean = str.includes("T") ? str.split("T")[0] : str;
@@ -22,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const pastRaces = data.races.filter(race => {
         const raceDate = parseDate(race.date);
-        raceDate.setHours(0, 0, 0, 0); // ✅ 日付比較を日単位に揃える
-        return raceDate <= monday;
+        raceDate.setHours(0, 0, 0, 0);
+        return raceDate <= sunday; // ✅ 今週の日曜まで含める
       });
 
       const months = {};
