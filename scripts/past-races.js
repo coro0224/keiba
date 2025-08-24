@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const dow = today.getDay();
       const monday = new Date(today);
-      monday.setDate(today.getDate() - ((dow + 6) % 7));
+      if (dow === 0) {
+        monday.setDate(today.getDate() - 6); // ✅ 日曜なら今週の月曜は6日前
+      } else {
+        monday.setDate(today.getDate() - (dow - 1)); // ✅ それ以外は通常通り
+      }
       monday.setHours(0, 0, 0, 0);
 
       const sunday = new Date(monday);
@@ -23,11 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
         return new Date(yyyy, mm - 1, dd);
       };
 
-	const pastRaces = data.races.filter(race => {
-	  const raceDate = parseDate(race.date);
-	  raceDate.setHours(0, 0, 0, 0);
-	  return raceDate >= monday && raceDate <= sunday; // ✅ 今週の月曜〜日曜のみ
-	});
+      const pastRaces = data.races.filter(race => {
+        const raceDate = parseDate(race.date);
+        raceDate.setHours(0, 0, 0, 0);
+        return raceDate >= monday && raceDate <= sunday; // ✅ 今週の月曜〜日曜のみ
+      });
 
       const months = {};
       pastRaces.forEach(race => {
