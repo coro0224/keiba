@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const pastRaces = data.races.filter(race => {
         const raceDate = parseDate(race.date);
-        return raceDate < today;
+        return raceDate <= today;
       });
 
       const months = {};
