@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
         return new Date(yyyy, mm - 1, dd);
       };
 
-      const pastRaces = data.races.filter(race => {
-        const raceDate = parseDate(race.date);
-        raceDate.setHours(0, 0, 0, 0);
-        return raceDate <= sunday; // ✅ 今週の日曜まで含める
-      });
+	const pastRaces = data.races.filter(race => {
+	  const raceDate = parseDate(race.date);
+	  raceDate.setHours(0, 0, 0, 0);
+	  return raceDate >= monday && raceDate <= sunday; // ✅ 今週の月曜〜日曜のみ
+	});
 
       const months = {};
       pastRaces.forEach(race => {
