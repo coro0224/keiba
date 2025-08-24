@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const pastRaces = data.races.filter(race => {
         const raceDate = parseDate(race.date);
+        raceDate.setHours(0, 0, 0, 0); // ✅ 日付比較を日単位に揃える
         return raceDate <= today;
       });
 
