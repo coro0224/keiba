@@ -1,94 +1,64 @@
-const fs = require("fs");
-const path = require("path");
-const racePath = path.join(__dirname, "../data/race_schedule_2025.json");
-const weeklyPath = path.join(__dirname, "../output/weekly.html");
+function injectNoteLinks(raceList) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // 時刻を揃える
 
-const racesData = JSON.parse(fs.readFileSync(racePath, "utf-8"));
-const today = new Date();
-const monday = new Date(today);
-monday.setDate(today.getDate() - today.getDay() + 1);
-const sunday = new Date(monday);
-sunday.setDate(monday.getDate() + 6);
+  // ✅ 月曜〜日曜の週を定義（中央表示と同じロジック）
+  const dow = today.getDay(); // 0:日曜, 1:月曜, ..., 6:土曜
+  const monday = new Date(today);
+  monday.setDate(today.getDate() - ((dow + 6) % 7));
+  const sunday = new Date(monday);
+  sunday.setDate(monday.getDate() + 6);
 
-function getWeekdayStr(dateStr) {
-  const days = ["日", "月", "火", "水", "木", "金", "土"];
-  return days[new Date(dateStr).getDay()];
+  const weeklyContainer = document.getElementById("note-weekly");
+  const monthlyRoot = document.getElementById("note-monthly-root");
+
+  raceList.forEach(race => {
+    if (!race.note_url || race.note_url.trim() === "") return;
+
+    const raceDate = new Date(race.date);
+    raceDate.setHours(0, 0, 0, 0); // 日付比較の精度を揃える
+
+    const isThisWeek = raceDate >= monday && raceDate <= sunday;
+
+    const noteLink = document.createElement("li");
+    noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
+
+    if (isThisWeek) {
+      // ✅ 今週のNOTE差し込み
+      const ul = weeklyContainer.querySelector("ul") || document.createElement("ul");
+      ul.appendChild(noteLink);
+      if (!weeklyContainer.querySelector("ul")) weeklyContainer.appendChild(ul);
+    } else {
+      // ✅ 過去NOTE差し込み（階層化）
+      const month = raceDate.getMonth() + 1;
+      const day = raceDate.getDate();
+      const monthId = `note-month-${month}`;
+      const weekId = `note-week-${month}-${day}`;
+
+      // 月コンテナ
+      let monthContainer = document.getElementById(monthId);
+      if (!monthContainer) {
+        monthContainer = document.createElement("details");
+        monthContainer.id = monthId;
+        monthContainer.className = "rightnote-sub";
+        monthContainer.innerHTML = `<summary><span class="arrow-icon"></span>${month}月</summary>`;
+        monthlyRoot.appendChild(monthContainer);
+      }
+
+      // 週コンテナ
+      let weekContainer = document.getElementById(weekId);
+      if (!weekContainer) {
+        weekContainer = document.createElement("details");
+        weekContainer.id = weekId;
+        weekContainer.className = "rightnote-sub";
+        weekContainer.innerHTML = `<summary><span class="arrow-icon"></span>${month}/${day}</summary>`;
+        monthContainer.appendChild(weekContainer);
+      }
+
+      // 買い目リンク差し込み
+      const ul = weekContainer.querySelector("ul") || document.createElement("ul");
+      ul.appendChild(noteLink);
+      if (!weekContainer.querySelector("ul")) weekContainer.appendChild(ul);
+    }
+  });
 }
-
-function renderRaceBlock(race, sectionType) {
-  const file = race.sections?.[sectionType]?.split("#")[0] || "index.html";
-  const label = {
-    highlight: "見どころ",
-    preview: "展開予想",
-    review: "レース回顧"
-  }[sectionType];
-  return `<li><a href="${file}#${sectionType}">${label}</a></li>`;
-}
-
-let html = `
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <title>今週のレース</title>
-  <link rel="stylesheet" href="styles-weekly.css" />
-</head>
-<body>
-  <article class="weekly-wrap">
-    <h1>🏇 今週の重賞（${monday.toLocaleDateString("ja-JP")}〜${sunday.toLocaleDateString("ja-JP")}）</h1>
-`;
-
-racesData.races.forEach((race) => {
-  const raceDate = new Date(race.date);
-  const weekday = getWeekdayStr(race.date);
-  const label = `${race.date}（${weekday}）｜${race.name}（${race.grade}）`;
-
-  if (raceDate >= monday && raceDate <= sunday) {
-    html += `
-      <section class="weekly-race">
-        <h3>${label}</h3>
-        <ul>
-          ${renderRaceBlock(race, "highlight")}
-          ${renderRaceBlock(race, "preview")}
-          ${renderRaceBlock(race, "review")}
-        </ul>
-      </section>
-    `;
-  }
-});
-
-html += `<h1 style="margin-top:48px;">📚 過去の重賞</h1>`;
-
-racesData.races.forEach((race) => {
-  const raceDate = new Date(race.date);
-  const weekday = getWeekdayStr(race.date);
-  const label = `${race.date}（${weekday}）｜${race.name}（${race.grade}）`;
-
-  if (raceDate < monday) {
-    html += `
-      <section class="past-race">
-        <h3>${label}</h3>
-        <ul>
-          ${renderRaceBlock(race, "highlight")}
-          ${renderRaceBlock(race, "preview")}
-          ${renderRaceBlock(race, "review")}
-        </ul>
-      </section>
-    `;
-  }
-});
-
-html += `
-    <footer style="text-align:center; margin-top:48px;">
-      <a href="index.html">🏠 トップページへ戻る</a>
-    </footer>
-  </article>
-</body>
-</html>
-`;
-
-fs.writeFileSync(weeklyPath, html, { encoding: "utf8" });
-console.log("✅ weekly.html を生成しました");
-console.log(`today:   ${today.toLocaleDateString("ja-JP")}`);
-console.log(`monday:  ${monday.toLocaleDateString("ja-JP")}`);
-console.log(`sunday:  ${sunday.toLocaleDateString("ja-JP")}`);
