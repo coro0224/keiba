@@ -1,13 +1,32 @@
 const { execSync } = require("child_process");
 const path = require("path");
 const fs = require("fs");
-const chalk = require("chalk"); // 色付きログ表示（optional）
+const chalk = require("chalk");
 const { log, divider } = require("./logger");
 
 log("🚀 Copilot連携・一括更新フロー開始");
 divider();
 
-// 🧩 自動実行するスクリプト一覧（順番が重要）
+// 🛠 画像パス補正（preview内）
+function fixPreviewImagePath(previewText, raceId) {
+  return previewText.replace(/<img src=['"]images\/[^'"]+['"]/g, `<img src='../images/${raceId}.png'`);
+}
+
+// 🎯 バナー生成（NOTEリンクと誘導見出し付き）
+function buildLeadBanner(race) {
+  return `
+  <div class="race-lead-banner">
+    <h4 class="race-lead-caption">📢 ${race.name}の買い目はこちらからチェック！</h4>
+    <a href="${race.note_url}" target="_blank" rel="noopener" class="note-banner-link">
+      <div class="note-banner">
+        <img src="../images/${race.id}.png" alt="${race.name}バナー" />
+      </div>
+    </a>
+  </div>
+  `;
+}
+
+// 🔃 スクリプト順次実行
 const scripts = [
   "generate_note_template.js",
   "update_note_links.js",
@@ -20,7 +39,7 @@ const scripts = [
 
 for (const script of scripts) {
   try {
-    log(`🟢 実行中: ${script}`);
+    log(`▶ 実行中: ${script}`);
     execSync(`node ${path.join(__dirname, script)}`, { stdio: "inherit" });
     log(`✅ 完了: ${script}`);
     divider();
@@ -31,46 +50,68 @@ for (const script of scripts) {
   }
 }
 
-// 🚀 最終HTMLを生成して note_banner を注入
+// 📄 race_template.html 適用開始
 try {
-  log("📄 race_template.html に HTML生成中");
+  log("📄 race_template.html に HTML生成開始");
 
   const schedulePath = path.join(__dirname, "../data/race_schedule_2025.json");
   const templatePath = path.join(__dirname, "../templates/race_template.html");
   const outputDir = path.join(__dirname, "../output");
 
-  const scheduleJson = JSON.parse(fs.readFileSync(schedulePath, "utf8"));
+  const scheduleRaw = fs.readFileSync(schedulePath, "utf8");
   const templateRaw = fs.readFileSync(templatePath, "utf8");
+  const scheduleJson = JSON.parse(scheduleRaw);
+  const races = scheduleJson.races;
 
-  const sekiyaData = scheduleJson.find(race => race.id === "20250727_sekiya");
-  if (!sekiyaData) throw new Error("関屋記念のレース情報が見つかりません");
+  function applyTemplate(template, race) {
+    race.preview = fixPreviewImagePath(race.preview_text || "", race.id);
+    race.lead_banner = buildLeadBanner(race);
 
-  // 置換処理
-  let template = templateRaw
-    .replace(/{{title}}/g, sekiyaData.name)
-    .replace(/{{grade}}/g, sekiyaData.grade)
-    .replace(/{{date}}/g, sekiyaData.date)
-    .replace(/{{weekday}}/g, "日") // 固定 or 日付から計算可
-    .replace(/{{venue}}/g, sekiyaData.venue.split("・")[0])
-    .replace(/{{surface}}/g, sekiyaData.venue.includes("芝") ? "芝" : "ダート")
-    .replace(/{{distance}}/g, sekiyaData.venue.match(/\d+m/)?.[0] || "")
-    .replace(/{{image_name}}/g, sekiyaData.image?.file || "")
-    .replace(/{{highlight}}/g, sekiyaData.highlight || "")
-    .replace(/{{preview}}/g, sekiyaData.preview_text || "")
-    .replace(/{{review}}/g, sekiyaData.review_text || "")
-    .replace(/{{note_banner}}/g, sekiyaData.note_banner || "")
-    .replace(/{{note_link}}/g, `<a href="${sekiyaData.note_url}" target="_blank" class="note-button">note記事を見る</a>`);
+    let result = template;
 
-  const outputPath = path.join(outputDir, "sekiya.html");
-  fs.writeFileSync(outputPath, template, "utf8");
+    Object.entries(race).forEach(([key, value]) => {
+      if (typeof value === "object" && value !== null) {
+        Object.entries(value).forEach(([subKey, subVal]) => {
+          const pattern = new RegExp(`{{${key}.${subKey}}}`, "g");
+          result = result.replace(pattern, subVal || "");
+        });
+      } else {
+        const pattern = new RegExp(`{{${key}}}`, "g");
+        result = result.replace(pattern, value || "");
+      }
+    });
 
-  log("✅ HTML出力完了: sekiya.html にバナー含めて反映済み");
+    const weekday = "日";
+    const surface = race.venue.includes("芝") ? "芝" : "ダート";
+    const distance = race.venue.match(/\d+m/)?.[0] || "";
+
+    result = result
+      .replace(/{{title}}/g, race.name) // ✅ title 明示的マッピング
+      .replace(/{{weekday}}/g, weekday)
+      .replace(/{{surface}}/g, surface)
+      .replace(/{{distance}}/g, distance)
+      .replace(/{{note_link}}/g, `<a href="${race.note_url}" target="_blank" class="note-button">note記事を見る</a>`);
+
+    return result;
+  }
+
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  races.forEach((race) => {
+    const filledHtml = applyTemplate(templateRaw, race);
+    const outputPath = path.join(outputDir, `${race.id}.html`);
+    fs.writeFileSync(outputPath, filledHtml, "utf8");
+    log(`✅ HTML生成完了: ${race.id}.html`);
+  });
+
   divider();
 } catch (err) {
-  log("❌ 最終HTML出力時にエラー発生");
+  log("💥 HTML生成中にエラーが発生しました");
   log(err.message);
   divider();
 }
 
-log("✅ Copilot一括更新フロー終了");
-console.log(chalk.bold("\n🎉 一連の更新作業が正常に完了しました\n"));
+log("🏁 Copilot一括更新フロー終了");
+console.log(chalk.bold("\n✅ 一連の更新作業が正常に完了しました\n"));
