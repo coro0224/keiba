@@ -2,13 +2,12 @@ function injectNoteLinks(raceList) {
   const today = new Date();
   today.setHours(0, 0, 0, 0); // 時刻を揃える
 
-  // 月曜〜日曜の週を定義（generate_weekly.jsと同じ）
-
-	const dayOfWeek = today.getDay(); // 0:日曜, 1:月曜, ..., 6:土曜
-	const monday = new Date(today);
-	monday.setDate(today.getDate() - (dayOfWeek === 0 ? 6 : dayOfWeek - 1));
-  const sunday = new Date(monday);
-  sunday.setDate(monday.getDate() + 6);
+  // ✅ 日曜〜土曜の週を定義（日本文化に合わせる）
+  const dayOfWeek = today.getDay(); // 0:日曜, 1:月曜, ..., 6:土曜
+  const sunday = new Date(today);
+  sunday.setDate(today.getDate() - dayOfWeek); // 今週の日曜
+  const saturday = new Date(sunday);
+  saturday.setDate(sunday.getDate() + 6); // 今週の土曜
 
   const weeklyContainer = document.getElementById("note-weekly");
   const monthlyRoot = document.getElementById("note-monthly-root");
@@ -19,18 +18,18 @@ function injectNoteLinks(raceList) {
     const raceDate = new Date(race.date);
     raceDate.setHours(0, 0, 0, 0); // 日付比較の精度を揃える
 
-    const isThisWeek = raceDate >= monday && raceDate <= sunday;
+    const isThisWeek = raceDate >= sunday && raceDate <= saturday;
 
     const noteLink = document.createElement("li");
     noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
 
     if (isThisWeek) {
-      // 今週のNOTE差し込み
+      // ✅ 今週のNOTE差し込み
       const ul = weeklyContainer.querySelector("ul") || document.createElement("ul");
       ul.appendChild(noteLink);
       if (!weeklyContainer.querySelector("ul")) weeklyContainer.appendChild(ul);
     } else {
-      // 過去NOTE差し込み（階層化）
+      // ✅ 過去NOTE差し込み（階層化）
       const month = raceDate.getMonth() + 1;
       const day = raceDate.getDate();
       const monthId = `note-month-${month}`;
