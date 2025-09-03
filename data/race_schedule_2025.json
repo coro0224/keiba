@@ -26,9 +26,9 @@
       "grade": "G3",
       "venue": "小倉・芝2000m",
       "sections": {
-        "preview": "output/kokura_kinen.html#preview",
-        "review": "output/kokura_kinen.html#review",
-        "highlight": "output/kokura_kinen.html#highlight"
+        "preview": "output/20250720_kokura_kinen.html#preview",
+        "review": "output/20250720_kokura_kinen.html#review",
+        "highlight": "output/20250720_kokura_kinen.html#highlight"
       },
       "image": {
         "file": "_20250720_G3.png",
@@ -46,9 +46,9 @@
       "grade": "G3",
       "venue": "函館・芝1200m",
       "sections": {
-        "preview": "output/hakodate_2sai.html#preview",
-        "review": "output/hakodate_2sai.html#review",
-        "highlight": "output/hakodate_2sai.html#highlight"
+        "preview": "output/20250720_hakodate_2sai.html#preview",
+        "review": "output/20250720_hakodate_2sai.html#review",
+        "highlight": "output/20250720_hakodate_2sai.html#highlight"
       },
       "image": {
         "file": "2_20250720_G3.png",
@@ -90,9 +90,9 @@
       "grade": "G3",
       "venue": "中京・ダ1400m",
       "sections": {
-        "preview": "output/tokai.html#preview",
-        "review": "output/tokai.html#review",
-        "highlight": "output/tokai.html#highlight"
+        "preview": "output/20250727_tokai.html#preview",
+        "review": "output/20250727_tokai.html#review",
+        "highlight": "output/20250727_tokai.html#highlight"
       },
       "image": {
         "file": "_20250727_G3.png",
