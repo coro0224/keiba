@@ -2,11 +2,16 @@ function injectNoteLinks(raceList) {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  // 日曜始まりの週定義（日本の競馬文化に合わせる）
-  const sundayStart = new Date(today);
-  sundayStart.setDate(today.getDate() - today.getDay()); // 0 = Sunday
-  const saturdayEnd = new Date(sundayStart);
-  saturdayEnd.setDate(sundayStart.getDate() + 6); // 土曜まで
+  // 月曜始まり・日曜終わりの週定義
+  const dayOfWeek = today.getDay(); // 0:日, 1:月, ..., 6:土
+  const mondayStart = new Date(today);
+  const offsetToMonday = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
+  mondayStart.setDate(today.getDate() + offsetToMonday);
+  mondayStart.setHours(0, 0, 0, 0);
+
+  const sundayEnd = new Date(mondayStart);
+  sundayEnd.setDate(mondayStart.getDate() + 6);
+  sundayEnd.setHours(23, 59, 59, 999);
 
   const weeklyContainer = document.getElementById("note-weekly");
   const monthlyRoot = document.getElementById("note-monthly-root");
@@ -17,7 +22,7 @@ function injectNoteLinks(raceList) {
     const raceDate = new Date(race.date);
     raceDate.setHours(0, 0, 0, 0);
 
-    const isThisWeek = raceDate >= sundayStart && raceDate <= saturdayEnd;
+    const isThisWeek = raceDate >= mondayStart && raceDate <= sundayEnd;
 
     const noteLink = document.createElement("li");
     noteLink.innerHTML = `<a href="${race.note_url}" target="_blank">▶ ${race.name}の買い目</a>`;
