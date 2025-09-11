@@ -422,17 +422,22 @@
       "grade": "G3",
       "venue": "阪神・芝2000m",
       "sections": {
-        "preview": "output/challenge_cup.html#preview",
-        "review": "output/challenge_cup.html#review",
-        "highlight": "output/challenge_cup.html#highlight"
+        "preview": "output/20250913_challenge_cup.html#preview",
+        "review": "output/20250913_challenge_cup.html#review",
+        "highlight": "output/20250913_challenge_cup.html#highlight"
       },
       "image": {
         "file": "チャレンジ_20250913_G3.png",
         "alt": "チャレンジカップ・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "注目馬が激突する チャレンジカップ。展開の鍵を握るのは 。",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": "",
+      "text_banner1": "阪神芝1200mで行われるスプリンターズS前哨戦",
+      "text_banner2": "チャレンジカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250913_challenge_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250913_challenge_cup.png' alt='チャレンジカップ' /></div></a>"
     },
     {
       "id": "20250914_rose",
@@ -441,17 +446,22 @@
       "grade": "G2",
       "venue": "阪神・芝1800m",
       "sections": {
-        "preview": "output/rose.html#preview",
-        "review": "output/rose.html#review",
-        "highlight": "output/rose.html#highlight"
+        "preview": "output/20250914_rose.html#preview",
+        "review": "output/20250914_rose.html#review",
+        "highlight": "output/20250914_rose.html#highlight"
       },
       "image": {
         "file": "ロ_ズ_20250914_G2.png",
         "alt": "ローズステークス・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p>秋華賞への最重要ステップ──それが<strong>ローズステークス</strong>。第43回を迎える今年は、<strong>阪神芝1800m外回り</strong>での開催。<strong>直線の長さ＋外差し傾向</strong>が展開を左右し、<strong>持続力と瞬発力の融合</strong>が問われる舞台です。注目は<strong>カムニャック</strong>。オークスを<strong>堂々の逃げ切り勝ち</strong>で制した世代女王が、秋初戦から始動。距離短縮は課題も、<strong>スタミナ＋完成度</strong>で押し切り濃厚。対抗は<strong>チェルビアット</strong>。NHKマイルCで<strong>12番人気3着の激走</strong>を見せた快速牝馬で、<strong>ルメール騎乗＋良血</strong>という魅力満載。さらに<strong>パラディレーヌ</strong>はオークス4着の堅実派。<strong>フラワーC2着＋阪神適性◎</strong>で、展開次第では逆転も。穴なら<strong>ルージュソリテール</strong>。スイートピーS勝ち馬で、<strong>直線長い外回りで末脚炸裂の可能性</strong>あり。過去10年では<strong>1番人気が5勝</strong>と軸は堅めながら、<strong>3連単10万超えが5回</strong>と波乱含み。<strong>オークス組 vs 夏の上がり馬</strong>の構図が鮮明で、<strong>勢力図が一変する可能性</strong>も。2025年9月14日（日）15:45発走予定──<strong>秋華賞への切符を掴むのは、どの薔薇か。</strong></p>",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": "",
+      "text_banner1": "秋華賞への最重要ステップ──それが<strong>ローズステークス</strong>",
+      "text_banner2": "ローズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250914_rose.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250914_rose.png' alt='ローズステークス' /></div></a>"
     },
     {
       "id": "20250915_st_lite",
