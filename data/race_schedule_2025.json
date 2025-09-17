@@ -464,61 +464,28 @@
       "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250914_rose.png' alt='ローズステークス' /></div></a>"
     },
     {
-      "id": "20250915_st_lite",
-      "date": "2025-09-15",
-      "name": "セントライト記念",
-      "grade": "G2",
-      "venue": "中山・芝2200m",
-      "sections": {
-        "preview": "output/st_lite.html#preview",
-        "review": "output/st_lite.html#review",
-        "highlight": "output/st_lite.html#highlight"
-      },
-      "image": {
-        "file": "セントライト_20250915_G2.png",
-        "alt": "セントライト記念・2025年G2"
-      },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
-    },
-    {
-      "id": "20250920_hanshin_jump",
-      "date": "2025-09-20",
-      "name": "阪神ジャンプステークス",
-      "grade": "G3",
-      "venue": "阪神・障害3140m",
-      "sections": {
-        "preview": "output/hanshin_jump.html#preview",
-        "review": "output/hanshin_jump.html#review",
-        "highlight": "output/hanshin_jump.html#highlight"
-      },
-      "image": {
-        "file": "_20250920_G3.png",
-        "alt": "阪神ジャンプステークス・2025年G3"
-      },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
-    },
-    {
       "id": "20250921_allcomer",
       "date": "2025-09-21",
       "name": "オールカマー",
       "grade": "G2",
       "venue": "中山・芝2200m",
       "sections": {
-        "preview": "output/allcomer.html#preview",
-        "review": "output/allcomer.html#review",
-        "highlight": "output/allcomer.html#highlight"
+        "preview": "output/20250921_allcomer.html#preview",
+        "review": "output/20250921_allcomer.html#review",
+        "highlight": "output/20250921_allcomer.html#highlight"
       },
       "image": {
         "file": "オ_ルカマ_20250921_G2.png",
         "alt": "オールカマー・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>オールカマー</strong>は中山芝2200mで行われる<strong>天皇賞・秋の前哨戦</strong>。<strong>GⅠ馬と実力馬が集う秋の始動戦</strong>で、<strong>中山外回り＋急坂＋持続力勝負</strong>が展開の鍵。今年は<strong>有馬記念馬レガレイラ</strongが中心。<strong>中山GⅠ2勝＋舞台適性抜群</strong>で仕上がりも良好。対抗は<strong>菊花賞馬ドゥレッツァ</strong>。<strong>逃げ先行型＋底力＋巻き返し期待</strong>で注目度高。さらに<strong>ドゥラドーレス</strongは<strong>レガレイラの半兄＋末脚型</strong>で血統的にも話題。穴なら<strong>中山巧者コスモキュランダ</strongや<strong>目黒記念2着ホーエリート</strongなど、<strong>枠順と展開次第で台頭可能な伏兵陣</strong>も揃う。過去10年の傾向では<strong>1枠が連対率トップ</strong>、<strong>脚質は先行・差しが互角</strong>でフラットな展開予想。<strong>波乱度「低」</strong>ながら、<strong>三連系では中穴の激走も</strong>。2025年9月21日（日）15:45発走予定──<strong>秋のGⅠ戦線を占う実力馬激突の一戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": " ",
+      "text_banner1": "天皇賞・秋へ向けた実力馬の始動戦──中山芝2200mで行われる第70回オールカマー",
+      "text_banner2": "オールカマーのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250921_allcomer.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250921_allcomer.png' alt='オールカマー' /></div></a>"
     },
     {
       "id": "20250921_kobe",
@@ -527,17 +494,22 @@
       "grade": "G2",
       "venue": "阪神・芝2400m",
       "sections": {
-        "preview": "output/kobe.html#preview",
-        "review": "output/kobe.html#review",
-        "highlight": "output/kobe.html#highlight"
+        "preview": "output/20250921_kobe.html#preview",
+        "review": "output/20250921_kobe.html#review",
+        "highlight": "output/20250921_kobe.html#highlight"
       },
       "image": {
         "file": "_20250921_G2.png",
         "alt": "神戸新聞杯・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>神戸新聞杯</strong>は阪神芝2400mで行われる<strong>菊花賞トライアルの最重要ステップ</strong>。<strong>クラシック実績馬の秋初戦</strongとして注目度が高く、<strong>距離延長＋外回りコース</strong>で<strong>持続力と立ち回り力</strong>が問われる一戦です。今年は<strong>ダービー3着のショウヘイ</strong>が中心。<strong>京都新聞杯逃げ切り＋先行力＋持続型</strong>で展開有利。対抗は<strong>ダービー5着のエリキング</strong>。<strong>川田騎乗＋末脚型＋調教A+</strong>で差し浮上も。さらに<strong>皐月賞4着のジョバンニ</strong>は<strong>自在型＋阪神適性</strong>で逆転候補。穴なら<strong>ライトトラック</strong>。<strong>中京2200m勝ち＋成長力＋好枠</strong>で一発警戒。過去10年の傾向では<strong>3枠が最多3勝</strong>、<strong>1枠は複勝率0％</strong>と枠順差が明確。<strong>差し・先行が優勢</strong>で、<strong>ダービー組が9勝</strong>と圧倒的。<strong>波乱度「低」</strong>の堅実決着傾向ながら、<strong>枠順と展開のズレで伏兵台頭も</strong>。2025年9月21日（日）15:35発走予定──<strong>最後の一冠へ向けた運命の前哨戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": " ",
+      "text_banner1": "菊花賞トライアルの最重要ステップ──阪神芝2400m",
+      "text_banner2": "神戸新聞杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250921_kobe.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250921_kobe.png' alt='神戸新聞杯' /></div></a>"
     },
     {
       "id": "20250927_sirius",
