@@ -536,23 +536,28 @@
       "note_banner": "<a href='https://note.com/coro_pepa/n/n794a8c1f20d0' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250928_sprinters.png' alt='スプリンターズステークス' /></div></a>"
     },
     {
-      "id": "20251005_nakayama_daishoten",
+      "id": "20251005_mainichi_oukan",
       "date": "2025-10-05",
       "name": "毎日王冠",
       "grade": "G2",
       "venue": "東京・芝1800m",
       "sections": {
-        "preview": "output/mainichi_oukan.html#preview",
-        "review": "output/mainichi_oukan.html#review",
-        "highlight": "output/mainichi_oukan.html#highlight"
+        "preview": "output/20251005_mainichi_oukan.html#preview",
+        "review": "output/20251005_mainichi_oukan.html#review",
+        "highlight": "output/20251005_mainichi_oukan.html#highlight"
       },
       "image": {
         "file": "_20251005_G2.png",
         "alt": "毎日王冠・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>毎日王冠</strong>は東京芝1800mで行われる<strong>秋の中距離王決定戦</strong。<strong>天皇賞・秋やマイルCSを見据えた実力馬が集結</strongする注目のGⅡです。今年は<strong>安田記念覇者ナミュール</strongが中心。<strong>東京芝実績＋末脚型＋調教A</strongで信頼度高。対抗は<strong>大阪杯2着のジャックドール</strong。<strong>逃げ＋東京替わり＋武豊騎乗</strongで展開有利。さらに<strong>皐月賞馬ソールオリエンス</strongは<strong>東京替わり＋調教好感</strongで逆転候補。他にも<strong>エルトンバローズ</strong（毎日杯勝ち）、<strong>レッドモンレーヴ</strong（東京マイル巧者）、<strong>シュネルマイスター</strong（GⅠ馬）など<strong>マイル〜中距離の精鋭</strongが揃い、<strong>波乱度「中」</strongの一戦。<strong>東京芝1800mは差し優勢＋外枠有利の傾向</strongも踏まえ、<strong>枠順と展開が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n794a8c1f20d0",
+      "preview_text": "",
+      "text_banner1": "<p><strong>東京開幕週で激突！</strong><br>サトノシャイニング・チェルヴィニア・シックスペンスが集結！<br></p>",
+      "text_banner2": "毎日王冠のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251005_mainichi_oukan.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n794a8c1f20d0' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251005_mainichi_oukan.png' alt='毎日王冠' /></div></a>"
     },
     {
       "id": "20251005_kyoto_daishoten",
@@ -561,17 +566,22 @@
       "grade": "G2",
       "venue": "京都・芝2400m",
       "sections": {
-        "preview": "output/kyoto_daishoten.html#preview",
-        "review": "output/kyoto_daishoten.html#review",
-        "highlight": "output/kyoto_daishoten.html#highlight"
+        "preview": "output/20251005_kyoto_daishoten.html#preview",
+        "review": "output/20251005_kyoto_daishoten.html#review",
+        "highlight": "output/20251005_kyoto_daishoten.html#highlight"
       },
       "image": {
         "file": "_20251005_G2.png",
         "alt": "京都大賞典・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>京都大賞典</strong>は京都芝2400mで行われる<strong>秋の古馬中長距離重賞</strong。<strong>天皇賞・秋やジャパンCを見据えた実力馬の始動戦</strongとして注目のGⅡです。今年は<strong>菊花賞馬ドゥレッツァ</strongが中心。<strong>ジャパンC2着＋ドバイ3着の実績＋調教A</strongで信頼度高。対抗は<strong>目黒記念勝ちのアドマイヤテラ</strong。<strong>川田騎乗＋京都適性＋成長力</strongで好勝負必至。さらに<strong>阪神大賞典覇者サンライズアース</strongは<strong>スタミナ型＋長距離適性</strongで逆転候補。他にも<strong>ショウナンラプンタ</strong（春の重賞好走）、<strong>ボルドグフーシュ</strong（有馬記念2着）、<strong>サブマリーナ</strong（チャレンジC好走）など<strong>実績馬＋上がり馬が揃う混戦模様</strong。<strong>波乱度「中」</strongの一戦で、<strong>展開と枠順＋仕上がりが鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n794a8c1f20d0",
+      "preview_text": "",
+      "text_banner1": "<p><strong>京都開幕週で激突！</strong><br>ドゥレッツァ・アドマイヤテラ・サンライズアースが集結！<br></p>",
+      "text_banner2": "京都大賞典のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251005_kyoto_daishoten.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n794a8c1f20d0' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251005_kyoto_daishoten.png' alt='京都大賞典' /></div></a>"
     },
     {
       "id": "20251011_saudi_royal",
