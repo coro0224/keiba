@@ -646,44 +646,6 @@
       "note_banner": "<a href='https://note.com/coro_pepa/n/n757a939b3bd7?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251013_swan.png' alt='スワンステークス' /></div></a>"
     },
     {
-      "id": "20251018_fuji",
-      "date": "2025-10-18",
-      "name": "富士ステークス",
-      "grade": "G2",
-      "venue": "東京・芝1600m",
-      "sections": {
-        "preview": "output/fuji.html#preview",
-        "review": "output/fuji.html#review",
-        "highlight": "output/fuji.html#highlight"
-      },
-      "image": {
-        "file": "_20251018_G2.png",
-        "alt": "富士ステークス・2025年G2"
-      },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "注目馬が激突する 富士ステークス。展開の鍵を握るのは 。",
-      "note_url": ""
-    },
-    {
-      "id": "20251019_tokyo_highjump",
-      "date": "2025-10-19",
-      "name": "東京ハイジャンプ",
-      "grade": "J-G2",
-      "venue": "東京・障害3110m",
-      "sections": {
-        "preview": "output/tokyo_highjump.html#preview",
-        "review": "output/tokyo_highjump.html#review",
-        "highlight": "output/tokyo_highjump.html#highlight"
-      },
-      "image": {
-        "file": "ハイ_20251019_G2.png",
-        "alt": "東京ハイジャンプ・2025年J-G2"
-      },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
-    },
-    {
       "id": "20251020_shuka",
       "date": "2025-10-20",
       "name": "秋華賞",
