@@ -652,17 +652,22 @@
       "grade": "G1",
       "venue": "京都・芝2000m",
       "sections": {
-        "preview": "output/shuka.html#preview",
-        "review": "output/shuka.html#review",
-        "highlight": "output/shuka.html#highlight"
+        "preview": "output/20251020_shuka.html#preview",
+        "review": "output/20251020_shuka.html#review",
+        "highlight": "output/20251020_shuka.html#highlight"
       },
       "image": {
         "file": "_20251020_G1.png",
         "alt": "秋華賞・2025年G1"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>秋華賞</strong>は京都芝2000mで行われる<strong>牝馬三冠の最終戦</strong。<strong>桜花賞馬エンブロイダリー</strongと<strong>オークス馬カムニャック</strongの<strong>二冠対決</strongが最大の見どころ。<strong>内回りコースで立ち回り力と持続力</strongが問われる舞台で、<strong>紫苑S勝ちのケリフレッドアスク</strongや<strong>ローズS好走組ジョスラン・テレサ</strongも虎視眈々。<strong>米国スピード×欧州スタミナ型の血統</strongが活躍傾向にあり、<strong>サンデー系の瞬発力型</strongとの対比も注目。<strong>内枠先行有利＋直線短め</strongの京都芝2000mでは<strong>展開と位置取り</strongが鍵。<strong>波乱度「中」</strongの一戦で、<strong>三冠牝馬誕生か、伏兵の一撃か</strongに注目です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n44d3df197911",
+      "preview_text": "",
+      "text_banner1": "<p>秋華賞は牝馬三冠の最終戦 </p>",
+      "text_banner2": "秋華賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251020_shuka.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n44d3df197911' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251020_shuka.png' alt='秋華賞' /></div></a>"
     },
     {
       "id": "20251025_artemis",
