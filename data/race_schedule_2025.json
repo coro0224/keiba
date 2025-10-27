@@ -737,17 +737,21 @@
       "grade": "G1",
       "venue": "東京・芝2000m",
       "sections": {
-        "preview": "output/tenno_autumn.html#preview",
-        "review": "output/tenno_autumn.html#review",
-        "highlight": "output/tenno_autumn.html#highlight"
+        "preview": "output/20251102_tenno_autumn.html#preview",
+        "review": "output/20251102_tenno_autumn.html#review",
+        "highlight": "output/20251102_tenno_autumn.html#highlight"
       },
       "image": {
         "file": "_20251102_G1.png",
         "alt": "天皇賞（秋）・2025年G1"
       },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>天皇賞・秋</strong>は東京芝2000mで行われる<strong>秋の中距離王決定戦</strong。<strong>3歳勢vs古馬の世代頂上決戦</strongで、<strong>皐月賞馬ミュージアムマイル・ダービー2着マスカレードボール</strongが挑む。迎え撃つは<strong>宝塚記念覇者メイショウタバル</strongと<strong>香港QE2世C勝ちのタスティエーラ</strong。今年は<strong>半数以上がGⅠ馬の超豪華メンバー</strongで、<strong>瞬発力勝負＋東京適性＋枠順が鍵</strong。注目は<strong>左回り克服を狙うミュージアムマイル</strongと<strong>東京巧者マスカレードボール</strong。<strong>波乱度「中」</strongの一戦で、<strong>馬番①〜⑨が過去10年勝ち馬ゾーン</strong。<strong>展開と位置取りが勝敗を分ける伝統の盾決戦</strongです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nec3c88e69c3f?app_launch=false",
+      "preview_text": "",
+      "text_banner1": "<p><strong>天皇賞・秋（GⅠ）</strong>は<strong>東京芝2000mで行われる秋の中距離王決定戦</p>",
+      "text_banner2": "天皇賞賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251102_tenno_autumn.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nec3c88e69c3f?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251102_tenno_autumn.png' alt='天皇賞' /></div></a>"
     },
     {
       "id": "20251108_keio_2sai",
