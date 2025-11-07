@@ -800,17 +800,22 @@
       "grade": "G2",
       "venue": "東京・芝2500m",
       "sections": {
-        "preview": "output/argentina.html#preview",
-        "review": "output/argentina.html#review",
-        "highlight": "output/argentina.html#highlight"
+        "preview": "output/20251109_argentina.html#preview",
+        "review": "output/20251109_argentina.html#review",
+        "highlight": "output/20251109_argentina.html#highlight"
       },
       "image": {
         "file": "アルゼンチン_20251109_G2.png",
         "alt": "アルゼンチン共和国杯・2025年G2"
       },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "注目馬が激突する アルゼンチン共和国杯。展開の鍵を握るのは 。",
-      "note_url": ""
+      "highlight": "<p><strong>アルゼンチン共和国杯</strong>は東京芝2500mで行われる<strong>秋の伝統ハンデGⅡ</strong。<strong>ジャパンCや有馬記念を見据えるステイヤーの登竜門</strongで、<strong>東京芝2500m実績馬が毎年好走</strongする傾向。今年は<strong>札幌日経賞快勝のスティンガーグラス</strongが中心。<strong>ルメール騎乗＋距離適性＋木村厩舎の相性</strongが魅力。対抗は<strong>毎日王冠4着のディマイザキッド</strong。<strong>末脚鋭く、距離延長で新境地を狙う</strong。他にも<strong>目黒記念勝ち馬シュトルーヴェ</strong、<strong>安定感あるホーエリート</strong、<strong>逃げ脚光るミステリーウェイ</strongなど<strong>長距離巧者が揃い、波乱度「高」</strongの一戦。<strong>東京芝2500mは差し馬有利＋リピーター傾向</strongが強く、<strong>展開と斤量が勝敗を分ける鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nc95cadd418c1?app_launch=false",
+      "review": "",
+      "preview_text": "",
+      "text_banner1": "<p><strong>天皇賞・秋（GⅠ）</strong>は<strong>東京芝2000mで行われる秋の中距離王決定戦</p>",
+      "text_banner2": "アルゼンチン共和国杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251109_argentina.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nc95cadd418c1?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251109_argentina.png' alt='天皇賞' /></div></a>"
     },
     {
       "id": "20251109_miyako",
