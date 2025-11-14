@@ -852,7 +852,7 @@
         "alt": "武蔵野ステークス・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
+      "highlight": "注目馬が激突する 武蔵野ステークス。展開の鍵を握るのは 。",
       "note_url": ""
     },
     {
@@ -871,7 +871,7 @@
         "alt": "デイリー杯2歳ステークス・2025年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
+      "highlight": "注目馬が激突する デイリー杯2歳ステークス。展開の鍵を握るのは 。",
       "note_url": ""
     },
     {
@@ -881,17 +881,22 @@
       "grade": "G1",
       "venue": "京都・芝2200m",
       "sections": {
-        "preview": "output/elizabeth.html#preview",
-        "review": "output/elizabeth.html#review",
-        "highlight": "output/elizabeth.html#highlight"
+        "preview": "output/20251116_elizabeth.html#preview",
+        "review": "output/20251116_elizabeth.html#review",
+        "highlight": "output/20251116_elizabeth.html#highlight"
       },
       "image": {
         "file": "エリザベス_20251116_G1.png",
         "alt": "エリザベス女王杯・2025年G1"
       },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>エリザベス女王杯</strong>は京都芝2200mで行われる<strong>牝馬中距離GⅠの頂上決戦</strong。<strong>3歳vs古馬の世代対決</strongが最大の見どころで、<strong>有馬記念覇者レガレイラ</strongが<strong>GⅠ・3勝目を狙う注目の主役</strong。対抗は<strong>秋華賞2着のエリカエクスプレス</strongと<strong>京都2戦2連対の淀巧者</strong。さらに<strong>桜花賞馬ステレンボッシュ</strong、<strong>復活を期すシンリョクカ</strong、<strong>安定感あるサフィラ</strongらが虎視眈々。<strong>波乱度「中」</strongの一戦で、<strong>内枠＋好位取りが有利</strongな傾向。<strong>枠順と展開が勝敗を左右</strongし、<strong>女王戴冠の瞬間</strongに注目です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n796b4e8ea7fe",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "<p><div class='note-preview'><p>エリザベス女王杯は<strong>京都芝2200mの内回りで行われる牝馬中距離GⅠ</strong>で、<strong>内枠先行有利＋差し馬の末脚が展開を左右</strong>。</p><p><strong>逃げ候補は⑧ミッキーゴージャスと⑩アリスヴェリテ</strong>。⑧は前走府中牝馬Sで果敢な先行策、⑩は中距離での粘り強さが武器。</p><p>先行勢には①パラディレーヌ、③シンリョクカ、⑤サフィラが続く。①は1枠からロスなく立ち回れる好枠、③は先行力と持久力が武器、⑤は京都実績あり。</p><p><strong>差し・追い込み勢では②ステレンボッシュ、⑥エリカエクスプレス、⑦レガレイラ、⑯リンクスティップが注目</strong>。②は桜花賞馬で内枠からの差し脚に期待、⑥は秋華賞2着の実力馬、⑦はグランプリホースで京都外回り向き、⑯は大外からの一発狙い。</p><p><strong>展開の焦点は⑧が単騎で逃げるか⑩が競りかけてペースが上がるか</strong>。スローなら①③⑤の粘り込み、平均～速めなら②⑥⑦⑯の差し台頭も。</p><p>今年は別定戦で、<strong>斤量差＋枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑦レガレイラと⑥エリカエクスプレス</strong>。②ステレンボッシュの復活や⑯リンクスティップの末脚にも注目。</p><p>エリザベス女王杯は、<strong>内枠先行＋外差し＋展開読み</strong>が馬券のカギを握る牝馬GⅠ決戦です。</p></div>",
+      "text_banner1": " 「牝馬の頂上決戦、京都芝2200mで激突！世代交差のエリザベス女王杯",
+      "text_banner2": "エリザベス女王杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251116_elizabeth.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n796b4e8ea7fe' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251116_elizabeth.png' alt='エリザベス女王杯' /></div></a>"
     },
     {
       "id": "20251122_fukushima_kinen",
