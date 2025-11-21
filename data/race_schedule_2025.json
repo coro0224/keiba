@@ -914,7 +914,7 @@
         "alt": "福島記念・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
+      "highlight": "注目馬が激突する 福島記念。展開の鍵を握るのは 。",
       "note_url": ""
     },
     {
@@ -924,17 +924,22 @@
       "grade": "G1",
       "venue": "京都・芝1600m",
       "sections": {
-        "preview": "output/milecs.html#preview",
-        "review": "output/milecs.html#review",
-        "highlight": "output/milecs.html#highlight"
+        "preview": "output/20251123_milecs.html#preview",
+        "review": "output/20251123_milecs.html#review",
+        "highlight": "output/20251123_milecs.html#highlight"
       },
       "image": {
         "file": "マイルチャンピオンシップ_20251123_G1.png",
         "alt": "マイルチャンピオンシップ・2025年G1"
       },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>マイルチャンピオンシップ</strong>は京都芝1600mで行われる<strong>秋のマイル王決定戦</strong。<strong>安田記念・富士S・毎日王冠など主要前哨戦組が集結</strongし、<strong>スピードと瞬発力の頂上決戦</strongとなります。今年は<strong>安田記念覇者の⑮ジャンタルマンタル</strongが中心。<strong>国内マイルGⅠ3勝＋地力最上位</strongで春秋制覇を狙う。対抗は<strong>ヴィクトリアマイル勝ちの⑤アスコリピチェーノ</strong。<strong>ルメール騎乗＋安定感</strongで好勝負必至。他にも<strong>富士S勝ちの⑥ガイアフォース</strong、<strong>昨年覇者⑰ソウルラッシュ</strong、<strong>毎日王冠組の⑦チェルヴィニア</strongなど<strong>実績馬と新興勢力が激突</strong。<strong>波乱度「中」</strongの一戦で、<strong>差し脚優勢＋外枠不利の傾向</strongを踏まえ、<strong>枠順と展開が勝敗を分ける</strong注目のマイル決戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "<div class='note-preview'><p>マイルチャンピオンシップは<strong>京都芝1600m外回りで行われる秋のマイル王決定戦</strong>で、<strong>瞬発力勝負＋位置取りが展開を左右</strong>。</p><p><strong>逃げ候補は④マジックサンズと⑧カンチェンジュンガ</strong>。④は武豊騎乗で先行力を活かす構え、⑧は持ち味のスピードでハナを主張。</p><p>先行勢には①トウシンマカオ、②シャンパンカラー、⑤アスコリピチェーノが続く。①は最内枠からロスなく好位、②は安定した先行力、⑤はヴィクトリアマイル覇者で好位抜け出し型。</p><p><strong>差し・追い込み勢では⑥ガイアフォース、⑦チェルヴィニア、⑮ジャンタルマンタル、⑰ソウルラッシュが注目</strong>。⑥は富士S勝ちの末脚型、⑦は毎日王冠組で成長著しい、⑮は安田記念馬で春秋制覇狙い、⑰は昨年覇者で京都外回り適性抜群。</p><p><strong>展開の焦点は④が単騎で逃げるか⑧が競りかけてペースが上がるか</strong>。スローなら①②⑤の粘り込み、平均～速めなら⑥⑦⑮⑰の差し台頭も。</p><p>今年は定量戦で、<strong>枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑮ジャンタルマンタルと⑤アスコリピチェーノ</strong>。⑥ガイアフォースの差し脚や⑰ソウルラッシュの連覇挑戦にも注目。</p><p>マイルCSは、<strong>瞬発力＋位置取り＋展開読み</strong>が馬券のカギを握る秋のマイル決戦です。</p></div>",
+      "text_banner1": "マイルチャンピオンシップ</strong>は京都芝1600mで行われる<strong>秋のマイル王決定戦",
+      "text_banner2": "マイルチャンピオンシップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251123_milecs.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251123_milecs.png' alt='マイルチャンピオンシップ' /></div></a>"
     },
     {
       "id": "20251124_tokyo_sports_2sai",
