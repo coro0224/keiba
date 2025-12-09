@@ -1090,7 +1090,7 @@
         "alt": "中日新聞杯・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
+      "highlight": "注目馬が激突する 中日新聞杯。展開の鍵を握るのは 。",
       "note_url": ""
     },
     {
@@ -1109,7 +1109,7 @@
         "alt": "カペラステークス・2025年G3"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
+      "highlight": "注目馬が激突する カペラステークス。展開の鍵を握るのは 。",
       "note_url": ""
     },
     {
@@ -1119,17 +1119,22 @@
       "grade": "G1",
       "venue": "阪神・芝1600m",
       "sections": {
-        "preview": "output/juvenile_fillies.html#preview",
-        "review": "output/juvenile_fillies.html#review",
-        "highlight": "output/juvenile_fillies.html#highlight"
+        "preview": "output/20251214_juvenile_fillies.html#preview",
+        "review": "output/20251214_juvenile_fillies.html#review",
+        "highlight": "output/20251214_juvenile_fillies.html#highlight"
       },
       "image": {
         "file": "ジュベナイルフィリ_ズ_20251214_G1.png",
         "alt": "阪神ジュベナイルフィリーズ・2025年G1"
       },
-      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "",
-      "note_url": ""
+      "highlight": "<p><strong>阪神ジュベナイルフィリーズ</strong>は阪神芝1600mで行われる<strong>2歳牝馬限定のGⅠ</strong>。<strong>翌年の桜花賞を占う重要な一戦</strong>で、<strong>2歳女王決定戦</strong>として注目度は抜群。今年は<strong>重賞勝ち馬不在の大混戦模様</strongで、<strong>白菊賞を圧勝したマーゴットラヴミー</strongや<strong>サフラン賞勝ちのアルバンヌ</strong、<strong>オークス馬シンハライトの仔アランカール</strongなど<strong>素質馬が激突</strong。<strong>差し・追い込みが決まりやすい阪神外回り</strongで、<strong>瞬発力と底力のバランス</strongが問われる。<strong>前走2着以内＋アルテミスS組が好相性</strongで、<strong>上がり3F上位馬が台頭しやすい傾向</strong。<strong>波乱度「中」～「小」</strongで、<strong>本命馬からのヒモ荒れ狙いが有効</strong。<strong>2歳牝馬の頂点を懸けた熱戦</strongに注目です！</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "",
+      "text_banner1": "マイルチャンピオンシップ</strong>は京都芝1600mで行われる<strong>秋のマイル王決定戦",
+      "text_banner2": "阪神ジュベナイルフィリーズのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251214_juvenile_fillies.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251214_juvenile_fillies.png' alt='マイルチャンピオンシップ' /></div></a>"
     },
     {
       "id": "20251220_turquoise",
