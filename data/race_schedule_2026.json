@@ -1,0 +1,96 @@
+{
+  "races": [
+    {
+      "id": "20260104_nakayama_kinpai",
+      "date": "2026-01-04",
+      "name": "中山金杯",
+      "grade": "G3",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "output/20260104_nakayama_kinpai.html#preview",
+        "review": "output/20260104_nakayama_kinpai.html#review",
+        "highlight": "output/20260104_nakayama_kinpai.html#highlight"
+      },
+      "image": {
+        "file": "20260104_nakayama_kinpai.png",
+        "alt": "中山金杯・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>新年の中山を彩る伝統のハンデ重賞・中山金杯。<strong>中山芝2000m</strong>は小回り＋急坂のタフな舞台で、<strong>機動力と立ち回り</strong>が問われる一戦です。</p>",
+      "text_banner1": "",
+      "text_banner2": "",
+      "horse_image_path": "../images/20250727_sekiya.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/n/n20260104_nakayama_kinpai"
+    },
+    {
+      "id": "20260104_kyoto_kinpai",
+      "date": "2026-01-04",
+      "name": "京都金杯",
+      "grade": "G3",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/20260104_kyoto_kinpai.html#preview",
+        "review": "output/20260104_kyoto_kinpai.html#review",
+        "highlight": "output/20260104_kyoto_kinpai.html#highlight"
+      },
+      "image": {
+        "file": "20260104_kyoto_kinpai.png",
+        "alt": "京都金杯・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>京都金杯は開幕週の京都芝1600mで行われるハンデ戦。<strong>内枠先行有利</strong>の傾向が強く、<strong>スピードと器用さ</strong>が問われるマイル重賞です。</p>",
+      "text_banner1": "",
+      "text_banner2": "",
+      "horse_image_path": "../images/20250727_sekiya.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/n/n20260104_kyoto_kinpai"
+    },
+    {
+      "id": "20260111_fairy",
+      "date": "2026-01-11",
+      "name": "フェアリーステークス",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "output/20260111_fairy.html#preview",
+        "review": "output/20260111_fairy.html#review",
+        "highlight": "output/20260111_fairy.html#highlight"
+      },
+      "image": {
+        "file": "20260111_fairy.png",
+        "alt": "フェアリーステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>3歳牝馬限定のフェアリーSは、<strong>中山芝1600m</strong>で行われるスピードと立ち回りの勝負。<strong>波乱含みの一戦</strong>としても知られ、<strong>展開と枠順</strong>が鍵を握ります。</p>",
+      "text_banner1": "",
+      "text_banner2": "",
+      "horse_image_path": "../images/20250727_sekiya.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/n/n20260111_fairy"
+    },
+    {
+      "id": "20260112_shinzan",
+      "date": "2026-01-12",
+      "name": "シンザン記念",
+      "grade": "G3",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/20260112_shinzan.html#preview",
+        "review": "output/20260112_shinzan.html#review",
+        "highlight": "output/20260112_shinzan.html#highlight"
+      },
+      "image": {
+        "file": "20260112_shinzan.png",
+        "alt": "シンザン記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>クラシック戦線の登竜門・シンザン記念は、<strong>京都芝1600m</strong>で行われる3歳限定のG3戦。<strong>スピードと瞬発力</strong>が問われる一戦です。</p>",
+      "text_banner1": "",
+      "text_banner2": "",
+      "horse_image_path": "../images/20250727_sekiya.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/n/n20260112_shinzan"
+    }
+  ]
+}
