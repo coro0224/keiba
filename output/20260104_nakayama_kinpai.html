@@ -11,19 +11,19 @@
 
     <!-- 🏇 レース画像＆ヘッダー -->
     <div class="race-header">
-      <img src="../images/{{image_name}}" alt="中山金杯 GG3" class="race-mainvisual" />
+      <img src="../images/{{image_name}}" alt="中山金杯 G3" class="race-mainvisual" />
 
       <div class="race-meta">
         <h1 class="race-title-main">
-          中山金杯 <span class="grade-label gG3">GG3</span>
+          中山金杯 <span class="grade-label gG3">G3</span>
         </h1>
 
 		<!-- レース予想リンク表示位置 -->
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
 		<a href="https://note.com/coro_pepa/n/n14528da47b87?app_launch=false" target="_blank" rel="noopener" class="text-banner-link">
 		  <div class="text-banner">
-		    {% for line in lead_banner_text %}
-		      <p class="text-banner-line">{{ line }}</p>
-		    {% endfor %}
+		    <p class="text-banner-line"><div class='race-banner'><span>春の中距離戦線が本格化！</span><strong>中山記念（GⅡ）</strong>は、<strong>大阪杯やドバイ遠征を見据える実力馬</strong>が集結する注目の一戦。</div></p>
+		    <p class="text-banner-line">中山金杯のデータ予想＋買い目はこちら</p>
 		  </div>
 		</a>
 
@@ -43,14 +43,17 @@
       <div class="preview-text">
         <div class='note-preview'><p>中山金杯は<strong>中山芝2000mの内回りで先行力＋機動力が鍵</strong>となる一戦で、<strong>逃げ候補は①アンゴラブラックと③カネラフィーナ</strong>、①は最内からハナ主張、③は行き脚良く番手も可能。<strong>先行勢には④カラマティアノス、⑤グランディア、⑥ケイアイセナ</strong>が続き、④は中山巧者、⑤は自在性が武器、⑥は7歳でも先行粘りが魅力。<strong>差し勢では⑦シリウスコルトと⑧ニシノエージェント</strong>が有力で、⑦は58.5kgでも末脚堅実、⑧は4歳勢の成長力が魅力。<strong>展開の焦点は①が単騎逃げでスローに落とすか③が競りかけて平均ペースに持ち込むか</strong>で、スローなら④⑤⑥の押し切り、平均～速めなら⑦⑧の差し台頭も。<strong>今年はハンデ戦で、斤量差＋枠順＋位置取りが勝敗を左右</strong>し、<strong>軸候補は④カラマティアノスと⑦シリウスコルト</strong>、①アンゴラブラックの逃げ残りや③カネラフィーナの粘り込みにも注意。</p></div>
       </div>
-		<!-- レース予想リンク表示位置 -->
-		<a href="https://note.com/coro_pepa/n/n14528da47b87?app_launch=false" target="_blank" rel="noopener" class="text-banner-link">
-		  <div class="text-banner">
-		    {% for line in lead_banner_text %}
-		      <p class="text-banner-line">{{ line }}</p>
-		    {% endfor %}
-		  </div>
-		</a>
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
+	    <a href="https://note.com/coro_pepa/n/n14528da47b87?app_launch=false" class="banner-wrapper" target="_blank" rel="noopener">
+	      <div class="banner-content">
+	        <div class="banner-grade">G3</div>
+	        <img src="../images/20260104_nakayama_kinpai.png" alt="競走馬" class="banner-horse" />
+	        <div class="banner-text">
+	          <p class="banner-line"><div class='race-banner'><span>春の中距離戦線が本格化！</span><strong>中山記念（GⅡ）</strong>は、<strong>大阪杯やドバイ遠征を見据える実力馬</strong>が集結する注目の一戦。</div></p>
+	          <p class="banner-line">中山金杯のデータ予想＋買い目はこちら</p>
+	        </div>
+	      </div>
+	    </a>
     </section>
 
 
