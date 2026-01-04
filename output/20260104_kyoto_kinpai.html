@@ -11,19 +11,19 @@
 
     <!-- 🏇 レース画像＆ヘッダー -->
     <div class="race-header">
-      <img src="../images/{{image_name}}" alt="京都金杯 GG3" class="race-mainvisual" />
+      <img src="../images/{{image_name}}" alt="京都金杯 G3" class="race-mainvisual" />
 
       <div class="race-meta">
         <h1 class="race-title-main">
-          京都金杯 <span class="grade-label gG3">GG3</span>
+          京都金杯 <span class="grade-label gG3">G3</span>
         </h1>
 
 		<!-- レース予想リンク表示位置 -->
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
 		<a href="https://note.com/coro_pepa/n/n20260104_kyoto_kinpai" target="_blank" rel="noopener" class="text-banner-link">
 		  <div class="text-banner">
-		    {% for line in lead_banner_text %}
-		      <p class="text-banner-line">{{ line }}</p>
-		    {% endfor %}
+		    <p class="text-banner-line"><div class='race-banner'><span>新年最初のマイル重賞が開幕！</span><strong>京都金杯（GⅢ）</strong>は、<strong>京都芝1600m外回りで行われる伝統のハンデ戦</strong></div></p>
+		    <p class="text-banner-line">京都金杯のデータ予想＋買い目はこちら</p>
 		  </div>
 		</a>
 
@@ -33,7 +33,7 @@
     <!-- 🎯 見どころ -->
     <section class="race-section highlight">
       <h3>🎯 見どころ</h3>
-      <p><p>京都金杯は開幕週の京都芝1600mで行われるハンデ戦。<strong>内枠先行有利</strong>の傾向が強く、<strong>スピードと器用さ</strong>が問われるマイル重賞です。</p></p>
+      <p><p><strong>京都金杯</strong>は京都芝1600m（外回り）で行われる<strong>新年最初の伝統マイル重賞</strong>。<strong>トップスピードの持続力が問われる京都外回り</strong>が舞台で、<strong>ハンデ差＋展開＋位置取り</strong>が勝敗を左右する一戦です。今年は<strong>リゲルS快勝のランスオブカオス</strong>が中心で、<strong>スワンS3着など安定感抜群の実績</strong>が魅力。対抗は<strong>マイル重賞で安定のキープカルム</strong>、さらに<strong>京都巧者ブエナオンダ</strong>、<strong>ダービー卿CT覇者トロヴァトーレ</strong>も侮れない。<strong>差し優勢の傾向</strong>に加え、<strong>ハンデ戦特有の波乱度「中?高」</strong>の一戦で、<strong>持続力型の差し馬</strong>が台頭する可能性も。<strong>馬場傾向とペース判断</strong>が鍵となりそうです。</p></p>
     </section>
 
     <!-- 📊 展開予想 -->
@@ -41,16 +41,19 @@
       <h3>📊 展開予想</h3>
 
       <div class="preview-text">
-        {{preview_text}}
+        <div class='note-preview'><p>京都金杯は<strong>京都芝1600m外回りで行われる開幕週のマイル重賞</strong>で、<strong>持続力＋立ち回り＋位置取り</strong>が鍵。<strong>逃げ候補は⑩ショウナンアデイブと⑭シンフォーエバー</strong>で、⑩は54kgの軽ハンデを活かした先手狙い、⑭は行き脚が良くハナ主張も可能。先行勢には<strong>①ランスオブカオス、③キープカルム、⑥ヤンキーバローズ</strong>が続き、①は最内からロスなく運べ、③は好位抜け出し型、⑥は自在性が魅力。<strong>差し勢では⑨トロヴァトーレ、⑪ファーヴェント、⑮ブエナオンダ、⑱エアファンディタ</strong>が有力で、⑨は58.5kgでも末脚堅実、⑮は外枠から長く良い脚、⑱は展開待ちの追い込み型。<strong>展開の焦点は⑩が単騎でスローに落とすか⑭が競りかけて平均～速めに持ち込むか</strong>で、スローなら<strong>①③⑥</strong>の先行押し切り、平均～速めなら<strong>⑨⑪⑮⑱</strong>の差し台頭も。今年はハンデ戦で、<strong>斤量差＋枠順＋展開読み</strong>が勝敗を左右し、<strong>軸候補は①ランスオブカオスと③キープカルム</strong>。⑩ショウナンアデイブの逃げ残りや⑮ブエナオンダの差し脚にも注意。</p></div>
       </div>
-		<!-- レース予想リンク表示位置 -->
-		<a href="https://note.com/coro_pepa/n/n20260104_kyoto_kinpai" target="_blank" rel="noopener" class="text-banner-link">
-		  <div class="text-banner">
-		    {% for line in lead_banner_text %}
-		      <p class="text-banner-line">{{ line }}</p>
-		    {% endfor %}
-		  </div>
-		</a>
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
+	    <a href="https://note.com/coro_pepa/n/n20260104_kyoto_kinpai" class="banner-wrapper" target="_blank" rel="noopener">
+	      <div class="banner-content">
+	        <div class="banner-grade">G3</div>
+	        <img src="../images/20250727_sekiya.png" alt="競走馬" class="banner-horse" />
+	        <div class="banner-text">
+	          <p class="banner-line"><div class='race-banner'><span>新年最初のマイル重賞が開幕！</span><strong>京都金杯（GⅢ）</strong>は、<strong>京都芝1600m外回りで行われる伝統のハンデ戦</strong></div></p>
+	          <p class="banner-line">京都金杯のデータ予想＋買い目はこちら</p>
+	        </div>
+	      </div>
+	    </a>
     </section>
 
 
