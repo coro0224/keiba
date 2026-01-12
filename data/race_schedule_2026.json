@@ -1,6 +1,627 @@
 {
   "races": [
     {
+      "id": "20250713_tanabata",
+      "date": "2025-07-13",
+      "name": "七夕賞",
+      "grade": "G3",
+      "venue": "福島・芝2000m",
+      "sections": {
+        "preview": "tanabata.html#preview",
+        "review": "tanabata.html#review",
+        "highlight": "tanabata.html#highlight"
+      },
+      "image": {
+        "file": "_20250713_G3.png",
+        "alt": "七夕賞・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>夏の福島を舞台に繰り広げられる技巧派の一戦。道悪も視野に入る七夕賞では、自在性と持久力を備えたドゥラドーレスが軸。逃げに徹するコスモフリーゲンの展開が鍵を握り、差し脚鋭いシルトホルンが直線でどこまで詰め寄れるか—波乱含みの舞台装置が整った。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nab910c9ca4c4"
+    },
+    {
+      "id": "20250720_kokura_kinen",
+      "date": "2025-07-20",
+      "name": "小倉記念",
+      "grade": "G3",
+      "venue": "小倉・芝2000m",
+      "sections": {
+        "preview": "output/20250720_kokura_kinen.html#preview",
+        "review": "output/20250720_kokura_kinen.html#review",
+        "highlight": "output/20250720_kokura_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250720_G3.png",
+        "alt": "小倉記念・2025年G3"
+      },
+      "review_text": "<p>2025年7月20日（日）に行われた小倉記念（G3・芝2000m）は、9番人気の<strong>イングランドアイズ</strong>が差し切りで重賞初制覇を飾りました。</p>\n\n<p>スタート直後、14番グラティアスが大逃げの態勢に入り、1000m通過は58.7秒と速い流れ。2番手にはスズカダブル、好位にニホンピロキーフとイングランドアイズが続く展開。</p>\n\n<p>3〜4コーナーで逃げ馬が失速し、馬群は一団に。直線では馬場の中央から<strong>イングランドアイズ</strong>が鋭く伸び、外から来た<strong>シェイクユアハート</strong>を1.3/4馬身差で退けてゴール。</p>\n\n<p>勝ちタイムは<strong>1:59.9（良）</strong>。3着には<strong>ディープモンスター</strong>が内を突いて粘り込み、上位人気馬が順当に好走する中での牝馬の一撃となりました。</p>\n\n<p>勝ち馬イングランドアイズは、母にオークス馬ヌーヴォレコルトを持つ良血馬。斤量51kgの恩恵もあり、好位からの立ち回りと瞬発力が光る内容でした。</p>\n\n<p>展開的には、前半速く差し馬に向く流れ。外差し馬場の傾向もあり、馬場選択と位置取りが勝敗を分けた印象です。</p>\n\n<p>今後は牝馬限定戦や中距離重賞での活躍が期待され、<strong>シェイクユアハート</strong>も重賞常連として台頭する可能性を感じさせる一戦でした。</p>",
+      "preview_text": "<p>今年の小倉記念は、先行力のある馬が揃い、<strong>道中の位置取りと仕掛けのタイミング</strong>が鍵となる一戦です。</p>\n\n<p>逃げ候補は<strong>スズカダブル</strong>や<strong>カネフラ</strong>。どちらも先行力に長けたタイプで、外枠からでも果敢に出していく構え。</p>\n\n<p>好位には<strong>ニホンピロキーフ</strong>や<strong>ラスカンブレス</strong>が流れに乗り、中団には<strong>ディープモンスター</strong>、<strong>メリオーレム</strong>らが構える形が濃厚です。</p>\n\n<p>小倉芝2000mは2コーナーポケットからのスタートで、1コーナーまでの距離が長く、<strong>外枠からでも先行しやすい</strong>のが特徴。</p>\n\n<p>加えて、3〜4コーナーがきついため、<strong>早めに動いた馬が押し切るか、内で我慢した馬が抜け出すか</strong>の攻防になります。</p>\n\n<p>差し馬である<strong>メリオーレム</strong>や<strong>ハピ</strong>、<strong>マイネルメモリー</strong>などは、前がやり合う展開になれば台頭の余地あり。</p>\n\n<p>逆にスローペースなら、<strong>ニホンピロキーフ</strong>や<strong>ショウナンアデイブ</strong>ら器用な先行型に展開が向きそうです。</p>\n\n<p><strong>「立ち回り力と展開読み」</strong>が勝敗の鍵となる、サマーシリーズならではの熱戦です。</p>\n",
+      "highlight": "<p>サマー2000シリーズ第3戦となる小倉記念は、例年通りの“荒れるハンデ重賞”。今年も実力馬と上がり馬が入り混じる混戦模様です。</p>\n<p>注目は<strong>メリオーレム</strong>。前走むらさき賞を快勝し、充実一途。川田騎手とのコンビで重賞初制覇を狙います。</p>\n<p><strong>ディープモンスター</strong>は目黒記念4着など重賞で安定感を見せており、7歳ながら悲願のタイトル獲得へ。</p>\n<p><strong>ハピ</strong>はダート実績豊富ながら、前走新潟大賞典で芝適性を証明。芝での重賞初Vなるか注目です。</p>\n<p>その他にも、小倉巧者<strong>エピファニー</strong>、格上挑戦の<strong>オールセインツ</strong>、追い切り好調の<strong>リカンカブール</strong>など、伏兵勢も虎視眈々。</p>\n<p>コース特性としては、直線が短く、<strong>4コーナーでのポジション争い</strong>が勝敗を分ける展開が多く、<strong>好位〜中団前目</strong>が理想的な位置取りとされます。</p>\n<p>馬場は週末にかけて雨予報もあり、<strong>時計のかかるタフな芝</strong>が予想され、差し馬にもチャンスがある一戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n5a70e6c925d9"
+    },
+    {
+      "id": "20250720_hakodate_2sai",
+      "date": "2025-07-20",
+      "name": "函館2歳ステークス",
+      "grade": "G3",
+      "venue": "函館・芝1200m",
+      "sections": {
+        "preview": "output/20250720_hakodate_2sai.html#preview",
+        "review": "output/20250720_hakodate_2sai.html#review",
+        "highlight": "output/20250720_hakodate_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250720_G3.png",
+        "alt": "函館2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>2025年7月20日（日）に行われた函館2歳ステークス（G3・芝1200m）は、9番人気の<strong>エイシンディード</strong>が豪快な差し切りで重賞初制覇を飾りました。</p>\n\n<p>スタートからハナを奪ったのは<strong>②カイショー</strong>。芝1000mレコード勝ちの逃げ脚を活かし、3F34.3秒のテンの速さでレースを主導しました。2番手には<strong>⑧ブラックチャリス</strong>がつけ、人気通りの展開に。</p>\n\n<p>中盤以降、縦長の隊列になった中で、5枠から外を回った<strong>⑤エイシンディード</strong>が4コーナー手前から進出。直線では力強い末脚で抜け出し、最後は2馬身差で完勝。</p>\n\n<p>勝ちタイムは<strong>1:08.4（良）</strong>。2着には人気の<strong>ブラックチャリス</strong>、3着には逃げ粘った<strong>カイショー</strong>が入り、上位人気が順当に好走する中での<strong>伏兵の一撃</strong>となりました。</p>\n\n<p>エイシンディードはダートから芝に転戦したばかりの馬で、父ファインニードル譲りのスピードと洋芝適性を証明。鞍上のR.キング騎手は函館初勝利となりました。</p>\n\n<p>展開的にはテンが速く、先行勢にはやや厳しい流れ。差し・持続力型が浮上しやすい一戦となりました。</p>\n\n<p>今後は札幌2歳Sなど距離延長への対応が課題となりますが、<strong>完成度と伸び脚</strong>を見せた内容に注目です。</p>",
+      "preview_text": "<p>今年の函館2歳ステークスは、テンの速さが鍵となる一戦で、<strong>前半の主導権争いと差し勢の脚の使いどころ</strong>が勝敗を左右します。</p>\n\n<p>逃げ候補は<strong>カイショー</strong>。芝1000mで2歳レコードをマークしたスピードタイプで、2枠からハナに立つ展開が濃厚です。</p>\n\n<p>好位には<strong>ブラックチャリス</strong>が構え、芝1200mレコード勝ちの内容からも押し切り型。<strong>クラディスティーナ</strong>や<strong>エイシンディード</strong>も先行意欲を見せそうです。</p>\n\n<p>中団には<strong>エスカレイト</strong>や<strong>タガノアラリア</strong>が控え、展開が向けば外差しでの台頭も。</p>\n\n<p>函館芝1200mは坂のないワンターン戦ながら、スタート地点の上り坂と短い直線が、<strong>先行粘り込みと差し一閃の絶妙な駆け引き</strong>を生みます。</p>\n\n<p>テンが速くなれば、差し勢である<strong>トウカイマシェリ</strong>や<strong>クラディスティーナ</strong>が台頭する可能性大。</p>\n\n<p>逆にスローペースなら、<strong>カイショー</strong>の逃げ残りや<strong>ブラックチャリス</strong>の押し切りに展開が向くでしょう。</p>\n\n<p><strong>「完成度と展開読み」</strong>が勝敗の鍵となる、スプリント戦ならではの速攻勝負です。</p>",
+      "highlight": "<p>2歳馬にとって初の重賞挑戦となる函館2歳ステークス。洋芝のタフな1200m戦で、スピードと完成度が試される一戦です。</p>\n<p>注目は<strong>ブラックチャリス</strong>。初戦は好位から抜け出し、2歳レコードで快勝。テン・中・終いすべてにセンスが光り、重賞制覇へ向けて死角なし。</p>\n<p><strong>カイショー</strong>は函館芝1000mで驚異のレコード勝ち。逃げ脚質でスピード能力は一級品。距離延長と馬場状態が鍵となります。</p>\n<p><strong>クラディスティーナ</strong>は重馬場の新馬戦を力強く差し切り勝ち。洋芝適性と持久力に期待がかかります。</p>\n<p>その他にも、<strong>トウカイマシェリ</strong>、<strong>エスカレイト</strong>、<strong>スターオブロンドン</strong>など、個性派が揃い、展開次第で波乱も。</p>\n<p>コース特性としては、スタートから3コーナーまでの上り坂が消耗を誘い、直線は短く下り坂。<strong>先行力と粘り</strong>が求められ、<strong>外枠有利</strong>の傾向も。</p>\n<p>仕上がり早の牝馬が穴を開ける傾向もあり、<strong>完成度と洋芝適性</strong>が勝敗を分ける注目の2歳戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n5a70e6c925d9"
+    },
+    {
+      "id": "20250727_sekiya",
+      "date": "2025-07-27",
+      "name": "関屋記念",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "output/20250727_sekiya.html#preview",
+        "review": "output/20250727_sekiya.html#review",
+        "highlight": "output/20250727_sekiya.html#highlight"
+      },
+      "image": {
+        "file": "20250727_sekiya.png",
+        "alt": "関屋記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>夏の新潟開幕週を飾る関屋記念は、<strong>直線659mの外回り芝1600m</strong>を舞台に、<strong>差し脚と枠順の妙</strong>が勝敗を分けるマイル重賞です。</p>\n\n<p>注目は<strong>ボンドガール</strong>。秋華賞2着や東京新聞杯2着など実績十分で、<strong>開幕週の高速馬場</strong>も歓迎材料。ルメール騎手とのコンビで初重賞制覇を狙います。</p>\n\n<p>対抗は<strong>イミグラントソング</strong>。NZT勝ちの実力馬で、左回りマイルへの適性は高く、GI級のポテンシャルを秘めます。</p>\n\n<p>他にも、<strong>レガーロデルシエロ</strong>や<strong>シヴァース</strong>など、末脚鋭い差し馬が揃い、<strong>展開次第で伏兵台頭の余地も十分</strong>。</p>\n\n<p>今年からハンデ戦に変更されたことで、<strong>斤量差を活かした一撃</strong>にも注目。外枠有利の傾向もあり、<strong>枠順確定後の波乱度</strong>にも目が離せません。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n023ac8246cdc",
+      "preview_text": "<div class='note-preview'><p>関屋記念は展開が鍵を握る一戦。<strong>新潟芝1600m外回りは外枠有利かつ差し馬向き</strong>のコース形態で、馬場とペース読みが勝敗を左右します。</p><p><strong>逃げ候補はシンフォーエバーやキョウエイブリッサ</strong>で、外からはカナテープやダイシンヤマトが好位を狙う構え。</p><p>中団にはボンドガール、フォーチュンタイム、イミグラントソングら差し馬が控え、シヴァースやアルセナールなど後方勢は展開次第で台頭可能。</p><p><strong>逃げのペースと差し勢の仕掛けタイミング</strong>が大きなポイントとなり、スローペースなら先行馬が残る展開、平均〜ハイペースなら外差しが浮上。</p><p>長い直線とコースの傾斜を活かし、決め手と立ち回りが試される夏のマイル重賞です。</p></div>",
+      "text_banner1": "波乱の新潟マイル重賞！",
+      "text_banner2": "関屋記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250727_sekiya.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>"
+    },
+    {
+      "id": "20250727_tokai",
+      "date": "2025-07-27",
+      "name": "東海ステークス",
+      "grade": "G3",
+      "venue": "中京・ダ1400m",
+      "sections": {
+        "preview": "output/20250727_tokai.html#preview",
+        "review": "output/20250727_tokai.html#review",
+        "highlight": "output/20250727_tokai.html#highlight"
+      },
+      "image": {
+        "file": "_20250727_G3.png",
+        "alt": "東海ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>2025年から夏開催に移行した東海ステークスは、<strong>中京ダート1400m</strong>を舞台に、<strong>芝スタート＋急坂＋スパイラルカーブ</strong>という特殊条件が勝敗を左右する一戦です。</p>\n\n<p>注目は<strong>ビダーヤ</strong>。ダート転向後4戦4勝の無敗馬で、父リアルスティール譲りのスピードと根性が魅力。坂井騎手とのコンビで重賞初制覇を狙います。</p>\n\n<p>対抗は<strong>エートラックス</strong>。東京スプリント勝ちの実績馬で、芝スタートの加速力と持続力を兼ね備えた万能型。</p>\n\n<p>他にも、<strong>ヤマニンウルス</strong>や<strong>ロードエクレール</strong>など、<strong>A.P. Indy系やKingmambo系の血統馬</strong>が揃い、コース適性が問われる構成。</p>\n\n<p>4歳馬の好走率が高く、<strong>勢いと血統の融合</strong>が鍵。逃げ・先行馬が有利な傾向もあり、<strong>芝スタートで加速できるか</strong>がポイントです。</p>",
+      "note_url": "",
+      "preview_text": "<p>東海ステークスは展開が鍵を握る一戦。注目は  の動き。</p>"
+    },
+    {
+      "id": "20250803_ibis_summer",
+      "date": "2025-08-03",
+      "name": "アイビスサマーダッシュ",
+      "grade": "G3",
+      "venue": "新潟・芝1000m",
+      "sections": {
+        "preview": "output/20250803_ibis_summer.html#preview",
+        "review": "output/20250803_ibis_summer.html#review",
+        "highlight": "output/20250803_ibis_summer.html#highlight"
+      },
+      "image": {
+        "file": "20250803_ibis_summer.png",
+        "alt": "アイビスサマーダッシュ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>真夏の新潟競馬場を舞台に繰り広げられる、<strong>日本唯一の直線1000m重賞</strong>──それが「アイビスサマーダッシュ」。第25回を迎える今年も、<strong>外ラチ沿いの高速決着</strong>が予想され、<strong>一瞬の加速力と枠順の妙</strong>が勝敗を分ける電撃戦です。注目は<strong>テイエムスパーダ</strong>。前哨戦・韋駄天Sを<strong>3馬身差で圧勝</strong>し、千直【3-1-0-0】のスペシャリスト。外枠を引ければ<strong>押し切り濃厚</strong>です。対抗は<strong>ピューロマジック</strong>。重賞2勝の快速牝馬で、<strong>ルメール騎乗＋軽斤量</strong>という好条件。初千直でも<strong>スピード能力は折り紙付き</strong>です。さらに昨年覇者<strong>モズメイメイ</strong>や、千直巧者<strong>クムシラコ</strong>、京王杯2歳S勝ち馬<strong>コラソンビート</strong>など、<strong>外枠を引けば一発の魅力を秘めた伏兵陣</strong>も多数。過去10年の傾向では、<strong>8枠の複勝率は30.8％</strong>と圧倒的。<strong>韋駄天S組が最多4勝</strong>と好相性で、<strong>ミスタープロスペクター系の血統</strong>も好走傾向あり。コーナーのない直線勝負だからこそ、<strong>純粋なスピードと枠順の恩恵</strong>が明暗を分ける夏の風物詩。<strong>波乱度「中」</strong>とされるこの一戦、<strong>外枠の人気薄が台頭する可能性</strong>も十分です。2025年8月3日（日）15:45発走予定──<strong>夏のスプリント王決定戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nd8c4f72fb381",
+      "preview_text": "<div class='note-preview'><p>アイビスサマーダッシュは枠順とスピードがすべてを決める電撃の千直重賞。<strong>新潟芝1000mは外枠絶対有利で、外ラチ沿いの馬場を使える馬が圧倒的に有利</strong>です。</p><p><strong>逃げ候補は⑰テイエムスパーダと⑱モズメイメイ</strong>。ともに外枠を引き、スタートから押し切る構え。⑮ピューロマジックも先行策で一発を狙う。</p><p>中団には⑯クムシラコや⑭コラソンビートが控え、千直巧者の⑪カフジテトラゴンは展開を見ながら差し脚を伸ばす構え。</p><p><strong>外枠先行勢の押し切りか、差し馬の一撃か</strong>が焦点。馬場状態と風向き、そして斤量差が勝敗を左右する。</p><p>直線のみのスプリント戦で、<strong>一瞬の加速力と持続力</strong>が試される真夏のスピード決戦です。</p></div>",
+      "text_banner1": "夏の新潟、電撃の直線勝負！",
+      "text_banner2": "アイビスサマーダッシュのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250803_ibis_summer.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nd8c4f72fb381' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250803_ibis_summer.png' alt='アイビスサマーダッシュバナー' /></div></a>"
+    },
+    {
+      "id": "20250803_queen_sapporo",
+      "date": "2025-08-03",
+      "name": "クイーンステークス",
+      "grade": "G3",
+      "venue": "札幌・芝1800m",
+      "sections": {
+        "preview": "output/20250803_queen_sapporo.html#preview",
+        "review": "output/20250803_queen_sapporo.html#review",
+        "highlight": "output/20250803_queen_sapporo.html#highlight"
+      },
+      "image": {
+        "file": "20250803_queen_sapporo.png",
+        "alt": "クイーンステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>札幌芝1800mで行われる牝馬限定の夏の伝統重賞「クイーンステークス」。秋のGI戦線へ向けた重要なステップレースであり、近年は3歳馬の台頭も目立つ一戦です。今年も秋華賞やエリザベス女王杯を見据える実力馬が集結し、見どころ満載のメンバー構成となりました。注目は<strong>アルジーヌ</strong>。昨年のターコイズS勝ち馬で、今年も阪神牝馬S2着、ヴィクトリアマイル4着とGI級の実力を証明済。札幌芝1800mは昨年3着の舞台で、<strong>川田騎手とのコンビで重賞2勝目を狙います</strong>。対抗は<strong>フェアエールング</strong>。福島牝馬S2着、小倉牝馬S1着と近走充実。札幌芝は【5戦3勝2着1回】と洋芝適性も抜群で、<strong>今が旬の一頭</strong>です。先行力が魅力の<strong>クリスマスパレード</strong>や<strong>レーゼドラマ</strong>も侮れません。前者は紫苑S勝ち馬で、札幌の小回りも合いそう。後者はフラワーC快勝歴があり、距離短縮で巻き返しを狙います。また、GI好走歴のある<strong>ライラック</strong>や、逃げて持ち味を発揮する<strong>アリスヴェリテ</strong>、洋芝巧者の<strong>フィールシンパシー</strong>など、<strong>展開次第で台頭可能な伏兵陣</strong>も揃いました。過去10年の傾向では、<strong>1～2枠の内枠が好成績</strong>で、<strong>差し馬の台頭も目立つ</strong>札幌芝1800m。<strong>ヴィクトリアマイル組や福島牝馬S組の好走率も高く</strong>、臨戦過程にも注目です。2025年8月3日（日）15:25発走予定──秋へ向けた牝馬たちの熱戦。札幌の夏を彩るクイーンステークス、今年も見逃せません。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n7f0e91d93e73",
+      "preview_text": "<div class='note-preview'><p>クイーンステークスは札幌芝1800m、洋芝＋小回り＋直線短めの舞台。展開の鍵を握るのは⑤アリスヴェリテの逃げ。①クリスマスパレード、②フィールシンパシーが内枠から好位を確保し、④アルジーヌが外から差しに構える。⑫ビヨンドザヴァレーは中団から器用に立ち回り、⑬ライラックが後方から一発を狙う。ペースは平均?やや速めで、前残りと差しの綱引き。馬券の軸は②フィールシンパシー。ヒモに④⑤⑫、穴で⑬を押さえたい。</p></div>",
+      "text_banner1": "夏の女王決定戦！札幌芝1800mで牝馬たちが激突",
+      "text_banner2": "クイーンステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250803_queen_sapporo.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n7f0e91d93e73' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250803_queen_sapporo.png' alt='クイーンステークスバナー' /></div></a>"
+    },
+    {
+      "id": "20250809_elm",
+      "date": "2025-08-09",
+      "name": "エルムステークス",
+      "grade": "G3",
+      "venue": "札幌・ダ1700m",
+      "sections": {
+        "preview": "output/20250809_elm.html#preview",
+        "review": "output/20250809_elm.html#review",
+        "highlight": "output/20250809_elm.html#highlight"
+      },
+      "image": {
+        "file": "20250809_elm.png",
+        "alt": "エルムステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>札幌ダート1700mで行われるエルムステークスは、<strong>平均人気4.2の中波乱重賞</strong>。<strong>血統・ローテ・馬体重</strong>が勝敗を左右する夏のダート決戦です。</p>\n\n<p>注目は<strong>ヘビーヒューズ</strong>。札幌巧者として知られる<strong>カネヒキリ産駒</strongで、舞台適性は抜群。[2-1-0-1]の安定感も魅力です。</p>\n\n<p>ローテ面では<strong>前走マリーンS組が過去10年中9勝</strongと圧倒的。今年もこの傾向が継続する可能性大。</p>\n\n<p>さらに、<strong>GI・Jpn1で3着以内歴のある実績馬が好走傾向</strong。復活を狙う伏兵にも注目です。</p>\n\n<p>馬体重では<strong>520kg以上の大型馬が最も好成績</strong。札幌の力勝負ではパワー型が有利で、<strong>馬体重発表後のチェックが鍵</strongになります。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nfb7c7bf57c75",
+      "preview_text": "<div class='note-preview'><p>エルムステークスは展開が勝敗を左右する一戦。札幌ダ1700mは先行有利の舞台ながら、今年は逃げ・先行馬が多く、ハイペース濃厚な構成。逃げ候補はマテンロウスカイ、ウィリアムバローズ、ロードクロンヌらで、内外からポジション争いが激化。ドゥラエレーデは好位から持続力を活かす構え。中団にはペリエールやミッキーヌチバナが控え、差し勢のトロヴァトーレ、ヴァルツァーシャル、ブライアンセンスらは展開次第で浮上可能。前半のペースと捲りのタイミングが鍵となり、スローなら好位勢が残る展開、ハイペースなら差し・捲りが台頭する可能性も。小回りコースでの立ち回りと持続力、そして展開読みが試される真夏のダート重賞です。</p></div>",
+      "text_banner1": "夏のダート重賞戦",
+      "text_banner2": "エルムステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250809_elm.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nfb7c7bf57c75' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250809_elm.png' alt='エルムステークスバナー' /></div></a>"
+    },
+    {
+      "id": "20250810_leopard",
+      "date": "2025-08-10",
+      "name": "レパードステークス",
+      "grade": "G3",
+      "venue": "新潟・ダ1800m",
+      "sections": {
+        "preview": "output/20250810_leopard.html#preview",
+        "review": "output/20250810_leopard.html#review",
+        "highlight": "output/20250810_leopard.html#highlight"
+      },
+      "image": {
+        "file": "20250810_leopard.png",
+        "alt": "レパードステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>新潟ダート1800mで行われるレパードステークスは、<strong>平均人気5.0の波乱重賞</strong>。<strong>距離実績・キャリア・馬体重</strong>が勝敗を左右する3歳限定の夏ダート決戦です。</p>\n\n<p>注目は<strong>ドレフォン産駒</strong>。ダート1800mで安定感を誇り、<strong>1-1-0-3</strong>の戦績からも舞台適性が光ります。</p>\n\n<p>ローテ面では<strong>前走東京ダ1600・阪神ダ1800組が好相性</strong>。過去10年で複数勝利を挙げており、該当馬は要チェックです。</p>\n\n<p>さらに、<strong>1800mでの勝ち鞍がある馬が過去10年全勝</strong>。距離実績の有無が明暗を分ける傾向です。</p>\n\n<p>馬体重では<strong>前走比±2kg以内が好走ゾーン</strong。特に<strong>-4kg以上の馬は全滅</strongしており、<strong>馬体重発表後のチェックが重要</strongになります。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n2696a385bc66",
+      "preview_text": "<div class='note-preview'><p>レパードステークスは展開が鍵を握る一戦。新潟ダ1800mは平坦で先行有利な舞台ながら、今年は前に行きたい馬が多く、ペース次第で差し馬の台頭も。逃げ候補はドンインザムードやジャナドリア、ロードラビリンスらで、好位にはヴィンセンシオやポールセンが構える。中団〜後方にはルグランヴァンやトリポリタニアが控え、展開次第で浮上可能。スローなら先行勢が残る展開、ハイペースなら差し・捲りが決まる可能性も。スピードと持続力、そして位置取りが試される3歳ダート王決定戦です。</p></div>",
+      "text_banner1": "真夏のダート重賞戦",
+      "text_banner2": "レパードステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250810_leopard.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n2696a385bc66' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250810_leopard.png' alt='レパードステークスバナー' /></div></a>"
+    },
+    {
+      "id": "20250810_cbc",
+      "date": "2025-08-10",
+      "name": "CBC賞",
+      "grade": "G3",
+      "venue": "中京・芝1200m",
+      "sections": {
+        "preview": "output/20250810_cbc.html#preview",
+        "review": "output/20250810_cbc.html#review",
+        "highlight": "output/20250810_cbc.html#highlight"
+      },
+      "image": {
+        "file": "20250810_cbc.png",
+        "alt": "CBC賞・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>中京芝1200mで行われるCBC賞は、<strong>平均人気5.3の高波乱重賞</strong>。<strong>年齢・血統・馬体重</strong>が勝敗を左右する夏のスプリント決戦です。</p>\n\n<p>注目は<strong>ロードカナロア産駒</strong>。中京芝1200mでの好相性が際立ち、<strong>1-2-1-7</strong>の戦績からも舞台適性が光ります。</p>\n\n<p>ローテ面では<strong>前走OP・重賞組が好成績</strong。特に中京・阪神での実績がある馬は信頼度が高く、該当馬は要チェックです。</p>\n\n<p>さらに、<strong>1番人気が3年連続で勝利中</strong。波乱傾向ながら、人気馬の信頼度も高く、<strong>上位人気の取捨が鍵</strongになります。</p>\n\n<p>馬体重では<strong>57.5kg以上の斤量を背負う馬が好走傾向</strong。ハンデ戦ながら実力馬が力を発揮しやすく、<strong>馬体重・斤量発表後のチェックが鍵</strongになります。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n5c4794ce4b0b",
+      "preview_text": "<div class='note-preview'><p>CBC賞は展開が鍵を握る一戦。中京芝1200mは下りスタートからの急坂ゴールで、前半ハイラップ必至。逃げ候補はカルチャーデイやドロップオブライトで、先行勢が多く激しい流れに。中団にはジューンブレアやシュトラウスが控え、差し勢のジャスティンスカイやグランテストは展開次第で台頭可能。スローなら先行勢が残る展開、ハイペースなら差し馬の一閃が決まる可能性も。スピードと持続力、そして坂への適性が試される夏のスプリント重賞です。</p></div>",
+      "text_banner1": "夏のスプリント重賞",
+      "text_banner2": "ＣＢＣのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250810_cbc.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n5c4794ce4b0b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250810_cbc.png' alt='ＣＢＣバナー' /></div></a>"
+    },
+    {
+      "id": "20250817_chukyo_kinen",
+      "date": "2025-08-17",
+      "name": "中京記念",
+      "grade": "G3",
+      "venue": "中京・芝1600m",
+      "sections": {
+        "preview": "output/20250817_chukyo_kinen.html#preview",
+        "review": "output/20250817_chukyo_kinen.html#review",
+        "highlight": "output/20250817_chukyo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250817_G3.png",
+        "alt": "中京記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>真夏の中京競馬場で行われる、<strong>サマーマイルシリーズ第3戦</strong>──それが「中京記念」。今年は<strong>別定戦として開催</strong>され、<strong>マイル巧者たちの激突</strong>が注目されます。主役候補は<strong>エルトンバローズ</strong>。昨年のマイルCS2着馬で、骨折休養明けながら<strong>豪快な追い切りで復調気配</strong>。実績最上位の存在です。対抗は<strong>キープカルム</strong>。しらさぎSで<strong>G1馬チェルヴィニアを撃破</strong>し、<strong>シリーズ優勝に王手</strong>をかける一戦。さらに<strong>ウォーターリヒト</strong>は東京新聞杯勝ち馬で、<strong>左回りマイル戦に強い差し脚</strong>が魅力。安田記念での敗戦からの巻き返しに期待がかかります。3歳牝馬<strong>マピュース</strong>は桜花賞4着の実力馬で、<strong>斤量差を活かした一発</strong>に注目。他にも<strong>トランキリテ</strong>や<strong>コレペティトール</strong>など、<strong>展開次第で台頭可能な伏兵陣</strong>も揃い、<strong>差し馬優勢の流れ</strong>になるか、<strong>前残りの波乱</strong>か──展開読みが勝敗を分ける夏のマイル決戦。2025年8月17日（日）15:25発走予定──<strong>夏のマイル王決定戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/na1ffbbce5485",
+      "preview_text": "<div class='note-preview'>  <p>中京記念は夏のマイル重賞で、<strong>中京芝1600mは差し馬が台頭しやすい舞台</strong>。スタート直後に坂があり、前半はスローになりやすく、<strong>直線の長さと外枠有利の傾向</strong>が展開に大きく影響します。</p<p><strong>逃げ候補は③エルトンバローズと⑥ジューンオレンジ</strong>。③はマイルCS2着の実績馬で骨折明けながら先行力は健在。⑥は昇級初戦ながらスピードタイプで、ハナを主張する可能性あり。</p><p>先行勢には⑦ウォーターリヒト、⑧エコロヴァルツ、⑤シンフォーエバーが続く。⑦は東京新聞杯勝ち馬で左回りマイル巧者。⑧は中山記念2着の実績があり、安田記念でも好内容。⑤は重賞実績に乏しいが、展開次第で粘り込みも。</p><p><strong>差し・追い込み勢では⑪キープカルムが注目</strong>。しらさぎSでG1馬チェルヴィニアを撃破し、末脚に磨き。①マピュースは桜花賞4着の実績があり、古馬との初対戦でどこまで通用するか。</p><p><strong>展開の焦点は、③の逃げがスローに持ち込むか、⑥がハイペースを演出するか</strong>。スローなら先行勢の押し切り、ハイペースなら差し馬の台頭が濃厚。</p><p>今年は別定戦のため、<strong>斤量差の恩恵は限定的</strong>。牝馬の斤量優遇はあるが、古馬牡馬との力差に注意が必要。昇級初戦の馬や重賞未経験馬は割引材料。</p><p><strong>外枠＋差し脚＋実績の三拍子揃った⑪キープカルムと⑦ウォーターリヒトが軸候補</strong>。③エルトンバローズの復帰戦の仕上がりにも注目が集まる。</p><p>中京記念は、<strong>直線の末脚勝負と枠順の妙</strong>が勝敗を分ける夏のマイル決戦。展開と馬場状態を見極めた一撃が馬券のカギを握ります。</p></div>",
+      "text_banner1": "夏のマイル王決定戦！展開×馬場×斤量が絡む中京記念",
+      "text_banner2": "中京記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250817_chukyo_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/na1ffbbce5485' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250817_chukyo_kinen.png' alt='中京記念バナー' /></div></a>"
+    },
+    {
+      "id": "20250817_sapporo_kinen",
+      "date": "2025-08-17",
+      "name": "札幌記念",
+      "grade": "G2",
+      "venue": "札幌・芝2000m",
+      "sections": {
+        "preview": "output/20250817_sapporo_kinen.html#preview",
+        "review": "output/20250817_sapporo_kinen.html#review",
+        "highlight": "output/20250817_sapporo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20250817_sapporo_kinen.png",
+        "alt": "札幌記念・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>真夏の札幌競馬場で行われる、<strong>芝2000mの定量GII</strong>──それが「札幌記念」。毎年<strong>GⅠ級の実力馬が集結するスーパーGII</strong>として注目度が高く、<strong>洋芝＋展開＋騎手の腕</strong>が勝敗を分ける一戦です。注目は<strong>桜花賞馬ステレンボッシュ</strong。札幌での<strong>復活を狙う一戦</strongで、<strong>洋芝適性と立ち回り力</strongが試されます。</p><p>対抗は<strong>ヴェローチェエラ</strong。函館記念を<strong>コースレコードで制覇</strongし、<strong>持続力勝負なら主役級</strongの存在。さらに<strong>ホウオウビスケッツ</strongは昨年の函館記念勝ち馬で、<strong>天皇賞・秋3着</strongの実績も。<strong>洋芝実績＋先行力</strongが武器です。</p><p>札幌芝2000mは<strong>内枠＋先行有利</strong。過去10年の傾向でも<strong>逃げ・好位勢が好成績</strongを残しており、<strong>枠順と展開が勝敗を左右</strongします。注目は<strong>丹内祐次騎乗予定のコスモキュランダ</strong。弥生賞勝ち馬で<strong>洋芝適性が高く、一発の可能性</strongも秘めています。</p><p>他にも<strong>武豊騎乗予定のシュヴァリエローズ</strongや、<strong>R.キング騎乗のシュトルーヴェ</strongなど、<strong>騎手の手腕が勝敗に直結</strongする構図。<strong>波乱度「中」</strongとされるこの一戦、<strong>展開利を得た伏兵の台頭</strongにも注目です。2025年8月18日（日）15:45発走予定──<strong>夏の中距離王決定戦</strongを制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n807979e272fb",
+      "preview_text": "<div class='note-preview'><p>札幌記念は夏の中距離GIIで、<strong>札幌芝2000mは機動力と先行力が問われる舞台</strong>。コーナー4回の小回りでスロー～平均ペースが基本、<strong>滞在効果と内枠先行馬が展開の鍵</strong>となる。</p><p><strong>逃げ候補は①リビアングラスと④コスモキュランダ</strong>。①は内枠を活かしてハナ主張、④は先行力と滞在効果で展開を作る可能性あり。</p><p>先行勢には⑤ホウオウビスケッツ、⑧ステレンボッシュ、⑩ヴェローチェエラが続く。⑤は大阪杯好走の実力馬、⑧はGⅠ馬で札幌適性も高く、⑩は函館記念レコード勝ちで勢い十分。</p><p><strong>差し・追い込み勢では⑮ココナッツブラウンが注目</strong>。滞在効果＋末脚で展開次第では台頭可能。⑦ハヤテノフクノスケも函館記念好走で侮れない。</p><p><strong>展開の焦点は、①がスローに持ち込むか、④が平均ペースを維持するか</strong>。スローなら⑤⑧⑩の押し切り、平均～やや速めなら差し勢の浮上も。</p><p>今年は定量戦のため、<strong>斤量差の影響は少なく、実力勝負</strong>。重賞未勝利馬や近走不振馬は割引材料。</p><p><strong>枠順＋機動力＋実績が揃った⑤ホウオウビスケッツと⑧ステレンボッシュが軸候補</strong>。①リビアングラスの逃げ残りや⑮ココナッツブラウンの差し脚にも注目。</p><p>札幌記念は、<strong>小回り＋展開＋滞在効果</strong>が勝敗を分ける夏の中距離決戦。ペースと位置取りが馬券のカギを握ります。</p></div>",
+      "text_banner1": "GⅠ級が集結！夏の札幌で真の中距離王を決する札幌記念",
+      "text_banner2": "札幌記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250817_sapporo_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n807979e272fb' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250817_sapporo_kinen.png' alt='札幌記念バナー' /></div></a>"
+    },
+    {
+      "id": "20250824_niigata_2sai",
+      "date": "2025-08-24",
+      "name": "新潟2歳ステークス",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "output/20250824_niigata_2sai.html#preview",
+        "review": "output/20250824_niigata_2sai.html#review",
+        "highlight": "output/20250824_niigata_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250824_G3.png",
+        "alt": "新潟2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>新潟2歳ステークス</strong>は新潟芝外回り1600mで行われる<strong>2歳限定のマイル重賞</strong。<strong>将来のクラシック候補が集う登竜門</strongとして、<strong>末脚勝負の舞台</strongで素質馬たちが激突します。今年は<strong>新馬戦で圧勝したリアライズシリウス</strongが中心。<strong>逃げて7馬身差の完勝</strongはインパクト十分で、<strong>完成度と操縦性の高さ</strongが魅力。対抗は<strong>フェスティバルヒル</strong。阪神マイルで勝利し、<strong>皐月賞馬の半妹という血統背景</strongも注目ポイント。他にも<strong>サンアントワーヌ</strongや<strong>タイセイボーグ</strongなど<strong>上がり最速で勝ち上がった差し馬</strongが揃い、<strong>新潟外回りらしい瞬発力勝負</strongが予想されます。<strong>波乱度「中」</strongの一戦で、<strong>キャリア1戦組の取捨が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n665f97400d15",
+      "preview_text": "<div class='note-preview'><p>新潟2歳ステークスは<strong>新潟芝1600m外回り</strong>で行われる2歳重賞。<strong>直線が長く、瞬発力と末脚の持続力</strong>が問われる舞台です。<strong>スローからの瞬発力勝負</strong>になる傾向が強く、枠順よりも位置取りとギアチェンジ性能が鍵。</p><p><strong>逃げ候補は③タイセイボーグと④フェスティヴベル</strong>。ともに前走は1400mで先行押し切り、今回もハナを狙う構え。④は操縦性が高く、番手からの競馬も可能。</p><p>好位勢には<strong>⑤ヒルデグリム</strong>や<strong>⑥フォトンゲイザー</strong>が控え、どちらも初戦は好位抜け出しの内容。⑤は長く良い脚を使えるタイプで、外回り向き。</p><p>差し勢では<strong>⑨リアライズシリウス</strong>が注目。新馬戦では逃げて<strong>7馬身差の圧勝</strong>。今回は控える競馬も視野に入り、<strong>末脚勝負でも対応可能</strong>な万能型。</p><p><strong>スロー濃厚で、好位抜け出しか差し馬の一撃か</strong>が焦点。馬場状態とペース次第で勢力図が一変する可能性も。<strong>波乱度「中」</strong>の一戦です。</p></div>",
+      "text_banner1": "未来のスター候補が集う、夏の登竜門──新潟2歳ステークス",
+      "text_banner2": "新潟2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250824_niigata_2sai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n665f97400d15' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250824_niigata_2sai.png' alt='新潟2歳ステークスバナー' /></div></a>"
+    },
+    {
+      "id": "20250824_keeneland",
+      "date": "2025-08-24",
+      "name": "キーンランドカップ",
+      "grade": "G3",
+      "venue": "札幌・芝1200m",
+      "sections": {
+        "preview": "output/20250824_keeneland.html#preview",
+        "review": "output/20250824_keeneland.html#review",
+        "highlight": "output/20250824_keeneland.html#highlight"
+      },
+      "image": {
+        "file": "キ_ンランド_20250824_G3.png",
+        "alt": "キーンランドカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>キーンランドカップ</strong>は札幌芝1200mで行われる<strong>夏のスプリント重賞</strong。<strong>サマースプリントシリーズ終盤戦</strongに位置づけられ、<strong>秋のG1戦線への重要ステップ</strongとして注目される一戦です。<strong>洋芝適性</strongや<strong>展開力</strongが勝敗を左右し、<strong>牝馬の好走率が高い傾向</strongも見逃せません。例年、<strong>前走函館SS組や札幌実績馬</strongが上位を賑わせ、<strong>差し馬の台頭</strongも十分。<strong>枠順や馬場状態</strongによって勢力図が大きく変わるため、<strong>波乱含みの一戦</strongとしても注目されています。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n1e3a2cbbc64f",
+      "preview_text": "<div class='note-preview'><p>キーンランドカップは<strong>札幌芝1200mの洋芝スプリント重賞</strong。直線が短く、<strong>初速と立ち回り力</strong>が問われる舞台です。<strong>内前有利の傾向</strong>が強く、枠順と展開が勝敗を左右します。</p><p><strong>逃げ候補は⑭カルロヴェローチェと④エーティーマクフィ</strong>。ともにテンの速さがあり、⑭は函館SSでも先行粘り込み。④は青函Sで好位から粘っており、展開を作る可能性。</p><p>好位勢には<strong>⑤パンジャタワー</strong>（NHKマイルC覇者）や<strong>⑩ウインカーネリアン</strong>が控え、内枠からロスなく立ち回る構え。⑤は洋芝追い切り抜群で、仕上がりも文句なし。</p><p>差し勢では<strong>⑨モリノドリーム</strong>や<strong>⑫フィオライア</strong>が展開待ち。⑫はUHB賞快勝からの中1週で、脚質的には展開次第で浮上可能。</p><p><strong>内枠先行勢の押し切りか、差し馬の一撃か</strong>が焦点。馬場状態とペース次第で勢力図が一変する可能性も。<strong>波乱度「中」</strong>の一戦です。</p></div>",
+      "text_banner1": "秋のスプリント戦線を占う一戦──キーンランドカップ",
+      "text_banner2": "キーンランドカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250824_keeneland.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n1e3a2cbbc64f' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250824_keeneland.png' alt='キーンランドカップバナー' /></div></a>"
+    },
+    {
+      "id": "20250831_niigata_kinen",
+      "date": "2025-08-31",
+      "name": "新潟記念",
+      "grade": "G3",
+      "venue": "新潟・芝2000m",
+      "sections": {
+        "preview": "output/20250831_niigata_kinen.html#preview",
+        "review": "output/20250831_niigata_kinen.html#review",
+        "highlight": "output/20250831_niigata_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20250831_G3.png",
+        "alt": "新潟記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>新潟記念</strong>は新潟芝外回り2000mで行われる<strong>サマー2000シリーズ最終戦</strong。<strong>秋の中距離戦線を占う重要ステップ</strongとして、<strong>差し・追い込み勢が台頭する舞台</strongで実力馬が激突します。今年は<strong>青葉賞馬エネルジコ</strongが中心。<strong>無傷の3連勝で重賞制覇</strongし、<strong>左回り巧者＋ルメール騎乗</strongで信頼度は高め。対抗は<strong>金鯱賞勝ち馬クイーンズウォーク</strong。<strong>ヴィクトリアマイル2着の実績</strongに加え、<strong>左回りで凡走なし</strongという安定感が魅力。他にも<strong>中山牝馬S勝ち馬シランケド</strong、<strong>七夕賞制覇のコスモフリーゲン</strong、<strong>昨年覇者シンリョクカ</strongなど<strong>末脚自慢の伏兵陣</strongが揃い、<strong>展開次第で一発の可能性</strongも十分。<strong>波乱度「高」</strongの一戦で、<strong>別定戦への変更が勢力図を揺るがす</strong注目の一戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nf746c9f996d5",
+      "preview_text": "<div class='note-preview'><p>新潟記念は夏の締めくくりGIII、<strong>新潟芝外回り2000mは直線長く末脚勝負の舞台</strong>。スロー～平均ペースが基本で、<strong>差し・追い込み勢が展開の鍵</strong>。</p><p><strong>逃げ候補は⑪コスモフリーゲンと⑧サスツルギ</strong>。⑪は七夕賞逃げ切りの実績、⑧は先行力で展開を作る可能性あり。</p><p>先行勢には②シェイクユアハート、⑥クイーンズウォーク、⑯ヴェローチェエラが続く。②は小倉記念2着、⑥はヴィクトリアマイル2着の実力馬、⑯は函館記念勝ち馬で勢い十分。</p><p><strong>差し・追い込み勢では⑮エネルジコと⑫シランケドが注目</strong>。⑮は青葉賞馬で末脚鋭く、⑫は中山牝馬S勝ち＋ヴィクトリアマイル3着で充実一途。</p><p><strong>展開の焦点は、⑪がスローに持ち込むか、⑧が平均ペースを刻むか</strong>。スローなら②⑥⑯の押し切り、平均～やや速めなら⑮⑫の差し浮上も。</p><p>今年は別定戦で、<strong>斤量差よりも枠順＋脚質＋末脚性能が勝敗を分ける</strong>。</p><p><strong>軸候補は⑥クイーンズウォークと⑮エネルジコ</strong>。⑪コスモフリーゲンの逃げ残りや⑫シランケドの差し脚にも注目。</p><p>新潟記念は、<strong>直線勝負＋展開＋末脚性能</strong>が馬券のカギを握る夏のラスト重賞です。</p></div>",
+      "text_banner1": "夏のラスト重賞──新潟記念！差し脚炸裂の外回り2000m、波乱含みのハンデ戦！",
+      "text_banner2": "新潟記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250831_niigata_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nf746c9f996d5' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250831_niigata_kinen.png' alt='新潟記念' /></div></a>"
+    },
+    {
+      "id": "20250831_chukyo_2sai",
+      "date": "2025-08-31",
+      "name": "中京2歳ステークス",
+      "grade": "G3",
+      "venue": "中京・芝1400m",
+      "sections": {
+        "preview": "output/20250831_chukyo_2sai.html#preview",
+        "review": "output/20250831_chukyo_2sai.html#review",
+        "highlight": "output/20250831_chukyo_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20250831_G3.png",
+        "alt": "中京2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>中京2歳ステークス</strong>は中京芝1400mで行われる<strong>新設2歳重賞</strong。<strong>小倉2歳Sから舞台を移した注目の短距離戦</strongで、<strong>将来のスプリント・マイル路線を占う一戦</strongです。今年は<strong>未勝利戦7馬身差圧勝のスターアニス</strongが中心。<strong>重賞2勝の母譲りのスピード</strongと<strong>中京適性</strongが魅力。対抗は<strong>東京芝1400m新馬勝ちのパープルガーネット</strong。<strong>ルメール騎乗＋操縦性の高さ</strongで好勝負必至。他にも<strong>中京新馬勝ちのマイケルバローズ</strong、<strong>未勝利勝ちのタマモイカロス</strong、<strong>ビッグアーサー産駒コラルリーフ</strongなど<strong>スピード自慢の先行馬</strongが揃い、<strong>波乱度「中」</strongの一戦。<strong>先行馬有利＋外枠優勢の傾向</strongも踏まえ、<strong>枠順と展開が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n67ca22f934f8",
+      "preview_text": "<div class='note-preview'><p>中京2歳ステークスは2歳夏の短距離戦で、<strong>中京芝1400mは内枠先行有利＋スピードと持続力が問われる舞台</strong>。コーナー2回でペースは平均～やや速め、<strong>先行力と位置取りが展開の鍵</strong>。</p><p><strong>逃げ候補は①タマモイカロスと②マイケルバローズ</strong>。①は小倉芝1200mで逃げ切り、②は同舞台新馬勝ちでスピード十分。</p><p>先行勢には③アイルトン、④キャンディード、⑥コラルリーフが続く。③は中京新馬2着、④は小倉新馬勝ち馬、⑥は小倉新馬1着で粘り強さあり。</p><p><strong>差し・追い込み勢では⑦スターアニスと⑧パープルガーネットが注目</strong>。⑦は小倉未勝利戦で1秒1差の圧勝、⑧は東京新馬勝ちで末脚鋭い。</p><p><strong>展開の焦点は、①がハナを奪うか②が譲らず平均ペースに持ち込むか</strong>。スローなら②③④の押し切り、平均～やや速めなら⑦⑧の差し浮上も。</p><p>今年は馬齢戦で、<strong>斤量差はなく純粋な能力勝負</strong>。<strong>枠順＋先行力＋完成度</strong>が勝敗を分ける。</p><p><strong>軸候補は②マイケルバローズと⑦スターアニス</strong>。①タマモイカロスの逃げ残りや⑧パープルガーネットの差し脚にも注目。</p><p>中京2歳Sは、<strong>スピード＋展開＋位置取り</strong>が馬券のカギを握る2歳夏の注目レースです。</p></div>",
+      "text_banner1": "未来のスプリント王候補が激突！中京2歳ステークス、スピード決着必至！",
+      "text_banner2": "中京2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250831_chukyo_2sai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n67ca22f934f8' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250831_chukyo_2sai.png' alt='中京2歳ステークス' /></div></a>"
+    },
+    {
+      "id": "20250907_shion",
+      "date": "2025-09-07",
+      "name": "紫苑ステークス",
+      "grade": "G2",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "output/20250907_shion.html#preview",
+        "review": "output/20250907_shion.html#review",
+        "highlight": "output/20250907_shion.html#highlight"
+      },
+      "image": {
+        "file": "_20250907_G2.png",
+        "alt": "紫苑ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>紫苑ステークス</strong>は中山芝2000mで行われる<strong>秋華賞トライアル</strong。<strong>3歳牝馬限定のG2重賞</strongで、<strong>クラシック路線の最終章へ向けた重要ステップ</strongです。今年は<strong>桜花賞3着＆オークス5着のリンクスティップ</strongが始動。<strong>先行力＋持続力に優れた実績馬</strongで<strong>秋華賞出走権獲得へ盤石の構え</strong。対抗は<strong>ルメール騎乗の良血馬ジョスラン</strong。<strong>中山芝での勝利経験＋兄エフフォーリア譲りの末脚</strongが魅力。他にも<strong>夏の小倉で快勝したダノンフェアレディ</strong、<strong>中郷特別を圧勝したエストゥペンダ</strongなど<strong>成長著しい上がり馬</strongが揃い、<strong>波乱度「中」</strongの一戦。<strong>中山芝2000mは外枠＋先行馬有利</strongの傾向があり、<strong>枠順と展開が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n9d2f382ca03e",
+      "preview_text": "<div class='note-preview'><p>紫苑ステークスは秋華賞トライアルとして行われる3歳牝馬限定の一戦で、<strong>中山芝2000mは内回り＋急坂＋開幕週の高速馬場</strong>。<strong>先行力と立ち回りが展開の鍵</strong>で、枠順と位置取りが勝敗を左右する。</p><p><strong>逃げ候補は③セイキュートと④エストゥペンダ</strong>。③は新潟1800mで逃げ切り経験あり、④は前走中郷特別で先行押し切り。</p><p>先行勢には①リンクスティップ、⑤ジョスラン、⑨ダノンフェアレディが続く。①はオークス5着の実績馬で最内枠から好位狙い、⑤はフラワーC4着で中山適性あり、⑨は阪神2000mで粘り強さを見せた。</p><p><strong>差し・追い込み勢では⑪サヴォンリンナ、⑬テリオスララ、⑩マイスターヴェルクが注目</strong>。⑪は忘れな草賞勝ち馬で末脚鋭く、⑬は阪神JF3着の実績馬で外枠からの差し脚に期待、⑩は東京2000mで差し脚を伸ばした。</p><p><strong>展開の焦点は③がハナを奪うか④が譲らず平均ペースに持ち込むか</strong>。スローなら①⑤⑨の押し切り、平均～やや速めなら⑪⑬⑩の差し浮上も。</p><p>今年は馬齢戦で、<strong>斤量差はなく純粋な能力＋枠順＋完成度勝負</strong>。<strong>軸候補は①リンクスティップと⑤ジョスラン</strong>。③セイキュートの逃げ残りや⑬テリオスララの差し脚にも注目。</p><p>紫苑Sは、<strong>立ち回り＋展開＋完成度</strong>が馬券のカギを握る秋華賞への重要ステップです。</p></div>",
+      "text_banner1": "中山芝2000mで行われる3歳牝馬限定の重要ステップ戦 ",
+      "text_banner2": "紫苑ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250907_shion.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n9d2f382ca03e' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250907_shion.png' alt='紫苑ステークス' /></div></a>"
+    },
+    {
+      "id": "20250907_centaur",
+      "date": "2025-09-07",
+      "name": "セントウルステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1200m",
+      "sections": {
+        "preview": "output/20250907_centaur.html#preview",
+        "review": "output/20250907_centaur.html#review",
+        "highlight": "output/20250907_centaur.html#highlight"
+      },
+      "image": {
+        "file": "セントウル_20250907_G2.png",
+        "alt": "セントウルステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>セントウルステークス</strong>は阪神芝1200mで行われる<strong>スプリンターズSの前哨戦</strong。<strong>秋の短距離王決定戦へ向けた重要ステップ</strongで、<strong>高速決着＋開幕週の馬場が鍵</strongとなる一戦です。今年は<strong>昨年覇者トウシンマカオ</strongが連覇を狙って登場。<strong>京王杯快勝＋阪神適性の高さ</strongが魅力。対抗は<strong>G1馬ママコチャ</strong。<strong>昨年2着からの巻き返し＋岩田望来との再コンビ</strongで注目度抜群。他にも<strong>フィリーズレビュー馬ショウナンザナドゥ</strong、<strong>春雷S勝ちのヨシノイースター</strong、<strong>2023年覇者テイエムスパーダ</strongなど<strong>スピード自慢の快速馬</strongが揃い、<strong>波乱度「中」</strongの一戦。<strong>阪神芝1200mは内枠＋逃げ・先行馬有利</strongの傾向があり、<strong>枠順と馬場状態が勝敗を左右</strongしそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": "<div class='note-preview'><p>セントウルステークスは秋のスプリント戦線を占う重要な一戦で、<strong>阪神芝1200mは開幕週の高速馬場＋テンの速さが展開を左右</strong>。内回りながらも<strong>外枠差し優勢＋先行馬の位置取りが鍵</strong>。</p><p><strong>逃げ候補は②テイエムスパーダと⑮モズメイメイ</strong>。②は2023年覇者でテンの速さは健在、⑮は近走直線競馬で先行力を再確認。</p><p>先行勢には③ママコチャ、⑤ヨシノイースター、⑨ジャスティンスカイが続く。③はG1馬で好位抜け出し型、⑤は北九州記念2着で粘り強さあり、⑨は5枠からスムーズに運べる枠順。</p><p><strong>差し・追い込み勢では⑬カルチャーデイ、⑭トウシンマカオ、⑯グランテストが注目</strong>。⑬は米子S勝ちの末脚型、⑭は昨年覇者で外枠からの差し脚が魅力、⑯は展開次第で浮上可能。</p><p><strong>展開の焦点は②がハナを奪うか⑮が譲らずハイペースに持ち込むか</strong>。スローなら③⑤⑨の押し切り、平均～速めなら⑬⑭⑯の差し台頭も。</p><p>今年は別定戦で、<strong>斤量差＋枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は③ママコチャと⑭トウシンマカオ</strong>。②テイエムスパーダの逃げ残りや⑬カルチャーデイの差し脚にも注目。</p><p>セントウルSは、<strong>テンの速さ＋外差し＋展開読み</strong>が馬券のカギを握る秋のスプリント前哨戦です。</p></div>",
+      "text_banner1": "阪神芝1200mで行われるスプリンターズS前哨戦",
+      "text_banner2": "セントウルステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250907_centaur.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250907_centaur.png' alt='セントウルステークス' /></div></a>"
+    },
+    {
+      "id": "20250913_challenge_cup",
+      "date": "2025-09-13",
+      "name": "チャレンジカップ",
+      "grade": "G3",
+      "venue": "阪神・芝2000m",
+      "sections": {
+        "preview": "output/20250913_challenge_cup.html#preview",
+        "review": "output/20250913_challenge_cup.html#review",
+        "highlight": "output/20250913_challenge_cup.html#highlight"
+      },
+      "image": {
+        "file": "チャレンジ_20250913_G3.png",
+        "alt": "チャレンジカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する チャレンジカップ。展開の鍵を握るのは 。",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": "",
+      "text_banner1": "阪神芝1200mで行われるスプリンターズS前哨戦",
+      "text_banner2": "チャレンジカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250913_challenge_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250913_challenge_cup.png' alt='チャレンジカップ' /></div></a>"
+    },
+    {
+      "id": "20250914_rose",
+      "date": "2025-09-14",
+      "name": "ローズステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1800m",
+      "sections": {
+        "preview": "output/20250914_rose.html#preview",
+        "review": "output/20250914_rose.html#review",
+        "highlight": "output/20250914_rose.html#highlight"
+      },
+      "image": {
+        "file": "ロ_ズ_20250914_G2.png",
+        "alt": "ローズステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p>秋華賞への最重要ステップ──それが<strong>ローズステークス</strong>。第43回を迎える今年は、<strong>阪神芝1800m外回り</strong>での開催。<strong>直線の長さ＋外差し傾向</strong>が展開を左右し、<strong>持続力と瞬発力の融合</strong>が問われる舞台です。注目は<strong>カムニャック</strong>。オークスを<strong>堂々の逃げ切り勝ち</strong>で制した世代女王が、秋初戦から始動。距離短縮は課題も、<strong>スタミナ＋完成度</strong>で押し切り濃厚。対抗は<strong>チェルビアット</strong>。NHKマイルCで<strong>12番人気3着の激走</strong>を見せた快速牝馬で、<strong>ルメール騎乗＋良血</strong>という魅力満載。さらに<strong>パラディレーヌ</strong>はオークス4着の堅実派。<strong>フラワーC2着＋阪神適性◎</strong>で、展開次第では逆転も。穴なら<strong>ルージュソリテール</strong>。スイートピーS勝ち馬で、<strong>直線長い外回りで末脚炸裂の可能性</strong>あり。過去10年では<strong>1番人気が5勝</strong>と軸は堅めながら、<strong>3連単10万超えが5回</strong>と波乱含み。<strong>オークス組 vs 夏の上がり馬</strong>の構図が鮮明で、<strong>勢力図が一変する可能性</strong>も。2025年9月14日（日）15:45発走予定──<strong>秋華賞への切符を掴むのは、どの薔薇か。</strong></p>",
+      "note_url": "https://note.com/coro_pepa/n/n45ebe9a3b4ef",
+      "preview_text": "",
+      "text_banner1": "秋華賞への最重要ステップ──それが<strong>ローズステークス</strong>",
+      "text_banner2": "ローズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250914_rose.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n45ebe9a3b4ef' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250914_rose.png' alt='ローズステークス' /></div></a>"
+    },
+    {
+      "id": "20250921_allcomer",
+      "date": "2025-09-21",
+      "name": "オールカマー",
+      "grade": "G2",
+      "venue": "中山・芝2200m",
+      "sections": {
+        "preview": "output/20250921_allcomer.html#preview",
+        "review": "output/20250921_allcomer.html#review",
+        "highlight": "output/20250921_allcomer.html#highlight"
+      },
+      "image": {
+        "file": "オ_ルカマ_20250921_G2.png",
+        "alt": "オールカマー・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>オールカマー</strong>は中山芝2200mで行われる<strong>天皇賞・秋の前哨戦</strong>。<strong>GⅠ馬と実力馬が集う秋の始動戦</strong>で、<strong>中山外回り＋急坂＋持続力勝負</strong>が展開の鍵。今年は<strong>有馬記念馬レガレイラ</strongが中心。<strong>中山GⅠ2勝＋舞台適性抜群</strong>で仕上がりも良好。対抗は<strong>菊花賞馬ドゥレッツァ</strong>。<strong>逃げ先行型＋底力＋巻き返し期待</strong>で注目度高。さらに<strong>ドゥラドーレス</strongは<strong>レガレイラの半兄＋末脚型</strong>で血統的にも話題。穴なら<strong>中山巧者コスモキュランダ</strongや<strong>目黒記念2着ホーエリート</strongなど、<strong>枠順と展開次第で台頭可能な伏兵陣</strong>も揃う。過去10年の傾向では<strong>1枠が連対率トップ</strong>、<strong>脚質は先行・差しが互角</strong>でフラットな展開予想。<strong>波乱度「低」</strong>ながら、<strong>三連系では中穴の激走も</strong>。2025年9月21日（日）15:45発走予定──<strong>秋のGⅠ戦線を占う実力馬激突の一戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/ne3bc099dd728",
+      "preview_text": "<div class='note-preview'><p>オールカマーは天皇賞・秋の前哨戦で、<strong>中山芝2200mは外回り＋急坂＋持続力勝負</strong>。秋の始動戦らしく<strong>先行力＋展開＋舞台適性</strong>が鍵を握ります。</p><p><strong>逃げ候補は②リビアングラスと⑪ワイドエンペラー</strong>。②は宝塚記念3着の先行力、⑪はオープンで逃げ実績あり。</p><p>先行勢には⑤ホーエリート、⑥シュバルツクーゲル、⑧リカンカブールが続く。⑤は目黒記念2着の粘り脚、⑥は中山2200mで好位粘りの実績、⑧は昨年3着＋中山適性高く展開有利。</p><p><strong>差し・追い込み勢では④レガレイラ、⑨ドゥラドーレス、③クロミナンスが注目</strong>。④は有馬記念馬＋中山GⅠ2勝の舞台巧者、⑨は七夕賞2着＋末脚型、③はアルゼンチン共和国杯2着のベテランで展開次第。</p><p><strong>展開の焦点は②がハナを奪うか⑪が譲らず平均ペースに持ち込むか</strong>。スローなら⑤⑥⑧の押し切り、平均～やや速めなら④⑨③の差し台頭も。</p><p>今年は別定戦で、<strong>斤量差＋枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は④レガレイラと⑨ドゥラドーレス</strong>。⑤ホーエリートの粘りや③クロミナンスの差し脚にも注目。</p><p>オールカマーは、<strong>持続力＋展開＋中山適性</strong>が馬券のカギを握る秋のGⅠ戦線を占う一戦です。</p></div>",
+      "text_banner1": "天皇賞・秋へ向けた実力馬の始動戦──中山芝2200mで行われる第70回オールカマー",
+      "text_banner2": "オールカマーのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250921_allcomer.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/ne3bc099dd728' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250921_allcomer.png' alt='オールカマー' /></div></a>"
+    },
+    {
+      "id": "20250921_kobe",
+      "date": "2025-09-21",
+      "name": "神戸新聞杯",
+      "grade": "G2",
+      "venue": "阪神・芝2400m",
+      "sections": {
+        "preview": "output/20250921_kobe.html#preview",
+        "review": "output/20250921_kobe.html#review",
+        "highlight": "output/20250921_kobe.html#highlight"
+      },
+      "image": {
+        "file": "_20250921_G2.png",
+        "alt": "神戸新聞杯・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>神戸新聞杯</strong>は阪神芝2400mで行われる<strong>菊花賞トライアルの最重要ステップ</strong>。<strong>クラシック実績馬の秋初戦</strongとして注目度が高く、<strong>距離延長＋外回りコース</strong>で<strong>持続力と立ち回り力</strong>が問われる一戦です。今年は<strong>ダービー3着のショウヘイ</strong>が中心。<strong>京都新聞杯逃げ切り＋先行力＋持続型</strong>で展開有利。対抗は<strong>ダービー5着のエリキング</strong>。<strong>川田騎乗＋末脚型＋調教A+</strong>で差し浮上も。さらに<strong>皐月賞4着のジョバンニ</strong>は<strong>自在型＋阪神適性</strong>で逆転候補。穴なら<strong>ライトトラック</strong>。<strong>中京2200m勝ち＋成長力＋好枠</strong>で一発警戒。過去10年の傾向では<strong>3枠が最多3勝</strong>、<strong>1枠は複勝率0％</strong>と枠順差が明確。<strong>差し・先行が優勢</strong>で、<strong>ダービー組が9勝</strong>と圧倒的。<strong>波乱度「低」</strong>の堅実決着傾向ながら、<strong>枠順と展開のズレで伏兵台頭も</strong>。2025年9月21日（日）15:35発走予定──<strong>最後の一冠へ向けた運命の前哨戦</strong>を制するのは、果たしてどの馬か。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n794a8c1f20d0",
+      "preview_text": "<div class='note-preview'><p>神戸新聞杯は菊花賞トライアルの最重要ステップで、<strong>阪神芝2400mは外回り＋急坂＋持続力勝負</strong>。開幕週の馬場で<strong>先行力＋立ち回り＋展開読み</strong>が鍵を握ります。</p><p><strong>逃げ候補は③アルマデオロと⑨デルアヴァー</strong>。③は札幌2600mで逃げ粘り、⑨は中京2200mで先行力を見せています。</p><p>先行勢には⑤ショウヘイ、⑩エリキング、②ジョバンニが続く。⑤は京都新聞杯逃げ切り＋ダービー3着の実力馬、⑩はダービー5着＋川田騎乗で末脚強化、②は皐月賞4着＋自在型で展開に応じて動けるタイプ。</p><p><strong>差し・追い込み勢では④ジョイボーイ、⑥サンライズバブル、①ライトトラックが注目</strong>。④は小倉2600mで差し切り勝ち、⑥は阪神2400mで差し脚を見せており展開次第で浮上可能、①は最内枠＋秋成長型で一発警戒。</p><p><strong>展開の焦点は③がハナを奪うか⑨が譲らず平均ペースに持ち込むか</strong>。スローなら⑤②⑩の押し切り、平均～速めなら④⑥①の差し台頭も。</p><p>今年は馬齢戦で、<strong>斤量差はなく純粋な能力＋枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑤ショウヘイと⑩エリキング</strong>。②ジョバンニの自在性や④ジョイボーイの差し脚にも注目。</p><p>神戸新聞杯は、<strong>持続力＋展開＋秋の成長力</strong>が馬券のカギを握る菊花賞への前哨戦です。</p></div>",
+      "text_banner1": "菊花賞トライアルの最重要ステップ──阪神芝2400m",
+      "text_banner2": "神戸新聞杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250921_kobe.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n794a8c1f20d0' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250921_kobe.png' alt='神戸新聞杯' /></div></a>"
+    },
+    {
+      "id": "20250928_sprinters",
+      "date": "2025-09-28",
+      "name": "スプリンターズステークス",
+      "grade": "G1",
+      "venue": "中山・芝1200m",
+      "sections": {
+        "preview": "output/20250928_sprinters.html#preview",
+        "review": "output/20250928_sprinters.html#review",
+        "highlight": "output/20250928_sprinters.html#highlight"
+      },
+      "image": {
+        "file": "スプリンタ_ズ_20250928_G1.png",
+        "alt": "スプリンターズステークス・2025年G1"
+      },
+      "review": "<p>2025年9月28日（日）に行われたスプリンターズステークス（GⅠ・中山芝1200m）は、11番人気のウインカーネリアンが大外枠から果敢に先行し、直線で逃げるジューンブレアとの壮絶な叩き合いを制してGⅠ初制覇を飾る劇的な結末となった。スタート直後、⑬ジューンブレアがハナを奪い、前半600mは33.7秒の平均ペース。⑯ウインカーネリアンは外枠から好スタートを決めて2番手を確保し、絶妙な折り合いで直線へ。逃げ粘るジューンブレアに並びかけると、最後はアタマ差で差し切り、場内は歓喜と驚愕に包まれた。勝ちタイムは1:06.9（良）。3着には⑥ナムラクレアが入り、差し勢が届かない展開の中、先行力と持続力を武器に8歳馬が頂点に立った。鞍上の三浦皇成騎手もこれがJRA GⅠ初制覇。マイル実績馬のスプリント対応力、そして騎手の熟練した位置取りが勝敗を分けた歴史的な一戦となった。</p>",
+      "highlight": "<p><strong>スプリンターズステークス</strong>は中山芝1200mで行われる<strong>秋の短距離王決定戦</strong。<strong>高松宮記念組＋サマースプリント王者＋海外GⅠ帰りの実力馬</strongが激突する注目のGⅠです。今年は<strong>香港GⅠ連続2着のサトノレーヴ</strongが中心。<strong>モレイラ騎乗＋中山適性＋調教A</strongで信頼度高。対抗は<strong>高松宮記念覇者ママコチャ</strong。<strong>岩田望騎乗＋好位抜け出し型＋調教良好</strongで好勝負必至。さらに<strong>ナムラクレア</strongは<strong>ルメール騎乗＋末脚型＋海外帰り</strongで逆転候補。他にも<strong>トウシンマカオ</strong（横山武史）や<strong>ルガル</strong（川田将雅）など<strong>スピード自慢の先行馬</strongが揃い、<strong>波乱度「中」</strongの一戦。<strong>外枠優勢＋差し馬台頭の傾向</strongも踏まえ、<strong>枠順と展開が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n794a8c1f20d0",
+      "preview_text": "",
+      "text_banner1": "菊花賞トライアルの最重要ステップ──阪神芝2400m",
+      "text_banner2": "スプリンターズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20250928_sprinters.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n794a8c1f20d0' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250928_sprinters.png' alt='スプリンターズステークス' /></div></a>"
+    },
+    {
+      "id": "20251005_mainichi_oukan",
+      "date": "2025-10-05",
+      "name": "毎日王冠",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "output/20251005_mainichi_oukan.html#preview",
+        "review": "output/20251005_mainichi_oukan.html#review",
+        "highlight": "output/20251005_mainichi_oukan.html#highlight"
+      },
+      "image": {
+        "file": "_20251005_G2.png",
+        "alt": "毎日王冠・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>毎日王冠</strong>は東京芝1800mで行われる<strong>秋の中距離王決定戦</strong。<strong>天皇賞・秋やマイルCSを見据えた精鋭が集結</strongする注目のGⅡです。今年は<strong>ダービー4着のサトノシャイニング</strongが中心。<strong>東京芝適性＋武豊騎乗＋調教A</strongで信頼度高。対抗は<strong>牝馬二冠チェルヴィニア</strong。<strong>戸崎騎乗＋距離延長＋馬体回復</strongで巻き返し濃厚。さらに<strong>エルトンバローズ</strongは<strong>安田記念組＋東京巧者</strongで逆転候補。他にも<strong>ホウオウビスケッツ</strong（函館記念馬）、<strong>レーベンスティール</strong（エプソムC勝ち）、<strong>シリウスコルト</strong（新潟大賞典馬）など<strong>古馬重賞馬＋クラシック上位馬が揃う混戦模様</strong。<strong>波乱度「中」</strongの一戦で、<strong>東京芝1800mは差し優勢＋外枠有利の傾向</strongも踏まえ、<strong>枠順と展開が鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n26984773e186",
+      "preview_text": "<div class='note-preview'><p>毎日王冠は秋の中距離戦線を占う重要な一戦で、<strong>東京芝1800mは開幕週の高速馬場＋長い直線が展開を左右</strong>。外差し優勢の傾向で、<strong>逃げ候補は⑧ホウオウビスケッツ</strong>、先行勢は②エルトンバローズ・⑪シリウスコルト・⑦シルトホルン、差し勢は⑥チェルヴィニア・⑩サトノシャイニングが注目。<strong>スローなら②⑦⑪の押し切り、平均〜速めなら⑥⑩の差し台頭が焦点</strong>となる展開予想です。</p></div>",
+      "text_banner1": "<p><strong>東京開幕週で激突！</strong><br>サトノシャイニング・チェルヴィニア・シックスペンスが集結！<br></p>",
+      "text_banner2": "毎日王冠のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251005_mainichi_oukan.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n26984773e186' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251005_mainichi_oukan.png' alt='毎日王冠' /></div></a>"
+    },
+    {
+      "id": "20251005_kyoto_daishoten",
+      "date": "2025-10-05",
+      "name": "京都大賞典",
+      "grade": "G2",
+      "venue": "京都・芝2400m",
+      "sections": {
+        "preview": "output/20251005_kyoto_daishoten.html#preview",
+        "review": "output/20251005_kyoto_daishoten.html#review",
+        "highlight": "output/20251005_kyoto_daishoten.html#highlight"
+      },
+      "image": {
+        "file": "_20251005_G2.png",
+        "alt": "京都大賞典・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京都大賞典</strong>は京都芝2400mで行われる<strong>秋の古馬中長距離重賞</strong。<strong>天皇賞・秋やジャパンCを見据えた実力馬の始動戦</strongとして注目のGⅡです。今年は<strong>菊花賞馬ドゥレッツァ</strongが中心。<strong>ジャパンC2着＋ドバイ3着の実績＋調教A</strongで信頼度高。対抗は<strong>目黒記念勝ちのアドマイヤテラ</strong。<strong>川田騎乗＋京都適性＋成長力</strongで好勝負必至。さらに<strong>阪神大賞典覇者サンライズアース</strongは<strong>スタミナ型＋長距離適性</strongで逆転候補。他にも<strong>ショウナンラプンタ</strong（春の重賞好走）、<strong>ボルドグフーシュ</strong（有馬記念2着）、<strong>サブマリーナ</strong（チャレンジC好走）など<strong>実績馬＋上がり馬が揃う混戦模様</strong。<strong>波乱度「中」</strongの一戦で、<strong>展開と枠順＋仕上がりが鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n757a939b3bd7?app_launch=false",
+      "preview_text": "<div class='note-preview'><p>京都大賞典は秋の中長距離戦線を占う重要な一戦で、<strong>京都芝2400mは開幕週の高速馬場＋外回りで持続力と位置取りが鍵</strong>。<strong>逃げ候補は⑤サンライズアース</strong>、先行勢は④アドマイヤテラ・⑦ドゥレッツァ・⑭サブマリーナ、差し勢は⑯ボルドグフーシュ・⑰アルナシーム・⑱ショウナンラプンタが注目。<strong>スローなら④⑦⑭の押し切り、平均〜速めなら⑯⑰⑱の差し台頭が焦点</strong>となる展開予想です。</p></div>",
+      "text_banner1": "<p><strong>京都開幕週で激突！</strong><br>ドゥレッツァ・アドマイヤテラ・サンライズアースが集結！<br></p>",
+      "text_banner2": "京都大賞典のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251005_kyoto_daishoten.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n757a939b3bd7?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251005_kyoto_daishoten.png' alt='京都大賞典' /></div></a>"
+    },
+    {
+      "id": "20251011_saudi_royal",
+      "date": "2025-10-11",
+      "name": "サウジアラビアロイヤルカップ",
+      "grade": "G3",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "output/saudi_royal.html#preview",
+        "review": "output/saudi_royal.html#review",
+        "highlight": "output/saudi_royal.html#highlight"
+      },
+      "image": {
+        "file": "サウジアラビアロイヤル_20251011_G3.png",
+        "alt": "サウジアラビアロイヤルカップ・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251012_ireland_fuchu",
+      "date": "2025-10-12",
+      "name": "アイルランドトロフィー府中牝馬ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "output/ireland_fuchu.html#preview",
+        "review": "output/ireland_fuchu.html#review",
+        "highlight": "output/ireland_fuchu.html#highlight"
+      },
+      "image": {
+        "file": "アイルランドトロフィ_20251012_G2.png",
+        "alt": "アイルランドトロフィー府中牝馬ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
       "id": "20251013_swan",
       "date": "2025-10-13",
       "name": "スワンステークス",
@@ -90,6 +711,554 @@
       "text_banner2": "菊花賞のデータ予想＋買い目はこちら",
       "horse_image_path": "../images/20251026_kikka.png",
       "note_banner": "<a href='https://note.com/coro_pepa/n/nc95cadd418c1?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251026_kikka.png' alt='菊花賞' /></div></a>"
+    },
+    {
+      "id": "20251101_fantasy",
+      "date": "2025-11-01",
+      "name": "ファンタジーステークス",
+      "grade": "G3",
+      "venue": "京都・芝1400m",
+      "sections": {
+        "preview": "output/fantasy.html#preview",
+        "review": "output/fantasy.html#review",
+        "highlight": "output/fantasy.html#highlight"
+      },
+      "image": {
+        "file": "ファンタジ_20251101_G3.png",
+        "alt": "ファンタジーステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する ファンタジーステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251102_tenno_autumn",
+      "date": "2025-11-02",
+      "name": "天皇賞（秋）",
+      "grade": "G1",
+      "venue": "東京・芝2000m",
+      "sections": {
+        "preview": "output/20251102_tenno_autumn.html#preview",
+        "review": "output/20251102_tenno_autumn.html#review",
+        "highlight": "output/20251102_tenno_autumn.html#highlight"
+      },
+      "image": {
+        "file": "_20251102_G1.png",
+        "alt": "天皇賞（秋）・2025年G1"
+      },
+      "highlight": "<p><strong>天皇賞・秋</strong>は東京芝2000mで行われる<strong>秋の中距離王決定戦</strong。<strong>3歳勢vs古馬の世代頂上決戦</strongで、<strong>皐月賞馬ミュージアムマイル・ダービー2着マスカレードボール</strongが挑む。迎え撃つは<strong>宝塚記念覇者メイショウタバル</strongと<strong>香港QE2世C勝ちのタスティエーラ</strong。今年は<strong>半数以上がGⅠ馬の超豪華メンバー</strongで、<strong>瞬発力勝負＋東京適性＋枠順が鍵</strong。注目は<strong>左回り克服を狙うミュージアムマイル</strongと<strong>東京巧者マスカレードボール</strong。<strong>波乱度「中」</strongの一戦で、<strong>馬番①〜⑨が過去10年勝ち馬ゾーン</strong。<strong>展開と位置取りが勝敗を分ける伝統の盾決戦</strongです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/nc95cadd418c1?app_launch=false",
+      "review": "<p>2025年11月2日（日）に行われた天皇賞（秋）（GⅠ・東京芝2000m）は、1番人気の<strong>マスカレードボール</strong>が中団追走から直線で豪快に抜け出し、3歳馬ながら古馬勢を一蹴してGⅠ初制覇を飾る圧巻の内容となった。スタート直後、⑬メイショウタバルがハナを奪い、1000m通過は62.0秒のスローペース。⑦マスカレードボールは折り合い重視で6番手を追走し、直線では馬場の中央から一気に加速。ラスト200mで先行勢をまとめて交わすと、上がり32.3秒の末脚で2着⑨ミュージアムマイルに3/4馬身差をつけて快勝。3着には⑥ジャスティンパレスが入り、古馬勢の意地も見せた。勝ちタイムは<strong>1:58.6（良）</strong>。鞍上の<strong>C.ルメール騎手</strong>はこれでGⅠ3週連続制覇、東京芝2000mの絶対王者としての手腕を証明した。馬場はフラットで内外差なし、純粋な能力と仕掛けのタイミングが勝敗を分けた歴史的な一戦となった。</p>",
+      "preview_text": "<div class='note-preview'><p>天皇賞・秋は<strong>東京芝2000mの瞬発力勝負＋位置取りが鍵</strong>で、<strong>逃げ候補は⑬メイショウタバル</strong>、先行勢に⑫セイウンハーデス・⑧ホウオウビスケッツが続き、<strong>差し・追い込み勢では⑦マスカレードボール・⑤タスティエーラ・⑨ミュージアムマイルが注目</strong>。展開の焦点は⑬が単騎で逃げるか⑧が絡んでペースが上がるかで、<strong>スローなら⑤⑦の押し切り、平均～速めなら⑨⑦の差し台頭も</strong。<strong>今年は定量戦で、枠順＋展開読み＋直線の加速性能が勝敗を分ける</strong>。<strong>軸候補は⑦マスカレードボールと⑤タスティエーラ</strong>、⑨ミュージアムマイルの一撃にも注目。</p></div>",
+      "text_banner1": "<p><strong>天皇賞・秋（GⅠ）</strong>は<strong>東京芝2000mで行われる秋の中距離王決定戦</p>",
+      "text_banner2": "天皇賞賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251102_tenno_autumn.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/nc95cadd418c1?app_launch=false' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251102_tenno_autumn.png' alt='天皇賞' /></div></a>"
+    },
+    {
+      "id": "20251108_keio_2sai",
+      "date": "2025-11-08",
+      "name": "京王杯2歳ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1400m",
+      "sections": {
+        "preview": "output/keio_2sai.html#preview",
+        "review": "output/keio_2sai.html#review",
+        "highlight": "output/keio_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20251108_G2.png",
+        "alt": "京王杯2歳ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 京王杯2歳ステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251108_kyoto_jump",
+      "date": "2025-11-08",
+      "name": "京都ジャンプステークス",
+      "grade": "J-G3",
+      "venue": "京都・障害3170m",
+      "sections": {
+        "preview": "output/kyoto_jump.html#preview",
+        "review": "output/kyoto_jump.html#review",
+        "highlight": "output/kyoto_jump.html#highlight"
+      },
+      "image": {
+        "file": "_20251108_G3.png",
+        "alt": "京都ジャンプステークス・2025年J-G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 京都ジャンプステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251109_argentina",
+      "date": "2025-11-09",
+      "name": "アルゼンチン共和国杯",
+      "grade": "G2",
+      "venue": "東京・芝2500m",
+      "sections": {
+        "preview": "output/20251109_argentina.html#preview",
+        "review": "output/20251109_argentina.html#review",
+        "highlight": "output/20251109_argentina.html#highlight"
+      },
+      "image": {
+        "file": "アルゼンチン_20251109_G2.png",
+        "alt": "アルゼンチン共和国杯・2025年G2"
+      },
+      "highlight": "<p><strong>アルゼンチン共和国杯</strong>は東京芝2500mで行われる<strong>秋の伝統ハンデGⅡ</strong。<strong>ジャパンCや有馬記念を見据えるステイヤーの登竜門</strongで、<strong>東京芝2500m実績馬が毎年好走</strongする傾向。今年は<strong>札幌日経賞快勝のスティンガーグラス</strongが中心。<strong>ルメール騎乗＋距離適性＋木村厩舎の相性</strongが魅力。対抗は<strong>毎日王冠4着のディマイザキッド</strong。<strong>末脚鋭く、距離延長で新境地を狙う</strong。他にも<strong>目黒記念勝ち馬シュトルーヴェ</strong、<strong>安定感あるホーエリート</strong、<strong>逃げ脚光るミステリーウェイ</strongなど<strong>長距離巧者が揃い、波乱度「高」</strongの一戦。<strong>東京芝2500mは差し馬有利＋リピーター傾向</strongが強く、<strong>展開と斤量が勝敗を分ける鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n796b4e8ea7fe",
+      "review": "",
+      "preview_text": "<p>アルゼンチン共和国杯は秋の東京芝2500mで行われる伝統のハンデGⅡで、<strong>長距離適性＋持続力＋展開読みが勝敗を左右</strong>。直線の長い東京コースらしく<strong>差し・追い込み有利＋外枠優勢</strong>の傾向。</p><p><strong>逃げ候補は⑩マイネルカンパーナと⑬ミステリーウェイ</strong>。⑩はスタミナ型で自分のペースに持ち込むタイプ、⑬は札幌日経賞で逃げ粘った実績あり。</p><p>先行勢には⑥ディマイザキッド、⑦シュトルーヴェ、⑧ボーンディスウェイが続く。⑥は毎日王冠好走で距離延長が魅力、⑦は目黒記念勝ちの東京巧者、⑧は菊花賞3着馬でスタミナ十分。</p><p><strong>差し・追い込み勢では③ローシャムパーク、⑱スティンガーグラス、⑪ホーエリートが注目</strong>。③はBCターフ2着の実績馬、⑱は札幌日経賞快勝で勢いあり、⑪は牝馬ながら東京芝2500mで安定感抜群。</p><p><strong>展開の焦点は⑩がマイペース逃げを打てるか、⑬が絡んでペースが上がるか</strong>。スローなら⑥⑦⑧の押し切り、平均～速めなら③⑪⑱の差し台頭も。</p><p>今年はハンデ戦で、<strong>斤量差＋展開＋東京適性が鍵</strong>。<strong>軸候補は⑦シュトルーヴェと⑱スティンガーグラス</strong>。③ローシャムパークの復活や⑪ホーエリートの末脚にも注目。</p><p>アルゼンチン共和国杯は、<strong>持続力＋差し脚＋展開読み</strong>が馬券のカギを握る秋のステイヤー決戦です。</p>",
+      "text_banner1": "<p><strong>秋の東京名物・アルゼンチン共和国杯！<strong>展開・斤量・適性が勝敗を分ける伝統のハンデ戦</strongです。</p>",
+      "text_banner2": "アルゼンチン共和国杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251109_argentina.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n796b4e8ea7fe' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251109_argentina.png' alt='天皇賞' /></div></a>"
+    },
+    {
+      "id": "20251109_miyako",
+      "date": "2025-11-09",
+      "name": "みやこステークス",
+      "grade": "G3",
+      "venue": "京都・ダ1800m",
+      "sections": {
+        "preview": "output/miyako.html#preview",
+        "review": "output/miyako.html#review",
+        "highlight": "output/miyako.html#highlight"
+      },
+      "image": {
+        "file": "みやこ_20251109_G3.png",
+        "alt": "みやこステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する みやこステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251115_musashino",
+      "date": "2025-11-15",
+      "name": "武蔵野ステークス",
+      "grade": "G3",
+      "venue": "東京・ダ1600m",
+      "sections": {
+        "preview": "output/musashino.html#preview",
+        "review": "output/musashino.html#review",
+        "highlight": "output/musashino.html#highlight"
+      },
+      "image": {
+        "file": "_20251115_G3.png",
+        "alt": "武蔵野ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 武蔵野ステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251115_daily_2sai",
+      "date": "2025-11-15",
+      "name": "デイリー杯2歳ステークス",
+      "grade": "G2",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/daily_2sai.html#preview",
+        "review": "output/daily_2sai.html#review",
+        "highlight": "output/daily_2sai.html#highlight"
+      },
+      "image": {
+        "file": "デイリ_2_20251115_G2.png",
+        "alt": "デイリー杯2歳ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する デイリー杯2歳ステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251116_elizabeth",
+      "date": "2025-11-16",
+      "name": "エリザベス女王杯",
+      "grade": "G1",
+      "venue": "京都・芝2200m",
+      "sections": {
+        "preview": "output/20251116_elizabeth.html#preview",
+        "review": "output/20251116_elizabeth.html#review",
+        "highlight": "output/20251116_elizabeth.html#highlight"
+      },
+      "image": {
+        "file": "エリザベス_20251116_G1.png",
+        "alt": "エリザベス女王杯・2025年G1"
+      },
+      "highlight": "<p><strong>エリザベス女王杯</strong>は京都芝2200mで行われる<strong>牝馬中距離GⅠの頂上決戦</strong。<strong>3歳vs古馬の世代対決</strongが最大の見どころで、<strong>有馬記念覇者レガレイラ</strongが<strong>GⅠ・3勝目を狙う注目の主役</strong。対抗は<strong>秋華賞2着のエリカエクスプレス</strongと<strong>京都2戦2連対の淀巧者</strong。さらに<strong>桜花賞馬ステレンボッシュ</strong、<strong>復活を期すシンリョクカ</strong、<strong>安定感あるサフィラ</strongらが虎視眈々。<strong>波乱度「中」</strongの一戦で、<strong>内枠＋好位取りが有利</strongな傾向。<strong>枠順と展開が勝敗を左右</strongし、<strong>女王戴冠の瞬間</strongに注目です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "<p><div class='note-preview'><p>エリザベス女王杯は<strong>京都芝2200mの内回りで行われる牝馬中距離GⅠ</strong>で、<strong>内枠先行有利＋差し馬の末脚が展開を左右</strong>。</p><p><strong>逃げ候補は⑧ミッキーゴージャスと⑩アリスヴェリテ</strong>。⑧は前走府中牝馬Sで果敢な先行策、⑩は中距離での粘り強さが武器。</p><p>先行勢には①パラディレーヌ、③シンリョクカ、⑤サフィラが続く。①は1枠からロスなく立ち回れる好枠、③は先行力と持久力が武器、⑤は京都実績あり。</p><p><strong>差し・追い込み勢では②ステレンボッシュ、⑥エリカエクスプレス、⑦レガレイラ、⑯リンクスティップが注目</strong>。②は桜花賞馬で内枠からの差し脚に期待、⑥は秋華賞2着の実力馬、⑦はグランプリホースで京都外回り向き、⑯は大外からの一発狙い。</p><p><strong>展開の焦点は⑧が単騎で逃げるか⑩が競りかけてペースが上がるか</strong>。スローなら①③⑤の粘り込み、平均～速めなら②⑥⑦⑯の差し台頭も。</p><p>今年は別定戦で、<strong>斤量差＋枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑦レガレイラと⑥エリカエクスプレス</strong>。②ステレンボッシュの復活や⑯リンクスティップの末脚にも注目。</p><p>エリザベス女王杯は、<strong>内枠先行＋外差し＋展開読み</strong>が馬券のカギを握る牝馬GⅠ決戦です。</p></div>",
+      "text_banner1": " 「牝馬の頂上決戦、京都芝2200mで激突！世代交差のエリザベス女王杯",
+      "text_banner2": "エリザベス女王杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251116_elizabeth.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251116_elizabeth.png' alt='エリザベス女王杯' /></div></a>"
+    },
+    {
+      "id": "20251122_fukushima_kinen",
+      "date": "2025-11-22",
+      "name": "福島記念",
+      "grade": "G3",
+      "venue": "福島・芝2000m",
+      "sections": {
+        "preview": "output/fukushima_kinen.html#preview",
+        "review": "output/fukushima_kinen.html#review",
+        "highlight": "output/fukushima_kinen.html#highlight"
+      },
+      "image": {
+        "file": "_20251122_G3.png",
+        "alt": "福島記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 福島記念。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251123_milecs",
+      "date": "2025-11-23",
+      "name": "マイルチャンピオンシップ",
+      "grade": "G1",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/20251123_milecs.html#preview",
+        "review": "output/20251123_milecs.html#review",
+        "highlight": "output/20251123_milecs.html#highlight"
+      },
+      "image": {
+        "file": "マイルチャンピオンシップ_20251123_G1.png",
+        "alt": "マイルチャンピオンシップ・2025年G1"
+      },
+      "highlight": "<p><strong>マイルチャンピオンシップ</strong>は京都芝1600mで行われる<strong>秋のマイル王決定戦</strong。<strong>安田記念・富士S・毎日王冠など主要前哨戦組が集結</strongし、<strong>スピードと瞬発力の頂上決戦</strongとなります。今年は<strong>安田記念覇者の⑮ジャンタルマンタル</strongが中心。<strong>国内マイルGⅠ3勝＋地力最上位</strongで春秋制覇を狙う。対抗は<strong>ヴィクトリアマイル勝ちの⑤アスコリピチェーノ</strong。<strong>ルメール騎乗＋安定感</strongで好勝負必至。他にも<strong>富士S勝ちの⑥ガイアフォース</strong、<strong>昨年覇者⑰ソウルラッシュ</strong、<strong>毎日王冠組の⑦チェルヴィニア</strongなど<strong>実績馬と新興勢力が激突</strong。<strong>波乱度「中」</strongの一戦で、<strong>差し脚優勢＋外枠不利の傾向</strongを踏まえ、<strong>枠順と展開が勝敗を分ける</strong注目のマイル決戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "<div class='note-preview'><p>マイルチャンピオンシップは<strong>京都芝1600m外回りで行われる秋のマイル王決定戦</strong>で、<strong>瞬発力勝負＋位置取りが展開を左右</strong>。</p><p><strong>逃げ候補は④マジックサンズと⑧カンチェンジュンガ</strong>。④は武豊騎乗で先行力を活かす構え、⑧は持ち味のスピードでハナを主張。</p><p>先行勢には①トウシンマカオ、②シャンパンカラー、⑤アスコリピチェーノが続く。①は最内枠からロスなく好位、②は安定した先行力、⑤はヴィクトリアマイル覇者で好位抜け出し型。</p><p><strong>差し・追い込み勢では⑥ガイアフォース、⑦チェルヴィニア、⑮ジャンタルマンタル、⑰ソウルラッシュが注目</strong>。⑥は富士S勝ちの末脚型、⑦は毎日王冠組で成長著しい、⑮は安田記念馬で春秋制覇狙い、⑰は昨年覇者で京都外回り適性抜群。</p><p><strong>展開の焦点は④が単騎で逃げるか⑧が競りかけてペースが上がるか</strong>。スローなら①②⑤の粘り込み、平均～速めなら⑥⑦⑮⑰の差し台頭も。</p><p>今年は定量戦で、<strong>枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑮ジャンタルマンタルと⑤アスコリピチェーノ</strong>。⑥ガイアフォースの差し脚や⑰ソウルラッシュの連覇挑戦にも注目。</p><p>マイルCSは、<strong>瞬発力＋位置取り＋展開読み</strong>が馬券のカギを握る秋のマイル決戦です。</p></div>",
+      "text_banner1": "マイルチャンピオンシップ</strong>は京都芝1600mで行われる<strong>秋のマイル王決定戦",
+      "text_banner2": "マイルチャンピオンシップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251123_milecs.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251123_milecs.png' alt='マイルチャンピオンシップ' /></div></a>"
+    },
+    {
+      "id": "20251124_tokyo_sports_2sai",
+      "date": "2025-11-24",
+      "name": "東京スポーツ杯2歳ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "output/tokyo_sports_2sai.html#preview",
+        "review": "output/tokyo_sports_2sai.html#review",
+        "highlight": "output/tokyo_sports_2sai.html#highlight"
+      },
+      "image": {
+        "file": "スポ_ツ_2_20251124_G2.png",
+        "alt": "東京スポーツ杯2歳ステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251129_kyoto_2sai",
+      "date": "2025-11-29",
+      "name": "京都2歳ステークス",
+      "grade": "G3",
+      "venue": "京都・芝2000m",
+      "sections": {
+        "preview": "output/kyoto_2sai.html#preview",
+        "review": "output/kyoto_2sai.html#review",
+        "highlight": "output/kyoto_2sai.html#highlight"
+      },
+      "image": {
+        "file": "2_20251129_G3.png",
+        "alt": "京都2歳ステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251130_japan_cup",
+      "date": "2025-11-30",
+      "name": "ジャパンカップ",
+      "grade": "G1",
+      "venue": "東京・芝2400m",
+      "sections": {
+        "preview": "output/japan_cup.html#preview",
+        "review": "output/japan_cup.html#review",
+        "highlight": "output/japan_cup.html#highlight"
+      },
+      "image": {
+        "file": "ジャパン_20251130_G1.png",
+        "alt": "ジャパンカップ・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251130_keihan",
+      "date": "2025-11-30",
+      "name": "京阪杯",
+      "grade": "G3",
+      "venue": "京都・芝1200m",
+      "sections": {
+        "preview": "output/keihan.html#preview",
+        "review": "output/keihan.html#review",
+        "highlight": "output/keihan.html#highlight"
+      },
+      "image": {
+        "file": "_20251130_G3.png",
+        "alt": "京阪杯・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251206_stayers",
+      "date": "2025-12-06",
+      "name": "ステイヤーズステークス",
+      "grade": "G2",
+      "venue": "中山・芝3600m",
+      "sections": {
+        "preview": "output/stayers.html#preview",
+        "review": "output/stayers.html#review",
+        "highlight": "output/stayers.html#highlight"
+      },
+      "image": {
+        "file": "ステイヤ_ズ_20251206_G2.png",
+        "alt": "ステイヤーズステークス・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251206_naruo",
+      "date": "2025-12-06",
+      "name": "鳴尾記念",
+      "grade": "G3",
+      "venue": "阪神・芝1800m",
+      "sections": {
+        "preview": "output/naruo.html#preview",
+        "review": "output/naruo.html#review",
+        "highlight": "output/naruo.html#highlight"
+      },
+      "image": {
+        "file": "_20251206_G3.png",
+        "alt": "鳴尾記念・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251207_champions",
+      "date": "2025-12-07",
+      "name": "チャンピオンズカップ",
+      "grade": "G1",
+      "venue": "中京・ダ1800m",
+      "sections": {
+        "preview": "output/champions.html#preview",
+        "review": "output/champions.html#review",
+        "highlight": "output/champions.html#highlight"
+      },
+      "image": {
+        "file": "チャンピオンズ_20251207_G1.png",
+        "alt": "チャンピオンズカップ・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251213_chunichi",
+      "date": "2025-12-13",
+      "name": "中日新聞杯",
+      "grade": "G3",
+      "venue": "中京・芝2000m",
+      "sections": {
+        "preview": "output/chunichi.html#preview",
+        "review": "output/chunichi.html#review",
+        "highlight": "output/chunichi.html#highlight"
+      },
+      "image": {
+        "file": "_20251213_G3.png",
+        "alt": "中日新聞杯・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 中日新聞杯。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251214_capella",
+      "date": "2025-12-14",
+      "name": "カペラステークス",
+      "grade": "G3",
+      "venue": "中山・ダ1200m",
+      "sections": {
+        "preview": "output/capella.html#preview",
+        "review": "output/capella.html#review",
+        "highlight": "output/capella.html#highlight"
+      },
+      "image": {
+        "file": "カペラ_20251214_G3.png",
+        "alt": "カペラステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する カペラステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251214_juvenile_fillies",
+      "date": "2025-12-14",
+      "name": "阪神ジュベナイルフィリーズ",
+      "grade": "G1",
+      "venue": "阪神・芝1600m",
+      "sections": {
+        "preview": "output/20251214_juvenile_fillies.html#preview",
+        "review": "output/20251214_juvenile_fillies.html#review",
+        "highlight": "output/20251214_juvenile_fillies.html#highlight"
+      },
+      "image": {
+        "file": "ジュベナイルフィリ_ズ_20251214_G1.png",
+        "alt": "阪神ジュベナイルフィリーズ・2025年G1"
+      },
+      "highlight": "<p><strong>阪神ジュベナイルフィリーズ</strong>は阪神芝1600mで行われる<strong>2歳牝馬限定のGⅠ</strong>。<strong>翌年の桜花賞を占う重要な一戦</strong>で、<strong>2歳女王決定戦</strong>として注目度は抜群。今年は<strong>重賞勝ち馬不在の大混戦模様</strongで、<strong>白菊賞を圧勝したマーゴットラヴミー</strongや<strong>サフラン賞勝ちのアルバンヌ</strong、<strong>オークス馬シンハライトの仔アランカール</strongなど<strong>素質馬が激突</strong。<strong>差し・追い込みが決まりやすい阪神外回り</strongで、<strong>瞬発力と底力のバランス</strongが問われる。<strong>前走2着以内＋アルテミスS組が好相性</strongで、<strong>上がり3F上位馬が台頭しやすい傾向</strong。<strong>波乱度「中」～「小」</strongで、<strong>本命馬からのヒモ荒れ狙いが有効</strong。<strong>2歳牝馬の頂点を懸けた熱戦</strongに注目です！</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "<div class='note-preview'><p>阪神ジュベナイルフィリーズは<strong>阪神芝1600m外回りで行われる2歳女王決定戦</strong>。<strong>差し・追い込み有利＋瞬発力勝負</strong>が基本傾向。</p><p><strong>逃げ候補は⑥アルバンヌと⑰タイセイボーグ</strong>。⑥は完成度高く好位抜け出し型、⑰はスピード持続力でハナを奪う可能性。</p><p>先行勢には⑧ヒズマスターピースが続く。⑧は東京で強烈な末脚を見せたが、阪神外回りでも好位からの競馬が可能。</p><p><strong>差し・追い込み勢では③ミツカネベネラ、⑮ラスティングスノー、⑱ショウナンカリスが注目</strong>。③は総合力高く展開次第で浮上、⑮は渋った馬場でも対応可能、⑱は外枠から豪快な差し脚を繰り出すタイプ。</p><p><strong>展開の焦点は⑥が単騎で逃げるか⑰が競りかけてペースが上がるか</strong>。スローなら⑥⑧の粘り込み、平均～速めなら③⑮⑱の差し台頭。</p><p>今年は馬齢重量戦で、<strong>枠順＋展開読みが勝敗を分ける</strong>。<strong>軸候補は⑥アルバンヌと⑧ヒズマスターピース</strong>。⑰タイセイボーグの逃げ残りや⑱ショウナンカリスの差し脚にも注目。</p><p>阪神JFは、<strong>瞬発力＋差し脚＋展開読み</strong>が馬券のカギを握る2歳女王決定戦です。</p></div>",
+      "text_banner1": "阪神ジュベナイルフィリーズ</strong>は阪神芝1600mで行われる<strong>2歳女王決定戦",
+      "text_banner2": "阪神ジュベナイルフィリーズのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251214_juvenile_fillies.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251214_juvenile_fillies.png' alt='マイルチャンピオンシップ' /></div></a>"
+    },
+    {
+      "id": "20251220_turquoise",
+      "date": "2025-12-20",
+      "name": "ターコイズステークス",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "output/turquoise.html#preview",
+        "review": "output/turquoise.html#review",
+        "highlight": "output/turquoise.html#highlight"
+      },
+      "image": {
+        "file": "_20251220_G3.png",
+        "alt": "ターコイズステークス・2025年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "",
+      "note_url": ""
+    },
+    {
+      "id": "20251221_asahi_hai",
+      "date": "2025-12-21",
+      "name": "朝日杯フューチュリティステークス",
+      "grade": "G1",
+      "venue": "阪神・芝1600m",
+      "sections": {
+        "preview": "output/20251221_asahi_hai.html#preview",
+        "review": "output/20251221_asahi_hai.html#review",
+        "highlight": "output/20251221_asahi_hai.html#highlight"
+      },
+      "image": {
+        "file": "朝日杯_20251221_G1.png",
+        "alt": "朝日杯フューチュリティステークス・2025年G1"
+      },
+      "highlight": "<p><strong>朝日杯フューチュリティステークス</strong>は阪神芝1600mで行われる<strong>2歳牡牝混合のGⅠ</strong>。<strong>未来のクラシック戦線を占う重要な一戦</strong>で、<strong>スピードと持続力を兼ね備えたマイラーが集結</strongします。今年は<strong>サウジRCを完勝したエコロアルバ</strongが中心。<strong>鋭い末脚と自在性</strongが武器で、<strong>2歳王者の座に最も近い存在</strongです。対抗は<strong>デイリー杯2歳Sを連勝で制したアドマイヤクワッズ</strong。<strong>リアルスティール産駒らしい切れ味</strongと<strong>阪神マイル適性</strongが魅力。他にも<strong>京王杯2歳S覇者ダイヤモンドノット</strong、<strong>新潟2歳S勝ちのリアライズシリウス</strong、<strong>デムーロ騎乗のカヴァレリッツォ</strongなど<strong>重賞好走馬が多数参戦</strongし、<strong>波乱度「中」</strongの一戦。<strong>差し馬優勢＋内枠有利の傾向</strongも踏まえ、<strong>展開と位置取りが勝敗を分ける鍵</strongとなりそうです。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "",
+      "text_banner1": "2歳マイル王決定戦、未来のクラシック候補が激突！",
+      "text_banner2": "朝日杯フューチュリティステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251221_asahi_hai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251221_asahi_hai.png' alt='マイルチャンピオンシップ' /></div></a>"
+    },
+    {
+      "id": "20251227_nakayama_daishogai",
+      "date": "2025-12-27",
+      "name": "中山大障害",
+      "grade": "J-G1",
+      "venue": "中山・障害4100m",
+      "sections": {
+        "preview": "output/nakayama_daishogai.html#preview",
+        "review": "output/nakayama_daishogai.html#review",
+        "highlight": "output/nakayama_daishogai.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_JG1.png",
+        "alt": "中山大障害・2025年J-G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 中山大障害。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251227_hopeful",
+      "date": "2025-12-27",
+      "name": "ホープフルステークス",
+      "grade": "G1",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "output/hopeful.html#preview",
+        "review": "output/hopeful.html#review",
+        "highlight": "output/hopeful.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_G1.png",
+        "alt": "ホープフルステークス・2025年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する ホープフルステークス。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251227_hanshin_cup",
+      "date": "2025-12-27",
+      "name": "阪神カップ",
+      "grade": "G2",
+      "venue": "阪神・芝1400m",
+      "sections": {
+        "preview": "output/hanshin_cup.html#preview",
+        "review": "output/hanshin_cup.html#review",
+        "highlight": "output/hanshin_cup.html#highlight"
+      },
+      "image": {
+        "file": "_20251227_G2.png",
+        "alt": "阪神カップ・2025年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "注目馬が激突する 阪神カップ。展開の鍵を握るのは 。",
+      "note_url": ""
+    },
+    {
+      "id": "20251228_arima",
+      "date": "2025-12-28",
+      "name": "有馬記念",
+      "grade": "G1",
+      "venue": "中山・芝2500m",
+      "sections": {
+        "preview": "output/20251228_arima.html#preview",
+        "review": "output/20251228_arima.html#review",
+        "highlight": "output/20251228_arima.html#highlight"
+      },
+      "image": {
+        "file": "_20251228_G1.png",
+        "alt": "有馬記念・2025年G1"
+      },
+      "highlight": "<p><strong>有馬記念</strong>は中山芝2500mで行われる<strong>年末のグランプリGⅠ</strong>。<strong>ファン投票1位のレガレイラ</strong>が<strong>史上5頭目の連覇</strongを狙い、<strong>宝塚記念覇者メイショウタバル</strong>は<strong>父ゴールドシップとの親子制覇</strongに挑む。<strong>ダービー馬ダノンデサイル</strong>や<strong>皐月賞馬ミュージアムマイル</strong>など<strong>3歳勢の逆襲</strongにも注目。<strong>引退レースとなるジャスティンパレス</strong>のラストランも見逃せない。<strong>先行力とスタミナ、そして中山適性</strongが勝負のカギを握る一戦です。</p>",
+      "note_url": "https://note.com/coro_pepa/n/n39c9c8f2a72b",
+      "review": "レース回顧はレース終了後に追記予定です。",
+      "preview_text": "",
+      "text_banner1": "有馬記念（GⅠ）中山芝2500m  ファンが選ぶ夢の舞台、いよいよ発走",
+      "text_banner2": "有馬記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20251228_arima.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/n/n39c9c8f2a72b' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20251228_arima.png' alt='マイルチャンピオンシップ' /></div></a>"
     },
     {
       "id": "20260104_nakayama_kinpai",
