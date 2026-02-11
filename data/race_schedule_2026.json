@@ -1651,8 +1651,9 @@
         "alt": "京都記念・2026年G2"
       },
       "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
-      "highlight": "<p>春の中距離戦線を占う伝統の一戦・京都記念は<strong>京都芝2200m</strong>で行われ、<strong>持続力と立ち回り</strong>が問われます。</p>",
-      "text_banner1": "",
+      "highlight": "<p><strong>京都記念</strong>は京都芝2200mで行われる<strong>春のGⅠ戦線へ直結する重要ステップ</strong>で、<strong>先行力とロングスパート性能</strong>が問われる一戦。今年は<strong>エコロディノス</strong>が中心で、<strong>キタサンブラック産駒らしい持続力と先行力</strong>が魅力。対抗は<strong>エリキング</strong>で、<strong>川田騎乗＋安定した中距離適性</strong>が強み。さらに<strong>サフィラ</strong>は牝馬ながら<strong>ハーツクライ譲りの末脚</strong>が脅威。伏兵には<strong>ヨーホーレイク</strong>の復調気配、<strong>シェイクユアハート</strong>の充実度も侮れず、<strong>波乱度「中」</strong>の構図。<strong>先行馬有利＋中枠好走傾向</strong>も踏まえ、<strong>展開と仕掛けのタイミング</strong>が勝敗を大きく左右しそうです。</p>",
+      "preview_text": "",
+      "text_banner1": "<div class='race-banner'><span>春のGⅠ戦線を占う重要ステップ！</span><strong>京都記念（GⅡ）</strong>は、<strong>京都芝2200mで行われる伝統の中距離決戦</strong></div>",
       "text_banner2": "",
       "horse_image_path": "../images/20250727_sekiya.png",
       "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
@@ -2784,6 +2785,1734 @@
       "horse_image_path": "../images/20250727_sekiya.png",
       "note_banner": "<a href='https://note.com/coro_pepa/n/n023ac8246cdc' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20250727_sekiya.png' alt='関屋記念バナー' /></div></a>",
       "note_url": "https://note.com/coro_pepa/n/n20260531_meguro_kinen"
+    },
+    {
+      "id": "20260607_yasuda_kinen",
+      "date": "2026-06-07",
+      "name": "安田記念",
+      "grade": "G1",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "output/20260607_yasuda_kinen.html#preview",
+        "review": "output/20260607_yasuda_kinen.html#review",
+        "highlight": "output/20260607_yasuda_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260607_yasuda_kinen.png",
+        "alt": "安田記念・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>安田記念</strong>は春のマイル王決定戦で、東京芝1600mを舞台に行われる<strong>古馬マイルGⅠ</strong>です。<strong>瞬発力とトップスピードの持続</strong>が問われ、上がり32～33秒台の決着も珍しくありません。国内外の一流マイラーが集う、春シーズンの掉尾を飾る一戦です。</p>",
+      "preview_text": "<div class='note-preview'><p>安田記念は<strong>東京芝1600mの高速決着GⅠ</strong>で、<strong>直線の長さと瞬発力</strong>が勝敗を分けます。ペースは平均前後になりやすく、中団からの差し・追い込みが台頭しやすい舞台。<strong>東京マイル実績と上がり性能</strong>を最重視したいレースです。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>春のマイル王決定戦！</span><strong>安田記念（GⅠ）</strong>は東京芝1600mで行われる国内最高峰のマイル戦です。</div>",
+      "text_banner2": "安田記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260607_yasuda_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260607_yasuda_kinen.png' alt='安田記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260613_tokyo_jump_s",
+      "date": "2026-06-13",
+      "name": "東京ジャンプステークス",
+      "grade": "J-G3",
+      "venue": "東京・障害芝3110m",
+      "sections": {
+        "preview": "output/20260613_tokyo_jump_s.html#preview",
+        "review": "output/20260613_tokyo_jump_s.html#review",
+        "highlight": "output/20260613_tokyo_jump_s.html#highlight"
+      },
+      "image": {
+        "file": "20260613_tokyo_jump_s.png",
+        "alt": "東京ジャンプステークス・2026年J-G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>東京ジャンプステークス</strong>は東京競馬場で行われる<strong>障害重賞（J・GⅢ）</strong>で、夏の中山大障害・中山グランドジャンプへとつながる重要ステップです。東京らしく<strong>スピードと飛越の正確さ</strong>が問われる一戦となります。</p>",
+      "preview_text": "<div class='note-preview'><p>東京ジャンプSは<strong>スピード型障害戦</strong>で、飛越の正確さと平地脚が重要。先行力のある馬が有利ですが、最後はスタミナ勝負にもなりやすく、<strong>直線で脚を残せるタイプ</strong>を狙いたいレースです。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の障害重賞シリーズ開幕！</span><strong>東京ジャンプステークス（J・GⅢ）</strong></div>",
+      "text_banner2": "東京ジャンプステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260613_tokyo_jump_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260613_tokyo_jump_s.png' alt='東京ジャンプステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260613_hakodate_sprint_s",
+      "date": "2026-06-13",
+      "name": "函館スプリントステークス",
+      "grade": "G3",
+      "venue": "函館・芝1200m",
+      "sections": {
+        "preview": "output/20260613_hakodate_sprint_s.html#preview",
+        "review": "output/20260613_hakodate_sprint_s.html#review",
+        "highlight": "output/20260613_hakodate_sprint_s.html#highlight"
+      },
+      "image": {
+        "file": "20260613_hakodate_sprint_s.png",
+        "alt": "函館スプリントステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>函館スプリントステークス</strong>は函館芝1200mで行われる<strong>サマースプリントシリーズ開幕戦</strong>。洋芝＋小回りコースで、<strong>先行力と立ち回り</strong>が重要になります。時計よりも適性が問われるスプリント重賞です。</p>",
+      "preview_text": "<div class='note-preview'><p>函館スプリントSは<strong>洋芝＋小回り＋1200m</strong>という特殊条件で、<strong>先行有利</strong>の傾向が強いレース。内枠の先行馬と、ロスなく立ち回れる好位勢を中心に組み立てたい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>サマースプリントシリーズ開幕！</span><strong>函館スプリントステークス（GⅢ）</strong></div>",
+      "text_banner2": "函館スプリントステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260613_hakodate_sprint_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260613_hakodate_sprint_s.png' alt='函館スプリントステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260614_takarazuka_kinen",
+      "date": "2026-06-14",
+      "name": "宝塚記念",
+      "grade": "G1",
+      "venue": "阪神・芝2200m",
+      "sections": {
+        "preview": "output/20260614_takarazuka_kinen.html#preview",
+        "review": "output/20260614_takarazuka_kinen.html#review",
+        "highlight": "output/20260614_takarazuka_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260614_takarazuka_kinen.png",
+        "alt": "宝塚記念・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>宝塚記念</strong>は春のグランプリで、阪神芝2200mを舞台に行われる<strong>中距離GⅠ</strong>です。内回りコースで<strong>持続力とスタミナ、立ち回り</strong>が問われ、タフな流れになりやすいのが特徴。ファン投票上位馬が集う、上半期の総決算です。</p>",
+      "preview_text": "<div class='note-preview'><p>宝塚記念は<strong>阪神内回り2200m</strong>で行われ、<strong>持続力勝負</strong>になりやすいレース。先行～好位勢が有利ですが、ペースが流れれば差しも届くバランス型。<strong>中距離GⅠ実績と内回り適性</strong>を重視したい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>上半期の総決算・春のグランプリ！</span><strong>宝塚記念（GⅠ）</strong></div>",
+      "text_banner2": "宝塚記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260614_takarazuka_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260614_takarazuka_kinen.png' alt='宝塚記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260621_fuchu_himba_s",
+      "date": "2026-06-21",
+      "name": "府中牝馬ステークス",
+      "grade": "G3",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "output/20260621_fuchu_himba_s.html#preview",
+        "review": "output/20260621_fuchu_himba_s.html#review",
+        "highlight": "output/20260621_fuchu_himba_s.html#highlight"
+      },
+      "image": {
+        "file": "20260621_fuchu_himba_s.png",
+        "alt": "府中牝馬ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>府中牝馬ステークス</strong>は東京芝1800mで行われる<strong>牝馬限定GⅢ</strong>で、マイル～中距離路線の牝馬が集う一戦です。東京コースらしく<strong>瞬発力と末脚の切れ</strong>が重要で、直線の長さを活かせるタイプが有利になります。</p>",
+      "preview_text": "<div class='note-preview'><p>府中牝馬Sは<strong>東京芝1800mの牝馬限定戦</strong>で、<strong>スローからの瞬発力勝負</strong>になりやすいレース。中団で脚を溜めて直線で一気に伸びるタイプが理想形で、<strong>東京実績と上がり性能</strong>を重視したい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>牝馬の東京適性が問われる一戦！</span><strong>府中牝馬ステークス（GⅢ）</strong></div>",
+      "text_banner2": "府中牝馬ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260621_fuchu_himba_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260621_fuchu_himba_s.png' alt='府中牝馬ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260621_shirasagi_s",
+      "date": "2026-06-21",
+      "name": "しらさぎステークス",
+      "grade": "G3",
+      "venue": "阪神・芝1400m",
+      "sections": {
+        "preview": "output/20260621_shirasagi_s.html#preview",
+        "review": "output/20260621_shirasagi_s.html#review",
+        "highlight": "output/20260621_shirasagi_s.html#highlight"
+      },
+      "image": {
+        "file": "20260621_shirasagi_s.png",
+        "alt": "しらさぎステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>しらさぎステークス</strong>は阪神芝1400mで行われる<strong>スプリント～マイル中間距離のGⅢ</strong>で、スピードと持続力の両方が問われる一戦です。内回りコースで<strong>先行有利</strong>の傾向が強く、立ち回りの巧さも重要になります。</p>",
+      "preview_text": "<div class='note-preview'><p>しらさぎSは<strong>阪神芝1400m</strong>で行われ、<strong>先行力とコーナーワーク</strong>が重要なレース。ペースは流れやすく、前に行ける馬と内枠の好位勢を中心に組み立てたい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>スピードと立ち回りが問われる1400m戦！</span><strong>しらさぎステークス（GⅢ）</strong></div>",
+      "text_banner2": "しらさぎステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260621_shirasagi_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260621_shirasagi_s.png' alt='しらさぎステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260628_radio_nikkei_sho",
+      "date": "2026-06-28",
+      "name": "ラジオNIKKEI賞",
+      "grade": "G3",
+      "venue": "福島・芝1800m",
+      "sections": {
+        "preview": "output/20260628_radio_nikkei_sho.html#preview",
+        "review": "output/20260628_radio_nikkei_sho.html#review",
+        "highlight": "output/20260628_radio_nikkei_sho.html#highlight"
+      },
+      "image": {
+        "file": "20260628_radio_nikkei_sho.png",
+        "alt": "ラジオNIKKEI賞・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ラジオNIKKEI賞</strong>は福島芝1800mで行われる<strong>3歳限定ハンデGⅢ</strong>で、夏の出世レースとして知られます。小回りコースで<strong>立ち回りと機動力</strong>が重要になり、ハンデ差を活かした一発も多いレースです。</p>",
+      "preview_text": "<div class='note-preview'><p>ラジオNIKKEI賞は<strong>福島芝1800mの3歳ハンデ戦</strong>で、<strong>小回り＋コーナー4つ</strong>の立ち回りが鍵。先行～好位勢が有利ですが、ペースが流れれば差しも届くバランス型。<strong>ハンデと枠順</strong>を重視したい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の3歳出世レース！</span><strong>ラジオNIKKEI賞（GⅢ）</strong></div>",
+      "text_banner2": "ラジオNIKKEI賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260628_radio_nikkei_sho.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260628_radio_nikkei_sho.png' alt='ラジオNIKKEI賞バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260628_hakodate_kinen",
+      "date": "2026-06-28",
+      "name": "函館記念",
+      "grade": "G3",
+      "venue": "函館・芝2000m",
+      "sections": {
+        "preview": "output/20260628_hakodate_kinen.html#preview",
+        "review": "output/20260628_hakodate_kinen.html#review",
+        "highlight": "output/20260628_hakodate_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260628_hakodate_kinen.png",
+        "alt": "函館記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>函館記念</strong>は函館芝2000mで行われる<strong>サマー2000シリーズのハンデGⅢ</strong>で、波乱度の高い中距離重賞として有名です。洋芝＋小回りで<strong>先行力とスタミナ、立ち回り</strong>が問われ、ハンデ差を活かした激走も多いレースです。</p>",
+      "preview_text": "<div class='note-preview'><p>函館記念は<strong>洋芝の小回り2000mハンデ戦</strong>で、<strong>先行有利＋内枠有利</strong>の傾向が強いレース。タフな馬場でスタミナも問われ、<strong>洋芝実績と立ち回りの巧さ</strong>を重視したい一戦です。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>サマー2000シリーズの波乱重賞！</span><strong>函館記念（GⅢ）</strong></div>",
+      "text_banner2": "函館記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260628_hakodate_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260628_hakodate_kinen.png' alt='函館記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260705_kitakyushu_kinen",
+      "date": "2026-07-05",
+      "name": "北九州記念",
+      "grade": "G3",
+      "venue": "小倉・芝1200m",
+      "sections": {
+        "preview": "output/20260705_kitakyushu_kinen.html#preview",
+        "review": "output/20260705_kitakyushu_kinen.html#review",
+        "highlight": "output/20260705_kitakyushu_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260705_kitakyushu_kinen.png",
+        "alt": "北九州記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>北九州記念</strong>は小倉芝1200mで行われる<strong>サマースプリントシリーズの重要GⅢ</strong>。高速馬場＋平坦小回りで<strong>先行力と立ち回り</strong>が問われる。ハンデ差が結果に直結し、波乱度の高いレースとして知られる。</p>",
+      "preview_text": "<div class='note-preview'><p>北九州記念は<strong>小倉芝1200mのハンデ重賞</strong>で、前半が速くなりやすい。内枠の先行馬が有利だが、ハイペースなら差しも届く。<strong>ハンデ差＋枠順＋位置取り</strong>が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏のスプリント戦線が本格化！</span><strong>北九州記念（GⅢ）</strong></div>",
+      "text_banner2": "北九州記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260705_kitakyushu_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260705_kitakyushu_kinen.png' alt='北九州記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260712_tanabata_sho",
+      "date": "2026-07-12",
+      "name": "七夕賞",
+      "grade": "G3",
+      "venue": "福島・芝2000m",
+      "sections": {
+        "preview": "output/20260712_tanabata_sho.html#preview",
+        "review": "output/20260712_tanabata_sho.html#review",
+        "highlight": "output/20260712_tanabata_sho.html#highlight"
+      },
+      "image": {
+        "file": "20260712_tanabata_sho.png",
+        "alt": "七夕賞・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>七夕賞</strong>は福島芝2000mで行われる<strong>サマー2000シリーズ開幕戦</strong>。小回り＋コーナー4つで<strong>立ち回りと機動力</strong>が重要。ハンデ差を活かした激走も多く、波乱度の高いレースとして有名。</p>",
+      "preview_text": "<div class='note-preview'><p>七夕賞は<strong>福島芝2000mのハンデ重賞</strong>で、先行～好位勢が有利。ペースが流れれば差しも届くが、基本は立ち回り勝負。<strong>内枠＋器用さ</strong>が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の中距離戦線が開幕！</span><strong>七夕賞（GⅢ）</strong></div>",
+      "text_banner2": "七夕賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260712_tanabata_sho.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260712_tanabata_sho.png' alt='七夕賞バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260719_kokura_kinen",
+      "date": "2026-07-19",
+      "name": "小倉記念",
+      "grade": "G3",
+      "venue": "小倉・芝2000m",
+      "sections": {
+        "preview": "output/20260719_kokura_kinen.html#preview",
+        "review": "output/20260719_kokura_kinen.html#review",
+        "highlight": "output/20260719_kokura_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260719_kokura_kinen.png",
+        "alt": "小倉記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>小倉記念</strong>は小倉芝2000mで行われる<strong>サマー2000シリーズの中核GⅢ</strong>。平坦小回りで<strong>先行有利</strong>の傾向が強く、立ち回りの巧さが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>小倉記念は<strong>先行有利＋立ち回り重視</strong>のレース。ペースは平均前後で、前に行ける馬が優勢。差しは展開待ち。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の小倉名物！</span><strong>小倉記念（GⅢ）</strong></div>",
+      "text_banner2": "小倉記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260719_kokura_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260719_kokura_kinen.png' alt='小倉記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260719_hakodate_2s",
+      "date": "2026-07-19",
+      "name": "函館2歳ステークス",
+      "grade": "G3",
+      "venue": "函館・芝1200m",
+      "sections": {
+        "preview": "output/20260719_hakodate_2s.html#preview",
+        "review": "output/20260719_hakodate_2s.html#review",
+        "highlight": "output/20260719_hakodate_2s.html#highlight"
+      },
+      "image": {
+        "file": "20260719_hakodate_2s.png",
+        "alt": "函館2歳ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>函館2歳ステークス</strong>は洋芝1200mで行われる<strong>2歳重賞の開幕戦</strong>。スピードと先行力が重要で、完成度の高さが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>函館2歳Sは<strong>洋芝＋小回り＋1200m</strong>で、先行力が最重要。新馬戦の内容とスタートの良さを重視したい。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳重賞の開幕！</span><strong>函館2歳ステークス（GⅢ）</strong></div>",
+      "text_banner2": "函館2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260719_hakodate_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260719_hakodate_2s.png' alt='函館2歳ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260726_sekiya_kinen",
+      "date": "2026-07-26",
+      "name": "関屋記念",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "output/20260726_sekiya_kinen.html#preview",
+        "review": "output/20260726_sekiya_kinen.html#review",
+        "highlight": "output/20260726_sekiya_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260726_sekiya_kinen.png",
+        "alt": "関屋記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>関屋記念</strong>は新潟芝1600mで行われる<strong>直線の長い外回りマイルGⅢ</strong>。瞬発力とトップスピードの持続が問われ、差しが決まりやすい。</p>",
+      "preview_text": "<div class='note-preview'><p>関屋記念は<strong>新潟外回り1600m</strong>で、直線が長く差し優勢。高速馬場ならなおさら切れ味勝負。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の新潟マイル重賞！</span><strong>関屋記念（GⅢ）</strong></div>",
+      "text_banner2": "関屋記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260726_sekiya_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260726_sekiya_kinen.png' alt='関屋記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260726_tokai_s",
+      "date": "2026-07-26",
+      "name": "東海ステークス",
+      "grade": "G3",
+      "venue": "中京・ダ1800m",
+      "sections": {
+        "preview": "output/20260726_tokai_s.html#preview",
+        "review": "output/20260726_tokai_s.html#review",
+        "highlight": "output/20260726_tokai_s.html#highlight"
+      },
+      "image": {
+        "file": "20260726_tokai_s.png",
+        "alt": "東海ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>東海ステークス</strong>は中京ダート1800mで行われる<strong>ダート中距離GⅢ</strong>。フェブラリーステークスを見据える馬が集まり、<strong>先行力・持続力・パワー</strong>が問われる。中京特有の坂とタフな馬場がレースの質を高める。</p>",
+      "preview_text": "<div class='note-preview'><p>東海Sは<strong>中京ダ1800m</strong>で、<strong>先行有利＋持続力勝負</strong>が基本。前半は流れやすく、好位で脚を溜められるタイプが理想。差しは展開待ちだが、タフな馬場なら浮上も。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>ダート中距離の重要ステップ！</span><strong>東海ステークス（GⅢ）</strong></div>",
+      "text_banner2": "東海ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260726_tokai_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260726_tokai_s.png' alt='東海ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260802_ibis_sd",
+      "date": "2026-08-02",
+      "name": "アイビスサマーダッシュ",
+      "grade": "G3",
+      "venue": "新潟・芝1000m",
+      "sections": {
+        "preview": "output/20260802_ibis_sd.html#preview",
+        "review": "output/20260802_ibis_sd.html#review",
+        "highlight": "output/20260802_ibis_sd.html#highlight"
+      },
+      "image": {
+        "file": "20260802_ibis_sd.png",
+        "alt": "アイビスサマーダッシュ・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>アイビスサマーダッシュ</strong>は日本唯一の直線1000m重賞。外ラチ沿いが有利で、スタートの速さとトップスピードの持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>直線1000mは<strong>外枠圧倒的有利</strong>。スピード能力とスタートが鍵で、逃げ・先行が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>日本唯一の直線重賞！</span><strong>アイビスサマーダッシュ（GⅢ）</strong></div>",
+      "text_banner2": "アイビスサマーダッシュのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260802_ibis_sd.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260802_ibis_sd.png' alt='アイビスサマーダッシュバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260802_queen_s",
+      "date": "2026-08-02",
+      "name": "クイーンステークス",
+      "grade": "G3",
+      "venue": "札幌・芝1800m",
+      "sections": {
+        "preview": "output/20260802_queen_s.html#preview",
+        "review": "output/20260802_queen_s.html#review",
+        "highlight": "output/20260802_queen_s.html#highlight"
+      },
+      "image": {
+        "file": "20260802_queen_s.png",
+        "alt": "クイーンステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>クイーンS</strong>は札幌芝1800mの牝馬限定GⅢ。洋芝適性と立ち回りが重要で、先行有利の傾向が強い。</p>",
+      "preview_text": "<div class='note-preview'><p>札幌1800mは<strong>先行有利</strong>。洋芝適性と器用さが鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の牝馬重賞！</span><strong>クイーンステークス（GⅢ）</strong></div>",
+      "text_banner2": "クイーンステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260802_queen_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260802_queen_s.png' alt='クイーンステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260808_elm_s",
+      "date": "2026-08-08",
+      "name": "エルムステークス",
+      "grade": "G3",
+      "venue": "札幌・ダ1700m",
+      "sections": {
+        "preview": "output/20260808_elm_s.html#preview",
+        "review": "output/20260808_elm_s.html#review",
+        "highlight": "output/20260808_elm_s.html#highlight"
+      },
+      "image": {
+        "file": "20260808_elm_s.png",
+        "alt": "エルムステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>エルムS</strong>は札幌ダ1700mで行われるダートGⅢ。パワーと先行力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>札幌ダ1700mは<strong>先行有利</strong>。パワー型が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏のダート重賞！</span><strong>エルムステークス（GⅢ）</strong></div>",
+      "text_banner2": "エルムステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260808_elm_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260808_elm_s.png' alt='エルムステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260809_leopard_s",
+      "date": "2026-08-09",
+      "name": "レパードステークス",
+      "grade": "G3",
+      "venue": "新潟・ダ1800m",
+      "sections": {
+        "preview": "output/20260809_leopard_s.html#preview",
+        "review": "output/20260809_leopard_s.html#review",
+        "highlight": "output/20260809_leopard_s.html#highlight"
+      },
+      "image": {
+        "file": "20260809_leopard_s.png",
+        "alt": "レパードステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>レパードS</strong>は3歳ダート重賞。新潟ダ1800mは先行有利で、持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>新潟ダ1800mは<strong>前有利</strong>。3歳馬の成長度が勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>3歳ダート重賞！</span><strong>レパードステークス（GⅢ）</strong></div>",
+      "text_banner2": "レパードステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260809_leopard_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260809_leopard_s.png' alt='レパードステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260809_cbc_sho",
+      "date": "2026-08-09",
+      "name": "CBC賞",
+      "grade": "G3",
+      "venue": "中京・芝1200m",
+      "sections": {
+        "preview": "output/20260809_cbc_sho.html#preview",
+        "review": "output/20260809_cbc_sho.html#review",
+        "highlight": "output/20260809_cbc_sho.html#highlight"
+      },
+      "image": {
+        "file": "20260809_cbc_sho.png",
+        "alt": "CBC賞・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>CBC賞</strong>は中京芝1200mのハンデ重賞。高速馬場でスピード能力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中京1200mは<strong>前半速い</strong>。ハンデ差と先行力が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏のスプリント重賞！</span><strong>CBC賞（GⅢ）</strong></div>",
+      "text_banner2": "CBC賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260809_cbc_sho.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260809_cbc_sho.png' alt='CBC賞バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260815_niigata_jump_s",
+      "date": "2026-08-15",
+      "name": "新潟ジャンプステークス",
+      "grade": "J-G3",
+      "venue": "新潟・障害芝3250m",
+      "sections": {
+        "preview": "output/20260815_niigata_jump_s.html#preview",
+        "review": "output/20260815_niigata_jump_s.html#review",
+        "highlight": "output/20260815_niigata_jump_s.html#highlight"
+      },
+      "image": {
+        "file": "20260815_niigata_jump_s.png",
+        "alt": "新潟ジャンプステークス・2026年J-G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>新潟ジャンプS</strong>は平地脚が問われる高速障害戦。スピード型が有利。</p>",
+      "preview_text": "<div class='note-preview'><p>新潟障害は<strong>スピード型</strong>が強い。飛越の正確さも重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の障害重賞！</span><strong>新潟ジャンプステークス（J・GⅢ）</strong></div>",
+      "text_banner2": "新潟ジャンプステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260815_niigata_jump_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260815_niigata_jump_s.png' alt='新潟ジャンプステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260816_chukyo_kinen",
+      "date": "2026-08-16",
+      "name": "中京記念",
+      "grade": "G3",
+      "venue": "中京・芝1600m",
+      "sections": {
+        "preview": "output/20260816_chukyo_kinen.html#preview",
+        "review": "output/20260816_chukyo_kinen.html#review",
+        "highlight": "output/20260816_chukyo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260816_chukyo_kinen.png",
+        "alt": "中京記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>中京記念</strong>は中京芝1600mのハンデ重賞。タフなコースで持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中京マイルは<strong>持続力型</strong>が強い。ハンデ差も重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏のマイル重賞！</span><strong>中京記念（GⅢ）</strong></div>",
+      "text_banner2": "中京記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260816_chukyo_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260816_chukyo_kinen.png' alt='中京記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260816_sapporo_kinen",
+      "date": "2026-08-16",
+      "name": "札幌記念",
+      "grade": "G2",
+      "venue": "札幌・芝2000m",
+      "sections": {
+        "preview": "output/20260816_sapporo_kinen.html#preview",
+        "review": "output/20260816_sapporo_kinen.html#review",
+        "highlight": "output/20260816_sapporo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260816_sapporo_kinen.png",
+        "alt": "札幌記念・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>札幌記念</strong>は夏のスーパーGⅡ。GⅠ級が集う実質GⅠの一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>札幌2000mは<strong>パワー＋立ち回り</strong>が重要。先行有利。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の最強決定戦！</span><strong>札幌記念（GⅡ）</strong></div>",
+      "text_banner2": "札幌記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260816_sapporo_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260816_sapporo_kinen.png' alt='札幌記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260823_niigata_2s",
+      "date": "2026-08-23",
+      "name": "新潟2歳ステークス",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "output/20260823_niigata_2s.html#preview",
+        "review": "output/20260823_niigata_2s.html#review",
+        "highlight": "output/20260823_niigata_2s.html#highlight"
+      },
+      "image": {
+        "file": "20260823_niigata_2s.png",
+        "alt": "新潟2歳ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>新潟2歳ステークス</strong>は直線の長い新潟外回り1600mで行われる2歳重賞。瞬発力とトップスピードの持続が問われ、将来のクラシック候補が台頭する注目の一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>新潟外回り1600mは<strong>切れ味勝負</strong>になりやすく、末脚の質が最重要。新馬戦で上がり最速を記録した馬が強く、差し優勢の舞台。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>未来のスター候補が集結！</span><strong>新潟2歳ステークス（GⅢ）</strong></div>",
+      "text_banner2": "新潟2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260823_niigata_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260823_niigata_2s.png' alt='新潟2歳ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260823_kleinland_c",
+      "date": "2026-08-23",
+      "name": "キーンランドカップ",
+      "grade": "G3",
+      "venue": "札幌・芝1200m",
+      "sections": {
+        "preview": "output/20260823_kleinland_c.html#preview",
+        "review": "output/20260823_kleinland_c.html#review",
+        "highlight": "output/20260823_kleinland_c.html#highlight"
+      },
+      "image": {
+        "file": "20260823_kleinland_c.png",
+        "alt": "キーンランドカップ・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>キーンランドカップ</strong>は札幌芝1200mで行われるスプリントGⅢ。洋芝適性と先行力が重要で、秋のスプリント戦線を占う一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>札幌1200mは<strong>先行有利</strong>。洋芝でパワーが必要になり、立ち回りの巧さも問われる。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のスプリント戦線へ！</span><strong>キーンランドカップ（GⅢ）</strong></div>",
+      "text_banner2": "キーンランドカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260823_kleinland_c.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260823_kleinland_c.png' alt='キーンランドカップバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260830_niigata_kinen",
+      "date": "2026-08-30",
+      "name": "新潟記念",
+      "grade": "G3",
+      "venue": "新潟・芝2000m",
+      "sections": {
+        "preview": "output/20260830_niigata_kinen.html#preview",
+        "review": "output/20260830_niigata_kinen.html#review",
+        "highlight": "output/20260830_niigata_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260830_niigata_kinen.png",
+        "alt": "新潟記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>新潟記念</strong>はサマー2000シリーズ最終戦。新潟外回り2000mは直線が長く、瞬発力と末脚の持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>新潟2000mは<strong>差し優勢</strong>。スローからの瞬発力勝負になりやすく、上がり性能が最重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>夏の中距離王決定戦！</span><strong>新潟記念（GⅢ）</strong></div>",
+      "text_banner2": "新潟記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260830_niigata_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260830_niigata_kinen.png' alt='新潟記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260830_chukyo_2s",
+      "date": "2026-08-30",
+      "name": "中京2歳ステークス",
+      "grade": "G3",
+      "venue": "中京・芝1600m",
+      "sections": {
+        "preview": "output/20260830_chukyo_2s.html#preview",
+        "review": "output/20260830_chukyo_2s.html#review",
+        "highlight": "output/20260830_chukyo_2s.html#highlight"
+      },
+      "image": {
+        "file": "20260830_chukyo_2s.png",
+        "alt": "中京2歳ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>中京2歳ステークス</strong>は中京芝1600mで行われる2歳重賞。タフな中京コースで<strong>持続力と操縦性</strong>が問われ、将来のマイル路線を占う重要な一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>中京芝1600mは<strong>持続力型の差し・先行</strong>が強い舞台。直線の急坂で底力が問われ、新馬戦で長く良い脚を使った馬が好走しやすい。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>未来のマイラー候補が集結！</span><strong>中京2歳ステークス（GⅢ）</strong></div>",
+      "text_banner2": "中京2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260830_chukyo_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20260830_chukyo_2s.png' alt='中京2歳ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260905_keisei_ah",
+      "date": "2026-09-05",
+      "name": "京成杯オータムハンデ",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "output/20260905_keisei_ah.html#preview",
+        "review": "output/20260905_keisei_ah.html#review",
+        "highlight": "output/20260905_keisei_ah.html#highlight"
+      },
+      "image": {
+        "file": "20260905_keisei_ah.png",
+        "alt": "京成杯オータムハンデ・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京成杯オータムH</strong>は中山芝1600mで行われるハンデ重賞。急坂と小回りで立ち回りが重要になり、先行〜好位勢が有利。</p>",
+      "preview_text": "<div class='note-preview'><p>中山マイルは<strong>内枠＋先行</strong>が基本。ハンデ差と位置取りが勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のマイル戦線開幕！</span><strong>京成杯オータムハンデ（GⅢ）</strong></div>",
+      "text_banner2": "京成杯オータムハンデのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260905_keisei_ah.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260905_keisei_ah.png' alt='京成杯オータムハンデバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260905_sapporo_2s",
+      "date": "2026-09-05",
+      "name": "札幌2歳ステークス",
+      "grade": "G3",
+      "venue": "札幌・芝1800m",
+      "sections": {
+        "preview": "output/20260905_sapporo_2s.html#preview",
+        "review": "output/20260905_sapporo_2s.html#review",
+        "highlight": "output/20260905_sapporo_2s.html#highlight"
+      },
+      "image": {
+        "file": "20260905_sapporo_2s.png",
+        "alt": "札幌2歳ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>札幌2歳S</strong>は洋芝1800mで行われる2歳重賞。スタミナと持続力が問われ、クラシックを意識する馬が集う。</p>",
+      "preview_text": "<div class='note-preview'><p>札幌1800mは<strong>パワー＋持続力</strong>が重要。洋芝適性が勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>クラシックへの登竜門！</span><strong>札幌2歳ステークス（GⅢ）</strong></div>",
+      "text_banner2": "札幌2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260905_sapporo_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260905_sapporo_2s.png' alt='札幌2歳ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260906_shion_s",
+      "date": "2026-09-06",
+      "name": "紫苑ステークス",
+      "grade": "G3",
+      "venue": "中山・芝2000m",
+      "sections": {
+        "preview": "output/20260906_shion_s.html#preview",
+        "review": "output/20260906_shion_s.html#review",
+        "highlight": "output/20260906_shion_s.html#highlight"
+      },
+      "image": {
+        "file": "20260906_shion_s.png",
+        "alt": "紫苑ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>紫苑S</strong>は秋華賞トライアル。中山2000mは機動力と立ち回りが重要で、先行有利の傾向が強い。</p>",
+      "preview_text": "<div class='note-preview'><p>中山2000mは<strong>コーナー4つ＋急坂</strong>で器用さが必須。先行〜好位が理想。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋華賞トライアル！</span><strong>紫苑ステークス（GⅢ）</strong></div>",
+      "text_banner2": "紫苑ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260906_shion_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260906_shion_s.png' alt='紫苑ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260906_centaur_s",
+      "date": "2026-09-06",
+      "name": "セントウルステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1200m",
+      "sections": {
+        "preview": "output/20260906_centaur_s.html#preview",
+        "review": "output/20260906_centaur_s.html#review",
+        "highlight": "output/20260906_centaur_s.html#highlight"
+      },
+      "image": {
+        "file": "20260906_centaur_s.png",
+        "alt": "セントウルステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>セントウルS</strong>はスプリンターズSの重要前哨戦。阪神1200mはスピードと先行力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神1200mは<strong>前半速い</strong>。先行馬が優勢で、差しは展開待ち。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のスプリント戦線へ！</span><strong>セントウルステークス（GⅡ）</strong></div>",
+      "text_banner2": "セントウルステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260906_centaur_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260906_centaur_s.png' alt='セントウルステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260912_challenge_c",
+      "date": "2026-09-12",
+      "name": "チャレンジカップ",
+      "grade": "G3",
+      "venue": "中山・芝1800m",
+      "sections": {
+        "preview": "output/20260912_challenge_c.html#preview",
+        "review": "output/20260912_challenge_c.html#review",
+        "highlight": "output/20260912_challenge_c.html#highlight"
+      },
+      "image": {
+        "file": "20260912_challenge_c.png",
+        "alt": "チャレンジカップ・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>チャレンジC</strong>は中山芝1800mで行われる中距離GⅢ。立ち回りと瞬発力のバランスが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山1800mは<strong>器用さ＋先行力</strong>が重要。内枠有利。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の中距離戦線へ！</span><strong>チャレンジカップ（GⅢ）</strong></div>",
+      "text_banner2": "チャレンジカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260912_challenge_c.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260912_challenge_c.png' alt='チャレンジカップバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260913_st_lite_kinen",
+      "date": "2026-09-13",
+      "name": "セントライト記念",
+      "grade": "G2",
+      "venue": "中山・芝2200m",
+      "sections": {
+        "preview": "output/20260913_st_lite_kinen.html#preview",
+        "review": "output/20260913_st_lite_kinen.html#review",
+        "highlight": "output/20260913_st_lite_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20260913_st_lite_kinen.png",
+        "alt": "セントライト記念・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>セントライト記念</strong>は菊花賞トライアル。中山2200mはスタミナと機動力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山2200mは<strong>タフなコース</strong>で、持続力が重要。先行〜好位が理想。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>菊花賞トライアル！</span><strong>セントライト記念（GⅡ）</strong></div>",
+      "text_banner2": "セントライト記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260913_st_lite_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260913_st_lite_kinen.png' alt='セントライト記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260913_rose_s",
+      "date": "2026-09-13",
+      "name": "ローズステークス",
+      "grade": "G2",
+      "venue": "阪神・芝1800m",
+      "sections": {
+        "preview": "output/20260913_rose_s.html#preview",
+        "review": "output/20260913_rose_s.html#review",
+        "highlight": "output/20260913_rose_s.html#highlight"
+      },
+      "image": {
+        "file": "20260913_rose_s.png",
+        "alt": "ローズステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ローズS</strong>は秋華賞トライアル。阪神1800mは持続力と瞬発力の両方が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神1800mは<strong>差しも届く</strong>バランス型。上がり性能が重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋華賞トライアル！</span><strong>ローズステークス（GⅡ）</strong></div>",
+      "text_banner2": "ローズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260913_rose_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260913_rose_s.png' alt='ローズステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260919_hanshin_jump_s",
+      "date": "2026-09-19",
+      "name": "阪神ジャンプステークス",
+      "grade": "J-G2",
+      "venue": "阪神・障害芝3140m",
+      "sections": {
+        "preview": "output/20260919_hanshin_jump_s.html#preview",
+        "review": "output/20260919_hanshin_jump_s.html#review",
+        "highlight": "output/20260919_hanshin_jump_s.html#highlight"
+      },
+      "image": {
+        "file": "20260919_hanshin_jump_s.png",
+        "alt": "阪神ジャンプステークス・2026年J-G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>阪神ジャンプS</strong>はJ・GⅡの障害重賞。飛越の正確さとスタミナが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神障害は<strong>タフなコース</strong>で、スタミナ型が有利。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の障害重賞！</span><strong>阪神ジャンプステークス（J・GⅡ）</strong></div>",
+      "text_banner2": "阪神ジャンプステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260919_hanshin_jump_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260919_hanshin_jump_s.png' alt='阪神ジャンプステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260920_all_comers",
+      "date": "2026-09-20",
+      "name": "オールカマー",
+      "grade": "G2",
+      "venue": "中山・芝2200m",
+      "sections": {
+        "preview": "output/20260920_all_comers.html#preview",
+        "review": "output/20260920_all_comers.html#review",
+        "highlight": "output/20260920_all_comers.html#highlight"
+      },
+      "image": {
+        "file": "20260920_all_comers.png",
+        "alt": "オールカマー・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>オールカマー</strong>は中山芝2200mで行われるGⅡ。秋の中長距離戦線を占う重要ステップで、<strong>スタミナ・持続力・立ち回り</strong>が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山2200mは<strong>タフな持続力戦</strong>になりやすく、先行〜好位勢が有利。直線の急坂で底力が問われる。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の中距離戦線が本格化！</span><strong>オールカマー（GⅡ）</strong></div>",
+      "text_banner2": "オールカマーのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260920_all_comers.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260920_all_comers.png' alt='オールカマーバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260926_sirius_s",
+      "date": "2026-09-26",
+      "name": "シリウスステークス",
+      "grade": "G3",
+      "venue": "中山・ダ1800m",
+      "sections": {
+        "preview": "output/20260926_sirius_s.html#preview",
+        "review": "output/20260926_sirius_s.html#review",
+        "highlight": "output/20260926_sirius_s.html#highlight"
+      },
+      "image": {
+        "file": "20260926_sirius_s.png",
+        "alt": "シリウスステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>シリウスS</strong>はダート1800mのハンデ重賞。パワーと持続力が問われ、先行有利の傾向が強い。</p>",
+      "preview_text": "<div class='note-preview'><p>中山ダ1800mは<strong>前有利</strong>。ハンデ差と先行力が勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のダート重賞！</span><strong>シリウスステークス（GⅢ）</strong></div>",
+      "text_banner2": "シリウスステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260926_sirius_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260926_sirius_s.png' alt='シリウスステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20260927_sprinters_s",
+      "date": "2026-09-27",
+      "name": "スプリンターズステークス",
+      "grade": "G1",
+      "venue": "中山・芝1200m",
+      "sections": {
+        "preview": "output/20260927_sprinters_s.html#preview",
+        "review": "output/20260927_sprinters_s.html#review",
+        "highlight": "output/20260927_sprinters_s.html#highlight"
+      },
+      "image": {
+        "file": "20260927_sprinters_s.png",
+        "alt": "スプリンターズステークス・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>スプリンターズS</strong>は秋の電撃GⅠ。中山芝1200mは前半が速く、<strong>スピード・先行力・立ち回り</strong>が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山1200mは<strong>先行有利</strong>。ハイペース必至で、好位で流れに乗れる馬が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のスプリント王決定戦！</span><strong>スプリンターズステークス（GⅠ）</strong></div>",
+      "text_banner2": "スプリンターズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20260927_sprinters_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20260927_sprinters_s.png' alt='スプリンターズステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261004_mainichi_ohan",
+      "date": "2026-10-04",
+      "name": "毎日王冠",
+      "grade": "G2",
+      "venue": "東京・芝1800m",
+      "sections": {
+        "preview": "output/20261004_mainichi_ohan.html#preview",
+        "review": "output/20261004_mainichi_ohan.html#review",
+        "highlight": "output/20261004_mainichi_ohan.html#highlight"
+      },
+      "image": {
+        "file": "20261004_mainichi_ohan.png",
+        "alt": "毎日王冠・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>毎日王冠</strong>は東京芝1800mで行われる伝統のGⅡ。秋の天皇賞へ直結する重要ステップで、瞬発力とトップスピードの持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京1800mは切れ味勝負になりやすく、差し優勢。天皇賞秋を見据えた実績馬が集う。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の大舞台へ！</span><strong>毎日王冠（GⅡ）</strong></div>",
+      "text_banner2": "毎日王冠のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261004_mainichi_ohan.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261004_mainichi_ohan.png' alt='毎日王冠バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261004_kyoto_daishoten",
+      "date": "2026-10-04",
+      "name": "京都大賞典",
+      "grade": "G2",
+      "venue": "京都・芝2400m",
+      "sections": {
+        "preview": "output/20261004_kyoto_daishoten.html#preview",
+        "review": "output/20261004_kyoto_daishoten.html#review",
+        "highlight": "output/20261004_kyoto_daishoten.html#highlight"
+      },
+      "image": {
+        "file": "20261004_kyoto_daishoten.png",
+        "alt": "京都大賞典・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京都大賞典</strong>は京都芝2400mで行われるGⅡ。天皇賞秋・ジャパンCを見据える馬が集い、スタミナと持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都外回り2400mは持続力型が有利。先行〜好位で流れに乗れる馬が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の中長距離戦線へ！</span><strong>京都大賞典（GⅡ）</strong></div>",
+      "text_banner2": "京都大賞典のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261004_kyoto_daishoten.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261004_kyoto_daishoten.png' alt='京都大賞典バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261010_saudi_rc",
+      "date": "2026-10-10",
+      "name": "サウジアラビアロイヤルカップ",
+      "grade": "G3",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "output/20261010_saudi_rc.html#preview",
+        "review": "output/20261010_saudi_rc.html#review",
+        "highlight": "output/20261010_saudi_rc.html#highlight"
+      },
+      "image": {
+        "file": "20261010_saudi_rc.png",
+        "alt": "サウジアラビアロイヤルカップ・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>サウジアラビアRC</strong>は2歳マイル重賞。東京芝1600mで瞬発力と将来性が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京マイルは切れ味勝負。新馬戦で上がり最速の馬が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳マイル重賞！</span><strong>サウジアラビアロイヤルカップ（GⅢ）</strong></div>",
+      "text_banner2": "サウジアラビアロイヤルカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261010_saudi_rc.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261010_saudi_rc.png' alt='サウジアラビアロイヤルカップバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261011_island_t",
+      "date": "2026-10-11",
+      "name": "アイランドトロフィー",
+      "grade": "G3",
+      "venue": "京都・芝1400m",
+      "sections": {
+        "preview": "output/20261011_island_t.html#preview",
+        "review": "output/20261011_island_t.html#review",
+        "highlight": "output/20261011_island_t.html#highlight"
+      },
+      "image": {
+        "file": "20261011_island_t.png",
+        "alt": "アイランドトロフィー・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>アイランドT</strong>は京都芝1400mで行われるスプリント〜マイル中間距離のGⅢ。スピードと立ち回りが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都1400mは先行有利。内枠と位置取りが鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の短距離戦線へ！</span><strong>アイランドトロフィー（GⅢ）</strong></div>",
+      "text_banner2": "アイランドトロフィーのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261011_island_t.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261011_island_t.png' alt='アイランドトロフィーバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261017_fuji_s",
+      "date": "2026-10-17",
+      "name": "富士ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1600m",
+      "sections": {
+        "preview": "output/20261017_fuji_s.html#preview",
+        "review": "output/20261017_fuji_s.html#review",
+        "highlight": "output/20261017_fuji_s.html#highlight"
+      },
+      "image": {
+        "file": "20261017_fuji_s.png",
+        "alt": "富士ステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>富士ステークス</strong>はマイルCSの重要前哨戦。東京芝1600mで行われ、瞬発力とトップスピードの持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京マイルは差し優勢。上がり性能が最重要で、マイルCSを見据えた実績馬が集う。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>マイルCS前哨戦！</span><strong>富士ステークス（GⅡ）</strong></div>",
+      "text_banner2": "富士ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261017_fuji_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261017_fuji_s.png' alt='富士ステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261018_tokyo_hj",
+      "date": "2026-10-18",
+      "name": "東京ハイジャンプ",
+      "grade": "J-G1",
+      "venue": "東京・障害芝3110m",
+      "sections": {
+        "preview": "output/20261018_tokyo_hj.html#preview",
+        "review": "output/20261018_tokyo_hj.html#review",
+        "highlight": "output/20261018_tokyo_hj.html#highlight"
+      },
+      "image": {
+        "file": "20261018_tokyo_hj.png",
+        "alt": "東京ハイジャンプ・2026年J-G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>東京ハイジャンプ</strong>はJ-GⅠの障害重賞。スピードと飛越の正確さが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京障害はスピード型が有利。平地脚も重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>障害GⅠ！</span><strong>東京ハイジャンプ（J・GⅠ）</strong></div>",
+      "text_banner2": "東京ハイジャンプのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261018_tokyo_hj.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261018_tokyo_hj.png' alt='東京ハイジャンプバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261018_shuka_sho",
+      "date": "2026-10-18",
+      "name": "秋華賞",
+      "grade": "G1",
+      "venue": "京都・芝2000m",
+      "sections": {
+        "preview": "output/20261018_shuka_sho.html#preview",
+        "review": "output/20261018_shuka_sho.html#review",
+        "highlight": "output/20261018_shuka_sho.html#highlight"
+      },
+      "image": {
+        "file": "20261018_shuka_sho.png",
+        "alt": "秋華賞・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>秋華賞</strong>は3歳牝馬三冠の最終戦。京都芝2000mで瞬発力・持続力・立ち回りが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都2000mはバランス型の適性が必要。内回りで立ち回りも重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>3歳牝馬三冠最終戦！</span><strong>秋華賞（GⅠ）</strong></div>",
+      "text_banner2": "秋華賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261018_shuka_sho.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261018_shuka_sho.png' alt='秋華賞バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261024_artemis_s",
+      "date": "2026-10-24",
+      "name": "アルテミスステークス",
+      "grade": "G3",
+      "venue": "新潟・芝1600m",
+      "sections": {
+        "preview": "output/20261024_artemis_s.html#preview",
+        "review": "output/20261024_artemis_s.html#review",
+        "highlight": "output/20261024_artemis_s.html#highlight"
+      },
+      "image": {
+        "file": "20261024_artemis_s.png",
+        "alt": "アルテミスステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>アルテミスS</strong>は2歳牝馬のマイル重賞。直線の長いコースで瞬発力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>新潟外回り1600mは差し優勢。上がり性能が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳牝馬マイル重賞！</span><strong>アルテミスステークス（GⅢ）</strong></div>",
+      "text_banner2": "アルテミスステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261024_artemis_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261024_artemis_s.png' alt='アルテミスステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261025_kikka_sho",
+      "date": "2026-10-25",
+      "name": "菊花賞",
+      "grade": "G1",
+      "venue": "東京・芝3000m",
+      "sections": {
+        "preview": "output/20261025_kikka_sho.html#preview",
+        "review": "output/20261025_kikka_sho.html#review",
+        "highlight": "output/20261025_kikka_sho.html#highlight"
+      },
+      "image": {
+        "file": "20261025_kikka_sho.png",
+        "alt": "菊花賞・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>菊花賞</strong>は3歳牡馬クラシック最終戦。3000mの長丁場でスタミナ・折り合い・持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京3000mはスタミナ勝負。折り合いとロングスパート性能が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>クラシック最終戦！</span><strong>菊花賞（GⅠ）</strong></div>",
+      "text_banner2": "菊花賞のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261025_kikka_sho.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261025_kikka_sho.png' alt='菊花賞バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261031_fantasy_s",
+      "date": "2026-10-31",
+      "name": "ファンタジーステークス",
+      "grade": "G3",
+      "venue": "京都・芝1400m",
+      "sections": {
+        "preview": "output/20261031_fantasy_s.html#preview",
+        "review": "output/20261031_fantasy_s.html#review",
+        "highlight": "output/20261031_fantasy_s.html#highlight"
+      },
+      "image": {
+        "file": "20261031_fantasy_s.png",
+        "alt": "ファンタジーステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ファンタジーS</strong>は2歳牝馬のスプリント〜マイル前哨戦。スピードと立ち回りが問われ、将来の桜花賞候補が姿を見せる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都1400mは先行有利。スピード能力と器用さが鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳牝馬の登竜門！</span><strong>ファンタジーステークス（GⅢ）</strong></div>",
+      "text_banner2": "ファンタジーステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261031_fantasy_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261031_fantasy_s.png' alt='ファンタジーステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261101_tenno_sho_aki",
+      "date": "2026-11-01",
+      "name": "天皇賞（秋）",
+      "grade": "G1",
+      "venue": "東京・芝2000m",
+      "sections": {
+        "preview": "output/20261101_tenno_sho_aki.html#preview",
+        "review": "output/20261101_tenno_sho_aki.html#review",
+        "highlight": "output/20261101_tenno_sho_aki.html#highlight"
+      },
+      "image": {
+        "file": "20261101_tenno_sho_aki.png",
+        "alt": "天皇賞（秋）・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>天皇賞（秋）</strong>は東京芝2000mで行われる秋の中距離王決定戦。瞬発力とトップスピードの持続が問われ、国内外の一流馬が集う。</p>",
+      "preview_text": "<div class='note-preview'><p>東京2000mは<strong>瞬発力勝負</strong>。上がり性能と位置取りが鍵となる。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の中距離王決定戦！</span><strong>天皇賞（秋）（GⅠ）</strong></div>",
+      "text_banner2": "天皇賞（秋）のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261101_tenno_sho_aki.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261101_tenno_sho_aki.png' alt='天皇賞秋バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261107_keio_2s",
+      "date": "2026-11-07",
+      "name": "京王杯2歳ステークス",
+      "grade": "G2",
+      "venue": "東京・芝1400m",
+      "sections": {
+        "preview": "output/20261107_keio_2s.html#preview",
+        "review": "output/20261107_keio_2s.html#review",
+        "highlight": "output/20261107_keio_2s.html#highlight"
+      },
+      "image": {
+        "file": "20261107_keio_2s.png",
+        "alt": "京王杯2歳ステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京王杯2歳S</strong>は東京芝1400mで行われる2歳重賞。スピードと瞬発力のバランスが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京1400mは<strong>切れ味＋スピード</strong>が重要。新馬戦の内容が直結しやすい。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳短距離重賞！</span><strong>京王杯2歳ステークス（GⅡ）</strong></div>",
+      "text_banner2": "京王杯2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261107_keio_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261107_keio_2s.png' alt='京王杯2歳Sバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261107_kyoto_jump_s",
+      "date": "2026-11-07",
+      "name": "京都ジャンプステークス",
+      "grade": "J-G3",
+      "venue": "京都・障害芝3170m",
+      "sections": {
+        "preview": "output/20261107_kyoto_jump_s.html#preview",
+        "review": "output/20261107_kyoto_jump_s.html#review",
+        "highlight": "output/20261107_kyoto_jump_s.html#highlight"
+      },
+      "image": {
+        "file": "20261107_kyoto_jump_s.png",
+        "alt": "京都ジャンプステークス・2026年J-G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京都ジャンプS</strong>はJ-GⅢの障害重賞。飛越の正確さとスタミナが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都障害は<strong>持久力型</strong>が有利。飛越の安定性が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の障害重賞！</span><strong>京都ジャンプステークス（J・GⅢ）</strong></div>",
+      "text_banner2": "京都ジャンプステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261107_kyoto_jump_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261107_kyoto_jump_s.png' alt='京都ジャンプSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261108_argentina_cup",
+      "date": "2026-11-08",
+      "name": "アルゼンチン共和国杯",
+      "grade": "G2",
+      "venue": "東京・芝2500m",
+      "sections": {
+        "preview": "output/20261108_argentina_cup.html#preview",
+        "review": "output/20261108_argentina_cup.html#review",
+        "highlight": "output/20261108_argentina_cup.html#highlight"
+      },
+      "image": {
+        "file": "20261108_argentina_cup.png",
+        "alt": "アルゼンチン共和国杯・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>アルゼンチン共和国杯</strong>は東京芝2500mで行われるハンデGⅡ。スタミナと末脚の持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京2500mは<strong>差し優勢</strong>。ロングスパート性能が重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋の長距離重賞！</span><strong>アルゼンチン共和国杯（GⅡ）</strong></div>",
+      "text_banner2": "アルゼンチン共和国杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261108_argentina_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261108_argentina_cup.png' alt='アルゼンチン共和国杯バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261108_miyako_s",
+      "date": "2026-11-08",
+      "name": "みやこステークス",
+      "grade": "G3",
+      "venue": "京都・ダ1800m",
+      "sections": {
+        "preview": "output/20261108_miyako_s.html#preview",
+        "review": "output/20261108_miyako_s.html#review",
+        "highlight": "output/20261108_miyako_s.html#highlight"
+      },
+      "image": {
+        "file": "20261108_miyako_s.png",
+        "alt": "みやこステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>みやこS</strong>はダート1800mのGⅢ。パワーと持続力が問われ、チャンピオンズCの前哨戦として重要。</p>",
+      "preview_text": "<div class='note-preview'><p>京都ダ1800mは<strong>先行有利</strong>。パワー型が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>ダート重賞！</span><strong>みやこステークス（GⅢ）</strong></div>",
+      "text_banner2": "みやこステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261108_miyako_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261108_miyako_s.png' alt='みやこSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261114_musashino_s",
+      "date": "2026-11-14",
+      "name": "武蔵野ステークス",
+      "grade": "G3",
+      "venue": "東京・ダ1600m",
+      "sections": {
+        "preview": "output/20261114_musashino_s.html#preview",
+        "review": "output/20261114_musashino_s.html#review",
+        "highlight": "output/20261114_musashino_s.html#highlight"
+      },
+      "image": {
+        "file": "20261114_musashino_s.png",
+        "alt": "武蔵野ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>武蔵野S</strong>はダートマイルGⅢ。スピードと持続力が問われ、チャンピオンズCの重要ステップ。</p>",
+      "preview_text": "<div class='note-preview'><p>東京ダ1600mは<strong>スピード＋持続力</strong>が鍵。差しも届く。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>ダートマイル重賞！</span><strong>武蔵野ステークス（GⅢ）</strong></div>",
+      "text_banner2": "武蔵野ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261114_musashino_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261114_musashino_s.png' alt='武蔵野Sバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261114_daily_2s",
+      "date": "2026-11-14",
+      "name": "デイリー杯2歳ステークス",
+      "grade": "G2",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/20261114_daily_2s.html#preview",
+        "review": "output/20261114_daily_2s.html#review",
+        "highlight": "output/20261114_daily_2s.html#highlight"
+      },
+      "image": {
+        "file": "20261114_daily_2s.png",
+        "alt": "デイリー杯2歳ステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>デイリー杯2歳S</strong>は2歳マイルGⅡ。スピードと瞬発力が問われ、将来のクラシック候補が集う。</p>",
+      "preview_text": "<div class='note-preview'><p>京都マイルは<strong>バランス型</strong>が強い。新馬戦の内容が直結しやすい。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳マイルGⅡ！</span><strong>デイリー杯2歳ステークス（GⅡ）</strong></div>",
+      "text_banner2": "デイリー杯2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261114_daily_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261114_daily_2s.png' alt='デイリー杯2歳Sバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261115_elizabeth_cup",
+      "date": "2026-11-15",
+      "name": "エリザベス女王杯",
+      "grade": "G1",
+      "venue": "東京・芝2200m",
+      "sections": {
+        "preview": "output/20261115_elizabeth_cup.html#preview",
+        "review": "output/20261115_elizabeth_cup.html#review",
+        "highlight": "output/20261115_elizabeth_cup.html#highlight"
+      },
+      "image": {
+        "file": "20261115_elizabeth_cup.png",
+        "alt": "エリザベス女王杯・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>エリザベス女王杯</strong>は牝馬中距離GⅠ。スタミナと持続力が問われ、秋の女王決定戦として注目される。</p>",
+      "preview_text": "<div class='note-preview'><p>東京2200mは<strong>差し優勢</strong>。末脚の持続力が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>牝馬中距離GⅠ！</span><strong>エリザベス女王杯（GⅠ）</strong></div>",
+      "text_banner2": "エリザベス女王杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261115_elizabeth_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261115_elizabeth_cup.png' alt='エリザベス女王杯バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261121_fukushima_kinen",
+      "date": "2026-11-21",
+      "name": "福島記念",
+      "grade": "G3",
+      "venue": "京都・芝2000m",
+      "sections": {
+        "preview": "output/20261121_fukushima_kinen.html#preview",
+        "review": "output/20261121_fukushima_kinen.html#review",
+        "highlight": "output/20261121_fukushima_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20261121_fukushima_kinen.png",
+        "alt": "福島記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>福島記念</strong>はハンデGⅢ。小回り適性と立ち回りが問われる一戦で、波乱も多い。</p>",
+      "preview_text": "<div class='note-preview'><p>京都開催の代替施行で例年と傾向が変化。持続力と先行力が鍵になる。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のハンデ重賞！</span><strong>福島記念（GⅢ）</strong></div>",
+      "text_banner2": "福島記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261121_fukushima_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261121_fukushima_kinen.png' alt='福島記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261122_mile_cs",
+      "date": "2026-11-22",
+      "name": "マイルチャンピオンシップ",
+      "grade": "G1",
+      "venue": "京都・芝1600m",
+      "sections": {
+        "preview": "output/20261122_mile_cs.html#preview",
+        "review": "output/20261122_mile_cs.html#review",
+        "highlight": "output/20261122_mile_cs.html#highlight"
+      },
+      "image": {
+        "file": "20261122_mile_cs.png",
+        "alt": "マイルチャンピオンシップ・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>マイルCS</strong>は秋のマイル王決定戦。京都芝1600mで行われ、瞬発力とトップスピードの持続が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都マイルは内回りで立ち回りが重要。位置取りと瞬発力のバランスが勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のマイル王決定戦！</span><strong>マイルチャンピオンシップ（GⅠ）</strong></div>",
+      "text_banner2": "マイルチャンピオンシップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261122_mile_cs.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261122_mile_cs.png' alt='マイルCSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261128_kyoto_2s",
+      "date": "2026-11-28",
+      "name": "京都2歳ステークス",
+      "grade": "G3",
+      "venue": "東京・芝2000m",
+      "sections": {
+        "preview": "output/20261128_kyoto_2s.html#preview",
+        "review": "output/20261128_kyoto_2s.html#review",
+        "highlight": "output/20261128_kyoto_2s.html#highlight"
+      },
+      "image": {
+        "file": "20261128_kyoto_2s.png",
+        "alt": "京都2歳ステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京都2歳S</strong>は2歳中距離重賞。将来のクラシック候補が集まり、持続力と完成度が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京2000mでの代替施行。直線の長さから<strong>切れ味</strong>が重要になる。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>クラシック候補が集う！</span><strong>京都2歳ステークス（GⅢ）</strong></div>",
+      "text_banner2": "京都2歳ステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261128_kyoto_2s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261128_kyoto_2s.png' alt='京都2歳Sバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261129_japan_cup",
+      "date": "2026-11-29",
+      "name": "ジャパンカップ",
+      "grade": "G1",
+      "venue": "東京・芝2400m",
+      "sections": {
+        "preview": "output/20261129_japan_cup.html#preview",
+        "review": "output/20261129_japan_cup.html#review",
+        "highlight": "output/20261129_japan_cup.html#highlight"
+      },
+      "image": {
+        "file": "20261129_japan_cup.png",
+        "alt": "ジャパンカップ・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ジャパンカップ</strong>は世界的名馬が集う国際GⅠ。東京芝2400mで行われ、総合力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>東京2400mは<strong>バランス型</strong>が強い。瞬発力・持続力・位置取りの総合力が必要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>世界が注目する一戦！</span><strong>ジャパンカップ（GⅠ）</strong></div>",
+      "text_banner2": "ジャパンカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261129_japan_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261129_japan_cup.png' alt='ジャパンカップバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261129_keihan_hai",
+      "date": "2026-11-29",
+      "name": "京阪杯",
+      "grade": "G3",
+      "venue": "京都・芝1200m",
+      "sections": {
+        "preview": "output/20261129_keihan_hai.html#preview",
+        "review": "output/20261129_keihan_hai.html#review",
+        "highlight": "output/20261129_keihan_hai.html#highlight"
+      },
+      "image": {
+        "file": "20261129_keihan_hai.png",
+        "alt": "京阪杯・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>京阪杯</strong>はスプリントGⅢ。年末のスプリント戦線を占う重要な一戦で、スピードと立ち回りが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>京都1200mは<strong>先行有利</strong>。スピード能力と位置取りが鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>秋のスプリント重賞！</span><strong>京阪杯（GⅢ）</strong></div>",
+      "text_banner2": "京阪杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261129_keihan_hai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261129_keihan_hai.png' alt='京阪杯バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261205_stayers_s",
+      "date": "2026-12-05",
+      "name": "ステイヤーズステークス",
+      "grade": "G2",
+      "venue": "中山・芝3600m",
+      "sections": {
+        "preview": "output/20261205_stayers_s.html#preview",
+        "review": "output/20261205_stayers_s.html#review",
+        "highlight": "output/20261205_stayers_s.html#highlight"
+      },
+      "image": {
+        "file": "20261205_stayers_s.png",
+        "alt": "ステイヤーズステークス・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ステイヤーズS</strong>は日本最長距離の重賞。3600mの長丁場でスタミナと折り合いが最大のテーマとなる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山3600mは<strong>超スタミナ戦</strong>。折り合いとロングスパート性能が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>日本最長距離重賞！</span><strong>ステイヤーズステークス（GⅡ）</strong></div>",
+      "text_banner2": "ステイヤーズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261205_stayers_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261205_stayers_s.png' alt='ステイヤーズステークスバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261205_naruo_kinen",
+      "date": "2026-12-05",
+      "name": "鳴尾記念",
+      "grade": "G3",
+      "venue": "阪神・芝2000m",
+      "sections": {
+        "preview": "output/20261205_naruo_kinen.html#preview",
+        "review": "output/20261205_naruo_kinen.html#review",
+        "highlight": "output/20261205_naruo_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20261205_naruo_kinen.png",
+        "alt": "鳴尾記念・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>鳴尾記念</strong>は阪神芝2000mで行われる中距離GⅢ。立ち回りと持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神2000mは<strong>先行有利</strong>。持続力型が強い舞台。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>冬の中距離重賞！</span><strong>鳴尾記念（GⅢ）</strong></div>",
+      "text_banner2": "鳴尾記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261205_naruo_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261205_naruo_kinen.png' alt='鳴尾記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261206_champions_c",
+      "date": "2026-12-06",
+      "name": "チャンピオンズカップ",
+      "grade": "G1",
+      "venue": "中山・ダ1800m",
+      "sections": {
+        "preview": "output/20261206_champions_c.html#preview",
+        "review": "output/20261206_champions_c.html#review",
+        "highlight": "output/20261206_champions_c.html#highlight"
+      },
+      "image": {
+        "file": "20261206_champions_c.png",
+        "alt": "チャンピオンズカップ・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>チャンピオンズC</strong>はダートGⅠ。国内外のダート強豪が集い、パワーと持続力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山ダ1800mは<strong>先行有利</strong>。パワー型が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>ダート王決定戦！</span><strong>チャンピオンズカップ（GⅠ）</strong></div>",
+      "text_banner2": "チャンピオンズカップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261206_champions_c.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261206_champions_c.png' alt='チャンピオンズカップバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261212_chunichi_cup",
+      "date": "2026-12-12",
+      "name": "中日新聞杯",
+      "grade": "G3",
+      "venue": "阪神・芝2000m",
+      "sections": {
+        "preview": "output/20261212_chunichi_cup.html#preview",
+        "review": "output/20261212_chunichi_cup.html#review",
+        "highlight": "output/20261212_chunichi_cup.html#highlight"
+      },
+      "image": {
+        "file": "20261212_chunichi_cup.png",
+        "alt": "中日新聞杯・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>中日新聞杯</strong>はハンデGⅢ。持続力と立ち回りが問われる中距離戦。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神2000mは<strong>先行有利</strong>。ハンデ差が結果に直結する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>冬のハンデ重賞！</span><strong>中日新聞杯（GⅢ）</strong></div>",
+      "text_banner2": "中日新聞杯のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261212_chunichi_cup.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261212_chunichi_cup.png' alt='中日新聞杯バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261213_capella_s",
+      "date": "2026-12-13",
+      "name": "カペラステークス",
+      "grade": "G3",
+      "venue": "中山・ダ1200m",
+      "sections": {
+        "preview": "output/20261213_capella_s.html#preview",
+        "review": "output/20261213_capella_s.html#review",
+        "highlight": "output/20261213_capella_s.html#highlight"
+      },
+      "image": {
+        "file": "20261213_capella_s.png",
+        "alt": "カペラステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>カペラS</strong>はダ1200mのスプリント重賞。前半から速く、スピード能力が問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山ダ1200mは<strong>前有利</strong>。テンの速さが鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>ダート短距離重賞！</span><strong>カペラステークス（GⅢ）</strong></div>",
+      "text_banner2": "カペラステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261213_capella_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261213_capella_s.png' alt='カペラSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261213_hanshin_jf",
+      "date": "2026-12-13",
+      "name": "阪神ジュベナイルフィリーズ",
+      "grade": "G1",
+      "venue": "阪神・芝1600m",
+      "sections": {
+        "preview": "output/20261213_hanshin_jf.html#preview",
+        "review": "output/20261213_hanshin_jf.html#review",
+        "highlight": "output/20261213_hanshin_jf.html#highlight"
+      },
+      "image": {
+        "file": "20261213_hanshin_jf.png",
+        "alt": "阪神ジュベナイルフィリーズ・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>阪神JF</strong>は2歳牝馬GⅠ。将来の桜花賞馬が多数輩出される重要レース。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神マイルは<strong>差し優勢</strong>。上がり性能が鍵。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳牝馬GⅠ！</span><strong>阪神ジュベナイルフィリーズ（GⅠ）</strong></div>",
+      "text_banner2": "阪神ジュベナイルフィリーズのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261213_hanshin_jf.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261213_hanshin_jf.png' alt='阪神JFバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261219_turquoise_s",
+      "date": "2026-12-19",
+      "name": "ターコイズステークス",
+      "grade": "G3",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "output/20261219_turquoise_s.html#preview",
+        "review": "output/20261219_turquoise_s.html#review",
+        "highlight": "output/20261219_turquoise_s.html#highlight"
+      },
+      "image": {
+        "file": "20261219_turquoise_s.png",
+        "alt": "ターコイズステークス・2026年G3"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ターコイズS</strong>は牝馬限定のマイル重賞。立ち回りと瞬発力のバランスが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山マイルは<strong>内枠＋先行</strong>が有利。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>牝馬マイル重賞！</span><strong>ターコイズステークス（GⅢ）</strong></div>",
+      "text_banner2": "ターコイズステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261219_turquoise_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261219_turquoise_s.png' alt='ターコイズSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261220_asahi_hai",
+      "date": "2026-12-20",
+      "name": "朝日杯フューチュリティステークス",
+      "grade": "G1",
+      "venue": "中山・芝1600m",
+      "sections": {
+        "preview": "output/20261220_asahi_hai.html#preview",
+        "review": "output/20261220_asahi_hai.html#review",
+        "highlight": "output/20261220_asahi_hai.html#highlight"
+      },
+      "image": {
+        "file": "20261220_asahi_hai.png",
+        "alt": "朝日杯フューチュリティステークス・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>朝日杯FS</strong>は2歳牡馬のマイルGⅠ。将来のマイル王候補が集う。</p>",
+      "preview_text": "<div class='note-preview'><p>中山マイルは<strong>立ち回り＋瞬発力</strong>が重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳牡馬GⅠ！</span><strong>朝日杯フューチュリティステークス（GⅠ）</strong></div>",
+      "text_banner2": "朝日杯フューチュリティステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261220_asahi_hai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank'><div class='note-banner'><img src='../images/20261220_asahi_hai.png' alt='朝日杯FSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261226_nakayama_daishogai",
+      "date": "2026-12-26",
+      "name": "中山大障害",
+      "grade": "J-G1",
+      "venue": "中山・障害芝4100m",
+      "sections": {
+        "preview": "output/20261226_nakayama_daishogai.html#preview",
+        "review": "output/20261226_nakayama_daishogai.html#review",
+        "highlight": "output/20261226_nakayama_daishogai.html#highlight"
+      },
+      "image": {
+        "file": "20261226_nakayama_daishogai.png",
+        "alt": "中山大障害・2026年J-G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>中山大障害</strong>は障害GⅠの最高峰。飛越力・スタミナ・持久力すべてが問われる伝統の一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>中山4100mは<strong>超タフな持久戦</strong>。飛越の安定性とスタミナが勝敗を左右する。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>障害GⅠの頂点！</span><strong>中山大障害（J・GⅠ）</strong></div>",
+      "text_banner2": "中山大障害のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261226_nakayama_daishogai.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261226_nakayama_daishogai.png' alt='中山大障害バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261226_hopeful_s",
+      "date": "2026-12-26",
+      "name": "ホープフルステークス",
+      "grade": "G1",
+      "venue": "阪神・芝2000m",
+      "sections": {
+        "preview": "output/20261226_hopeful_s.html#preview",
+        "review": "output/20261226_hopeful_s.html#review",
+        "highlight": "output/20261226_hopeful_s.html#highlight"
+      },
+      "image": {
+        "file": "20261226_hopeful_s.png",
+        "alt": "ホープフルステークス・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>ホープフルS</strong>は2歳中距離GⅠ。将来のクラシック候補が集う重要な一戦。</p>",
+      "preview_text": "<div class='note-preview'><p>阪神2000mは<strong>持続力＋立ち回り</strong>が重要。完成度の高い馬が強い。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>2歳中距離GⅠ！</span><strong>ホープフルステークス（GⅠ）</strong></div>",
+      "text_banner2": "ホープフルステークスのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261226_hopeful_s.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261226_hopeful_s.png' alt='ホープフルSバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261226_hanshin_c",
+      "date": "2026-12-26",
+      "name": "阪神カップ",
+      "grade": "G2",
+      "venue": "中京・芝1400m",
+      "sections": {
+        "preview": "output/20261226_hanshin_c.html#preview",
+        "review": "output/20261226_hanshin_c.html#review",
+        "highlight": "output/20261226_hanshin_c.html#highlight"
+      },
+      "image": {
+        "file": "20261226_hanshin_c.png",
+        "alt": "阪神カップ・2026年G2"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>阪神C</strong>はスプリント〜マイルのGⅡ。スピードと立ち回りが問われる年末の名物重賞。</p>",
+      "preview_text": "<div class='note-preview'><p>中京1400mでの代替施行。持続力とスピードのバランスが重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>年末の短距離GⅡ！</span><strong>阪神カップ（GⅡ）</strong></div>",
+      "text_banner2": "阪神カップのデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261226_hanshin_c.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261226_hanshin_c.png' alt='阪神Cバナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
+    },
+    {
+      "id": "20261227_arima_kinen",
+      "date": "2026-12-27",
+      "name": "有馬記念",
+      "grade": "G1",
+      "venue": "中山・芝2500m",
+      "sections": {
+        "preview": "output/20261227_arima_kinen.html#preview",
+        "review": "output/20261227_arima_kinen.html#review",
+        "highlight": "output/20261227_arima_kinen.html#highlight"
+      },
+      "image": {
+        "file": "20261227_arima_kinen.png",
+        "alt": "有馬記念・2026年G1"
+      },
+      "review_text": "<p>レース回顧はレース終了後に追記予定です。</p>",
+      "highlight": "<p><strong>有馬記念</strong>はファン投票で出走馬が決まる年末の大一番。中山芝2500mで行われ、スタミナと立ち回りが問われる。</p>",
+      "preview_text": "<div class='note-preview'><p>中山2500mは<strong>タフな持続戦</strong>。先行〜好位が理想で、コース適性が重要。</p></div>",
+      "text_banner1": "<div class='race-banner'><span>年末の大一番！</span><strong>有馬記念（GⅠ）</strong></div>",
+      "text_banner2": "有馬記念のデータ予想＋買い目はこちら",
+      "horse_image_path": "../images/20261227_arima_kinen.png",
+      "note_banner": "<a href='https://note.com/coro_pepa/' target='_blank' rel='noopener'><div class='note-banner'><img src='../images/20261227_arima_kinen.png' alt='有馬記念バナー' /></div></a>",
+      "note_url": "https://note.com/coro_pepa/"
     }
   ]
 }
