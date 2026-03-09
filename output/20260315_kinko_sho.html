@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>金鯱賞（GG2）</title>
+  <link rel="stylesheet" href="../styles-race.css" />
+  <link rel="stylesheet" href="../common.css" />
+</head>
+<body>
+  <article class="race-detail">
+
+    <!-- 🏇 レース画像＆ヘッダー -->
+    <div class="race-header">
+      <img src="../images/{{image_name}}" alt="金鯱賞 G2" class="race-mainvisual" />
+
+      <div class="race-meta">
+        <h1 class="race-title-main">
+          金鯱賞 <span class="grade-label gG2">G2</span>
+        </h1>
+
+		<!-- レース予想リンク表示位置 -->
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
+		<a href="https://note.com/coro_pepa/n/n20260315_kinko_sho" target="_blank" rel="noopener" class="text-banner-link">
+		  <div class="text-banner">
+		    <p class="text-banner-line"></p>
+		    <p class="text-banner-line"></p>
+		  </div>
+		</a>
+
+      </div>
+    </div>
+
+    <!-- 🎯 見どころ -->
+    <section class="race-section highlight">
+      <h3>🎯 見どころ</h3>
+      <p><p><strong>金鯱賞</strong>は中京芝2000mで行われる<strong>春の大阪杯へ直結する重要ステップGⅡ</strong>で、<strong>中京巧者の先行馬と末脚自慢の実力馬が激突する注目の一戦</strong>です。今年は<strong>重賞連対を重ねる中距離エース候補</strong>が中心で、<strong>中京巧者の先行型</strong>が展開を握る構図。対抗は<strong>鋭い末脚を武器にする差し馬</strong>で、<strong>直線の急坂での瞬発力勝負</strong>が鍵。他にも<strong>復活を狙う実績馬</strong>や<strong>勢いある上がり馬</strong>が揃い、<strong>波乱度「中」</strong>の一戦。<strong>中京芝2000mは内有利＋先行有利の傾向</strong>が強く、<strong>枠順とペース配分が勝敗を大きく左右</strong>しそうです。</p></p>
+    </section>
+
+    <!-- 📊 展開予想 -->
+    <section class="race-section preview">
+      <h3>📊 展開予想</h3>
+
+      <div class="preview-text">
+        {{preview_text}}
+      </div>
+		<!-- ✅ 修正済み：レース予想リンク表示位置 -->
+	    <a href="https://note.com/coro_pepa/n/n20260315_kinko_sho" class="banner-wrapper" target="_blank" rel="noopener">
+	      <div class="banner-content">
+	        <div class="banner-grade">G2</div>
+	        <img src="../images/20250727_sekiya.png" alt="競走馬" class="banner-horse" />
+	        <div class="banner-text">
+	          <p class="banner-line"></p>
+	          <p class="banner-line"></p>
+	        </div>
+	      </div>
+	    </a>
+    </section>
+
+
+    <!-- 🐎 レース回顧 -->
+    <section class="race-section review">
+      <h3>🐎 レース回顧</h3>
+      {{review}}
+    </section>
+
+    <footer>
+      <a href="../index.html">🏠 トップページへ戻る</a>
+    </footer>
+  </article>
+</body>
+</html>
