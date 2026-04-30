@@ -7,7 +7,24 @@
   <link rel="stylesheet" href="styles-left.css" />
   <link rel="stylesheet" href="styles-center.css" />
   <link rel="stylesheet" href="styles-right.css" />
+  <script>
+    // ▼ 年度選択でページ遷移する処理
+    function jumpToG1(year) {
+      if (year === "") return;
+      window.location.href = "g1_" + year + ".html";
+    }
 
+    function jumpToG2(year) {
+      if (year === "") return;
+      window.location.href = "g2_" + year + ".html";
+    }
+
+    function jumpToG3(year) {
+      if (year === "") return;
+      window.location.href = "g3_" + year + ".html";
+    }
+  </script>
+  
 </head>
 <body class="green-background">
   <header>
@@ -15,12 +32,39 @@
     <nav>
       <ul>
         <li><a href="#home">HOME</a></li>
-        <li><a href="g1.html">G1レース</a></li>
-        <li><a href="g2.html">G2レース</a></li>
-        <li><a href="g3.html">G3レース</a></li>
+
+        <!-- ▼ G1レース：リストボックス化 -->
+        <li>
+          <label>G1レース：</label>
+          <select onchange="jumpToG1(this.value)">
+            <option value="">選択してください</option>
+            <option value="2025">2025年</option>
+            <option value="2026">2026年</option>
+          </select>
+        </li>
+
+        <!-- ▼ G2レース：リストボックス化 -->
+        <li>
+          <label>G2レース：</label>
+          <select onchange="jumpToG2(this.value)">
+            <option value="">選択してください</option>
+            <option value="2025">2025年</option>
+            <option value="2026">2026年</option>
+          </select>
+        </li>
+
+        <!-- ▼ G3レース：リストボックス化 -->
+        <li>
+          <label>G3レース：</label>
+          <select onchange="jumpToG3(this.value)">
+            <option value="">選択してください</option>
+            <option value="2025">2025年</option>
+            <option value="2026">2026年</option>
+          </select>
+        </li>
+
       </ul>
-    </nav>
-  </header>
+    </nav>  </header>
 
   <main>
     <!-- ヒーローセクション -->
